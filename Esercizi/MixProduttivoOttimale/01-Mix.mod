@@ -8,9 +8,6 @@ param b {R}; #vettore che contiene le risorse disponibili [oreUomo/Settimana] La
 param c {P}; #profitti unitari[e/unità]
 param a {R,P};	#tempi di lavorazione[oreUomo/unità]
 
-#tempi di lavorazione
-#profitti
-
 #VARIABILI
 var x {P} >= 0; #Produzione [unità/settimana] (avariabili non negative)
 
