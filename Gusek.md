@@ -6,3 +6,7 @@
  Il file che contiene il modello è `.mod`, quello per i dati è `.dat`. Devo salvare il modello e poi nella tab Options selezionare l'opzione che permette di utilizzare un file esterno per i dati (o CTRL + 4).
 
 Nel file generato in output il numero delle colonna è: *numero di vincoli + obiettivo*  
+
+___
+
+`Set` rappresenta degli insiemi
