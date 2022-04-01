@@ -1,0 +1,64 @@
+Problem:    02
+Rows:       14
+Columns:    5
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  radiazioneTumore = 178 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 limitePosizione[1]
+                    B             70                         120 
+     2 limitePosizione[2]
+                    B             60                         130 
+     3 limitePosizione[3]
+                    B             60                         100 
+     4 limitePosizione[4]
+                    B             60                         150 
+     5 limitePosizione[5]
+                    NU           150                         150           0.1 
+     6 intensitaMax B            400                         600 
+     7 limiteIntensita[1]
+                    B             43                          55 
+     8 limiteIntensita[2]
+                    B             31                          90 
+     9 limiteIntensita[3]
+                    B              6                          60 
+    10 limiteIntensita[4]
+                    NU            24                          24             3 
+    11 limiteIntensita[5]
+                    B             34                          70 
+    12 limiteIntensita[6]
+                    NU            55                          55             4 
+    13 limiteIntensita[7]
+                    B             29                          95 
+    14 radiazioneTumore
+                    B            178                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B             70            60               
+     2 x[2]         NL            60            60                        -1.5 
+     3 x[3]         NL            60            60                       -0.65 
+     4 x[4]         B             60            60               
+     5 x[5]         B            150            60               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

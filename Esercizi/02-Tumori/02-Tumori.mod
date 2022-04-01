@@ -12,14 +12,17 @@ param u := 600;
 var x {posizioni} >= 60;
 
 #VINCOLI
-subject to limitePosizione {p in posizioni}
+subject to limitePosizione {p in posizioni}:
 	x[p] <= intens[p];
+    
+subject to intensitaMax:
+   sum {p in posizioni} x[p] <= u;
 
-subject to limiteIntensita {o in organi}
+subject to limiteIntensita {o in organi}:
 	sum {p in posizioni} a[o, p] * x[p] <= limite[o];
 	
 #OBIETTIVO
-maximize radiazioneTumore
+maximize radiazioneTumore:
 	sum {p in posizioni} x[p]*t[p];
 
 #####
