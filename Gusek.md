@@ -10,3 +10,7 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
 ___
 
 `Set` rappresenta degli insiemi
+
+```
+
+```
