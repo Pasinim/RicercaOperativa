@@ -1,0 +1,58 @@
+Problem:    06
+Rows:       16
+Columns:    10
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  costo[1] = 0.1 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 limInf[1]    NL            25            25                       0.004 
+     2 limInf[2]    NL            15            15                       < eps
+     3 limInf[3]    NL            10            10                       < eps
+     4 limSup[1]    B             25                          35 
+     5 limSup[2]    B             15                          25 
+     6 limSup[3]    B             10                          20 
+     7 val_y[1]     NS             0            -0             =         < eps
+     8 val_y[2]     NS             0            -0             =         < eps
+     9 val_y[3]     NS             0            -0             =         < eps
+    10 costo[1]     B            0.1                             
+    11 costo[2]     B           0.06                             
+    12 costo[3]     B           0.15                             
+    13 costo[4]     B              0                             
+    14 costo[5]     B              0                             
+    15 costo[6]     B              0                             
+    16 costo[7]     B              0                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B             25             0               
+     2 x[2]         B             15             0               
+     3 x[3]         B             10             0               
+     4 x[4]         NL             0             0                       < eps
+     5 x[5]         NL             0             0                       < eps
+     6 x[6]         NL             0             0                       < eps
+     7 x[7]         NL             0             0                       < eps
+     8 y[1]         B        0.41475             0               
+     9 y[2]         B        1.92825             0               
+    10 y[3]         B        0.17075             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

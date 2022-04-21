@@ -1,0 +1,56 @@
+Problem:    07
+Rows:       17
+Columns:    6
+Non-zeros:  27
+Status:     OPTIMAL
+Objective:  z = 5585.919 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 prod_alluminio
+                    NS           4.5           4.5             =          1300 
+     2 limInf[1]    B        10.9556           0.2               
+     3 limInf[2]    B          26.28          0.45               
+     4 limInf[3]    B        45.0609            -0               
+     5 limInf[4]    B            0.1            -0               
+     6 limInf[5]    B        13.1333            -0               
+     7 limInf[6]    B            0.1            -0               
+     8 limSup[1]    B        10.9556           0.6               
+     9 limSup[2]    B          26.28           0.9               
+    10 limSup[3]    B        45.0609          0.35               
+    11 limSup[4]    NL           0.1           0.1                        37.8 
+    12 limSup[5]    B        13.1333           0.1               
+    13 limSup[6]    NL           0.1           0.1                       51.39 
+    14 risorse[1]   NU           0.5                         0.5           -70 
+    15 risorse[2]   NU           1.2                         1.2           -70 
+    16 risorse[3]   NU           2.2                         2.2           -70 
+    17 z            B        5585.92                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B            0.5             0               
+     2 x[2]         B            1.2             0               
+     3 x[3]         B            2.2             0               
+     4 x[4]         B         0.0045             0               
+     5 x[5]         B          0.591             0               
+     6 x[6]         B         0.0045             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 6.66e-16 on row 14
+        max.rel.err = 3.33e-16 on row 14
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
