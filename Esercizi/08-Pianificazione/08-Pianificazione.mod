@@ -14,7 +14,7 @@ var s{mesi} >= 0;
 #    x[m] <= q[m]; posso direttamente scriverlo nelle variabili
 
 subject to immagazinamento {m in mesi: m>1}:
-    s[m - 1] + x[m] = d[m] + s[m];
+    s[m - 1] + x[m] = d[m] + s[m]; #in questo modo esprime le quantità di gelato in magazzino sommate alla quantità non ancora vendura
 
 #dato che calcolo l'immagazzinamento partendo da m = 2 devo definire i valore 
 #iniziale dell'immagazzinamento
