@@ -1,0 +1,47 @@
+Problem:    04
+Rows:       6
+Columns:    5
+Non-zeros:  13
+Status:     OPTIMAL
+Objective:  vincita = 60 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 budget       NU            57                          57       1.05263 
+     2 Linearizzazione[FULMINE]
+                    NU             0                          -0      0.350877 
+     3 Linearizzazione[FRECCIA]
+                    NU             0                          -0      0.263158 
+     4 Linearizzazione[DARDO]
+                    NU             0                          -0      0.210526 
+     5 Linearizzazione[LAMPO]
+                    NU             0                          -0      0.175439 
+     6 vincita      B             60                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 p[FULMINE]   B             20             0               
+     2 p[FRECCIA]   B             15             0               
+     3 p[DARDO]     B             12             0               
+     4 p[LAMPO]     B             10             0               
+     5 y            B             60             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-14 on row 1
+        max.rel.err = 1.24e-16 on row 1
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 1
+        max.rel.err = 7.15e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

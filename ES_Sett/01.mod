@@ -1,0 +1,7 @@
+#DATI
+set modelli := A, B, C;
+
+
+#VARIABILI
+#VINCOLI
+#OBIETTIVO
