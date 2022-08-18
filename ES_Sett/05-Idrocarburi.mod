@@ -1,73 +1,83 @@
 #Dati
 set sostanza;
 set benzina;
-param quantita {sostanza}; #[BARILE/GG]
-param percentuali_lower {sostanza, benzina};
-param percentuali_upper {sostanza, benzina};
-param prezzo {sostanza}; #[$/BARILE]
-param profitto {benzina}; #[$/BARILE]
+param uB {sostanza, benzina}; #[%]
+param lB {sostanza, benzina}; #[%]
+param risorse {sostanza}; #[barile/gg]
+param profitto {benzina}; #[$/barile]
+param costo {sostanza}; #[$/barile]
 
 #Variabili
-var x {sostanza, benzina} >= 0;
-var z {s in sostanza} >= 0, <= quantita[s]; #quantita consumata per ogni sostanza [BARILE/GG]
-var totale {benzina} >= 0; #quantita totale di benzina prodotta
+var x {sostanza, benzina}; #barili di sostanza utilizzata per ogni barile di benzina [barile]
+#è necessario definire una variabile che permetta di calcolare le percentuali
+var tB {benzina}; #quantità totale di benzina prodotta [barile/gg]
+var tS {sostanza}; #q. totale di sostanza acquistata [barile/gg]
 
 #Vincoli
-subject to tot {b in benzina}:
-	sum {s in sostanza} x[s, b] = totale[b];
-	
-subject to lower_bound {s in sostanza, b in benzina}:
-	x[s, b]  >= percentuali_lower[s,b] * totale[b];
-	
-subject to upper_bound {s in sostanza, b in benzina}:
-	x[s, b] <= percentuali_lower[s,b] * totale[b];
+#sostanze totali consumate:
+subject to tot_s {s in sostanza}:
+	sum {b in benzina} x[s,b] = tS[s];
 
-#quantità disponibili al gg: (devo fare riferimento alla benzina perchè devo calcolare le sostanze consumate per ogni tipo di benzina)
-subject to risorse_disponibili {s in sostanza}: 
-	sum {b in benzina} x[s, b] = z[s];
-	
-#Ob: Massimizzare il profittop
-maximize w:
-	sum {b in benzina, s in sostanza} x[s, b] * (profitto[b] - prezzo[s]); #perchè nn moltiplico per il totale di benzina prodotta? 
+subject to tot_b {b in benzina}:
+	sum {s in sostanza} x[s,b] = tB[b];
 
+#Limite risorse disponibili:
+subject to disponibilita {s in sostanza}:
+	tS[s] <= risorse[s];
+
+subject to lower {s in sostanza, b in benzina}:
+	x[s,b] >= lB[s,b] * tB[b];
+
+subject to upper {s in sostanza, b in benzina}:
+	x[s,b] <= uB[s,b] * tB[b];
+	
+
+#Ob: Massimizzare il profitto
+#maximize c {b in benzina, s in sostanza}: #### SBAGLIATO
+#	x[s, b] * (profitto[b] - costo[s]);	####
+
+maximize c:
+	sum {b in benzina} tB[b] * profitto[b] -
+	sum {s in sostanza} tS[s] * costo[s];
 
 data;
 set sostanza := A B C D;
-set benzina := SUPER NORMALE VERDE;
-param quantita :=
-A	3000
-B	2000
-C	4000
-D	1000
-;
+set benzina := S N V;
 
-param prezzo :=
-A	3
+param costo :=
+A	3	
 B	6
 C	4
 D	5
 ;
 
 param profitto :=
-SUPER	5.5
-NORMALE	4.5
-VERDE	3.5
+S	5.5
+N	4.5
+V	3.5
 ;
 
-param percentuali_upper :
-	SUPER	NORMALE	VERDE :=
-A	.3		.5		.7
-B	1		1		1
-C	.5		1		1
-D	1		1		1
+param risorse :=
+A	3000
+B	2000
+C	4000
+D	1000
 ;
 
-param percentuali_lower :
-	SUPER	NORMALE	VERDE :=
-A	0		0		0
-B	.40		.10		0
-C	0		0		0
-D	0		0		0
+param uB : 
+	S 	N	V	:=
+A	.3	.5	.7
+B	1	1	1
+C	.5	1	1
+D	1	1	1
+;
+
+param lB : 
+	S 	N	V	:=
+A	0	0	0
+B	.4	.1	0
+C	0	0	0
+D	0	0	0
 ;
 
 end;
