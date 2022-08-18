@@ -23,8 +23,8 @@ subject to upper_bound {s in sostanza, b in benzina}:
 	x[s, b] <= percentuali_lower[s,b] * totale[b];
 
 #quantità disponibili al gg: (devo fare riferimento alla benzina perchè devo calcolare le sostanze consumate per ogni tipo di benzina)
-subject to risorse_disponibili {b in benzina}: 
-	sum {s in sostanza} x[s, b] = z[s];
+subject to risorse_disponibili {s in sostanza}: 
+	sum {b in benzina} x[s, b] = z[s];
 	
 #Ob: Massimizzare il profittop
 maximize w:
@@ -34,7 +34,7 @@ maximize w:
 data;
 set sostanza := A B C D;
 set benzina := SUPER NORMALE VERDE;
-param sostanza :=
+param quantita :=
 A	3000
 B	2000
 C	4000
@@ -69,4 +69,5 @@ B	.40		.10		0
 C	0		0		0
 D	0		0		0
 ;
+
 end;
