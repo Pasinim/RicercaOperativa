@@ -1,0 +1,305 @@
+Problem:    07
+Rows:       134
+Columns:    7
+Non-zeros:  176
+Status:     OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 val_tot      B              0            -0             = 
+     2 produz       B              0                         4.5 
+     3 lowerBound[Si,ALMC]
+                    NL             0            -0                       < eps
+     4 lowerBound[Si,KAC]
+                    B              0            -0               
+     5 lowerBound[Si,Rottami]
+                    B              0            -0               
+     6 lowerBound[Si,Al]
+                    B              0            -0               
+     7 lowerBound[Si,Si]
+                    B              0            -0               
+     8 lowerBound[Si,Mg]
+                    B              0            -0               
+     9 lowerBound[Mg,ALMC]
+                    B              0            -0               
+    10 lowerBound[Mg,KAC]
+                    B              0            -0               
+    11 lowerBound[Mg,Rottami]
+                    B              0            -0               
+    12 lowerBound[Mg,Al]
+                    B              0            -0               
+    13 lowerBound[Mg,Si]
+                    B              0            -0               
+    14 lowerBound[Mg,Mg]
+                    B              0            -0               
+    15 lowerBound[Fe,ALMC]
+                    B              0            -0               
+    16 lowerBound[Fe,KAC]
+                    B              0            -0               
+    17 lowerBound[Fe,Rottami]
+                    B              0            -0               
+    18 lowerBound[Fe,Al]
+                    B              0            -0               
+    19 lowerBound[Fe,Si]
+                    B              0            -0               
+    20 lowerBound[Fe,Mg]
+                    B              0            -0               
+    21 lowerBound[Co,ALMC]
+                    B              0            -0               
+    22 lowerBound[Co,KAC]
+                    B              0            -0               
+    23 lowerBound[Co,Rottami]
+                    B              0            -0               
+    24 lowerBound[Co,Al]
+                    B              0            -0               
+    25 lowerBound[Co,Si]
+                    B              0            -0               
+    26 lowerBound[Co,Mg]
+                    B              0            -0               
+    27 lowerBound[Mang,ALMC]
+                    B              0            -0               
+    28 lowerBound[Mang,KAC]
+                    B              0            -0               
+    29 lowerBound[Mang,Rottami]
+                    B              0            -0               
+    30 lowerBound[Mang,Al]
+                    B              0            -0               
+    31 lowerBound[Mang,Si]
+                    B              0            -0               
+    32 lowerBound[Mang,Mg]
+                    B              0            -0               
+    33 lowerBound[Zn,ALMC]
+                    B              0            -0               
+    34 lowerBound[Zn,KAC]
+                    B              0            -0               
+    35 lowerBound[Zn,Rottami]
+                    B              0            -0               
+    36 lowerBound[Zn,Al]
+                    B              0            -0               
+    37 lowerBound[Zn,Si]
+                    B              0            -0               
+    38 lowerBound[Zn,Mg]
+                    B              0            -0               
+    39 lowerBound[Cr,ALMC]
+                    B              0            -0               
+    40 lowerBound[Cr,KAC]
+                    B              0            -0               
+    41 lowerBound[Cr,Rottami]
+                    B              0            -0               
+    42 lowerBound[Cr,Al]
+                    B              0            -0               
+    43 lowerBound[Cr,Si]
+                    B              0            -0               
+    44 lowerBound[Cr,Mg]
+                    B              0            -0               
+    45 lowerBound[Ti,ALMC]
+                    B              0            -0               
+    46 lowerBound[Ti,KAC]
+                    B              0            -0               
+    47 lowerBound[Ti,Rottami]
+                    B              0            -0               
+    48 lowerBound[Ti,Al]
+                    B              0            -0               
+    49 lowerBound[Ti,Si]
+                    B              0            -0               
+    50 lowerBound[Ti,Mg]
+                    B              0            -0               
+    51 lowerBound[Al,ALMC]
+                    B              0            -0               
+    52 lowerBound[Al,KAC]
+                    B              0            -0               
+    53 lowerBound[Al,Rottami]
+                    B              0            -0               
+    54 lowerBound[Al,Al]
+                    B              0            -0               
+    55 lowerBound[Al,Si]
+                    B              0            -0               
+    56 lowerBound[Al,Mg]
+                    B              0            -0               
+    57 lowerBound[Altro,ALMC]
+                    B              0            -0               
+    58 lowerBound[Altro,KAC]
+                    B              0            -0               
+    59 lowerBound[Altro,Rottami]
+                    B              0            -0               
+    60 lowerBound[Altro,Al]
+                    B              0            -0               
+    61 lowerBound[Altro,Si]
+                    B              0            -0               
+    62 lowerBound[Altro,Mg]
+                    B              0            -0               
+    63 lowerBound[Impurita,ALMC]
+                    B              0            -0               
+    64 lowerBound[Impurita,KAC]
+                    B              0            -0               
+    65 lowerBound[Impurita,Rottami]
+                    B              0            -0               
+    66 lowerBound[Impurita,Al]
+                    B              0            -0               
+    67 lowerBound[Impurita,Si]
+                    B              0            -0               
+    68 lowerBound[Impurita,Mg]
+                    B              0            -0               
+    69 upperBound[Si,ALMC]
+                    B              0                          -0 
+    70 upperBound[Si,KAC]
+                    B              0                          -0 
+    71 upperBound[Si,Rottami]
+                    B              0                          -0 
+    72 upperBound[Si,Al]
+                    B              0                          -0 
+    73 upperBound[Si,Si]
+                    B              0                          -0 
+    74 upperBound[Si,Mg]
+                    B              0                          -0 
+    75 upperBound[Mg,ALMC]
+                    B              0                          -0 
+    76 upperBound[Mg,KAC]
+                    B              0                          -0 
+    77 upperBound[Mg,Rottami]
+                    B              0                          -0 
+    78 upperBound[Mg,Al]
+                    B              0                          -0 
+    79 upperBound[Mg,Si]
+                    B              0                          -0 
+    80 upperBound[Mg,Mg]
+                    B              0                          -0 
+    81 upperBound[Fe,ALMC]
+                    NU             0                          -0         < eps
+    82 upperBound[Fe,KAC]
+                    B              0                          -0 
+    83 upperBound[Fe,Rottami]
+                    B              0                          -0 
+    84 upperBound[Fe,Al]
+                    B              0                          -0 
+    85 upperBound[Fe,Si]
+                    B              0                          -0 
+    86 upperBound[Fe,Mg]
+                    B              0                          -0 
+    87 upperBound[Co,ALMC]
+                    B              0                          -0 
+    88 upperBound[Co,KAC]
+                    B              0                          -0 
+    89 upperBound[Co,Rottami]
+                    B              0                          -0 
+    90 upperBound[Co,Al]
+                    B              0                          -0 
+    91 upperBound[Co,Si]
+                    B              0                          -0 
+    92 upperBound[Co,Mg]
+                    B              0                          -0 
+    93 upperBound[Mang,ALMC]
+                    B              0                          -0 
+    94 upperBound[Mang,KAC]
+                    B              0                          -0 
+    95 upperBound[Mang,Rottami]
+                    B              0                          -0 
+    96 upperBound[Mang,Al]
+                    B              0                          -0 
+    97 upperBound[Mang,Si]
+                    B              0                          -0 
+    98 upperBound[Mang,Mg]
+                    B              0                          -0 
+    99 upperBound[Zn,ALMC]
+                    B              0                          -0 
+   100 upperBound[Zn,KAC]
+                    B              0                          -0 
+   101 upperBound[Zn,Rottami]
+                    B              0                          -0 
+   102 upperBound[Zn,Al]
+                    B              0                          -0 
+   103 upperBound[Zn,Si]
+                    B              0                          -0 
+   104 upperBound[Zn,Mg]
+                    B              0                          -0 
+   105 upperBound[Cr,ALMC]
+                    B              0                          -0 
+   106 upperBound[Cr,KAC]
+                    B              0                          -0 
+   107 upperBound[Cr,Rottami]
+                    B              0                          -0 
+   108 upperBound[Cr,Al]
+                    B              0                          -0 
+   109 upperBound[Cr,Si]
+                    B              0                          -0 
+   110 upperBound[Cr,Mg]
+                    B              0                          -0 
+   111 upperBound[Ti,ALMC]
+                    B              0                          -0 
+   112 upperBound[Ti,KAC]
+                    B              0                          -0 
+   113 upperBound[Ti,Rottami]
+                    B              0                          -0 
+   114 upperBound[Ti,Al]
+                    B              0                          -0 
+   115 upperBound[Ti,Si]
+                    B              0                          -0 
+   116 upperBound[Ti,Mg]
+                    B              0                          -0 
+   117 upperBound[Al,ALMC]
+                    B              0                          -0 
+   118 upperBound[Al,KAC]
+                    B              0                          -0 
+   119 upperBound[Al,Rottami]
+                    B              0                          -0 
+   120 upperBound[Al,Al]
+                    B              0                          -0 
+   121 upperBound[Al,Si]
+                    B              0                          -0 
+   122 upperBound[Al,Mg]
+                    B              0                          -0 
+   123 upperBound[Altro,ALMC]
+                    B              0                          -0 
+   124 upperBound[Altro,KAC]
+                    B              0                          -0 
+   125 upperBound[Altro,Rottami]
+                    B              0                          -0 
+   126 upperBound[Altro,Al]
+                    B              0                          -0 
+   127 upperBound[Altro,Si]
+                    B              0                          -0 
+   128 upperBound[Altro,Mg]
+                    B              0                          -0 
+   129 upperBound[Impurita,ALMC]
+                    B              0                          -0 
+   130 upperBound[Impurita,KAC]
+                    B              0                          -0 
+   131 upperBound[Impurita,Rottami]
+                    B              0                          -0 
+   132 upperBound[Impurita,Al]
+                    B              0                          -0 
+   133 upperBound[Impurita,Si]
+                    B              0                          -0 
+   134 upperBound[Impurita,Mg]
+                    B              0                          -0 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[ALMC]      B              0             0               
+     2 x[KAC]       NL             0             0                       < eps
+     3 x[Rottami]   NL             0             0                       < eps
+     4 x[Al]        NL             0             0                       < eps
+     5 x[Si]        NL             0             0                       < eps
+     6 x[Mg]        NL             0             0                       < eps
+     7 tot          B              0             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

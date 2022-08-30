@@ -16,9 +16,27 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
        sum {s in Sostanze} y[s] = tot[s];
    ```
    
-   Una soluzione potrebbe (credo) essere quella di spostare la gli indici della sommatoria sopra:
+   Una soluzione è quella di spostare la gli indici della sommatoria sopra:
    
    ```go
    subject to totale {s in sostanze}:
        sum {a in alimenti} y[s] = tot[s];
    ```
+
+2. Linearizzare il valore assoluto:
+   
+   ```go
+   minimize z1: z;
+       subj to Vincolo1 {g in nG}: z >= err[g];
+       subj to Vincolo2 {g in nG}: z >= -err[g];
+   ```
+   
+   Definisco una variabile ausiliaria z
+
+3. Definisco il valore assoluto (preso da git PL0082):
+   
+   ```go
+   param g { u in U, d in D} = min(gud[u,d], gdu[u,d]);
+   ```
+   
+   

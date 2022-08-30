@@ -1,110 +1,87 @@
 Problem:    05
-Rows:       32
+Rows:       36
 Columns:    19
-Non-zeros:  71
+Non-zeros:  80
 Status:     OPTIMAL
-Objective:  w = 0 (MAXimum)
+Objective:  c = 7166.666667 (MAXimum)
 
    No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------
-     1 tot[SUPER]   NS             0            -0             =         < eps
-     2 tot[NORMALE] NS             0            -0             =         < eps
-     3 tot[VERDE]   NS             0            -0             =         < eps
-     4 lower_bound[A,SUPER]
-                    B              0            -0               
-     5 lower_bound[A,NORMALE]
-                    B              0            -0               
-     6 lower_bound[A,VERDE]
-                    B              0            -0               
-     7 lower_bound[B,SUPER]
-                    B              0            -0               
-     8 lower_bound[B,NORMALE]
-                    B              0            -0               
-     9 lower_bound[B,VERDE]
-                    B              0            -0               
-    10 lower_bound[C,SUPER]
-                    B              0            -0               
-    11 lower_bound[C,NORMALE]
-                    B              0            -0               
-    12 lower_bound[C,VERDE]
-                    B              0            -0               
-    13 lower_bound[D,SUPER]
-                    B              0            -0               
-    14 lower_bound[D,NORMALE]
-                    B              0            -0               
-    15 lower_bound[D,VERDE]
-                    B              0            -0               
-    16 upper_bound[A,SUPER]
-                    NU             0                          -0           2.5 
-    17 upper_bound[A,NORMALE]
-                    NU             0                          -0           1.5 
-    18 upper_bound[A,VERDE]
-                    NU             0                          -0           0.5 
-    19 upper_bound[B,SUPER]
-                    B              0                          -0 
-    20 upper_bound[B,NORMALE]
-                    B              0                          -0 
-    21 upper_bound[B,VERDE]
-                    B              0                          -0 
-    22 upper_bound[C,SUPER]
-                    NU             0                          -0           1.5 
-    23 upper_bound[C,NORMALE]
-                    NU             0                          -0           0.5 
-    24 upper_bound[C,VERDE]
-                    B              0                          -0 
-    25 upper_bound[D,SUPER]
-                    NU             0                          -0           0.5 
-    26 upper_bound[D,NORMALE]
-                    B              0                          -0 
-    27 upper_bound[D,VERDE]
-                    B              0                          -0 
-    28 risorse_disponibili[A]
-                    NS             0            -0             =         < eps
-    29 risorse_disponibili[B]
-                    NS             0            -0             =         < eps
-    30 risorse_disponibili[C]
-                    NS             0            -0             =         < eps
-    31 risorse_disponibili[D]
-                    NS             0            -0             =         < eps
-    32 w            B              0                             
+     1 tot_s[A]     NS             0            -0             =       4.16667 
+     2 tot_s[B]     NS             0            -0             =           7.5 
+     3 tot_s[C]     NS             0            -0             =       4.16667 
+     4 tot_s[D]     NS             0            -0             =             5 
+     5 tot_b[S]     NS             0            -0             =      -4.16667 
+     6 tot_b[N]     NS             0            -0             =      -4.16667 
+     7 tot_b[V]     NS             0            -0             =          -3.5 
+     8 disponibilita[A]
+                    NU          3000                        3000       1.16667 
+     9 disponibilita[B]
+                    NU          2000                        2000           1.5 
+    10 disponibilita[C]
+                    NU          4000                        4000      0.166667 
+    11 disponibilita[D]
+                    B              0                        1000 
+    12 lower[A,S]   B           1100            -0               
+    13 lower[A,N]   B           1900            -0               
+    14 lower[A,V]   NL             0            -0                   -0.666667 
+    15 lower[B,S]   NL             0            -0                    -3.33333 
+    16 lower[B,N]   NL             0            -0                    -3.33333 
+    17 lower[B,V]   NL             0            -0                          -4 
+    18 lower[C,S]   B           1100            -0               
+    19 lower[C,N]   B           2900            -0               
+    20 lower[C,V]   NL             0            -0                   -0.666667 
+    21 lower[D,S]   NL             0            -0                   -0.833333 
+    22 lower[D,N]   NL             0            -0                   -0.833333 
+    23 lower[D,V]   NL             0            -0                        -1.5 
+    24 upper[A,S]   NU             0                          -0         < eps
+    25 upper[A,N]   B       -766.667                          -0 
+    26 upper[A,V]   B              0                          -0 
+    27 upper[B,S]   B          -2200                          -0 
+    28 upper[B,N]   B          -4800                          -0 
+    29 upper[B,V]   B              0                          -0 
+    30 upper[C,S]   B       -733.333                          -0 
+    31 upper[C,N]   B       -2433.33                          -0 
+    32 upper[C,V]   B              0                          -0 
+    33 upper[D,S]   B       -3666.67                          -0 
+    34 upper[D,N]   B       -5333.33                          -0 
+    35 upper[D,V]   B              0                          -0 
+    36 c            B        7166.67                             
 
    No. Column name  St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------
-     1 x[A,SUPER]   B              0             0               
-     2 x[B,SUPER]   NL             0             0                        -0.5 
-     3 x[C,SUPER]   B              0             0               
-     4 x[D,SUPER]   B              0             0               
-     5 x[A,NORMALE] B              0             0               
-     6 x[B,NORMALE] NL             0             0                        -1.5 
-     7 x[C,NORMALE] B              0             0               
-     8 x[D,NORMALE] NL             0             0                        -0.5 
-     9 x[A,VERDE]   B              0             0               
-    10 x[B,VERDE]   NL             0             0                        -2.5 
-    11 x[C,VERDE]   NL             0             0                        -0.5 
-    12 x[D,VERDE]   NL             0             0                        -1.5 
-    13 z[A]         B              0             0          3000 
-    14 z[B]         B              0             0          2000 
-    15 z[C]         B              0             0          4000 
-    16 z[D]         B              0             0          1000 
-    17 totale[SUPER]
-                    B              0             0               
-    18 totale[NORMALE]
-                    B              0             0               
-    19 totale[VERDE]
-                    B              0             0               
+     1 x[A,S]       B           1100                             
+     2 x[A,N]       B           1900                             
+     3 x[A,V]       B              0                             
+     4 x[B,S]       B        1466.67                             
+     5 x[B,N]       B        533.333                             
+     6 x[B,V]       B              0                             
+     7 x[C,S]       B           1100                             
+     8 x[C,N]       B           2900                             
+     9 x[C,V]       B              0                             
+    10 x[D,S]       B              0                             
+    11 x[D,N]       B              0                             
+    12 x[D,V]       B              0                             
+    13 tB[S]        B        3666.67                             
+    14 tB[N]        B        5333.33                             
+    15 tB[V]        B              0                             
+    16 tS[A]        B           3000                             
+    17 tS[B]        B           2000                             
+    18 tS[C]        B           4000                             
+    19 tS[D]        B              0                             
 
 Karush-Kuhn-Tucker optimality conditions:
 
-KKT.PE: max.abs.err = 0.00e+000 on row 0
-        max.rel.err = 0.00e+000 on row 0
+KKT.PE: max.abs.err = 9.09e-013 on row 6
+        max.rel.err = 8.53e-017 on row 6
         High quality
 
 KKT.PB: max.abs.err = 0.00e+000 on row 0
         max.rel.err = 0.00e+000 on row 0
         High quality
 
-KKT.DE: max.abs.err = 0.00e+000 on column 0
-        max.rel.err = 0.00e+000 on column 0
+KKT.DE: max.abs.err = 1.78e-015 on column 4
+        max.rel.err = 1.11e-016 on column 4
         High quality
 
 KKT.DB: max.abs.err = 0.00e+000 on row 0
