@@ -38,5 +38,3 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
    ```go
    param g { u in U, d in D} = min(gud[u,d], gdu[u,d]);
    ```
-   
-   
