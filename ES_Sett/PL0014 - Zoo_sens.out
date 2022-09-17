@@ -1,0 +1,127 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    PL0014
+Objective:  z = 1527.866667 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 defy[Carne]  NS      21.60000        .           21.60000         .               -Inf    1527.86667 y[Carne]
+                                            .           21.60000      114.04667          +Inf    1527.86667 fabb[Carne]
+
+     2 defy[Latte]  NS      10.00000        .           10.00000         .               -Inf    1527.86667 y[Latte]
+                                            .           10.00000       14.98000          +Inf    1527.86667 fabb[Latte]
+
+     3 defy[Frutta] NS      29.30000        .           29.30000         .               -Inf    1527.86667 y[Frutta]
+                                            .           29.30000       96.03333          +Inf    1527.86667 fabb[Frutta]
+
+     4 defy[Verdure]
+                    NS      81.70000        .           81.70000         .               -Inf    1527.86667 y[Verdure]
+                                            .           81.70000      145.80667          +Inf    1527.86667 fabb[Verdure]
+
+     5 defy[Zuccheri]
+                    NS       5.40000        .            5.40000         .               -Inf    1074.26667 x[1]
+                                          84.00000       5.40000       17.85000          +Inf    2573.66667 fabb[Latte]
+
+     6 defy[Grassi] NS       7.60000        .            7.60000         .               -Inf    1507.60000 x[4]
+                                           2.66667       7.60000       15.90000          +Inf    1550.00000 fabb[Latte]
+
+     7 defy[Farine] NS      15.50000        .           15.50000         .               -Inf    1441.06667 x[3]
+                                           5.60000      15.50000       46.62500          +Inf    1702.16667 fabb[Latte]
+
+     8 defy[Acqua]  NS     120.90000        .          120.90000       96.00000          -Inf    1328.66667 fabb[Latte]
+                                           8.00000     120.90000           +Inf          +Inf          +Inf
+
+     9 fabb[Carne]  BS      92.44667     -92.44667        .                +Inf      -1.00000    1435.42000 x[5]
+                                            .               +Inf       87.46667      35.00000    4763.50000 fabb[Farine]
+
+    10 fabb[Latte]  BS       4.98000      -4.98000        .                +Inf     -10.00000    1478.06667 x[5]
+                                            .               +Inf       -4.32581       4.44444    1550.00000 fabb[Grassi]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    PL0014
+Objective:  z = 1527.866667 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 fabb[Frutta] BS      66.73333     -66.73333        .                +Inf      -8.00000     994.00000 fabb[Acqua]
+                                            .               +Inf       44.60000       1.00000    1594.60000 fabb[Grassi]
+
+    12 fabb[Verdure]
+                    BS      64.10667     -64.10667        .                +Inf      -1.42857    1436.28571 x[5]
+                                            .               +Inf       29.80000        .64516    1569.22581 fabb[Grassi]
+
+    13 fabb[Zuccheri]
+                    NL        .             .             .            -5.40000     -84.00000    1074.26667 x[1]
+                                          84.00000          +Inf       12.45000          +Inf    2573.66667 fabb[Latte]
+
+    14 fabb[Grassi] NL        .             .             .            -7.60000      -2.66667    1507.60000 x[4]
+                                           2.66667          +Inf        8.30000          +Inf    1550.00000 fabb[Latte]
+
+    15 fabb[Farine] NL        .             .             .           -15.50000      -5.60000    1441.06667 x[3]
+                                           5.60000          +Inf       31.12500          +Inf    1702.16667 fabb[Latte]
+
+    16 fabb[Acqua]  NL        .             .             .           -24.90000      -8.00000    1328.66667 fabb[Latte]
+                                           8.00000          +Inf           +Inf          +Inf          +Inf
+
+    17 z            BS    1527.86667   -1527.86667          -Inf     2573.66667      -1.00000        .      fabb[Zuccheri]
+                                            .               +Inf     1527.86667          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    PL0014
+Objective:  z = 1527.866667 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS     108.00000       5.00000        .           357.00000        .80000    1074.26667 fabb[Zuccheri]
+                                            .               +Inf      108.00000          +Inf          +Inf
+
+     2 x[2]         BS     299.60000       2.00000        .                +Inf        .          928.66667 fabb[Acqua]
+                                            .               +Inf      200.00000       2.22222    1594.44444 fabb[Grassi]
+
+     3 x[3]         BS      62.00000       3.00000        .           186.50000       1.60000    1441.06667 fabb[Farine]
+                                            .               +Inf       62.00000          +Inf          +Inf
+
+     4 x[4]         BS      50.66667       4.00000        .           106.00000       3.60000    1507.60000 fabb[Grassi]
+                                            .               +Inf       50.66667          +Inf          +Inf
+
+     5 x[5]         NL        .             .50000        .           -99.60000        .         1478.06667 fabb[Latte]
+                                            .50000          +Inf           +Inf          +Inf          +Inf
+
+     6 y[Carne]     BS      21.60000        .             .            21.60000          -Inf          -Inf
+                                            .               +Inf       21.60000          +Inf          +Inf
+
+     7 y[Latte]     BS      10.00000        .             .            10.00000          -Inf          -Inf
+                                            .               +Inf       10.00000          +Inf          +Inf
+
+     8 y[Frutta]    BS      29.30000        .             .            29.30000          -Inf          -Inf
+                                            .               +Inf       29.30000          +Inf          +Inf
+
+     9 y[Verdure]   BS      81.70000        .             .            81.70000          -Inf          -Inf
+                                            .               +Inf       81.70000          +Inf          +Inf
+
+    10 y[Zuccheri]  BS       5.40000        .             .             5.40000          -Inf          -Inf
+                                            .               +Inf        5.40000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    PL0014
+Objective:  z = 1527.866667 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 y[Grassi]    BS       7.60000        .             .             7.60000          -Inf          -Inf
+                                            .               +Inf        7.60000          +Inf          +Inf
+
+    12 y[Farine]    BS      15.50000        .             .            15.50000          -Inf          -Inf
+                                            .               +Inf       15.50000          +Inf          +Inf
+
+    13 y[Acqua]     BS     120.90000        .             .           120.90000          -Inf          -Inf
+                                            .               +Inf      120.90000          +Inf          +Inf
+
+End of report

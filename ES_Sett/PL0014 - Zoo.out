@@ -1,0 +1,66 @@
+Problem:    PL0014
+Rows:       17
+Columns:    13
+Non-zeros:  43
+Status:     OPTIMAL
+Objective:  z = 1527.866667 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 defy[Carne]  NS          21.6          21.6             =         < eps
+     2 defy[Latte]  NS            10            10             =         < eps
+     3 defy[Frutta] NS          29.3          29.3             =         < eps
+     4 defy[Verdure]
+                    NS          81.7          81.7             =         < eps
+     5 defy[Zuccheri]
+                    NS           5.4           5.4             =            84 
+     6 defy[Grassi] NS           7.6           7.6             =       2.66667 
+     7 defy[Farine] NS          15.5          15.5             =           5.6 
+     8 defy[Acqua]  NS         120.9         120.9             =             8 
+     9 fabb[Carne]  B        92.4467            -0               
+    10 fabb[Latte]  B           4.98            -0               
+    11 fabb[Frutta] B        66.7333            -0               
+    12 fabb[Verdure]
+                    B        64.1067            -0               
+    13 fabb[Zuccheri]
+                    NL             0            -0                          84 
+    14 fabb[Grassi] NL             0            -0                     2.66667 
+    15 fabb[Farine] NL             0            -0                         5.6 
+    16 fabb[Acqua]  NL             0            -0                           8 
+    17 z            B        1527.87                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B            108             0               
+     2 x[2]         B          299.6             0               
+     3 x[3]         B             62             0               
+     4 x[4]         B        50.6667             0               
+     5 x[5]         NL             0             0                         0.5 
+     6 y[Carne]     B           21.6             0               
+     7 y[Latte]     B             10             0               
+     8 y[Frutta]    B           29.3             0               
+     9 y[Verdure]   B           81.7             0               
+    10 y[Zuccheri]  B            5.4             0               
+    11 y[Grassi]    B            7.6             0               
+    12 y[Farine]    B           15.5             0               
+    13 y[Acqua]     B          120.9             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-014 on row 16
+        max.rel.err = 5.85e-017 on row 16
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
