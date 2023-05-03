@@ -1,0 +1,61 @@
+
+ LP OPTIMUM FOUND AT STEP      8
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      12960.00
+
+  VARIABLE        VALUE          REDUCED COST
+        X1        80.000000          0.000000
+        X2        32.000000          0.000000
+        X3        48.000000          0.000000
+    TOTALE       160.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+   VOLUME)      1024.000000          0.000000
+    TEMPO)         0.000000         10.800000
+   TOTALE)         0.000000         -4.000000
+    MIN_1)        64.000000          0.000000
+    MIN_2)        24.000000          0.000000
+    MIN_3)         0.000000        -30.000000
+    MAX_1)         0.000000         26.000000
+    MAX_2)        32.000000          0.000000
+    MAX_3)        32.000000          0.000000
+
+ NO. ITERATIONS=       8
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1      130.000000         INFINITY        39.000000
+       X2       50.000000        22.941177        30.000000
+       X3       20.000000        30.000000       270.000000
+   TOTALE        0.000000        39.000000        81.000000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+   VOLUME     7200.000000         INFINITY      1024.000000
+    TEMPO     1200.000000       198.963730      1199.999878
+   TOTALE        0.000000        20.784845        26.666668
+    MIN_1        0.000000        64.000000         INFINITY
+    MIN_2        0.000000        24.000000         INFINITY
+    MIN_3        0.000000        24.000000        16.253969
+    MAX_1        0.000000        21.818182        16.860592
+    MAX_2        0.000000         INFINITY        32.000000
+    MAX_3        0.000000         INFINITY        32.000000
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: TEMPO
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            1200.00       10.8000       12960.0
+ SLK    2  SLK    7     2   1398.96       10.8000       15108.8
+                            1500.00       8.34921       15952.4
+

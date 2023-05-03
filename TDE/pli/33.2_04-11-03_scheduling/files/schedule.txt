@@ -1,0 +1,28 @@
+I jobs sono 7.
+
+========================================
+
+Tabella 1: Tempi di lavorazione
+
+ Job Tempo
+  1   10  
+  2   14  
+  3   21  
+  4   18  
+  5    4  
+  6   23  
+  7   35
+
+========================================
+
+Tabella 2: Finestre temporali
+
+ Job  Inizio   Fine
+  1     15      50
+  2      0      80
+  3      0      95
+  4     10      75
+  5      5      30
+  6     13     130
+  7     18     120
+

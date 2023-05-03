@@ -1,0 +1,35 @@
+
+ LP OPTIMUM FOUND AT STEP      4
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      13200.00
+
+  VARIABLE        VALUE          REDUCED COST
+        X1         0.000000          5.000000
+        X2       400.000000          0.000000
+        X3       400.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+     MAX1)       800.000000          0.000000
+     MAX2)         0.000000          0.000000
+     MAX3)         0.000000          1.500000
+      MAX)         0.000000         16.500000
+      MIN)       700.000000          0.000000
+        7)      9600.000000          0.000000
+
+ NO. ITERATIONS=       4
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: 7
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                           0.000000E+00  0.000000E+00   13200.0
+ SLK    7  SLK    4     7   9600.00      0.000000E+00   13200.0
+ SLK    3        X1     3   9600.00     -0.375000       13200.0
+ SLK    2  ART          4   14400.0     -0.666667       10000.0
+                           0.100000E+07   -INFINITY   INFEASIBLE
+

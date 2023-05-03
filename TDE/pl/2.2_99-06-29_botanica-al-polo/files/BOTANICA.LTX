@@ -1,0 +1,45 @@
+ max 6000 xa + 4000 xb + 2000 xc + 18000 xd + 100 xe + 500 xf + 7000 xg - 1 A - 4 S - 1 C - 1.5 L - 3.6 V
+
+ s.t.
+
+ Acqua)     15 xa +  32 xb +   1 xc +    20 xd +   1.5 xe +   4   xf +   14 xg - A <= 0  ! litri
+ Sali)     600 xa + 120 xb +  50 xc +  9000 xd + 150   xe + 300   xf +    0 xg - S <= 0  ! grammi
+ Calore)   300 xa + 480 xb +  50 xc +  5000 xd +   0   xe + 100   xf +  500 xg - C <= 0  ! calorie
+ Luce)    3000 xa + 120 xb +  50 xc + 45000 xd + 250   xe + 200   xf + 3000 xg - L <= 0  ! minuti
+ Vitamine)  45 xa +  20 xb +  24 xc +   300 xd +   0   xe +   7.5 xf +  180 xg - V <= 0  ! grammi
+
+ sup_tot) xa + xb + xc + xd + xe + xf + xg <= 500  ! mq
+
+ end
+
+ slb xa 5      
+ sub xa 100
+ slb xb 5
+ sub xb 100
+ slb xc 5
+ sub xc 100
+ slb xd 5
+ sub xd 100
+ slb xe 5
+ sub xe 100
+ slb xf 5
+ sub xf 100
+ slb xg 5
+ sub xg 100
+
+
+ !xa <= 100
+ !xb <= 100
+ !xc <= 100
+ !xd <= 100
+ !xe <= 100
+ !xf <= 100
+ !xg <= 100
+
+ !xa >= 5
+ !xb >= 5
+ !xc >= 5
+ !xd >= 5
+ !xe >= 5
+ !xf >= 5
+ !xg >= 5

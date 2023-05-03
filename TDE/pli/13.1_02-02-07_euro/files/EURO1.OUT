@@ -1,0 +1,183 @@
+
+ LP OPTIMUM FOUND AT STEP    567
+ OBJECTIVE VALUE =  0.333000004
+
+ FIX ALL VARS.(    8)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND= -0.6660     TWIN=-0.1000E+31    568
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    7)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND=  -1.266     TWIN=-0.1000E+31    572
+ SET      X5E TO <=     0 AT    2, BND=  -1.665     TWIN=-0.1000E+31    574
+ DELETE      X2E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    7)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND=  -1.466     TWIN=-0.1000E+31    579
+ SET      X5E TO <=     0 AT    2, BND=  -3.330     TWIN=-0.1000E+31    581
+ DELETE      X1E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    6)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND=  -1.566     TWIN=-0.1000E+31    585
+ SET      X5E TO <=     0 AT    2, BND=  -2.415     TWIN=-0.1000E+31    588
+ SET      X2E TO <=     1 AT    3, BND=  -3.660     TWIN=-0.1000E+31    591
+ SET      X2E TO >=     1 AT    4, BND=  -3.660     TWIN=-0.1000E+31    591
+ DELETE     X50C AT LEVEL     5
+ DELETE      X2E AT LEVEL     4
+ DELETE      X2E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    5)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND=  -1.626     TWIN=-0.1000E+31    596
+ SET      X5E TO <=     0 AT    2, BND=  -3.830     TWIN=-0.1000E+31    602
+ SET      X1E TO >=     3 AT    3, BND=  -4.000     TWIN= -4.660        605
+ SET     X50C TO <=     0 AT    4, BND=  -4.000     TWIN=-0.1000E+31    605
+ SET      X1E TO <=     3 AT    5, BND=  -4.650     TWIN=-0.1000E+31    611
+ DELETE     X20C AT LEVEL     6
+ DELETE      X1E AT LEVEL     5
+ DELETE     X50C AT LEVEL     4
+ FLIP      X1E TO <=         2 AT    3 WITH BND=   -4.6599765
+ SET     X50C TO >=     3 AT    4, BND=  -4.830     TWIN= -5.650        614
+ SET      X1E TO <=     1 AT    5, BND=  -5.660     TWIN=-0.1000E+31    618
+ SET      X1E TO >=     1 AT    6, BND=  -5.660     TWIN=-0.1000E+31    618
+ SET     X50C TO <=     4 AT    7, BND=  -6.650     TWIN=-0.1000E+31    619
+ DELETE     X50C AT LEVEL     7
+ DELETE      X1E AT LEVEL     6
+ DELETE      X1E AT LEVEL     5
+ FLIP     X50C TO <=         2 AT    4 WITH BND=   -5.6499386
+ SET     X50C TO >=     2 AT    5, BND=  -5.650     TWIN=-0.1000E+31    619
+ SET      X1E TO >=     2 AT    6, BND=  -5.650     TWIN=-0.1000E+31    619
+ DELETE     X20C AT LEVEL     7
+ DELETE      X1E AT LEVEL     6
+ DELETE     X50C AT LEVEL     5
+ DELETE     X50C AT LEVEL     4
+ DELETE      X1E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    6)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND=  -1.646     TWIN=-0.1000E+31    624
+ SET      X5E TO <=     0 AT    2, BND=  -4.230     TWIN=-0.1000E+31    627
+ SET      X1E TO <=     3 AT    3, BND=  -6.300     TWIN=-0.1000E+31    629
+ DELETE      X1E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    5)  WITH RC >  0.000000E+00
+ SET     X10E TO <=     0 AT    1, BND=  -1.656     TWIN=-0.1000E+31    634
+ SET      X5E TO <=     0 AT    2, BND=  -2.615     TWIN=-0.1000E+31    640
+ SET      X2E TO <=     1 AT    3, BND=  -14.30     TWIN=-0.1000E+31    646
+ DELETE      X2E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ SET     X10E TO <=     0 AT    1, BND=  -1.662     TWIN=-0.1000E+31    652
+ SET      X5E TO <=     0 AT    2, BND=  -2.165     TWIN=-0.1000E+31    661
+ SET      X2E TO <=     1 AT    3, BND=  -2.330     TWIN=-0.1000E+31    669
+ SET      X1E TO <=     1 AT    4, BND=  -2.660     TWIN= -3.000        675
+ SET     X50C TO <=     0 AT    5, BND=  -3.650     TWIN= -2.941        681
+ SET      X1E TO >=     1 AT    6, BND=  -3.650     TWIN=-0.1000E+31    681
+ SET      X2E TO >=     1 AT    7, BND=  -3.650     TWIN=-0.1000E+31    681
+ SET     X20C TO <=     1 AT    8, BND=  -4.300     TWIN=-0.1000E+31    684
+ SET     X10C TO <=     1 AT    9, BND=  -4.600     TWIN= -4.650        687
+ SET     X20C TO >=     1 AT   10, BND=  -4.600     TWIN=-0.1000E+31    687
+ SET      X5C TO >=     1 AT   11, BND=  -4.800     TWIN= -5.500        689
+ SET     X10C TO <=     0 AT   12, BND=  -5.600     TWIN=-0.1000E+31    691
+ SET      X1C TO <=     0 AT   13, BND=  -5.600     TWIN=-0.1000E+31    691
+ SET      X2C TO <=     0 AT   14, BND=  -5.600     TWIN=-0.1000E+31    691
+ DELETE      X5C AT LEVEL    15
+ DELETE      X2C AT LEVEL    14
+ DELETE      X1C AT LEVEL    13
+ DELETE     X10C AT LEVEL    12
+ FLIP      X5C TO <=         0 AT   11 WITH BND=   -5.5000000
+ SET     X10C TO >=     1 AT   12, BND=  -5.500     TWIN=-0.1000E+31    691
+ SET      X2C TO <=     1 AT   13, BND=  -6.000     TWIN=-0.1000E+31    692
+
+ NEW INTEGER SOLUTION OF    6.00000000     AT BRANCH    292 PIVOT     692
+ BOUND ON OPTIMUM:  1.655999
+ DELETE      X2C AT LEVEL    13
+ DELETE     X10C AT LEVEL    12
+ DELETE      X5C AT LEVEL    11
+ DELETE     X20C AT LEVEL    10
+ FLIP     X10C TO >=         2 AT    9 WITH BND=   -4.6500001
+ SET      X1C TO <=     0 AT   10, BND=  -4.650     TWIN=-0.1000E+31    692
+ SET      X2C TO <=     0 AT   11, BND=  -4.650     TWIN=-0.1000E+31    692
+ SET      X5C TO <=     0 AT   12, BND=  -4.650     TWIN=-0.1000E+31    692
+ SET     X10C TO <=     2 AT   13, BND=  -4.650     TWIN=-0.1000E+31    692
+ DELETE     X20C AT LEVEL    14
+ DELETE     X10C AT LEVEL    13
+ DELETE      X5C AT LEVEL    12
+ DELETE      X2C AT LEVEL    11
+ DELETE      X1C AT LEVEL    10
+ DELETE     X10C AT LEVEL     9
+ DELETE     X20C AT LEVEL     8
+ DELETE      X2E AT LEVEL     7
+ DELETE      X1E AT LEVEL     6
+ FLIP     X50C TO >=         1 AT    5 WITH BND=   -2.9413793
+ SET      X2E TO >=     1 AT    6, BND=  -3.000     TWIN= -6.460        699
+ SET      X1E TO <=     0 AT    7, BND=  -4.260     TWIN=-0.1000E+31    705
+ SET     X50C TO <=     2 AT    8, BND=  -4.650     TWIN=-0.1000E+31    710
+ SET      X1C TO <=     0 AT    9, BND=  -4.650     TWIN=-0.1000E+31    710
+ SET      X2C TO <=     0 AT   10, BND=  -4.650     TWIN=-0.1000E+31    710
+ SET      X5C TO <=     0 AT   11, BND=  -4.650     TWIN=-0.1000E+31    710
+ SET     X10C TO <=     0 AT   12, BND=  -4.650     TWIN=-0.1000E+31    710
+ SET     X50C TO >=     2 AT   13, BND=  -4.650     TWIN=-0.1000E+31    710
+ DELETE     X20C AT LEVEL    14
+ DELETE     X50C AT LEVEL    13
+ DELETE     X10C AT LEVEL    12
+ DELETE      X5C AT LEVEL    11
+ DELETE      X2C AT LEVEL    10
+ DELETE      X1C AT LEVEL     9
+ DELETE     X50C AT LEVEL     8
+ DELETE      X1E AT LEVEL     7
+ DELETE      X2E AT LEVEL     6
+ DELETE     X50C AT LEVEL     5
+ FLIP      X1E TO >=         2 AT    4 WITH BND=   -3.0000000
+ SET      X2E TO <=     0 AT    5, BND=  -4.280     TWIN=-0.1000E+31    715
+ SET     X20C TO <=     0 AT    6, BND=  -4.280     TWIN=-0.1000E+31    715
+ SET      X1E TO <=     3 AT    7, BND=  -4.509     TWIN=-0.1000E+31    721
+ SET      X1E TO >=     3 AT    8, BND=  -4.509     TWIN=-0.1000E+31    721
+ SET     X50C TO <=     0 AT    9, BND=  -6.800     TWIN=-0.1000E+31    725
+ DELETE     X50C AT LEVEL     9
+ DELETE      X1E AT LEVEL     8
+ DELETE      X1E AT LEVEL     7
+ DELETE     X20C AT LEVEL     6
+ DELETE      X2E AT LEVEL     5
+ DELETE      X1E AT LEVEL     4
+ DELETE      X2E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=   300 PIVOTS=     725
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      6.000000
+
+  VARIABLE        VALUE          REDUCED COST
+       X1C         1.000000          0.000000
+       X2C         1.000000         -1.000000
+       X5C         0.000000         -4.000000
+      X10C         1.000000         -9.000000
+      X20C         1.000000        -19.000000
+      X50C         0.000000        -49.000000
+       X1E         1.000000        -99.000000
+       X2E         1.000000       -199.000000
+       X5E         0.000000       -499.000000
+      X10E         0.000000       -999.000000
+         Z         6.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        2)         0.000000          1.000000
+        3)         0.000000         -1.000000
+
+ NO. ITERATIONS=     725
+ BRANCHES=  300 DETERM.=  1.000E    0

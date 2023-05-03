@@ -1,0 +1,12 @@
+I possibili ponti sono 4 e se ne possono costruire 2.
+Le coppie origine-destinazione sono 5 (A...E).
+
+Le distanze da percorrere per ogni coppia O/D usando ciascuno dei 4 ponti sono le seguenti.
+
+      Ponte  1  2  3  4
+Coppia
+ A          12 14 20 24
+ B           9 17 23 27
+ C          18 10 12 16
+ D          25 15 15 15
+ E          26 16 10 10

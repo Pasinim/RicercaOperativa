@@ -1,0 +1,54 @@
+Tabella 1: Prezzi di vendita delle macchine
+
+Prodotto  Prezzo (Euro/macchina)
+   A         2050
+   B         3500
+   C         2550
+   D         1250
+
+========================================================
+
+Tabella 2: Costi dei componenti
+
+Componente  Costo (Euro/componente)
+   1           30
+   2           40
+   3           35
+   4           10
+   5           15
+
+========================================================
+
+Tabella 3: Produzione minima (numero macchine)
+
+Prodotto  Minimo
+   A        25
+   B        15
+   C        35
+   D        30
+
+========================================================
+
+Tabella 4: Quantità di componenti per ogni macchina
+
+    Componenti    1    2    3    4    5
+Macchina
+   A              3    2    2    0    3
+   B              4    2    5    4    4
+   C              1    3    3    3    2
+   D              1    2    0    1    1
+
+========================================================
+
+Tabella 5: Tempi di lavorazione
+
+Componente   Tempo (minuti)
+   1             10
+   2             15
+   3             10
+   4             20
+   5             25
+
+========================================================
+
+Numero di operai disponibili: 9 per 40 ore/settimanali ciascuno

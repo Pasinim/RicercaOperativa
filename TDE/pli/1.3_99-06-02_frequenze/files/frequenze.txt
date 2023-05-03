@@ -1,0 +1,27 @@
+Le frequenze disponibili sono le seguenti:
+
+101
+103
+105
+107
+109
+110
+112
+114
+116
+118
+121
+124
+125
+128
+129
+132
+133
+134
+135
+136
+138
+140
+
+Due frequenze interferiscono se la loro differenza e' inferiore a K=5.
+ 

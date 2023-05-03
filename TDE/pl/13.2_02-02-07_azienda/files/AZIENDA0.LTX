@@ -1,0 +1,56 @@
+! Le variabili x indicano il prodotto (primo indice) e lo stabilimento di produzione (secondo indice)
+! Unità di misura: migliaia di dolci / settimana
+! Le variabili alfa e beta indicano la frazione di materie prime rispetto al totale,
+! che vengono trasportate ai due stabilimenti
+
+
+! Funzione obiettivo: massimizzare i guadagni dati dalla differenza tra ricavi dalla vendita
+! e costi di trasporto. Unità di misura: euro / settimana.
+
+max 2100 x1 + 2100 x2 + 2500 x3 + 2300 x4a + 2300 x4b + 1800 x5a + 1800 x5b + 2400 x6 + 3150 x7 + 2600 x8 - costi
+
+s.t.
+
+! Definizione dei costi. Unità di misura: Euro / settimana
+
+costi) - costi + 2954 alfa + 2215.5 beta = 0
+
+
+! Vincoli di produzione. Unità di misura: Kgrammi / settimana
+! Esiste un vincolo per ogni risorsa (materia prima) e per ogni stabilimento
+
+aA) 21 x1 + 32 x2 + 45 x3 + 30 x4a + 21 x5a - 1890 alfa <= 0
+bA)  5 x1 +  4 x2 +  8 x3 + 10 x4a + 12 x5a -  780 alfa <= 0
+cA) 64 x1 + 65 x2 + 79 x3 + 82 x4a + 66 x5a - 3720 alfa <= 0
+dA) 30 x1 + 25 x2 + 28 x3 + 29 x4a + 32 x5a - 1400 alfa <= 0
+eA) 45 x1 + 44 x2 + 44 x3 + 38 x4a + 46 x5a - 2200 alfa <= 0
+fA)  6 x1 +  8 x2 +  8 x3 +  8 x4a + 11 x5a -  580 alfa <= 0
+gA) 95 x1 + 94 x2 + 90 x3 + 23 x4a + 12 x5a - 4200 alfa <= 0
+aB) 30 x4b + 21 x5b + 40 x6 + 42 x7 + 37 x8 - 1890 beta <= 0
+bB) 10 x4b + 12 x5b + 15 x6 + 13 x7 + 12 x8 -  780 beta <= 0
+cB) 82 x4b + 66 x5b + 65 x6 + 80 x7 + 91 x8 - 3720 beta <= 0
+dB) 29 x4b + 32 x5b + 34 x6 + 46 x7 + 28 x8 - 1400 beta <= 0
+eB) 38 x4b + 46 x5b + 32 x6 + 49 x7 + 30 x8 - 2200 beta <= 0
+fB)  8 x4b + 11 x5b + 11 x6 + 12 x7 +  4 x8 -  580 beta <= 0
+gB) 23 x4b + 12 x5b + 57 x6 + 59 x7 + 62 x8 - 4200 beta <= 0
+
+! Primo scenario: ripartizione fissa e uguale per tutte le materie prime
+
+alfa) alfa = 0.5
+beta) beta = 0.5
+
+! Produzione attuale
+
+x1  =  3 
+x2  = 10
+x3  =  3
+x4a =  6
+x4b = 10
+x5a =  3
+x5b =  5
+x6  =  2
+x7  =  1
+x8  =  4
+
+end
+

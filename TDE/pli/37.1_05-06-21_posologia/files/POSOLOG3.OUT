@@ -1,0 +1,248 @@
+
+ LP OPTIMUM FOUND AT STEP     51
+ OBJECTIVE VALUE =   20.6544132
+
+ SET      Y07 TO >=     1 AT    1, BND=  -20.65     TWIN= -20.94        174
+ SET      Y09 TO <=     0 AT    2, BND=  -20.65     TWIN= -20.65        176
+ SET      Y17 TO <=     0 AT    3, BND=  -20.65     TWIN= -20.65        178
+ SET      Y19 TO <=     0 AT    4, BND=  -21.68     TWIN= -20.65        195
+ SET      Y20 TO >=     1 AT    5, BND=  -21.68     TWIN= -23.60        210
+ SET      Y02 TO <=     0 AT    6, BND=  -21.68     TWIN=-0.1000E+31    225
+ SET      Y12 TO >=     1 AT    7, BND=  -27.67     TWIN= -22.83        245
+
+ NEW INTEGER SOLUTION OF    27.6666660     AT BRANCH      7 PIVOT     245
+ BOUND ON OPTIMUM:  20.65441
+ FLIP      Y12 TO <=         0 AT    7 WITH BND=   -22.832966
+ SET      Y06 TO <=     0 AT    8, BND=  -23.34     TWIN=-0.1000E+31    269
+ SET      Y13 TO <=     0 AT    9, BND=  -25.59     TWIN= -28.78        293
+ SET      Y14 TO <=     0 AT   10, BND=  -26.33     TWIN= -44.44        354
+ SET      Y11 TO <=     0 AT   11, BND=  -30.18     TWIN= -31.14        369
+ DELETE      Y11 AT LEVEL    11
+ DELETE      Y14 AT LEVEL    10
+ DELETE      Y13 AT LEVEL     9
+ DELETE      Y06 AT LEVEL     8
+ DELETE      Y12 AT LEVEL     7
+ DELETE      Y02 AT LEVEL     6
+ FLIP      Y20 TO <=         0 AT    5 WITH BND=   -23.596512
+ SET      Y18 TO >=     1 AT    6, BND=  -23.60     TWIN= -30.89        388
+ SET      Y02 TO <=     0 AT    7, BND=  -23.60     TWIN= -64.29        399
+ SET      Y12 TO >=     1 AT    8, BND=  -27.64     TWIN= -24.78        472
+
+ NEW INTEGER SOLUTION OF    27.6428566     AT BRANCH     14 PIVOT     472
+ BOUND ON OPTIMUM:  20.65441
+ FLIP      Y12 TO <=         0 AT    8 WITH BND=   -24.779028
+ SET      Y22 TO <=     0 AT    9, BND=  -24.78     TWIN= -63.33        483
+ SET      Y13 TO <=     0 AT   10, BND=  -27.06     TWIN= -30.71        563
+ SET      Y03 TO <=     0 AT   11, BND=  -27.06     TWIN= -64.29        576
+ SET      Y11 TO <=     0 AT   12, BND=  -30.42     TWIN= -31.13        611
+ DELETE      Y11 AT LEVEL    12
+ DELETE      Y03 AT LEVEL    11
+ DELETE      Y13 AT LEVEL    10
+ DELETE      Y22 AT LEVEL     9
+ DELETE      Y12 AT LEVEL     8
+ DELETE      Y02 AT LEVEL     7
+ DELETE      Y18 AT LEVEL     6
+ DELETE      Y20 AT LEVEL     5
+ FLIP      Y19 TO >=         1 AT    4 WITH BND=   -20.654413
+ SET      Y21 TO <=     0 AT    5, BND=  -21.00     TWIN= -59.72        673
+ SET      Y03 TO <=     0 AT    6, BND=  -21.00     TWIN= -60.53        683
+ SET      Y12 TO >=     1 AT    7, BND=  -24.05     TWIN= -22.28        708
+
+ NEW INTEGER SOLUTION OF    24.0526314     AT BRANCH     21 PIVOT     708
+ BOUND ON OPTIMUM:  20.65441
+ FLIP      Y12 TO <=         0 AT    7 WITH BND=   -22.278410
+ SET      Y05 TO <=     0 AT    8, BND=  -22.28     TWIN= -60.53        720
+ SET      Y13 TO <=     0 AT    9, BND=  -24.65     TWIN= -27.46        774
+ DELETE      Y13 AT LEVEL     9
+ DELETE      Y05 AT LEVEL     8
+ DELETE      Y12 AT LEVEL     7
+ DELETE      Y03 AT LEVEL     6
+ DELETE      Y21 AT LEVEL     5
+ DELETE      Y19 AT LEVEL     4
+ FLIP      Y17 TO >=         1 AT    3 WITH BND=   -20.654413
+ SET      Y04 TO <=     0 AT    4, BND=  -20.65     TWIN= -70.00        791
+ SET      Y19 TO <=     0 AT    5, BND=  -21.68     TWIN= -60.53        837
+ SET      Y05 TO <=     0 AT    6, BND=  -21.68     TWIN= -70.00        851
+ SET      Y20 TO <=     0 AT    7, BND=  -23.60     TWIN= -62.37        894
+ SET      Y01 TO <=     0 AT    8, BND=  -23.60     TWIN= -70.00        905
+ SET      Y18 TO <=     0 AT    9, BND=  -26.82     TWIN= -64.29        959
+ DELETE      Y18 AT LEVEL     9
+ DELETE      Y01 AT LEVEL     8
+ DELETE      Y20 AT LEVEL     7
+ DELETE      Y05 AT LEVEL     6
+ DELETE      Y19 AT LEVEL     5
+ DELETE      Y04 AT LEVEL     4
+ DELETE      Y17 AT LEVEL     3
+ FLIP      Y09 TO >=         1 AT    2 WITH BND=   -20.654413
+ SET      Y21 TO <=     0 AT    3, BND=  -21.00     TWIN= -274.3       1007
+ SET      Y19 TO <=     0 AT    4, BND=  -21.68     TWIN= -38.03       1064
+ SET      Y23 TO <=     0 AT    5, BND=  -21.68     TWIN=-0.1000E+31   1073
+ SET      Y20 TO <=     0 AT    6, BND=  -24.60     TWIN= -42.67       1126
+ DELETE      Y20 AT LEVEL     6
+ DELETE      Y23 AT LEVEL     5
+ DELETE      Y19 AT LEVEL     4
+ DELETE      Y21 AT LEVEL     3
+ DELETE      Y09 AT LEVEL     2
+ FLIP      Y07 TO <=         0 AT    1 WITH BND=   -20.944267
+ SET      Y19 TO >=     1 AT    2, BND=  -20.94     TWIN= -21.97       1140
+ SET      Y12 TO >=     1 AT    3, BND=  -20.94     TWIN= -22.19       1157
+ SET      Y02 TO <=     0 AT    4, BND=  -20.94     TWIN= -37.14       1174
+ SET      Y06 TO <=     0 AT    5, BND=  -22.70     TWIN= -24.25       1198
+ SET      Y05 TO >=     1 AT    6, BND=  -25.84     TWIN= -24.20       1262
+ DELETE      Y05 AT LEVEL     6
+ DELETE      Y06 AT LEVEL     5
+ DELETE      Y02 AT LEVEL     4
+ FLIP      Y12 TO <=         0 AT    3 WITH BND=   -22.185003
+ SET      Y13 TO >=     1 AT    4, BND=  -22.19     TWIN= -24.49       1282
+ SET      Y02 TO <=     0 AT    5, BND=  -22.19     TWIN= -41.56       1293
+ SET      Y06 TO <=     0 AT    6, BND=  -24.00     TWIN= -28.23       1326
+ SET      Y05 TO >=     1 AT    7, BND=  -29.87     TWIN= -25.21       1379
+ DELETE      Y05 AT LEVEL     7
+ DELETE      Y06 AT LEVEL     6
+ DELETE      Y02 AT LEVEL     5
+ DELETE      Y13 AT LEVEL     4
+ DELETE      Y12 AT LEVEL     3
+ FLIP      Y19 TO <=         0 AT    2 WITH BND=   -21.966118
+ SET      Y20 TO >=     1 AT    3, BND=  -21.97     TWIN= -23.89       1392
+ SET      Y12 TO >=     1 AT    4, BND=  -21.97     TWIN= -23.10       1407
+ SET      Y02 TO <=     0 AT    5, BND=  -21.97     TWIN= -40.48       1421
+ SET      Y06 TO <=     0 AT    6, BND=  -23.74     TWIN= -27.75       1436
+ SET      Y15 TO <=     0 AT    7, BND=  -23.74     TWIN=-0.1000E+31   1447
+ SET      Y05 TO <=     0 AT    8, BND=  -25.31     TWIN= -29.31       1469
+ DELETE      Y05 AT LEVEL     8
+ DELETE      Y15 AT LEVEL     7
+ DELETE      Y06 AT LEVEL     6
+ DELETE      Y02 AT LEVEL     5
+ FLIP      Y12 TO <=         0 AT    4 WITH BND=   -23.100204
+ SET      Y13 TO >=     1 AT    5, BND=  -23.10     TWIN= -25.37       1487
+ SET      Y02 TO <=     0 AT    6, BND=  -23.10     TWIN= -42.09       1498
+ SET      Y06 TO <=     0 AT    7, BND=  -24.94     TWIN= -29.16       1514
+ DELETE      Y06 AT LEVEL     7
+ DELETE      Y02 AT LEVEL     6
+ DELETE      Y13 AT LEVEL     5
+ DELETE      Y12 AT LEVEL     4
+ FLIP      Y20 TO <=         0 AT    3 WITH BND=   -23.890093
+ SET      Y18 TO >=     1 AT    4, BND=  -23.89     TWIN= -27.12       1519
+ SET      Y12 TO >=     1 AT    5, BND=  -23.89     TWIN= -25.05       1534
+ SET      Y02 TO <=     0 AT    6, BND=  -23.89     TWIN= -40.71       1551
+ SET      Y06 TO <=     0 AT    7, BND=  -25.64     TWIN= -27.84       1574
+ DELETE      Y06 AT LEVEL     7
+ DELETE      Y02 AT LEVEL     6
+ DELETE      Y12 AT LEVEL     5
+ DELETE      Y18 AT LEVEL     4
+ DELETE      Y20 AT LEVEL     3
+ DELETE      Y19 AT LEVEL     2
+ DELETE      Y07 AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=    55 PIVOTS=    1574
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      24.05263
+
+  VARIABLE        VALUE          REDUCED COST
+       Y01         0.000000          0.000000
+       Y02         0.000000          0.000000
+       Y03         0.000000          0.000000
+       Y04         0.000000          0.000000
+       Y05         0.000000          0.000000
+       Y06         0.000000       -194.385971
+       Y07         1.000000          0.000000
+       Y08         0.000000          0.000000
+       Y09         0.000000          0.000000
+       Y10         0.000000          0.000000
+       Y11         0.000000          0.000000
+       Y12         1.000000          0.000000
+       Y13         0.000000       -621.052612
+       Y14         0.000000       -294.736847
+       Y15         0.000000          0.000000
+       Y16         0.000000          0.000000
+       Y17         0.000000          0.000000
+       Y18         0.000000          0.000000
+       Y19         1.000000          0.000000
+       Y20         0.000000       -315.789459
+       Y21         0.000000      -1132.280762
+       Y22         0.000000       -632.982483
+       Y23         0.000000          0.000000
+       Y24         0.000000          0.000000
+       X01         0.000000          0.810877
+       X02         0.000000          0.729825
+       X03         0.000000          0.621754
+       X04         0.000000          0.448772
+       X05         0.000000          0.248772
+       X06         0.000000          0.000000
+       X07         5.000000          0.000000
+       X08         0.000000          0.329474
+       X09         0.000000          0.621053
+       X10         0.000000          0.469474
+       X11         0.000000          0.280000
+       X12         9.000000          0.000000
+       X13         0.000000          0.000000
+       X14         0.000000          0.000000
+       X15         0.000000          0.168421
+       X16         0.000000          0.631579
+       X17         0.000000          0.473684
+       X18         0.000000          0.263158
+       X19        10.052631          0.000000
+       X20         0.000000          0.000000
+       X21         0.000000          0.000000
+       X22         0.000000          0.000000
+       X23         0.000000          0.129474
+       X24         0.000000          0.864912
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+ FASCIA01)         5.052631          0.000000
+ FASCIA02)         6.036842          0.000000
+ FASCIA03)         5.026316          0.000000
+ FASCIA04)         3.015790          0.000000
+ FASCIA05)         2.010526          0.000000
+ FASCIA06)         1.005263          0.000000
+ FASCIA07)         3.500000          0.000000
+ FASCIA08)         0.000000         -0.270175
+ FASCIA09)         8.000000          0.000000
+ FASCIA10)         7.500000          0.000000
+ FASCIA11)         5.500000          0.000000
+ FASCIA12)        17.500000          0.000000
+ FASCIA13)         7.000000          0.000000
+ FASCIA14)         9.500000          0.000000
+ FASCIA15)         0.000000         -0.378947
+ FASCIA16)         3.600000          0.000000
+ FASCIA17)         8.600000          0.000000
+ FASCIA18)         5.500000          0.000000
+ FASCIA19)        18.378948          0.000000
+ FASCIA20)         9.657895          0.000000
+ FASCIA21)        12.910526          0.000000
+ FASCIA22)         1.931579          0.000000
+ FASCIA23)         0.000000         -0.526316
+ FASCIA24)         4.073684          0.000000
+   VINC01)         0.000000          0.000000
+   VINC02)         0.000000          0.000000
+   VINC03)         0.000000          0.000000
+   VINC04)         0.000000          0.000000
+   VINC05)         0.000000          0.000000
+   VINC06)         0.000000          0.194386
+   VINC07)       995.000000          0.000000
+   VINC08)         0.000000          0.000000
+   VINC09)         0.000000          0.000000
+   VINC10)         0.000000          0.000000
+   VINC11)         0.000000          0.000000
+   VINC12)       991.000000          0.000000
+   VINC13)         0.000000          0.621053
+   VINC14)         0.000000          0.294737
+   VINC15)         0.000000          0.000000
+   VINC16)         0.000000          0.000000
+   VINC17)         0.000000          0.000000
+   VINC18)         0.000000          0.000000
+   VINC19)       989.947388          0.000000
+   VINC20)         0.000000          0.315789
+   VINC21)         0.000000          1.132281
+   VINC22)         0.000000          0.632982
+   VINC23)         0.000000          0.000000
+   VINC24)         0.000000          0.000000
+   NUMERO)         0.000000          0.000000
+
+ NO. ITERATIONS=    1621
+ BRANCHES=   55 DETERM.=  1.000E    0

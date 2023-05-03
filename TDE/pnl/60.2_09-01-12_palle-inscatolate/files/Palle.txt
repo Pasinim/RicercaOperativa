@@ -1,0 +1,13 @@
+Il kit è così composto:
+
+  Tipo        Colore    Raggio    Numero
+
+Ciliegina     Rosso       2          3
+Classica      Rosso       4          2
+Candida       Bianco      3          2
+Palla di neve Bianco      4          2
+Stellina      Azzurro     2          3
+Luminosa      Trasparente 3          2
+
+Il raggio è espresso in centimetri.
+      

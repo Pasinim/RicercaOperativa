@@ -1,0 +1,46 @@
+Problem:    Hosting
+Rows:       6
+Columns:    3
+Non-zeros:  11
+Status:     OPTIMAL
+Objective:  Utenze = 522 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Utenze       B            522                             
+     2 constr_limiti[CPU]
+                    B             37                          50 
+     3 constr_limiti[RAM]
+                    B              0                          50 
+     4 constr_limiti[banda]
+                    NU            60                          60           0.2 
+     5 constr_budget
+                    NU           425                         425           1.2 
+     6 constr_RAMCPU
+                    B             37            -0               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[CPU]       B             37             0               
+     2 x[RAM]       NL             0             0                        -0.6 
+     3 x[banda]     B             60             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

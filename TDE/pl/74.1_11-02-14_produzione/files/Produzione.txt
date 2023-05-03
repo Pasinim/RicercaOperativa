@@ -1,0 +1,20 @@
+Il costo della produzione normale è di 300 Euro/pezzo.
+Il costo della produzione extra è maggiorata del 10%.
+Il costo di giacenza è di 10 Euro/pezzo.
+
+La capacità produttiva normale è pari a 110 pezzi/settimana.
+La capacità produttiva extra è pari al 50% di quella normale.
+
+La pianificazione è richiesta su 6 settimane.
+
+Tabella 1: Previsione di domanda [pezzi/settimana]
+
+Settimana Domanda
+   1        100
+   2        130
+   3        150
+   4        100
+   5        170
+   6        160
+
+Ogni lotto è formato da 16 pezzi.

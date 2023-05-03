@@ -1,0 +1,45 @@
+! Esercizio: "Sfilata" - prima parte
+!
+! Variabili: x(i,j) = flusso lungo l'arco (i,j)
+!            flusso = flusso totale da s a t
+! Le variabili sono continue e non-negative
+
+max flusso
+
+s.t.
+
+! Vincoli di flusso in ogni nodo
+
+nodo_s) xs1 + xs2 + xs3 - flusso = 0
+nodo_1) xs1 - x13 - x14 = 0
+nodo_2) xs2 - x23 - x25 = 0
+nodo_3) xs3 + x13 + x23 - x36 = 0
+nodo_4) x14 + x54 - x45 - x47 = 0
+nodo_5) x25 + x45 - x54 - x58 = 0
+nodo_6) x36 - x67 - x68 - x6t = 0
+nodo_7) x47 + x67 - x7t = 0
+nodo_8) x58 + x68 - x8t = 0
+nodo_t) x6t + x7t + x8t - flusso = 0
+
+! Vincoli di capacità su ogni arco
+
+arco_s1) xs1 <= 15
+arco_s2) xs2 <= 15
+arco_s3) xs3 <= 20
+arco_13) x13 <= 15
+arco_14) x14 <= 28
+arco_23) x23 <= 20
+arco_25) x25 <= 18
+arco_36) x36 <= 20
+arco_45) x45 <=  9
+arco_47) x47 <=  8
+arco_54) x54 <=  9
+arco_58) x58 <=  8
+arco_67) x67 <=  7
+arco_68) x68 <=  7
+arco_6t) x6t <= 10
+arco_7t) x7t <= 10
+arco_8t) x8t <= 10
+
+end
+

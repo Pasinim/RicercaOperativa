@@ -1,0 +1,41 @@
+I prodotti sono 3: Brillatutto (B), Smacchialamacchia (S), T'acceco (T)
+Le sostanze usate per produrli sono 3: acqua fresca (a), vetriolo (v), polvere di denti di pipistrello (p)
+
+====================================================
+
+Tabella 1: Valori minimi e massimi per ogni sostanza in ogni prodotto (percentuali)
+
+   Sostanza     a           v           p
+            min   max   min   max   min   max
+Prodotto
+   B         80    90     5    10    10    20
+   S         70    85    10    20     5    15
+   T         65    70    20    50    15    35
+
+====================================================
+
+Tabella 2: Quantità massime disponibili (litri/giorno)
+
+Sostanza   Quantità
+   a          700
+   v          150
+   p          200
+
+====================================================
+
+Tabella 3: prezzi di mercato dei prodotti (Euro/litro)
+
+Prodotto  Prezzo
+   B        2.5
+   S        2.0
+   T        3.0
+
+
+VARIABILI
+
+- per ognuno dei 3 prodotti ho 3 ingredienti, quindi 9 variabili che rappresentano le possibili combinazioni tra sostanze e detersivi
+- xij quantità sostanza i per detersivo j, con i=(a,v,p) e j=(B,S,T)
+- qj quantità massime disponibili per la vendita ogni giorno, con j=(B,S,T)
+- funz obiettivo è massimizzaz dei ricavi per i prodotti disponibili ogni giorno
+
+

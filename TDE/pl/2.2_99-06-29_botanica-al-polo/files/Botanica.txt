@@ -1,0 +1,46 @@
+I costi di approvvigionamento degli elementi nutrizionali sono:
+
+Acqua dolce      1 Euro   / litro
+Sali minerali    4 Euro   / g
+Calore           1 Euro   / caloria
+Luce             1.5 Euro / minuto di illuminazione
+Vitamine         3.6 Euro / g
+
+Il fabbisogno giornaliero per ogni metro quadrato coltivato 
+per ogni tipo di pianta è stato così stimato:
+
+                    Acqua     Sali   Calore      Luce    Vitamine
+                   (litri)     (g)  (calorie)  (minuti)  (grammi)
+Azalea               0.5       20      10        100       1.5
+Begonia              0.8        3      12          3       0.5
+Carota               0.1        5       5          5       2.4
+Datteri              0.2       90      50        450         3
+Erba cipollina       0.3       30       0         50         0
+Fragolina di bosco   0.8       60      20         40       1.5
+Giaggiolo            0.7        0      25        150         9
+
+Si stima che la crescita delle piante richieda i tempi seguenti:
+
+A  30 giorni
+B  40 giorni
+C  10 giorni
+D 100 giorni
+E   5 giorni
+F   5 giorni
+G  20 giorni
+
+I ricavi stimati dell'esperimento sono direttamente proporzionali 
+alla quantità di piantine che si stima cresceranno,
+secondo i coefficienti che seguono:
+
+A  6000 euro / metro quadrato coltivato
+B  4000 euro / metro quadrato coltivato
+C  2000 euro / metro quadrato coltivato
+D 18000 euro / metro quadrato coltivato
+E   100 euro / metro quadrato coltivato
+F   500 euro / metro quadrato coltivato
+G  7000 euro / metro quadrato coltivato
+
+Questi dati tengono già conto della probabilità di crescita 
+di ogni tipo di pianta.
+

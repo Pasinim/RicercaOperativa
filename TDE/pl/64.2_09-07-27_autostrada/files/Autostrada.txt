@@ -1,0 +1,30 @@
+L'autostrada è divisa in 7 segmenti, compresi tra 8 caselli di ingresso e uscita (numerati da 0 a 7).
+
+Tabella 1: Flussi di veicoli (n. veicoli / ora)
+
+    A  0   1   2   3   4   5   6   7
+DA
+
+ 0     0 460 510 450 325 430 450 500
+ 1         0 120 150 150 220 240 250
+ 2             0 260 150 120 110  90
+ 3                 0  80 130 140 130
+ 4                     0 200 210 240
+ 5                         0 340 200
+ 6                             0 185
+ 7                                 0
+
+Tabella 2: Vantaggio rispetto all'itinerario alternativo
+
+    A  0   1   2   3   4   5   6   7
+DA
+
+ 0     0  10  15  20  26  33  38  41
+ 1         0  10  18  21  30  34  37
+ 2             0  10  15  24  30  33
+ 3                 0  10  17  21  31
+ 4                     0  10  14  19
+ 5                         0  10  14
+ 6                             0  10
+ 7                                 0
+

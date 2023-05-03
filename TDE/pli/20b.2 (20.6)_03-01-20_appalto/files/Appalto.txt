@@ -1,0 +1,37 @@
+I prefabbricati sono di 5 tipi: A...E.
+Le materie prime necessarie alla loro produzione sono 3.
+
+============================================================================
+
+Tabella 1: Coefficienti tecnologici (unità di materia prima / prefabbricato)
+
+   Tipo     A    B    C    D    E
+Mat.pr.
+   1       15   10   12   10    8
+   2       10    8   14   12   16
+   3        5    2    7    1    4
+
+============================================================================
+
+Tabella 2: Quantità di materie prime disponibili (unità di mat.pr.)
+
+Mat.pr.   Quantità
+   1        300
+   2        220
+   3         90
+
+============================================================================
+
+Tabella 3: Valore dei prefabbricati (KEuro / prefabbricato)
+
+Tipo  Valore
+  A     10
+  B     12
+  C      7
+  D     13
+  E      9
+
+============================================================================
+
+Differenza massima ammissibile tra numero di prefabbricati di tipo diverso: 3
+

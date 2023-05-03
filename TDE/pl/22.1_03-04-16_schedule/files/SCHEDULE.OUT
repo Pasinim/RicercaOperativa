@@ -1,0 +1,101 @@
+
+ LP OPTIMUM FOUND AT STEP      0
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      10993.53
+
+  VARIABLE        VALUE          REDUCED COST
+        X1         6.811765          0.000000
+        X2         2.811765          0.000000
+        X3         2.576471          0.000000
+        S1         0.647059          0.000000
+        E1        12.000000          0.000000
+        S2        12.000000          0.000000
+        E2        18.000000          0.000000
+        S3        18.000000          0.000000
+        E3        22.294117          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+    MAT_A)         0.000000       1026.470581
+    MAT_B)         0.000000        791.176453
+    MAT_C)         0.000000        732.352966
+   MIN_S1)         0.647059          0.000000
+   MAX_S1)         7.352941          0.000000
+   MIN_E1)         8.000000          0.000000
+   MAX_E1)         0.000000          0.000000
+   MIN_S2)         6.000000          0.000000
+   MAX_S2)         2.000000          0.000000
+   MIN_E2)         8.000000          0.000000
+   MAX_E2)         0.000000          0.000000
+   MIN_S3)         6.000000          0.000000
+   MAX_S3)         2.000000          0.000000
+   MIN_E3)         6.294117          0.000000
+   MAX_E3)         1.705882          0.000000
+ ORD_S1E1)        11.352942          0.000000
+ ORD_E1S2)         0.000000          0.000000
+ ORD_S2E2)         6.000000          0.000000
+ ORD_E2S3)         0.000000          0.000000
+ ORD_S3E3)         4.294117          0.000000
+   PROD_1)         0.000000          0.000000
+   PROD_2)         0.788235          0.000000
+   PROD_3)         0.000000          0.000000
+
+ NO. ITERATIONS=       0
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1     1000.000000     12450.000000       918.421082
+       X2      800.000000     12450.000000       707.894714
+       X3      750.000000     13450.000000       655.263184
+       S1        0.000000       551.052673         0.000000
+       E1        0.000000         INFINITY         0.000000
+       S2        0.000000         0.000000         0.000000
+       E2        0.000000         INFINITY         0.000000
+       S3        0.000000         0.000000         0.000000
+       E3        0.000000         0.000000         0.000000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+    MAT_A        6.400000         0.347368         3.947368
+    MAT_B        3.000000         0.705263         2.515790
+    MAT_C        2.800000         0.915789         2.305263
+   MIN_S1        0.000000         0.647059         INFINITY
+   MAX_S1        8.000000         INFINITY         7.352941
+   MIN_E1        4.000000         8.000000         INFINITY
+   MAX_E1       12.000000         1.313725         0.647059
+   MIN_S2        6.000000         6.000000         INFINITY
+   MAX_S2       14.000000         INFINITY         2.000000
+   MIN_E2       10.000000         8.000000         INFINITY
+   MAX_E2       18.000000         1.705882         1.313725
+   MIN_S3       12.000000         6.000000         INFINITY
+   MAX_S3       20.000000         INFINITY         2.000000
+   MIN_E3       16.000000         6.294117         INFINITY
+   MAX_E3       24.000000         INFINITY         1.705882
+ ORD_S1E1        0.000000         INFINITY        11.352942
+ ORD_E1S2        0.000000         6.000000         1.313725
+ ORD_S2E2        0.000000         INFINITY         6.000000
+ ORD_E2S3        0.000000         6.000000         1.705882
+ ORD_S3E3        0.000000         INFINITY         4.294117
+   PROD_1        0.000000         0.388235         4.411765
+   PROD_2        0.000000         0.788235         INFINITY
+   PROD_3        0.000000         1.023529         2.576471
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: MAT_C
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            2.80000       732.353       10993.5
+ SLK   16  SLK   12    21   3.71579       732.353       11664.2
+ SLK   23  SLK    8     4   4.51111       732.353       12246.7
+       S1  SLK    4     2   5.00000       732.353       12604.7
+                            28.0000     -0.110578E-12   12604.7
+

@@ -1,0 +1,38 @@
+Le coordinate dei 15 punti di raccolta del legname sono le seguenti, 
+espresse come frazione del lato del quadrato che delimita la regione 
+(lato di 100 km).
+Ogni punto di raccolta ha associata una quantità di legname fornito.
+
+ posizione   quantita'
+            (quintali 
+           giornalieri)
+ 0.40 0.66     58
+ 0.76 0.17     35
+ 0.11 0.47     27
+ 0.65 0.58     42
+ 0.18 0.88     60
+ 0.19 0.02     31
+ 0.62 0.62     18
+ 0.90 0.17     24
+ 0.66 0.95     36
+ 0.42 1.00     37
+ 0.95 0.12     48
+ 0.16 0.26     39
+ 0.07 0.71     53
+ 0.75 0.43     61
+ 0.30 0.76     29
+
+I costi di trasporto giornalieri sono pari a 10000 Lire per ogni km 
+e per ogni quintale.
+
+Le possibili localizzazioni delle segherie sono 5:
+
+ Posizione   Costi di manutenzione      Capacita'
+          e funzionamento giornalieri  (quintali
+             (in migliaia di lire)     al giorno)
+ 0.25 0.20           3000                 190 
+ 0.55 0.25           4500                 240
+ 0.90 0.15           3000                 200
+ 0.15 0.45           4400                 220
+ 0.85 0.55           4600                 190
+

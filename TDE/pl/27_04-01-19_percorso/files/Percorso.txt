@@ -1,0 +1,28 @@
+I nodi della rete stradale sono 16, numerati in esadecimale da '0' a 'f'.
+
+Rischio  Strada
+   2      0 1
+   1      0 3
+   2      1 2
+   2      2 3
+   3      2 4
+   2      3 5
+   2      3 6
+   3      4 5
+   2      4 9
+   4      4 a
+   3      5 7
+   2      6 7
+   2      7 8
+   2      8 9
+   1      8 b
+   5      9 d
+   3      a d
+   1      b c
+   2      b e
+   2      c d
+   3      d e
+   3      d f
+   4      e f 
+
+Il convoglio si trova nel nodo '0' e deve arrivare nel nodo 'f'.

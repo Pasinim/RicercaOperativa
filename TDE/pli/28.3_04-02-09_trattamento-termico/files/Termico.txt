@@ -1,0 +1,9 @@
+Le resistenze hanno lunghezza multipla di 10 cm,
+da un minimo di 50 cm ad un massimo di 90 cm.
+
+La circonferenza dei tubi può assumere qualunque valore multiplo di 50 cm
+tra un minimo di 1 metro ed un massimo di 5 metri.
+
+Lo scarto ammesso è pari al 10% della circonferenza.
+
+

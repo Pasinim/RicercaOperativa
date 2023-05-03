@@ -1,0 +1,33 @@
+! Esercizio Produzione e smaltimento - TeRO n.69,1
+
+!Funzione obiettivo: massimizzare i profitti al netto dei costi di smaltimento [Euro]
+max 1200 x1 + 1500 x2 + 1600 x3 - costi
+
+st
+
+! Vincoli sulle quantità di risorsa da acquistare [Unità di risorsa]
+risorsa1) 2.3 x1 + 4.5 x2 + 5.5 x3 - b1 <= 0
+risorsa2) 850 x1 + 520 x2 + 600 x3 - b2 <= 0
+risorsa3) 0.8 x1 + 0.9 x2 + 0.7 x3 - b3 <= 0
+
+! Vincolo sul budget disponibile per l'acquisto di risorse [Euro]
+budget) 34 b1 + 0.02 b2 + 100 b3 <= 1000
+
+! Vincolo sulla produzione di scorie da smaltire [Unità di scorie]
+scorie_A) 470 x1 + 210 x2 + 155 x3 - scA = 0
+scorie_B) 820 x1 + 720 x2 + 800 x3 - scB = 0
+scorie_C)  80 x1 +  10 x2 +  15 x3 - scC = 0
+
+! Vincolo sulle oriogini del trasporto [Unità di scorie]
+origA) yA1 + yA2 - scA = 0
+origB) yB1 + yB2 - scB = 0
+origC) yC1 + yC2 - scC = 0
+
+! Vincolo di capacità sulel destinazioni del trasporto [unità di scorie]
+Dest1) yA1 + yB1 + yC1 <= 1250
+Dest2) yA2 + yB2 + yC2 <= 3400
+
+! Vincolo per la definizione dei costi [Euro]
+costi) 0.25 yA1 + 0.35 yA2 + 0.30 yB1 + 0.18 yB2 + 0.10 yC1 + 0.11 yC2 - costi = 0
+
+End

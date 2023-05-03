@@ -1,0 +1,70 @@
+I cantieri sono 12.
+
+============================================================
+
+Tabella 1: Numero min e max di professionisti e di volontari
+
+Cantiere  Professionisti   Volontari      Totale
+            min    max     min   max    min    max
+   1         5      7      10    20      
+   2         0      5      15    20
+   3         1              8    12             15
+   4         4             10    18             20
+   5         2              8                   15
+   6         3              5    20             20
+   7                             20      10     25
+   8                             15       5     20
+   9                                      5     10
+  10         1                                  20
+  11         1                           10     15
+  12         1                            8     12
+
+=============================================================
+
+Tabella 2: Proporzioni (min/max rapporto tra volontari e professionisti)
+
+Cantiere     Rapporto
+            min    max
+   1        1.5     4
+   2        1       
+   3        1      
+   4        2      
+   5        4      
+   6        1.5     8
+   7        1.5
+   8        4      10
+   9        5 
+  10        5 
+  11        5      10
+  12        5 
+
+=============================================================
+
+Tabella 3: Coefficienti di utilità
+
+Cantiere    Oreuomo        Oreuomo
+         professionisti   volontari
+   1          2.5             1
+   2          3               1
+   3          8               1
+   4          2               0.5
+   5          4               1.5
+   6          3               0.5
+   7          4               2.5
+   8         10               1
+   9          3               1
+  10          4               1
+  11          5               1
+  12          5               2
+
+=============================================================
+
+Ogni persona lavora per 8 ore al massimo.
+E' ammesso che una persona lavori per una quantità di ore inferiore, 
+nel qual caso conta a tutti gli effetti come una corrispondente "frazione di persona".
+
+Massimo numero di persone che si possono impegnare: 200
+
+Costo di ogni professionista: 25 Euro / orauomo
+Costo di ogni volontario: 5 Euro / orauomo
+

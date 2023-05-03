@@ -1,0 +1,27 @@
+Il volume è composto da 3 fascicoli.
+
+Ogni fascicolo ha 48 pagine, 
+di cui le prime due e le ultime due sono occupate dalle copertine e dalle controcopertine.
+Sono disponibili quindi per articoli e annunci pubblicitari 44 pagine per fascicolo.
+
+Sono disponibili i 12 articoli seguenti:
+
+Articolo  Lunghezza   Urgenza 
+         (n. pagine)
+   A          5         **
+   B         11
+   C         17         **
+   D         10
+   E         18         *** 
+   F          8
+   G         14
+   H          9         *
+   I         16         *
+   J         12
+   K         14
+   L         13
+
+Gli articoli indicati dagli asterischi sono i più urgenti: 
+3 asterischi => non dopo il primo fascicolo
+2 asterischi => non dopo il secondo fascicolo
+1 asterisco  => non dopo il terzo fascicolo

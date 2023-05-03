@@ -1,0 +1,45 @@
+Problem:    Chiatte
+Rows:       4
+Columns:    4
+Non-zeros:  10
+Status:     OPTIMAL
+Objective:  z = 25200 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 z            B          25200                             
+     2 Conservazione_flusso
+                    NS             0            -0             =           600 
+     3 Strettoie[1] NU             1                           1         14400 
+     4 Strettoie[2] NU             1                           1         10800 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 flusso[1,salita]
+                    B            4.8             0               
+     2 flusso[2,salita]
+                    B             12             0               
+     3 flusso[1,discesa]
+                    B           16.8             0               
+     4 flusso[2,discesa]
+                    NL             0             0                    -136.364 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.27e-013 on column 1
+        max.rel.err = 7.58e-017 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

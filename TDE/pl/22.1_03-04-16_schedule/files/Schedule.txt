@@ -1,0 +1,41 @@
+I prodotti sono 3 e le materie prime sono 3.
+
+Tabella 1: Ricavi di vendita (Euro/ettolitri di prodotto)
+
+Prodotto Ricavo
+    1     1000
+    2      800
+    3      750
+
+======================================================
+
+Tabella 2: Coefficienti tecnologici (percentuali composizione dei prodotti)
+
+   Prodotto  1    2    3
+Mat. prima
+    A       90    5    5
+    B        5   90    5
+    C        5    5   90
+
+======================================================
+
+Tabella 3: Disponibilità di materie prime (ettolitri/giorno)
+
+Mat.prima  Quantità
+    A         6.4
+    B         3.0
+    C         2.8
+
+======================================================
+
+Tabella 4: Limiti temporali alla produzione (ore)
+
+Prodotto     Inizio             Fine
+          Minimo  Massimo  Minimo Massimo
+    1        0       8        4     12
+    2        6      14       10     18
+    3       12      20       16     24
+
+======================================================
+
+Tutti i prodotti richiedono 1 minuto per ogni litro

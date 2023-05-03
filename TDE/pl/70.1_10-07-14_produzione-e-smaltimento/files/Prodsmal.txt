@@ -1,0 +1,63 @@
+I prodotti sono 3.
+Le risorse sono 3.
+I tipi di scorie sono 3.
+Gli impianti di smaltimento sono 2.
+
+========================
+
+Tabella 1: Profitti dati dalla produzione [Euro/unità]
+
+Prodotto Profitto
+   1       1200
+   2       1500
+   3       1600
+
+========================
+
+Tabella 2: Coefficienti tecnologici di produzione [Unità di risorsa/unità di prodotto]
+           Prodotto 1  Prodotto 2  Prodotto 3
+Risorsa 1     2.3         4.5         5.5
+Risorsa 2     850         520         600
+Risorsa 3     0.8         0.9         0.7
+
+========================
+
+Tabella 3: Costi di acquisto delle risorse [Euro/unità di risorsa]
+
+Risorsa 1  34 
+Risorsa 2   0.02 
+Risorsa 3 100
+
+========================
+
+Tabella 4: Coefficienti tecnologici produzione scorie [Unità di scorie/unità di prodotto]
+
+           Prodotto 1  Prodotto 2  Prodotto 3
+
+Scorie A      470         210         155
+Scorie B      820         720         800
+Scorie C       80          10          15             
+
+========================
+
+Tabella 5: Costi unitari di trasporto delle scorie [Euro/unità di scorie]
+
+            Scorie A  Scorie B  Scorie C
+Impianto 1     0.25     0.30      0.10
+Impianto 2     0.35     0.18      0.11
+
+========================
+
+Tabella 6: Capacità impianti [Unità di scorie]
+
+           Capacità
+Impianto 1   1250
+Impianto 2   3400
+
+========================
+
+Budget = 1000 Euro
+
+Tutti dati sono riferiti alle attività giornaliere dell'impianto.
+
+

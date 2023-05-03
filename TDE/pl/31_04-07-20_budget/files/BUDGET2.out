@@ -1,0 +1,22 @@
+
+ LP OPTIMUM FOUND AT STEP      3
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      14400.00
+
+  VARIABLE        VALUE          REDUCED COST
+        X1       400.000000          0.000000
+        X2       400.000000          0.000000
+        X3         0.000000          8.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+     MAX1)         0.000000          2.000000
+     MAX2)         0.000000          0.000000
+     MAX3)       800.000000          0.000000
+      MAX)         0.000000         18.000000
+      MIN)       700.000000          0.000000
+
+ NO. ITERATIONS=       3
+

@@ -1,0 +1,79 @@
+L'azienda 4 fornitori, 3 filiali e 5 acquirenti.
+
+==================================================================
+
+Tabella 1: Quantità di materie prime disponibili per ogni mese
+
+Fornitore  Quantità (ton)
+    1         1200
+    2          650
+    3          150
+    4         2200
+
+==================================================================
+
+Tabella 2: Quantità di semilavorati richiesti per ogni mese
+
+Semilavorato Quantità (pezzi)
+     1          28
+     2          35
+     3          30
+     4          41
+     5          12
+
+==================================================================
+
+Tabella 3A: Coefficienti tecnologici impianto A
+
+    Semilavorato (pezzi)  1     2     3     4     5
+Mat. prima (ton)
+    1                    12     2    10     8     7
+    2                     5     1     5     4     3
+    3                     1     1     1     2     1
+    4                    20     3    18    15    20
+
+==================================================================
+
+Tabella 3B: Coefficienti tecnologici impianto B
+
+    Semilavorato (pezzi)  1     2     3     4     5
+Mat. prima (ton)
+    1                    10     1     8    12    17
+    2                     3     1     5     7     5
+    3                     2     1     1     1     1
+    4                    25     6    22    12    15
+
+==================================================================
+
+Tabella 3C: Coefficienti tecnologici impianto C
+
+    Semilavorato (pezzi)  1     2     3     4     5
+Mat. prima (ton)
+    1                    16     4    15     2     5
+    2                     8     3     7     3     1
+    3                     1     1     1     2     2
+    4                     8     2    11    12    20
+
+==================================================================
+
+Tabella 4: Costi di trasporto delle materie prime (KEuro/Ton)
+
+       Impianto   1     2     3
+Mat. prima (ton)
+    1            10    21    25
+    2            12    20    21
+    3            15    15    14
+    4            20    14     7
+
+==================================================================
+
+Tabella 5: Costi di trasporto dei semilavorati (KEuro/pezzo)
+
+    Semilavorato (pezzi)  1     2     3     4     5
+Impianto
+    1                    12    10     8     6     3
+    2                     7     9     8     7     6
+    3                     4     6     7     8    13
+
+==================================================================
+

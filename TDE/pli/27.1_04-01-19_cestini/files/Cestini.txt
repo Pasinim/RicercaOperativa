@@ -1,0 +1,41 @@
+Ci sono 5 fonti di pattume: 
+1: Piano docenti
+2: Aule Nord
+3: Aule Sud
+4: Laboratori Didattici
+5: Laboratori di Ricerca
+
+Ci sono 6 possibili luoghi in cui localizzare i cestini:
+1: Piano docenti
+2: Zona macchine caffè
+3: Ingresso bar lato Nord
+4: Ingresso bar lato Sud
+5: Biblioteca
+6: Corridoio laboratori
+
+I cestini disponibili sono 4.
+
+=========================================================
+
+Tabella 1: Tempo di raggiungimento dei cestini dalle fonti (secondi)
+	Fonti	1  2  3  4  5  
+Luoghi
+	1	4 20 20 35 40
+	2      20  5 10 20 20 
+	3      20  5  8 20 20
+	4      20  8  5 25 25
+	5      40 15 12 10 12
+	6      40 15 20  8  2
+
+=========================================================
+
+Tabella 2: Quantità di pattume prodotto (Kg/giorno)
+1: 12
+2:  8
+3:  8
+4: 15
+5: 12
+
+=========================================================
+
+Capacita': 20 Kg

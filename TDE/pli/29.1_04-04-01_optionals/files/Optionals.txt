@@ -1,0 +1,25 @@
+Ci sono 5 optionals e 7 vetture.
+
+===========================================================
+
+I vincoli sui 5 optionals sono i seguenti:
+
+Optional 1: non più di 1 vettura ogni 3 consecutive;
+Optional 2: non più di 1 vettura ogni 3 consecutive;
+Optional 3: non più di 1 vettura ogni 4 consecutive;
+Optional 4: non più di 1 vettura ogni 2 consecutive;
+Optional 5: non più di 2 vetture ogni 5 consecutive;
+
+===========================================================
+
+Le richieste di optional sono le seguenti (N=NO, S=SI'):
+
+  Vettura    1 2 3 4 5 6 7
+Optional     
+    1        S N N S S N N
+    2        S N S N N N S
+    3        N N N S N S N
+    4        N N S N S N S
+    5        N S N N S S N
+
+===========================================================

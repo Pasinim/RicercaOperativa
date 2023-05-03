@@ -1,0 +1,31 @@
+Le automobili sono 16.
+
+Tabella 1: Automobili, lunghezze [metri] e vincoli
+
+ 1    3,3    
+ 2    3,8    su
+ 3    3,8    su
+ 4    3,4    
+ 5    4,0    
+ 6    3,8    
+ 7    3,8    
+ 8    3,9    
+ 9    4,0    
+10    4,0    
+11    3,5    
+12    3,6    su
+13    3,7    su
+14    3,5    
+15    4,0    
+16    3,5    
+
+Il valore "su" nella terza colonna indica che l'automobile non può essere assegnata ad uno dei pianali inferiori.
+
+Tabella 2: Pianali, lunghezze, allungamenti consentiti [metri]
+
+Motrice, pianale inferiore    7,0   1,0
+Motrice, pianale superiore    7,1   0,0
+Rimorchio, pianale inferiore  7,0   1,0
+Rimorchio, pianale superiore  7,2   0,0
+
+Il massimo allungamento complessivo dei pianali inferiori è di 1,5 metri.

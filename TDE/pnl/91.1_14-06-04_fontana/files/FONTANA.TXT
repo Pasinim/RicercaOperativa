@@ -1,0 +1,13 @@
+I vertici del poligono sono 8.
+Qui di seguito sono elencati ordinatamente, seguendo il perimetro del poligono, in un sistema di riferimento cartesiano.
+
+  X   y
+
+ -2  -2
+ -3  10
+  0  10
+  9  10
+  7   2
+  6   0
+  4  -1
+  0  -2

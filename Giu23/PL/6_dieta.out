@@ -1,0 +1,46 @@
+Problem:    6_dieta
+Rows:       7
+Columns:    7
+Non-zeros:  47
+Status:     OPTIMAL
+Objective:  z = 26236.20095 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 limSup[1]    B             25                          35 
+     2 limSup[2]    NU            25                          25      -220.572 
+     3 limSup[3]    NU            20                          20      -210.733 
+     4 limInf[1]    NL            25            25                     1438.61 
+     5 limInf[2]    B             25            15               
+     6 limInf[3]    B             20            10               
+     7 z            B        26236.2                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                     3807.69 
+     2 x[2]         NL             0             0                     864.799 
+     3 x[3]         NL             0             0                     6647.39 
+     4 x[4]         B       0.930007             0               
+     5 x[5]         B        1.65008             0               
+     6 x[6]         B       0.360809             0               
+     7 x[7]         NL             0             0                     8585.58 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.64e-012 on column 4
+        max.rel.err = 1.10e-016 on column 7
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,21 @@
+
+ LP OPTIMUM FOUND AT STEP      3
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      101928.6
+
+  VARIABLE        VALUE          REDUCED COST
+        XA         0.000000          1.142858
+        XB         0.000000          1.000001
+        XC      4571.428711          0.000000
+        XD       500.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+     ALFA)         0.000000         38.571430
+     BETA)         0.000000         18.571428
+    GAMMA)       478.571442          0.000000
+
+ NO. ITERATIONS=       3
+

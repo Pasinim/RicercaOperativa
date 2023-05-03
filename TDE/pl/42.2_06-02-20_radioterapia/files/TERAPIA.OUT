@@ -1,0 +1,86 @@
+
+ LP OPTIMUM FOUND AT STEP      5
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      245.5000
+
+  VARIABLE        VALUE          REDUCED COST
+        X1       120.000000          0.000000
+        X2         0.000000          0.200000
+        X3        90.000000          0.000000
+        X4       150.000000          0.000000
+        X5       140.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  ORGANO1)         0.000000          2.500000
+  ORGANO2)        50.500000          0.000000
+  ORGANO3)        60.000000          0.000000
+  ORGANO4)         0.000000          2.500000
+  ORGANO5)        26.000000          0.000000
+  ORGANO6)         0.500000          0.000000
+  ORGANO7)        57.500000          0.000000
+   TOTALE)       100.000000          0.000000
+  LIMITE1)         0.000000          0.150000
+  LIMITE2)       130.000000          0.000000
+  LIMITE3)        10.000000          0.000000
+  LIMITE4)         0.000000          0.200000
+  LIMITE5)        10.000000          0.000000
+
+ NO. ITERATIONS=       5
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1        0.400000         INFINITY         0.150000
+       X2        0.300000         0.200000         INFINITY
+       X3        0.250000         0.200000         0.100000
+       X4        0.700000         INFINITY         0.200000
+       X5        0.500000         0.300000         0.500000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+  ORGANO1       55.000000         1.000000        28.000000
+  ORGANO2       90.000000         INFINITY        50.500000
+  ORGANO3       60.000000         INFINITY        60.000000
+  ORGANO4       24.000000         0.333333         9.000000
+  ORGANO5       70.000000         INFINITY        26.000000
+  ORGANO6       55.000000         INFINITY         0.500000
+  ORGANO7       95.000000         INFINITY        57.500000
+   TOTALE      600.000000         INFINITY       100.000000
+  LIMITE1      120.000000        10.000000        20.000000
+  LIMITE2      130.000000         INFINITY       130.000000
+  LIMITE3      100.000000         INFINITY        10.000000
+  LIMITE4      150.000000        90.000000         5.000000
+  LIMITE5      150.000000         INFINITY        10.000000
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: ORGANO1
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            55.0000       2.50000       245.500
+ SLK    7  SLK    5     7   56.0000       2.50000       248.000
+ SLK   14  SLK    2    10   57.0000       1.66667       249.667
+                            100.000      0.000000E+00   249.667
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: ORGANO4
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            24.0000       2.50000       245.500
+ SLK    7  SLK    5     7   24.3333       2.50000       246.333
+                            100.000      0.000000E+00   246.333
+
+
+Eliminando il vincolo sull'organo 1 si può arrivare a 249.667.
+Eliminando il vincolo sull'organo 4 si può arrivare a 246.333.
+E' meglio trascurare il vincolo sull'organo 1.

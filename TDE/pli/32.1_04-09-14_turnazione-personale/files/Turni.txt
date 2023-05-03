@@ -1,0 +1,15 @@
+La pianificazione settimanale copre 5 giorni.
+I ogni giorno ci sono tre turni, da assegnare a tre addetti.
+
+La durata dei turni è la seguente (ore):
+
+          Turno
+Giorno      1    2    3
+
+ lun        5    2    8
+ mar        4    7    3
+ mer        6    7    5
+ gio        7    8    6
+ ven        5    4    7
+
+L'addetto numero 1 non è in grado di eseguire i turni della prima colonna, in nessuno dei cinque giorni.

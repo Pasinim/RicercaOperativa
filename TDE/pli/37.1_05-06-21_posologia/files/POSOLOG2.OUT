@@ -1,0 +1,186 @@
+
+ LP OPTIMUM FOUND AT STEP     38
+ OBJECTIVE VALUE =  0.206544146
+
+ FIX ALL VARS.(   13)  WITH RC >  0.283322
+ SET      Y19 TO <=     0 AT    1, BND= -0.2168     TWIN= -1.122        136
+ SET      Y20 TO <=     0 AT    2, BND= -0.2360     TWIN= -1.122        155
+ SET      Y18 TO <=     0 AT    3, BND= -0.3476     TWIN= -1.122        172
+ SET      Y15 TO <=     0 AT    4, BND= -0.4773     TWIN= -1.112        193
+ SET      Y13 TO <=     0 AT    5, BND= -0.6388     TWIN= -1.066        213
+ SET      Y12 TO <=     0 AT    6, BND= -0.9612     TWIN= -1.080        224
+ SET      Y11 TO >=     1 AT    7, BND=  -1.106     TWIN=-0.1000E+31    225
+ SET      Y21 TO >=     1 AT    8, BND=  -2.030     TWIN=-0.1000E+31    234
+ SET      Y07 TO >=     1 AT    9, BND=  -3.000     TWIN= -2.040        253
+
+ NEW INTEGER SOLUTION OF    3.00000000     AT BRANCH      9 PIVOT     253
+ BOUND ON OPTIMUM: 0.4898661
+ DELETE      Y07 AT LEVEL     9
+ DELETE      Y21 AT LEVEL     8
+ DELETE      Y11 AT LEVEL     7
+ FLIP      Y12 TO >=         1 AT    6 WITH BND=   -1.0798824
+ SET      Y21 TO >=     1 AT    7, BND=  -2.030     TWIN=-0.1000E+31    275
+ DELETE      Y21 AT LEVEL     7
+ DELETE      Y12 AT LEVEL     6
+ FLIP      Y13 TO >=         1 AT    5 WITH BND=   -1.0664396
+ SET      Y06 TO <=     0 AT    6, BND=  -1.075     TWIN= -2.026        288
+ SET      Y07 TO <=     0 AT    7, BND=  -1.287     TWIN= -2.026        309
+ SET      Y21 TO >=     1 AT    8, BND=  -2.040     TWIN=-0.1000E+31    313
+ DELETE      Y21 AT LEVEL     8
+ DELETE      Y07 AT LEVEL     7
+ DELETE      Y06 AT LEVEL     6
+ DELETE      Y13 AT LEVEL     5
+ FLIP      Y15 TO >=         1 AT    4 WITH BND=   -1.1116539
+ SET      Y12 TO <=     0 AT    5, BND=  -1.138     TWIN= -2.041        322
+ SET      Y13 TO <=     0 AT    6, BND=  -1.151     TWIN= -2.041        341
+ SET      Y11 TO <=     0 AT    7, BND=  -1.307     TWIN= -2.041        347
+ SET      Y08 TO <=     0 AT    8, BND=  -1.429     TWIN= -2.013        354
+ SET      Y07 TO >=     1 AT    9, BND=  -2.000     TWIN= -1.600        356
+
+ NEW INTEGER SOLUTION OF    2.00000000     AT BRANCH     18 PIVOT     356
+ BOUND ON OPTIMUM: 0.4898661
+ DELETE      Y07 AT LEVEL     9
+ DELETE      Y08 AT LEVEL     8
+ DELETE      Y11 AT LEVEL     7
+ DELETE      Y13 AT LEVEL     6
+ DELETE      Y12 AT LEVEL     5
+ DELETE      Y15 AT LEVEL     4
+ DELETE      Y18 AT LEVEL     3
+ DELETE      Y20 AT LEVEL     2
+ DELETE      Y19 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(    2)  WITH RC >   1.00000
+ SET      Y05 TO <=     0 AT    1, BND=  -1.000     TWIN= -1.108        524
+ SET      Y02 TO <=     0 AT    2, BND=  -1.000     TWIN= -1.166        560
+ SET      Y22 TO <=     0 AT    3, BND=  -1.000     TWIN= -1.166        597
+ SET      Y14 TO <=     0 AT    4, BND=  -1.000     TWIN= -1.097        628
+ SET      Y03 TO <=     0 AT    5, BND=  -1.000     TWIN= -1.149        666
+ SET      Y16 TO <=     0 AT    6, BND=  -1.000     TWIN= -1.122        709
+ SET      Y11 TO <=     0 AT    7, BND=  -1.000     TWIN=-0.1000E+31    709
+ SET      Y24 TO <=     0 AT    8, BND=  -1.000     TWIN= -1.175        759
+ SET      Y23 TO <=     0 AT    9, BND=  -1.000     TWIN= -1.173        798
+ SET      Y10 TO <=     0 AT   10, BND=  -1.000     TWIN= -1.112        831
+ SET      Y17 TO >=     1 AT   11, BND=  -1.123     TWIN= -1.087        878
+ DELETE      Y17 AT LEVEL    11
+ DELETE      Y10 AT LEVEL    10
+ DELETE      Y23 AT LEVEL     9
+ DELETE      Y24 AT LEVEL     8
+ DELETE      Y11 AT LEVEL     7
+ DELETE      Y16 AT LEVEL     6
+ DELETE      Y03 AT LEVEL     5
+ DELETE      Y14 AT LEVEL     4
+ DELETE      Y22 AT LEVEL     3
+ DELETE      Y02 AT LEVEL     2
+ DELETE      Y05 AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=    28 PIVOTS=     878
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      2.000000
+
+  VARIABLE        VALUE          REDUCED COST
+       Y01         0.000000          1.000000
+       Y02         0.000000          1.000000
+       Y03         0.000000          1.000000
+       Y04         0.000000          1.000000
+       Y05         0.000000          1.000000
+       Y06         0.000000          1.000000
+       Y07         1.000000          1.000000
+       Y08         0.000000          1.000000
+       Y09         0.000000          1.000000
+       Y10         0.000000          1.000000
+       Y11         0.000000          1.000000
+       Y12         0.000000          1.000000
+       Y13         0.000000          1.000000
+       Y14         0.000000          1.000000
+       Y15         1.000000          1.000000
+       Y16         0.000000          1.000000
+       Y17         0.000000          1.000000
+       Y18         0.000000          1.000000
+       Y19         0.000000          1.000000
+       Y20         0.000000          1.000000
+       Y21         0.000000          1.000000
+       Y22         0.000000          1.000000
+       Y23         0.000000          1.000000
+       Y24         0.000000          1.000000
+       X01         0.000000          0.000000
+       X24         0.000000          0.000000
+       X23         0.000000          0.000000
+       X22         0.000000          0.000000
+       X21         0.000000          0.000000
+       X20         0.000000          0.000000
+       X19         0.000000          0.000000
+       X18         0.000000          0.000000
+       X17         0.000000          0.000000
+       X16         0.000000          0.000000
+       X15       100.000000          0.000000
+       X14         0.000000          0.000000
+       X02         0.000000          0.000000
+       X03         0.000000          0.000000
+       X04         0.000000          0.000000
+       X05         0.000000          0.000000
+       X06         0.000000          0.000000
+       X07        42.857143          0.000000
+       X08         0.000000          0.000000
+       X09         0.000000          0.000000
+       X10         0.000000          0.000000
+       X11         0.000000          0.000000
+       X12         0.000000          0.000000
+       X13         0.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+ FASCIA01)        15.000000          0.000000
+ FASCIA02)         9.000000          0.000000
+ FASCIA03)         0.000000          0.000000
+ FASCIA04)         0.000000          0.000000
+ FASCIA05)         0.000000          0.000000
+ FASCIA06)         0.000000          0.000000
+ FASCIA07)        60.285717          0.000000
+ FASCIA08)       113.571434          0.000000
+ FASCIA09)       159.428574          0.000000
+ FASCIA10)       102.142860          0.000000
+ FASCIA11)        77.428574          0.000000
+ FASCIA12)        57.000000          0.000000
+ FASCIA13)        17.857143          0.000000
+ FASCIA14)         0.000000          0.000000
+ FASCIA15)       146.428574          0.000000
+ FASCIA16)       297.857147          0.000000
+ FASCIA17)       403.571442          0.000000
+ FASCIA18)       250.285721          0.000000
+ FASCIA19)       187.000000          0.000000
+ FASCIA20)       115.000000          0.000000
+ FASCIA21)        70.000000          0.000000
+ FASCIA22)        45.000000          0.000000
+ FASCIA23)        30.000000          0.000000
+ FASCIA24)        20.000000          0.000000
+   VINC01)         0.000000          0.000000
+   VINC02)         0.000000          0.000000
+   VINC03)         0.000000          0.000000
+   VINC04)         0.000000          0.000000
+   VINC05)         0.000000          0.000000
+   VINC06)         0.000000          0.000000
+   VINC07)        57.142857          0.000000
+   VINC08)         0.000000          0.000000
+   VINC09)         0.000000          0.000000
+   VINC10)         0.000000          0.000000
+   VINC11)         0.000000          0.000000
+   VINC12)         0.000000          0.000000
+   VINC13)         0.000000          0.000000
+   VINC14)         0.000000          0.000000
+   VINC15)         0.000000          0.000000
+   VINC16)         0.000000          0.000000
+   VINC17)         0.000000          0.000000
+   VINC18)         0.000000          0.000000
+   VINC19)         0.000000          0.000000
+   VINC20)         0.000000          0.000000
+   VINC21)         0.000000          0.000000
+   VINC22)         0.000000          0.000000
+   VINC23)         0.000000          0.000000
+   VINC24)         0.000000          0.000000
+
+ NO. ITERATIONS=     903
+ BRANCHES=   28 DETERM.=  1.000E    0

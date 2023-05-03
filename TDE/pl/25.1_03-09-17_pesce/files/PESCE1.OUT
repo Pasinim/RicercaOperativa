@@ -1,0 +1,37 @@
+
+ LP OPTIMUM FOUND AT STEP      3
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      80.00000
+
+  VARIABLE        VALUE          REDUCED COST
+        X1         0.000000          6.000000
+        X2         0.000000          4.500000
+        X3         4.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+   VOLUME)         0.000000          0.001600
+    TEMPO)         5.000000          0.000000
+   LIMITI)       112.000000          0.000000
+
+ NO. ITERATIONS=       3
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1       10.000000         6.000000         INFINITY
+       X2        7.500000         4.500000         INFINITY
+       X3       20.000000         INFINITY         7.500000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+   VOLUME    50000.000000      6250.000000     50000.000000
+    TEMPO       45.000000         INFINITY         5.000000
+   LIMITI      120.000000         INFINITY       112.000000
+

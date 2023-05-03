@@ -1,0 +1,33 @@
+!TeRO_27 del 19/01/2004
+!Esercizio: Percorso
+
+!Funzione obiettivo: minimizzare il fattore di rischio complessivo dato dalla somma dei pesi sugli archi percorsi
+min 2 arco01 + 1 arco03 + 2 arco12 + 2 arco23 + 3 arco24 + 2 arco35 + 2 arco36 + 3 arco45 + 2 arco49 + 4 arco4a 
+  + 3 arco57 + 2 arco67 + 2 arco78 + 2 arco89 + 1 arco8b + 5 arco9d + 3 arcoad + 1 arcobc + 2 arcobe + 2 arcocd 
+  + 3 arcode + 3 arcodf + 4 arcoef + 2 arco21 + 2 arco32 + 3 arco42 + 2 arco53 + 2 arco63 + 3 arco54 + 2 arco94 
+  + 4 arcoa4 + 3 arco75 + 2 arco76 + 2 arco87 + 2 arco98 + 1 arcob8 + 5 arcod9 + 3 arcoda + 1 arcocb + 2 arcoeb 
+  + 2 arcodc + 3 arcoed 
+
+st
+
+!Vincoli di flusso: per ogni nodo il grado entrante è pari al grado uscente
+nodo1) arco01 + arco21 - arco12 							= 0
+nodo2) arco12 - arco21 + arco32 - arco23 + arco42 - arco24 				= 0
+nodo3) arco03 + arco23 - arco32 + arco53 - arco35 + arco63 - arco36 			= 0
+nodo4) arco24 - arco42 + arco54 - arco45 + arco94 - arco49 + arcoa4 - arco4a 		= 0
+nodo5) arco35 - arco53 + arco45 - arco54 + arco75 - arco57 				= 0
+nodo6) arco36 - arco63 + arco76 - arco67 						= 0
+nodo7) arco57 - arco75 + arco67 - arco76 + arco87 - arco78 				= 0
+nodo8) arco78 - arco87 + arco98 - arco89 + arcob8 - arco8b 				= 0
+nodo9) arco49 - arco94 + arco89 - arco98 + arcod9 - arco9d 				= 0
+nodoA) arco4a - arcoa4 + arcoda - arcoad 						= 0
+nodoB) arco8b - arcob8 + arcocb - arcobc + arcoeb - arcobe 				= 0
+nodoC) arcobc - arcocb + arcodc - arcocd 						= 0
+nodoD) arcoad - arcoda + arco9d - arcod9 + arcocd - arcodc + arcoed - arcode - arcodf 	= 0
+nodoE) arcobe - arcoeb + arcode - arcoed - arcoef 					= 0
+
+!Vincoli di flusso (inizializzazione) sui nodi 0 (uscente) ed f (entrante)
+nodo0) arco01 + arco03 = 1
+nodoF) arcodf + arcoef = 1
+
+end

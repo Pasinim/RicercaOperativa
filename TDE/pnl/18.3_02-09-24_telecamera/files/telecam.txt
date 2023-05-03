@@ -1,0 +1,8 @@
+Il soffitto della stanza è quadrato, di lato 16. 
+Ogni quadro, visto in pianta, corrisponde ad un segmento i cui estremi hanno le seguenti coordinate:
+
+Quadro 1   (0,0) (0,4)
+Quadro 2   (0,10) (6,16)
+Quadro 3   (10,0) (15,0)
+
+Il sensore può essere posto a distanza non inferiore a 1 rispetto alle pareti.

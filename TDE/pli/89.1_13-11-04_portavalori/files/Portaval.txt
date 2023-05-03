@@ -1,0 +1,20 @@
+Tab.1: Dati dei furgoni
+
+Furgone    Capacità   Costo orario
+             [Kg]        [€/h]
+   1         1000        19.00
+   2         1500        22.00
+   3         4000        27.00
+
+Tab.2: Dati sul personale
+
+Operatore  Velocità   Costo orario
+            [Kg/h]       [€/h]
+   1          600        18.00
+   2          700        19.50
+   3          500        17.00
+
+Tempo fisso per gli spostamenti: 2 ore e 30 minuti
+
+Quantità di valori da trasportare: 3500 Kg.
+

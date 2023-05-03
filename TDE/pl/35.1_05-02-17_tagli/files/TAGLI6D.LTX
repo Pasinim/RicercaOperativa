@@ -1,0 +1,62 @@
+!Esercizio Tagli, TeRO 35, 17 Febbraio 2005
+
+!Variabili: x_ij = metri di materiale i=1..4 assegnati alla macchina j=1..5
+
+! Minimizzazione dei costi (Euro)
+
+!min  0.5 x11 + 0.8  x21 + 0.15 x31 + 1.0  x41
+!   + 0.4 x12 + 0.75 x22 + 0.2  x32 + 0.5  x42
+!   + 0.3 x13 + 0.5  x23 + 0.2  x33 + 1.0  x43
+!   + 0.2 x14 + 0.4  x24 + 0.75 x34 + 1.5  x44
+!   + 0.2 x15 + 0.6  x25 + 1.0  x35 + 0.75 x45
+
+! Minimizzazione dei tempi (secondi)
+
+min  4 x11 + 6 x21 +  8 x31 + 7 x41
+  +  6 x12 + 6 x22 + 10 x32 + 5 x42
+  +  8 x13 + 5 x23 + 11 x33 + 5 x43
+  + 10 x14 + 5 x24 +  9 x34 + 6 x44
+  + 12 x15 + 7 x25 + 10 x35 + 7 x45
+
+st
+
+! Vincolo sul totale di metallo dal lavorare (metri)
+
+Met1) x11 + x12 + x13 + x14 + x15 =  800
+Met2) x21 + x22 + x23 + x24 + x25 = 1200
+Met3) x31 + x32 + x33 + x34 + x35 = 7000
+Me41) x41 + x42 + x43 + x44 + x45 = 5200
+
+! Vincolo sul tempo totale (secondi)
+
+Mac1)  4 x11 + 6 x21 +  8 x31 + 7 x41 <= 28800
+Mac2)  6 x12 + 6 x22 + 10 x32 + 5 x42 <= 28800
+Mac3)  8 x13 + 5 x23 + 11 x33 + 5 x43 <= 28800
+Mac4) 10 x14 + 5 x24 +  9 x34 + 6 x44 <= 28800
+Mac5) 12 x15 + 7 x25 + 10 x35 + 7 x45 <= 28800
+
+! Costi (Euro)
+
+Costi) 
+     0.5 x11 + 0.8  x21 + 0.15 x31 + 1.0  x41
+   + 0.4 x12 + 0.75 x22 + 0.2  x32 + 0.5  x42
+   + 0.3 x13 + 0.5  x23 + 0.2  x33 + 1.0  x43
+   + 0.2 x14 + 0.4  x24 + 0.75 x34 + 1.5  x44
+   + 0.2 x15 + 0.6  x25 + 1.0  x35 + 0.75 x45 - costi = 0
+
+! Tempi (secondi)
+
+Tempi) 
+     4 x11 + 6 x21 +  8 x31 + 7 x41
+  +  6 x12 + 6 x22 + 10 x32 + 5 x42
+  +  8 x13 + 5 x23 + 11 x33 + 5 x43
+  + 10 x14 + 5 x24 +  9 x34 + 6 x44
+  + 12 x15 + 7 x25 + 10 x35 + 7 x45 - tempi = 0
+
+standard) 115200 costi - 6500 tempi = 0
+
+end
+
+
+
+

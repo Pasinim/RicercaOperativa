@@ -1,0 +1,61 @@
+
+ LP OPTIMUM FOUND AT STEP      8
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      93237.50
+
+  VARIABLE        VALUE          REDUCED COST
+        XA         5.000000       1377.000000
+        XB       100.000000      -2756.000000
+        XC       100.000000      -1587.599976
+        XD         5.000000      91600.000000
+        XE         5.000000        876.500000
+        XF         5.000000       1131.000000
+        XG       100.000000      -1338.000000
+         A      4902.500000          0.000000
+         S     67250.000000          0.000000
+         C    130000.000000          0.000000
+         L    559250.000000          0.000000
+         V     24162.500000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+    ACQUA)         0.000000          1.000000
+     SALI)         0.000000          4.000000
+   CALORE)         0.000000          1.000000
+     LUCE)         0.000000          1.500000
+ VITAMINE)         0.000000          3.600000
+  SUP_TOT)       180.000000          0.000000
+
+ NO. ITERATIONS=       8
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       XA     6000.000000      1377.000000         INFINITY
+       XB     4000.000000         INFINITY      2756.000000
+       XC     2000.000000         INFINITY      1587.599976
+       XD    18000.000000     91600.000000         INFINITY
+       XE      100.000000       876.500000         INFINITY
+       XF      500.000000      1131.000000         INFINITY
+       XG     7000.000000         INFINITY      1338.000000
+        A       -1.000000         1.000000        86.125000
+        S       -4.000000         2.295000        22.966667
+        C       -1.000000         1.000000         2.676000
+        L       -1.500000         0.459000         0.446000
+        V       -3.600000         3.600000         7.433333
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+    ACQUA        0.000000      4902.500000         INFINITY
+     SALI        0.000000     67250.000000         INFINITY
+   CALORE        0.000000    130000.000000         INFINITY
+     LUCE        0.000000    559250.000000         INFINITY
+ VITAMINE        0.000000     24162.500000         INFINITY
+  SUP_TOT      500.000000         INFINITY       180.000000
+

@@ -1,0 +1,93 @@
+Nell'azienda considerata i tipi di mangime sono 5, gli ingredienti da mescolare sono 4,
+le linee di produzione sono 3.
+
+==================================================
+
+             DATI DAL REPARTO PRODUZIONE
+
+Composizione dei mangimi (percentuale di ogni ingrediente per ogni tipo di mangime)
+
+      Ingrediente   A    B    C    D
+Mangime
+   1               30   20   20   30
+   2               40    5   10   45
+   3               40   35   10   15
+   4               50   20   20   10
+   5               50   30    5   15
+
+
+Tempi di produzione dei mangimi (minuti / quintale) per ogni linea di miscelazione
+
+      Linea      1      2      3
+Mangime
+   1             5      4      2
+   2             8      5      2
+   3            10     10      2
+   4            10      5      5
+   5             3      5      5 
+
+==================================================
+
+             DATI DAL REPARTO RIFORNIMENTI
+
+Ingredienti disponibili (quintali / giorno)
+
+Ingrediente  Quantità
+    A           150
+    B           135
+    C            90
+    D            75
+
+==================================================
+
+             DATI DAL REPARTO VENDITE
+
+Prezzi di vendita per ogni tipo di mangime (Klire / quintale)
+
+Mangime  Prezzo
+   1       40
+   2       50
+   3       35
+   4       55 
+   5       30
+
+=================================================
+
+             DATI DAL REPARTO DISTRIBUZIONE
+
+La lavorazione inizia alle ore 6:00 del mattino ogni giorno.
+Tempi minimi e massimi di inizio e fine lavorazione per ogni tipo di mangime.
+
+        Ora minima   Ora massima
+Mangime
+   1       6:00         8:00
+   2       6:30         9:00
+   3       8:00        10:30
+   4       9:45        11:00
+   5      10:15        12:00
+
+=================================================
+
+             SITUAZIONE ATTUALE
+
+Attualmente la produzione avviene con lo scheduling seguente:
+
+  Mangime (Quintali) 1      2      3      4      5
+Linea
+  1                 27      0     12      0     50
+  2                 33.75  13      2.5    6     30
+  3                 60      0     90      0     21
+
+=================================================
+
+                MUCCA PAZZA
+
+In seguito al fenomeno della mucca pazza i nuovi prezzi dei mangimi sono i seguenti:
+
+Mangime    Nome     Nuovo prezzo 
+                  (Klire/quintale)
+   1    Prionello        10
+   2       BSE           10
+   3    Buonfieno        55
+   4     Erbetta         65
+   5    Muccasana        40

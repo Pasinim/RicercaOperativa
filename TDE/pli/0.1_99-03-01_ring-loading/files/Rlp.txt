@@ -1,0 +1,20 @@
+Ring Loading Problem
+
+Anello di 10 calcolatori numerati da 1 a 10 in senso orario.
+
+Matrice (riga = origine; colonna = destinazione) del 
+traffico massimo previsto tra ogni coppia di calcolatori:
+
+   9   7   7   8   7   9   9   6   6  10
+   7   7   7   7   7   8   5   7  10   9
+   7   5   8   8   8  10   6  10   9  10
+   7  10   7  10   9   8   5  10   7   9
+  10   5   6  10   5   8   7   9   8   7
+   6   7   8   7   8  10   9   5   9   7
+   9   5   8   9   7  10   8   9  10   7
+   6   5   9   5   6   8  10   6   9   8
+   7   5   5   8   8   8  10   7   9   7
+   8   5   5   7   8   9   7   6   5   8
+
+
+

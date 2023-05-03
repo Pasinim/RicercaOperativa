@@ -1,0 +1,51 @@
+! Esercizio: "Sfilata" - seconda parte
+!
+! Variabili: x(i,j) = flusso lungo l'arco (i,j), continue e non-negative
+!            flusso = flusso complessivo da s a t
+!            y(i,j) = viene usato l'arco (i,j), binarie
+
+min 30 ys1 + 60 ys2 + 500 ys3 + 10 y13 + 180 y14 + 250 y23 + 40 y25 + 200 y36
+  + 10 y45 + 50 y47 + 50 y54 + 10 y58 + 340 y67 + 410 y68 + 200 y6t + 270 y7t + 290 y8t
+
+s.t.
+
+! Vincolo sul valore del flusso
+
+flusso = 30
+
+! Vincoli di flusso in ogni nodo
+
+nodo_s) xs1 + xs2 + xs3 - flusso = 0
+nodo_1) xs1 - x13 - x14 = 0
+nodo_2) xs2 - x23 - x25 = 0
+nodo_3) xs3 + x13 + x23 - x36 = 0
+nodo_4) x14 + x54 - x45 - x47 = 0
+nodo_5) x25 + x45 - x54 - x58 = 0
+nodo_6) x36 - x67 - x68 - x6t = 0
+nodo_7) x47 + x67 - x7t = 0
+nodo_8) x58 + x68 - x8t = 0
+nodo_t) x6t + x7t + x8t - flusso = 0
+
+! Vincoli di capacità su ogni arco
+
+arco_s1) xs1 - 15 ys1 <= 0
+arco_s2) xs2 - 15 ys2 <= 0
+arco_s3) xs3 - 20 ys3 <= 0
+arco_13) x13 - 15 y13 <= 0
+arco_14) x14 - 28 y14 <= 0
+arco_23) x23 - 20 y23 <= 0
+arco_25) x25 - 18 y25 <= 0
+arco_36) x36 - 20 y36 <= 0
+arco_45) x45 -  9 y45 <= 0
+arco_47) x47 -  8 y47 <= 0
+arco_54) x54 -  9 y54 <= 0
+arco_58) x58 -  8 y58 <= 0
+arco_67) x67 -  7 y67 <= 0
+arco_68) x68 -  7 y68 <= 0
+arco_6t) x6t - 10 y6t <= 0
+arco_7t) x7t - 10 y7t <= 0
+arco_8t) x8t - 10 y8t <= 0
+
+end
+
+int 17

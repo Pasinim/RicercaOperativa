@@ -1,0 +1,110 @@
+Problem:    05_idrocarburi
+Rows:       32
+Columns:    15
+Non-zeros:  77
+Status:     OPTIMAL
+Objective:  profitto = 7166.666667 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 total_production[1]
+                    NS             0            -0             =       1.33333 
+     2 total_production[2]
+                    NS             0            -0             =      0.333333 
+     3 total_production[3]
+                    NS             0            -0             =     -0.666667 
+     4 risorseMax[1]
+                    NU          3000                        3000       1.16667 
+     5 risorseMax[2]
+                    NU          2000                        2000           1.5 
+     6 risorseMax[3]
+                    NU          4000                        4000      0.166667 
+     7 risorseMax[4]
+                    B              0                        1000 
+     8 upperBound[1,1]
+                    NU             0                          -0         < eps
+     9 upperBound[1,2]
+                    B          -2200                          -0 
+    10 upperBound[1,3]
+                    B       -733.333                          -0 
+    11 upperBound[1,4]
+                    B       -3666.67                          -0 
+    12 upperBound[2,1]
+                    B       -766.667                          -0 
+    13 upperBound[2,2]
+                    B          -4800                          -0 
+    14 upperBound[2,3]
+                    B       -2433.33                          -0 
+    15 upperBound[2,4]
+                    B       -5333.33                          -0 
+    16 upperBound[3,1]
+                    B              0                          -0 
+    17 upperBound[3,2]
+                    B              0                          -0 
+    18 upperBound[3,3]
+                    B              0                          -0 
+    19 upperBound[3,4]
+                    B              0                          -0 
+    20 lowerBound[1,1]
+                    B           1100            -0               
+    21 lowerBound[1,2]
+                    NL             0            -0                    -3.33333 
+    22 lowerBound[1,3]
+                    B           1100            -0               
+    23 lowerBound[1,4]
+                    B              0            -0               
+    24 lowerBound[2,1]
+                    B           1900            -0               
+    25 lowerBound[2,2]
+                    NL             0            -0                    -3.33333 
+    26 lowerBound[2,3]
+                    B           2900            -0               
+    27 lowerBound[2,4]
+                    B              0            -0               
+    28 lowerBound[3,1]
+                    B              0            -0               
+    29 lowerBound[3,2]
+                    B              0            -0               
+    30 lowerBound[3,3]
+                    B              0            -0               
+    31 lowerBound[3,4]
+                    B              0            -0               
+    32 profitto     B        7166.67                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       B           1100             0               
+     2 x[2,1]       B        1466.67             0               
+     3 x[3,1]       B           1100             0               
+     4 x[4,1]       NL             0             0                   -0.833333 
+     5 x[1,2]       B           1900             0               
+     6 x[2,2]       B        533.333             0               
+     7 x[3,2]       B           2900             0               
+     8 x[4,2]       NL             0             0                   -0.833333 
+     9 x[1,3]       B              0             0               
+    10 x[2,3]       NL             0             0                    -3.33333 
+    11 x[3,3]       NL             0             0                       < eps
+    12 x[4,3]       NL             0             0                   -0.833333 
+    13 y[1]         B        3666.67             0               
+    14 y[2]         B        5333.33             0               
+    15 y[3]         NL             0             0                   -0.666667 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.82e-012 on row 32
+        max.rel.err = 1.06e-016 on row 25
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-016 on column 6
+        max.rel.err = 6.06e-017 on column 13
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

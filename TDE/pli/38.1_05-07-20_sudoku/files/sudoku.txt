@@ -1,0 +1,7 @@
+
+  3  x    x  2
+  x  1    x  x
+
+  x  x    x  1
+  x  3    x  x
+

@@ -1,0 +1,43 @@
+1) Costi di produzione (Euro / Kg)
+
+Turno	Lavorato A	Lavorato B
+
+1	12		15
+2	8		11.5
+3	10		12
+
+2) Costi di magazzino (Euro / Kg)
+
+Lavorato A	1.8
+Lavorato B	0.4
+
+3) Composizione dei lavorati (percentuale)
+
+Ingrediente	Lavorato A	Lavorato B
+
+X		20		50
+Y		60		10
+Z		20		40
+
+4) Volume degli ingredienti (decimetri cubi / Kg)
+
+Ingrediente
+
+X	20
+Y	35
+Z	15
+
+5) Capacita' del magazzino: 7100 decimetri cubi
+
+6) Fornitura minima per il centro commerciale: 300 Kg
+
+7) Contratto con i trasportatori: limiti di quantita' trasportabili dopo ogni turno (Kg)
+
+Turno	Minimo	Massimo
+
+1	65	135
+2	70	135
+3	50	135
+
+8) Affitto del magazzino: 0.20 Euro / decimetro cubo
+9) Aumento della produzione minima: 5 Kg

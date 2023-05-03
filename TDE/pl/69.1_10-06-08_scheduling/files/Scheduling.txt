@@ -1,0 +1,41 @@
+Le macchine sono 6, per 3 lavorazioni diverse.
+I tipi di prodotti sono 7.
+
+========================
+
+Tabella 1: Lavorazioni
+
+Macchina Lavorazione
+   1         1
+   2         1
+   3         2
+   4         3
+   5         3
+   6         3
+
+========================
+
+Tabella 2: Valore della produzione (Euro/unità di prodotto)
+
+Tipo pezzi     Valore
+    1            23
+    2            31
+    3            30
+    4            28
+    5            25
+    6            26
+    7            32
+
+========================
+
+Tabella 3: Tempi di lavorazione (secondi/unità di prodotto)
+
+Prodotto    1    2    3    4    5    6    7
+Lav. 1    120  125  180  230  230  120  120
+Lav. 2     80   95  110  150  150   90   90
+Lav. 3     50   45  190  100  100  130  130
+
+========================
+
+
+

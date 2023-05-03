@@ -1,0 +1,141 @@
+
+ LP OPTIMUM FOUND AT STEP     17
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      14.00000
+
+  VARIABLE        VALUE          REDUCED COST
+    ARCO01         0.000000          1.000000
+    ARCO03         1.000000          0.000000
+    ARCO12         0.000000          0.000000
+    ARCO23         0.000000          4.000000
+    ARCO24         0.000000          0.000000
+    ARCO35         0.000000          0.000000
+    ARCO36         1.000000          0.000000
+    ARCO45         0.000000          6.000000
+    ARCO49         0.000000          2.000000
+    ARCO4A         0.000000          0.000000
+    ARCO57         0.000000          1.000000
+    ARCO67         1.000000          0.000000
+    ARCO78         1.000000          0.000000
+    ARCO89         0.000000          3.000000
+    ARCO8B         1.000000          0.000000
+    ARCO9D         0.000000          0.000000
+    ARCOAD         0.000000          2.000000
+    ARCOBC         0.000000          0.000000
+    ARCOBE         1.000000          0.000000
+    ARCOCD         0.000000          0.000000
+    ARCODE         0.000000          4.000000
+    ARCODF         0.000000          0.000000
+    ARCOEF         1.000000          0.000000
+    ARCO21         0.000000          4.000000
+    ARCO32         0.000000          0.000000
+    ARCO42         0.000000          6.000000
+    ARCO53         0.000000          4.000000
+    ARCO63         0.000000          4.000000
+    ARCO54         0.000000          0.000000
+    ARCO94         0.000000          2.000000
+    ARCOA4         0.000000          8.000000
+    ARCO75         0.000000          5.000000
+    ARCO76         0.000000          4.000000
+    ARCO87         0.000000          4.000000
+    ARCO98         0.000000          1.000000
+    ARCOB8         0.000000          2.000000
+    ARCOD9         0.000000         10.000000
+    ARCODA         0.000000          4.000000
+    ARCOCB         0.000000          2.000000
+    ARCOEB         0.000000          4.000000
+    ARCODC         0.000000          4.000000
+    ARCOED         0.000000          2.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+    NODO1)         0.000000          2.000000
+    NODO2)         0.000000          0.000000
+    NODO3)         0.000000          2.000000
+    NODO4)         0.000000         -3.000000
+    NODO5)         0.000000          0.000000
+    NODO6)         0.000000          0.000000
+    NODO7)         0.000000         -2.000000
+    NODO8)         0.000000         -4.000000
+    NODO9)         0.000000         -3.000000
+    NODOA)         0.000000         -7.000000
+    NODOB)         0.000000         -5.000000
+    NODOC)         0.000000         -6.000000
+    NODOD)         0.000000         -8.000000
+    NODOE)         0.000000         -7.000000
+    NODO0)         0.000000         -3.000000
+    NODOF)         0.000000        -11.000000
+
+ NO. ITERATIONS=      17
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+   ARCO01        2.000000         INFINITY         1.000000
+   ARCO03        1.000000         1.000000         INFINITY
+   ARCO12        2.000000         INFINITY         1.000000
+   ARCO23        2.000000         INFINITY         4.000000
+   ARCO24        3.000000         INFINITY         0.000000
+   ARCO35        2.000000         0.000000         1.000000
+   ARCO36        2.000000         1.000000         2.000000
+   ARCO45        3.000000         INFINITY         6.000000
+   ARCO49        2.000000         INFINITY         2.000000
+   ARCO4A        4.000000         4.000000         2.000000
+   ARCO57        3.000000         INFINITY         1.000000
+   ARCO67        2.000000         1.000000         2.000000
+   ARCO78        2.000000         2.000000         2.000000
+   ARCO89        2.000000         INFINITY         3.000000
+   ARCO8B        1.000000         2.000000         1.000000
+   ARCO9D        5.000000         1.000000         2.000000
+   ARCOAD        3.000000         INFINITY         2.000000
+   ARCOBC        1.000000         2.000000         0.000000
+   ARCOBE        2.000000         0.000000         2.000000
+   ARCOCD        2.000000         2.000000         0.000000
+   ARCODE        3.000000         INFINITY         4.000000
+   ARCODF        3.000000         INFINITY         0.000000
+   ARCOEF        4.000000         0.000000         INFINITY
+   ARCO21        2.000000         INFINITY         4.000000
+   ARCO32        2.000000         1.000000         0.000000
+   ARCO42        3.000000         INFINITY         6.000000
+   ARCO53        2.000000         INFINITY         4.000000
+   ARCO63        2.000000         INFINITY         4.000000
+   ARCO54        3.000000         0.000000         2.000000
+   ARCO94        2.000000         INFINITY         2.000000
+   ARCOA4        4.000000         INFINITY         8.000000
+   ARCO75        3.000000         INFINITY         5.000000
+   ARCO76        2.000000         INFINITY         4.000000
+   ARCO87        2.000000         INFINITY         4.000000
+   ARCO98        2.000000         INFINITY         1.000000
+   ARCOB8        1.000000         INFINITY         2.000000
+   ARCOD9        5.000000         INFINITY        10.000000
+   ARCODA        3.000000         INFINITY         4.000000
+   ARCOCB        1.000000         INFINITY         2.000000
+   ARCOEB        2.000000         INFINITY         4.000000
+   ARCODC        2.000000         INFINITY         4.000000
+   ARCOED        3.000000         INFINITY         2.000000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+    NODO1        0.000000         0.000000         0.000000
+    NODO2        0.000000         0.000000         0.000000
+    NODO3        0.000000         0.000000         0.000000
+    NODO4        0.000000         0.000000         0.000000
+    NODO5        0.000000         0.000000         0.000000
+    NODO6        0.000000         0.000000         0.000000
+    NODO7        0.000000         0.000000         0.000000
+    NODO8        0.000000         0.000000         0.000000
+    NODO9        0.000000         0.000000         0.000000
+    NODOA        0.000000         0.000000         0.000000
+    NODOB        0.000000         0.000000         0.000000
+    NODOC        0.000000         0.000000         0.000000
+    NODOD        0.000000         0.000000         0.000000
+    NODOE        0.000000         0.000000         0.000000
+    NODO0        1.000000         0.000000         0.000000
+    NODOF        1.000000         0.000000         0.000000
+

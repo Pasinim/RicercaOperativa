@@ -1,0 +1,35 @@
+I prodotti sono indicati da A, B, C, D.
+
+I prezzi di vendita (dollari / barile) sono i seguenti:
+
+Prodotto Prezzo
+    A      28
+    B      25
+    C      23
+    D      21
+
+I limiti sulla produzione sono imposti dalle materie prime Alfa, Beta e Gamma 
+di cui i prodotti sono composti, nel modo seguente:
+
+Prodotto  % Alfa    % Beta    % Gamma
+    A        30        30        40
+    B        30        40        30
+    C        35        35        30
+    D        40        30        30
+
+Le quantità disponibili di materie prime sono le seguenti (milioni di barili/mese):
+
+Materia prima  Quantità
+    Alfa        1800
+    Beta        1750
+   Gamma        2000
+
+I costi dovuti all'inquinamento (dollari / barile), se venisse approvata la legge,
+sarebbero i seguenti:
+
+Prodotto Costo
+    A     12
+    B      7
+    C      3
+    D      0
+

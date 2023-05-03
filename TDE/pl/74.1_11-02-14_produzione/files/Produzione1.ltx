@@ -1,0 +1,39 @@
+! Esercizio Produzione, 14.2.2011
+
+! Variabili: x(i) [pezzi]: produzione normale nella settimana i=1..6
+!            y(i) [pezzi]: produzione extra nella settimana i=1..6
+!            z(i) [pezzi]: giacenza durante la settimana i=1..6
+!            Variabili continue (o intere), non-negative.
+
+! Obiettivo: minimizzare i costi complessivi [Euro]
+min 300 x1 + 300 x2 + 300 x3 + 300 x4 + 300 x5 + 300 x6 +
+    330 y1 + 330 y2 + 330 y3 + 330 y4 + 330 y5 + 330 y6 +
+     10 z1 +  10 z2 +  10 z3 +  10 z4 +  10 z5 +  10 z6 
+
+st
+
+! Limiti di capacità produttiva [pezzi]
+cp1) x1 <= 110
+cp2) x2 <= 110
+cp3) x3 <= 110
+cp4) x4 <= 110
+cp5) x5 <= 110
+cp6) x6 <= 110
+cpe1) y1 <= 55
+cpe2) y2 <= 55
+cpe3) y3 <= 55
+cpe4) y4 <= 55
+cpe5) y5 <= 55
+cpe6) y6 <= 55
+
+! Definizione giacenze [pezzi]
+stock1)                  z1  = 0
+stock2)   x1 + y1 + z1 - z2  = 100
+stock3)   x2 + y2 + z2 - z3  = 130
+stock4)   x3 + y3 + z3 - z4  = 150
+stock5)   x4 + y4 + z4 - z5  = 100
+stock6)   x5 + y5 + z5 - z6  = 170
+stockfin) x6 + y6 + z6      >= 160
+
+end
+

@@ -1,0 +1,266 @@
+Problem:    mediane3
+Rows:       83
+Columns:    77 (70 integer, 70 binary)
+Non-zeros:  287
+Status:     INTEGER OPTIMAL
+Objective:  dist_tot = 2529 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 dist_tot                 2529                             
+     2 assegnamento[1]
+                                   1             1             = 
+     3 assegnamento[2]
+                                   1             1             = 
+     4 assegnamento[3]
+                                   1             1             = 
+     5 assegnamento[4]
+                                   1             1             = 
+     6 assegnamento[5]
+                                   1             1             = 
+     7 assegnamento[6]
+                                   1             1             = 
+     8 assegnamento[7]
+                                   1             1             = 
+     9 assegnamento[8]
+                                   1             1             = 
+    10 assegnamento[9]
+                                   1             1             = 
+    11 assegnamento[10]
+                                   1             1             = 
+    12 relazione_xy[1,1]
+                                   0                          -0 
+    13 relazione_xy[1,2]
+                                   0                          -0 
+    14 relazione_xy[1,3]
+                                   0                          -0 
+    15 relazione_xy[1,4]
+                                   0                          -0 
+    16 relazione_xy[1,5]
+                                   0                          -0 
+    17 relazione_xy[1,6]
+                                   0                          -0 
+    18 relazione_xy[1,7]
+                                   0                          -0 
+    19 relazione_xy[1,8]
+                                   0                          -0 
+    20 relazione_xy[1,9]
+                                   0                          -0 
+    21 relazione_xy[1,10]
+                                   0                          -0 
+    22 relazione_xy[2,1]
+                                   0                          -0 
+    23 relazione_xy[2,2]
+                                   0                          -0 
+    24 relazione_xy[2,3]
+                                   0                          -0 
+    25 relazione_xy[2,4]
+                                   0                          -0 
+    26 relazione_xy[2,5]
+                                   0                          -0 
+    27 relazione_xy[2,6]
+                                   0                          -0 
+    28 relazione_xy[2,7]
+                                   0                          -0 
+    29 relazione_xy[2,8]
+                                   0                          -0 
+    30 relazione_xy[2,9]
+                                   0                          -0 
+    31 relazione_xy[2,10]
+                                   0                          -0 
+    32 relazione_xy[3,1]
+                                   0                          -0 
+    33 relazione_xy[3,2]
+                                   0                          -0 
+    34 relazione_xy[3,3]
+                                   0                          -0 
+    35 relazione_xy[3,4]
+                                   0                          -0 
+    36 relazione_xy[3,5]
+                                  -1                          -0 
+    37 relazione_xy[3,6]
+                                   0                          -0 
+    38 relazione_xy[3,7]
+                                  -1                          -0 
+    39 relazione_xy[3,8]
+                                  -1                          -0 
+    40 relazione_xy[3,9]
+                                  -1                          -0 
+    41 relazione_xy[3,10]
+                                  -1                          -0 
+    42 relazione_xy[4,1]
+                                   0                          -0 
+    43 relazione_xy[4,2]
+                                   0                          -0 
+    44 relazione_xy[4,3]
+                                   0                          -0 
+    45 relazione_xy[4,4]
+                                   0                          -0 
+    46 relazione_xy[4,5]
+                                   0                          -0 
+    47 relazione_xy[4,6]
+                                   0                          -0 
+    48 relazione_xy[4,7]
+                                   0                          -0 
+    49 relazione_xy[4,8]
+                                   0                          -0 
+    50 relazione_xy[4,9]
+                                   0                          -0 
+    51 relazione_xy[4,10]
+                                   0                          -0 
+    52 relazione_xy[5,1]
+                                   0                          -0 
+    53 relazione_xy[5,2]
+                                   0                          -0 
+    54 relazione_xy[5,3]
+                                   0                          -0 
+    55 relazione_xy[5,4]
+                                   0                          -0 
+    56 relazione_xy[5,5]
+                                   0                          -0 
+    57 relazione_xy[5,6]
+                                   0                          -0 
+    58 relazione_xy[5,7]
+                                   0                          -0 
+    59 relazione_xy[5,8]
+                                   0                          -0 
+    60 relazione_xy[5,9]
+                                   0                          -0 
+    61 relazione_xy[5,10]
+                                   0                          -0 
+    62 relazione_xy[6,1]
+                                   0                          -0 
+    63 relazione_xy[6,2]
+                                   0                          -0 
+    64 relazione_xy[6,3]
+                                   0                          -0 
+    65 relazione_xy[6,4]
+                                   0                          -0 
+    66 relazione_xy[6,5]
+                                   0                          -0 
+    67 relazione_xy[6,6]
+                                   0                          -0 
+    68 relazione_xy[6,7]
+                                   0                          -0 
+    69 relazione_xy[6,8]
+                                   0                          -0 
+    70 relazione_xy[6,9]
+                                   0                          -0 
+    71 relazione_xy[6,10]
+                                   0                          -0 
+    72 relazione_xy[7,1]
+                                  -1                          -0 
+    73 relazione_xy[7,2]
+                                  -1                          -0 
+    74 relazione_xy[7,3]
+                                  -1                          -0 
+    75 relazione_xy[7,4]
+                                  -1                          -0 
+    76 relazione_xy[7,5]
+                                   0                          -0 
+    77 relazione_xy[7,6]
+                                  -1                          -0 
+    78 relazione_xy[7,7]
+                                   0                          -0 
+    79 relazione_xy[7,8]
+                                   0                          -0 
+    80 relazione_xy[7,9]
+                                   0                          -0 
+    81 relazione_xy[7,10]
+                                   0                          -0 
+    82 numero_mediane
+                                   2             2             = 
+    83 budget_constr
+                                 100                         100 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[1,2]       *              0             0             1 
+     3 x[1,3]       *              0             0             1 
+     4 x[1,4]       *              0             0             1 
+     5 x[1,5]       *              0             0             1 
+     6 x[1,6]       *              0             0             1 
+     7 x[1,7]       *              0             0             1 
+     8 x[1,8]       *              0             0             1 
+     9 x[1,9]       *              0             0             1 
+    10 x[1,10]      *              0             0             1 
+    11 x[2,1]       *              0             0             1 
+    12 x[2,2]       *              0             0             1 
+    13 x[2,3]       *              0             0             1 
+    14 x[2,4]       *              0             0             1 
+    15 x[2,5]       *              0             0             1 
+    16 x[2,6]       *              0             0             1 
+    17 x[2,7]       *              0             0             1 
+    18 x[2,8]       *              0             0             1 
+    19 x[2,9]       *              0             0             1 
+    20 x[2,10]      *              0             0             1 
+    21 x[3,1]       *              1             0             1 
+    22 x[3,2]       *              1             0             1 
+    23 x[3,3]       *              1             0             1 
+    24 x[3,4]       *              1             0             1 
+    25 x[3,5]       *              0             0             1 
+    26 x[3,6]       *              1             0             1 
+    27 x[3,7]       *              0             0             1 
+    28 x[3,8]       *              0             0             1 
+    29 x[3,9]       *              0             0             1 
+    30 x[3,10]      *              0             0             1 
+    31 x[4,1]       *              0             0             1 
+    32 x[4,2]       *              0             0             1 
+    33 x[4,3]       *              0             0             1 
+    34 x[4,4]       *              0             0             1 
+    35 x[4,5]       *              0             0             1 
+    36 x[4,6]       *              0             0             1 
+    37 x[4,7]       *              0             0             1 
+    38 x[4,8]       *              0             0             1 
+    39 x[4,9]       *              0             0             1 
+    40 x[4,10]      *              0             0             1 
+    41 x[5,1]       *              0             0             1 
+    42 x[5,2]       *              0             0             1 
+    43 x[5,3]       *              0             0             1 
+    44 x[5,4]       *              0             0             1 
+    45 x[5,5]       *              0             0             1 
+    46 x[5,6]       *              0             0             1 
+    47 x[5,7]       *              0             0             1 
+    48 x[5,8]       *              0             0             1 
+    49 x[5,9]       *              0             0             1 
+    50 x[5,10]      *              0             0             1 
+    51 x[6,1]       *              0             0             1 
+    52 x[6,2]       *              0             0             1 
+    53 x[6,3]       *              0             0             1 
+    54 x[6,4]       *              0             0             1 
+    55 x[6,5]       *              0             0             1 
+    56 x[6,6]       *              0             0             1 
+    57 x[6,7]       *              0             0             1 
+    58 x[6,8]       *              0             0             1 
+    59 x[6,9]       *              0             0             1 
+    60 x[6,10]      *              0             0             1 
+    61 x[7,1]       *              0             0             1 
+    62 x[7,2]       *              0             0             1 
+    63 x[7,3]       *              0             0             1 
+    64 x[7,4]       *              0             0             1 
+    65 x[7,5]       *              1             0             1 
+    66 x[7,6]       *              0             0             1 
+    67 x[7,7]       *              1             0             1 
+    68 x[7,8]       *              1             0             1 
+    69 x[7,9]       *              1             0             1 
+    70 x[7,10]      *              1             0             1 
+    71 y[1]                        0                             
+    72 y[2]                        0                             
+    73 y[3]                        1                             
+    74 y[4]                        0                             
+    75 y[5]                        0                             
+    76 y[6]                        0                             
+    77 y[7]                        1                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

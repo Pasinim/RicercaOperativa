@@ -1,0 +1,35 @@
+Tabella 1: Valore di mercato dei prodotti finiti
+Prodotto 1     140000 Euro / pezzo
+Prodotto 2     150000 Euro / pezzo
+
+Tabella 2: Prezzi dei semilavorati
+Tipo  Prezzo [Euro/pezzo]
+ A      7500
+ B      8200
+ C     12000
+ D     13300
+ E      5500
+ 
+Tabella 3: Assemblaggio: numero di semilavorati di ogni tipo per ogni pezzo di prodotto finito
+Semilavorati:   A    B    C    D    E
+Prodotto 1  :   5    8    2    7    3
+Prodotto 2  :   6    7    5    6    4
+
+Tabella 4: Produzione semilavorati nel primo impianto
+Semilavorato:    A    B    C                                            Totale disponibile
+Componenti R:  150  170  190  [Kg componente / pezzo semilavorato]            13800 [Kg/settimana]
+Componenti S:   78   52   25  [Kg componente / pezzo semilavorato]             3500 [Kg/settimana]
+
+Tabella 5: Produzione semilavorati nel secondo impianto
+Semilavorato:    B    C    D                                            Totale disponibile
+Componenti R:  150  175  195  [Kg componente / pezzo semilavorato]            12800 [Kg/settimana]
+Componenti S:   84   60   33  [Kg componente / pezzo semilavorato]             5000 [Kg/settimana]
+
+Tabella 6: Produzione semilavorati nel terzo impianto
+Semilavorato:    A    D    E                                            Totale disponibile
+Componenti R:  125  180  110  [Kg componente / pezzo semilavorato]            11500 [Kg/settimana]
+Componenti S:   90   40   60  [Kg componente / pezzo semilavorato]             5500 [Kg/settimana]
+
+Manodopera disponibile: 6 operai impiegabili ciascuno per 40 ore settimanali
+La produzione di ogni pezzo semilavorato richiede 1 ora-uomo di lavoro 
+indipendentemente dal tipo di semilavorato (A..E) e dall'impianto (1..3).

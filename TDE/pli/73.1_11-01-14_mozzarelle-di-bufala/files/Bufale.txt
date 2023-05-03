@@ -1,0 +1,70 @@
+Gli allevamenti sono 10 e sono posti nei siti seguenti.
+
+-------------
+
+Tabella 1: Posizione allevamenti e produzione [quintali/giorno]
+
+Allevamento  X    Y   Produzione
+    1        30  140     320
+    2        25  150     460
+    3        30  200     190
+    4        42  220     400
+    5        58  180     380
+    6        21  165     440
+    7        14  133     280
+    8        68  112     200
+    9        70   85     295
+   10        51  190     145
+
+-------------
+
+I caseifici già esistenti sono 2 (1..2).
+I siti candidati ad ospitarne un altro sono 5 (3..7).
+Essi sono posti nei siti seguenti.
+
+Tabella 2: Posizione caseifici e capacità di lavorazione del latte [quintali/giorno]
+
+Caseificio  X    Y   Capacità
+    1       60  120    1600
+    2      140  150    1800
+    3       76  128
+    4       42  141
+    5       90  166
+    6       85   98
+    7       31  102
+
+-------------
+
+La resa del latte quando viene lavorato è del 30%.
+
+-------------
+
+I punti vendita sono 20 e sono localizzati come segue.
+
+Tabella 3: Punti vendita
+
+Punto-vendita  X     Y    Catena
+     1         24   164     A
+     2         30   206     B
+     3         42   180     C
+     4         45   140     A
+     5         56   150     C
+     6         69   199     A
+     7         75   130     B
+     8         78   240     D
+     9         91   195     A
+    10        104   178     B
+    11        124   135     C
+    12        126   148     C
+    13        146   210     A
+    14        150   240     B
+    15        152   176     A
+    16        168   231     C
+    17        170   142     D
+    18        180   190     D
+    19        195   224     B
+    20        210   171     A
+
+-------------
+
+I costi unitari di trasporto per le mozzarelle sono pari al 50% in più rispetto ai costi unitari di trasporto del latte fresco.

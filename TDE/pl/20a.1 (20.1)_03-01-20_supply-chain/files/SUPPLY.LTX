@@ -1,0 +1,59 @@
+! Esercizio Supply chain
+!
+! Variabili: x(i,k) = quantità mat.pr. (ton/mese) di tipo i=1..4 a impianto k=1..3
+!            y(k,j) = quantità semilavorati (pezzi/mese) di tipo j=1..5 da impianto k=1..3
+! Tutte le variabili sono continue e non-negative.
+
+
+! Funzione obiettivo: minimizzare i costi di trasporto complessivi [KEuro/mese];
+! Costi di trasporto dovuti alle materie prime e ai semilavorati moltiplicati per 
+!il costo diverso da impianto a impianto.
+
+min
+  10 x11 + 21 x12 + 25 x13 +
+  12 x21 + 20 x22 + 21 x23 +
+  15 x31 + 15 x32 + 14 x33 +
+  20 x41 + 14 x42 +  7 x43 +
+  12 y11 + 10 y12 + 8 y13 + 6 y14 +  3 y15 +
+   7 y21 +  9 y22 + 8 y23 + 7 y24 +  6 y25 +
+   4 y31 +  6 y32 + 7 y33 + 8 y34 + 13 y35
+
+s.t.
+
+! Vincoli sulla fornitura di materie prime [ton/mese];
+
+mat1) x11 + x12 + x13 <= 1200
+mat2) x21 + x22 + x23 <=  650
+mat3) x31 + x32 + x33 <=  150
+mat4) x41 + x42 + x43 <= 2200
+
+! Vincoli sulla produzione minima di semilavorati [pezzi/mese];
+
+Semilav1) y11 + y21 + y31 >= 28
+Semilav2) y12 + y22 + y32 >= 35
+Semilav3) y13 + y23 + y33 >= 30
+Semilav4) y14 + y24 + y34 >= 41
+Semilav5) y15 + y25 + y35 >= 12
+
+! Vincoli sulla produzione dovuti alla quantità diversa di materie 
+! prime usate in ogni impianto [ton/mese];
+
+! Impianto 1
+Mp1Imp1) 12 y11 + 2 y12 + 10 y13 +  8 y14 +  7 y15 - x11 <= 0
+Mp2Imp1)  5 y11 + 1 y12 +  5 y13 +  4 y14 +  3 y15 - x21 <= 0
+Mp3Imp1)  1 y11 + 1 y12 +  1 y13 +  2 y14 +  1 y15 - x31 <= 0
+Mp4Imp1) 20 y11 + 3 y12 + 18 y13 + 15 y14 + 20 y15 - x41 <= 0
+
+! Impianto 2
+Mp1Imp2) 10 y21 +  1 y22 +  8 y23 + 12 y24 + 17 y25 - x12 <= 0
+Mp2Imp2)  3 y21 +  1 y22 +  5 y23 +  7 y24 +  5 y25 - x22 <= 0
+Mp3Imp2)  2 y21 +  1 y22 +  1 y23 +  1 y24 +  1 y25 - x32 <= 0
+Mp4Imp2) 25 y21 +  6 y22 + 22 y23 + 12 y24 + 15 y25 - x42 <= 0
+
+! Impianto 3
+Mp1Imp3) 16 y31 +  4 y32 + 15 y33 +  2 y34 +  5 y35 - x13 <= 0
+Mp2Imp3)  8 y31 +  3 y32 +  7 y33 +  3 y34 +  1 y35 - x23 <= 0
+Mp3Imp3)  1 y31 +  1 y32 +  1 y33 +  2 y34 +  2 y35 - x33 <= 0
+Mp4Imp3)  8 y31 +  2 y32 + 11 y33 + 12 y34 + 20 y35 - x43 <= 0
+
+end

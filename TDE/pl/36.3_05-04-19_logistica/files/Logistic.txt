@@ -1,0 +1,125 @@
+Gli stabilimenti sono 4, i depositi sono 2, i punti di rivendita sono 5, i tipi di prodotto sono 3.
+
+===============================================
+
+Tabella 1: Capacità dei depositi [ton/mese]
+
+Deposito  Capacità
+   1        250
+   2        350
+
+===============================================
+
+Tabella 2: Quantità prodotte [ton/mese]
+
+               Prodotti
+                1  2  3
+Stabilimento
+    1          40 25 30
+    2          10  0 50
+    3           0 25 90
+    4          50 30  0
+
+===============================================
+
+Tabella 3: Quantità da rifornire [ton/mese]
+
+               Prodotti
+                1  2  3
+Rivendita
+    1          30 10 45
+    2          10 20 55
+    3          20 20 30
+    4          20 20 10
+    5          20 10 30
+
+===============================================
+
+Tabella 4: Costi unitari di trasporto sulle tratte stabilimento-deposito [Euro/ton]
+
+--------------------------------------
+
+Prodotto 1:
+             Deposito
+              1    2
+Stabilimento
+     1      2000 1500
+     2      1200 1800
+     3      1500 2100
+     4      1750 1800
+
+--------------------------------------
+
+Prodotto 2:
+             Deposito
+              1    2
+Stabilimento
+     1      3500 3000
+     2      2800 2900
+     3      3100 2500
+     4      2800 3250
+
+--------------------------------------
+
+Prodotto 3:
+             Deposito
+              1    2
+Stabilimento
+     1       950 1000
+     2      1200  800
+     3       700  900
+     4      1100 1100
+
+===============================================
+
+Tabella 5: Costi unitari di trasporto sulle tratte deposito-rivendita [Euro/ton]
+
+--------------------------------------
+
+Prodotto 1:
+                     Rivendita
+               1    2    3    4    5
+Deposito
+   1         2400 2650 2550 2100 2900
+   2         3100 3200 3000 2800 2800
+
+--------------------------------------
+
+Prodotto 2:
+                     Rivendita
+               1    2    3    4    5
+Deposito
+   1         4050 4200 4150 4300 4000
+   2         3800 3900 3750 3500 3700
+
+--------------------------------------
+
+Prodotto 3:
+                     Rivendita
+               1    2    3    4    5
+Deposito
+   1         1950 1850 1700 2100 1900
+   2         1600 1700 1800 2000 1900;
+
+===============================================
+
+Tabella 6: Capacità delle tratte stabilimento-deposito [ton/mese]
+
+            Deposito
+              1   2
+Stabilimento
+     1       70  70
+     2       40  40
+     3       80  80
+     4       60  60
+
+===============================================
+
+Tabella 7: Capacità delle tratte deposito-rivendita [ton/mese]
+
+                   Rivendita
+               1   2   3   4   5
+Deposito
+   1          60  60  50  40  50
+   2          60  60  50  40  50
+

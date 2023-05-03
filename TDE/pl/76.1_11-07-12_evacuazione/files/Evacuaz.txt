@@ -1,0 +1,51 @@
+Le strutture ricettive sono 6 ed ha la seguente capienza.
+
+Tabella 1: Capienza strutture ricettive.
+
+Sito   Capienza
+ 1       500
+ 2       650
+ 3       550
+ 4       550
+ 5       550
+ 6       400
+
+---------------------------
+
+I rifugi temporanei sono 3 ed ospitano persone come segue.
+
+Tabella 2: Distribuzione rifugiati
+
+Sito  Persone
+ A      850
+ B     1250
+ C      900
+
+---------------------------
+
+I costi per persona dei collegamenti sono i seguenti
+
+Tabella 3: Costi di spostamento [Euro/persona]
+
+      1    2    3    4    5    6
+ A   250  350  300  380  310  340
+ B   280  420  450  390  375  350
+ C   360  410  420  400  380  290
+
+---------------------------
+
+I tempi di spostamento per persona sono i seguenti
+
+Tabella 4: Tempi di spostamento [ore/persona]
+
+      1    2    3    4    5    6
+ A   0.20 0.35 0.40 0.25 0.25 0.30 
+ B   0.35 0.50 0.45 0.35 0.45 0.40 
+ C   0.25 0.35 0.45 0.40 0.30 0.40
+
+---------------------------
+
+La massima capacità per ogni collegamento è di 400 persone.
+
+---------------------------
+

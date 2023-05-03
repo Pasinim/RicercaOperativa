@@ -1,0 +1,769 @@
+ SET      Y2E TO <=     0 AT   20, BND=  -3.170     TWIN=-0.1000E+31    945
+ SET      Y1E TO <=     0 AT   21, BND=  -3.340     TWIN=-0.1000E+31    946
+ DELETE     Y50C AT LEVEL    22
+ DELETE      Y1E AT LEVEL    21
+ DELETE      Y2E AT LEVEL    20
+ DELETE      X2E AT LEVEL    19
+ FLIP     Y50C TO <=         0 AT   18 WITH BND=   -3.1650000
+ SET      X2E TO >=     3 AT   19, BND=  -4.335     TWIN=-0.1000E+31    949
+ SET      X2E TO <=     3 AT   20, BND=  -4.335     TWIN=-0.1000E+31    949
+ SET      Y2E TO <=     1 AT   21, BND=  -4.670     TWIN=-0.1000E+31    950
+ SET      Y2E TO >=     1 AT   22, BND=  -4.670     TWIN=-0.1000E+31    950
+ DELETE      Y1E AT LEVEL    23
+ DELETE      Y2E AT LEVEL    22
+ DELETE      Y2E AT LEVEL    21
+ DELETE      X2E AT LEVEL    20
+ DELETE      X2E AT LEVEL    19
+ DELETE     Y50C AT LEVEL    18
+ FLIP     Y20C TO >=         1 AT   17 WITH BND=   -3.2349999
+ SET      X2E TO <=     2 AT   18, BND=  -3.235     TWIN=-0.1000E+31    950
+ SET      Y2E TO <=     0 AT   19, BND=  -3.470     TWIN=-0.1000E+31    952
+ SET      Y1E TO <=     0 AT   20, BND=  -3.940     TWIN=-0.1000E+31    954
+ SET     Y50C TO <=     0 AT   21, BND=  -5.350     TWIN=-0.1000E+31    955
+ DELETE     Y50C AT LEVEL    21
+ DELETE      Y1E AT LEVEL    20
+ DELETE      Y2E AT LEVEL    19
+ DELETE      X2E AT LEVEL    18
+ DELETE     Y20C AT LEVEL    17
+ FLIP      Y5C TO >=         1 AT   16 WITH BND=   -3.3099999
+ SET      X2E TO <=     2 AT   17, BND=  -3.310     TWIN=-0.1000E+31    955
+ SET      Y2E TO <=     0 AT   18, BND=  -3.620     TWIN=-0.1000E+31    957
+ SET      Y1E TO <=     0 AT   19, BND=  -4.240     TWIN=-0.1000E+31    959
+ SET      Y5C TO <=     1 AT   20, BND=  -4.240     TWIN=-0.1000E+31    959
+ SET     Y50C TO <=     1 AT   21, BND=  -4.600     TWIN=-0.1000E+31    960
+ SET     Y50C TO >=     1 AT   22, BND=  -4.600     TWIN=-0.1000E+31    960
+ DELETE     Y20C AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y1E AT LEVEL    19
+ DELETE      Y2E AT LEVEL    18
+ DELETE      X2E AT LEVEL    17
+ DELETE      Y5C AT LEVEL    16
+ FLIP      Y2C TO >=         1 AT   15 WITH BND=   -3.3250000
+ SET      X2E TO <=     2 AT   16, BND=  -3.325     TWIN=-0.1000E+31    960
+ SET      Y2E TO <=     0 AT   17, BND=  -3.650     TWIN=-0.1000E+31    962
+ SET      Y1E TO <=     0 AT   18, BND=  -4.300     TWIN=-0.1000E+31    964
+ SET      Y2C TO <=     1 AT   19, BND=  -4.300     TWIN=-0.1000E+31    964
+ SET      Y5C TO <=     0 AT   20, BND=  -4.300     TWIN=-0.1000E+31    964
+ SET     Y50C TO <=     1 AT   21, BND=  -4.750     TWIN=-0.1000E+31    965
+ SET     Y50C TO >=     1 AT   22, BND=  -4.750     TWIN=-0.1000E+31    965
+ DELETE     Y20C AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1E AT LEVEL    18
+ DELETE      Y2E AT LEVEL    17
+ DELETE      X2E AT LEVEL    16
+ DELETE      Y2C AT LEVEL    15
+ FLIP      Y1C TO >=         1 AT   14 WITH BND=   -3.3299999
+ SET      X2E TO <=     2 AT   15, BND=  -3.330     TWIN=-0.1000E+31    965
+ SET      Y2E TO <=     0 AT   16, BND=  -3.660     TWIN=-0.1000E+31    967
+ SET      Y1E TO <=     0 AT   17, BND=  -4.320     TWIN=-0.1000E+31    969
+ SET      Y1C TO <=     1 AT   18, BND=  -4.320     TWIN=-0.1000E+31    969
+ SET      Y2C TO <=     0 AT   19, BND=  -4.320     TWIN=-0.1000E+31    969
+ SET      Y5C TO <=     0 AT   20, BND=  -4.320     TWIN=-0.1000E+31    969
+ SET     Y50C TO <=     1 AT   21, BND=  -4.800     TWIN=-0.1000E+31    970
+ SET     Y50C TO >=     1 AT   22, BND=  -4.800     TWIN=-0.1000E+31    970
+ DELETE     Y20C AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1C AT LEVEL    18
+ DELETE      Y1E AT LEVEL    17
+ DELETE      Y2E AT LEVEL    16
+ DELETE      X2E AT LEVEL    15
+ DELETE      Y1C AT LEVEL    14
+ FLIP      X2C TO >=         1 AT   13 WITH BND=   -3.3450000
+ SET      X2E TO <=     2 AT   14, BND=  -3.345     TWIN=-0.1000E+31    970
+ SET      Y2E TO <=     0 AT   15, BND=  -3.690     TWIN= -69.50        972
+ SET      Y1E TO <=     0 AT   16, BND=  -4.380     TWIN= -19.50        975
+ SET      X2C TO <=     1 AT   17, BND=  -4.380     TWIN=-0.1000E+31    975
+ SET      Y1C TO <=     0 AT   18, BND=  -4.380     TWIN=-0.1000E+31    975
+ SET      Y2C TO <=     0 AT   19, BND=  -4.380     TWIN=-0.1000E+31    975
+ SET      Y5C TO <=     0 AT   20, BND=  -4.380     TWIN=-0.1000E+31    975
+ SET     Y50C TO <=     1 AT   21, BND=  -4.950     TWIN=-0.1000E+31    976
+ SET     Y50C TO >=     1 AT   22, BND=  -4.950     TWIN=-0.1000E+31    976
+ DELETE     Y20C AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1C AT LEVEL    18
+ DELETE      X2C AT LEVEL    17
+ DELETE      Y1E AT LEVEL    16
+ DELETE      Y2E AT LEVEL    15
+ DELETE      X2E AT LEVEL    14
+ DELETE      X2C AT LEVEL    13
+ FLIP      X5C TO >=         1 AT   12 WITH BND=   -3.3599999
+ SET      X2E TO <=     2 AT   13, BND=  -3.360     TWIN=-0.1000E+31    976
+ SET      Y2E TO <=     0 AT   14, BND=  -3.720     TWIN= -29.60        978
+ SET      Y1E TO <=     0 AT   15, BND=  -4.440     TWIN= -9.600        982
+ SET      X2C TO <=     0 AT   16, BND=  -4.440     TWIN=-0.1000E+31    982
+ SET      X5C TO <=     1 AT   17, BND=  -4.440     TWIN=-0.1000E+31    982
+ SET      Y1C TO <=     0 AT   18, BND=  -4.440     TWIN=-0.1000E+31    982
+ SET      Y2C TO <=     0 AT   19, BND=  -4.440     TWIN=-0.1000E+31    982
+ SET      Y5C TO <=     0 AT   20, BND=  -4.440     TWIN=-0.1000E+31    982
+ SET     Y20C TO <=     0 AT   21, BND=  -4.440     TWIN=-0.1000E+31    982
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y20C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1C AT LEVEL    18
+ DELETE      X5C AT LEVEL    17
+ DELETE      X2C AT LEVEL    16
+ DELETE      Y1E AT LEVEL    15
+ DELETE      Y2E AT LEVEL    14
+ DELETE      X2E AT LEVEL    13
+ DELETE      X5C AT LEVEL    12
+ FLIP     X10C TO >=         1 AT   11 WITH BND=   -3.3850000
+ SET      X2E TO <=     2 AT   12, BND=  -3.385     TWIN=-0.1000E+31    982
+ SET      Y2E TO <=     0 AT   13, BND=  -3.770     TWIN= -16.30        984
+ SET      Y1E TO <=     0 AT   14, BND=  -4.540     TWIN= -6.300        987
+ SET      X2C TO <=     0 AT   15, BND=  -4.540     TWIN=-0.1000E+31    987
+ SET      X5C TO <=     0 AT   16, BND=  -4.540     TWIN=-0.1000E+31    987
+ SET     X10C TO <=     1 AT   17, BND=  -4.540     TWIN=-0.1000E+31    987
+ SET      Y1C TO <=     0 AT   18, BND=  -4.540     TWIN=-0.1000E+31    987
+ SET      Y2C TO <=     0 AT   19, BND=  -4.540     TWIN=-0.1000E+31    987
+ SET      Y5C TO <=     0 AT   20, BND=  -4.540     TWIN=-0.1000E+31    987
+ SET     Y20C TO <=     0 AT   21, BND=  -4.540     TWIN=-0.1000E+31    987
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y20C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1C AT LEVEL    18
+ DELETE     X10C AT LEVEL    17
+ DELETE      X5C AT LEVEL    16
+ DELETE      X2C AT LEVEL    15
+ DELETE      Y1E AT LEVEL    14
+ DELETE      Y2E AT LEVEL    13
+ DELETE      X2E AT LEVEL    12
+ DELETE     X10C AT LEVEL    11
+ FLIP     X20C TO >=         1 AT   10 WITH BND=   -3.4349999
+ SET      X2E TO <=     2 AT   11, BND=  -3.435     TWIN=-0.1000E+31    987
+ SET      Y2E TO <=     0 AT   12, BND=  -3.870     TWIN= -9.650        989
+ SET     X20C TO <=     1 AT   13, BND=  -3.870     TWIN=-0.1000E+31    989
+ SET      Y1E TO <=     0 AT   14, BND=  -4.740     TWIN= -5.300        991
+ SET      X2C TO <=     0 AT   15, BND=  -4.740     TWIN=-0.1000E+31    991
+ SET      X5C TO <=     0 AT   16, BND=  -4.740     TWIN=-0.1000E+31    991
+ SET     X10C TO <=     0 AT   17, BND=  -4.740     TWIN=-0.1000E+31    991
+ SET      Y1C TO <=     0 AT   18, BND=  -4.740     TWIN=-0.1000E+31    991
+ SET      Y2C TO <=     0 AT   19, BND=  -4.740     TWIN=-0.1000E+31    991
+ SET      Y5C TO <=     0 AT   20, BND=  -4.740     TWIN=-0.1000E+31    991
+ SET     Y20C TO <=     0 AT   21, BND=  -4.740     TWIN=-0.1000E+31    991
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y20C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1C AT LEVEL    18
+ DELETE     X10C AT LEVEL    17
+ DELETE      X5C AT LEVEL    16
+ DELETE      X2C AT LEVEL    15
+ DELETE      Y1E AT LEVEL    14
+ DELETE     X20C AT LEVEL    13
+ DELETE      Y2E AT LEVEL    12
+ DELETE      X2E AT LEVEL    11
+ DELETE     X20C AT LEVEL    10
+ FLIP     X50C TO >=         1 AT    9 WITH BND=   -3.5850000
+ SET      X2E TO <=     2 AT   10, BND=  -3.585     TWIN=-0.1000E+31    991
+ SET      Y2E TO <=     0 AT   11, BND=  -4.170     TWIN= -5.660        994
+ SET      X2C TO <=     0 AT   12, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET      X5C TO <=     0 AT   13, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET     X10C TO <=     0 AT   14, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET     X20C TO <=     0 AT   15, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET     X50C TO <=     1 AT   16, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET      Y1C TO <=     0 AT   17, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET      Y2C TO <=     0 AT   18, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET      Y5C TO <=     0 AT   19, BND=  -4.170     TWIN=-0.1000E+31    994
+ SET      Y1E TO <=     1 AT   20, BND=  -4.340     TWIN=-0.1000E+31    995
+ SET      Y1E TO >=     1 AT   21, BND=  -4.340     TWIN=-0.1000E+31    995
+ SET     Y50C TO <=     0 AT   22, BND=  -4.850     TWIN=-0.1000E+31    996
+ DELETE     Y20C AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE      Y1E AT LEVEL    21
+ DELETE      Y1E AT LEVEL    20
+ DELETE      Y5C AT LEVEL    19
+ DELETE      Y2C AT LEVEL    18
+ DELETE      Y1C AT LEVEL    17
+ DELETE     X50C AT LEVEL    16
+ DELETE     X20C AT LEVEL    15
+ DELETE     X10C AT LEVEL    14
+ DELETE      X5C AT LEVEL    13
+ DELETE      X2C AT LEVEL    12
+ DELETE      Y2E AT LEVEL    11
+ DELETE      X2E AT LEVEL    10
+ DELETE     X50C AT LEVEL     9
+ FLIP      X1C TO >=         1 AT    8 WITH BND=   -3.3399999
+ SET      X2E TO <=     2 AT    9, BND=  -3.340     TWIN=-0.1000E+31    996
+ SET      Y2E TO <=     0 AT   10, BND=  -3.680     TWIN= -6.640        999
+ SET     X50C TO <=     0 AT   11, BND=  -3.680     TWIN=-0.1000E+31    999
+ SET      Y1E TO <=     0 AT   12, BND=  -4.360     TWIN= -5.600       1001
+ SET      X1C TO <=     1 AT   13, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET      X2C TO <=     0 AT   14, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET      X5C TO <=     0 AT   15, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET     X10C TO <=     0 AT   16, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET     X20C TO <=     0 AT   17, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET      Y1C TO <=     0 AT   18, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET      Y2C TO <=     0 AT   19, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET      Y5C TO <=     0 AT   20, BND=  -4.360     TWIN=-0.1000E+31   1001
+ SET     Y50C TO <=     1 AT   21, BND=  -4.900     TWIN=-0.1000E+31   1002
+ SET     Y50C TO >=     1 AT   22, BND=  -4.900     TWIN=-0.1000E+31   1002
+ DELETE     Y20C AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE      Y5C AT LEVEL    20
+ DELETE      Y2C AT LEVEL    19
+ DELETE      Y1C AT LEVEL    18
+ DELETE     X20C AT LEVEL    17
+ DELETE     X10C AT LEVEL    16
+ DELETE      X5C AT LEVEL    15
+ DELETE      X2C AT LEVEL    14
+ DELETE      X1C AT LEVEL    13
+ DELETE      Y1E AT LEVEL    12
+ DELETE     X50C AT LEVEL    11
+ DELETE      Y2E AT LEVEL    10
+ DELETE      X2E AT LEVEL     9
+ DELETE      X1C AT LEVEL     8
+ FLIP      X1E TO >=         1 AT    7 WITH BND=   -3.8350000
+ SET     X50C TO <=     0 AT    8, BND=  -3.835     TWIN=-0.1000E+31   1002
+ SET      X1E TO <=     1 AT    9, BND=  -3.835     TWIN=-0.1000E+31   1002
+ SET      X2E TO <=     2 AT   10, BND=  -3.835     TWIN=-0.1000E+31   1002
+ SET      Y2E TO <=     0 AT   11, BND=  -4.670     TWIN= -5.650       1005
+ SET      X1C TO <=     0 AT   12, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET      X2C TO <=     0 AT   13, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET      X5C TO <=     0 AT   14, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET     X10C TO <=     0 AT   15, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET     X20C TO <=     0 AT   16, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET      Y1C TO <=     0 AT   17, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET      Y2C TO <=     0 AT   18, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET      Y5C TO <=     0 AT   19, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET     Y20C TO <=     0 AT   20, BND=  -4.670     TWIN=-0.1000E+31   1005
+ SET     Y50C TO <=     0 AT   21, BND=  -4.670     TWIN=-0.1000E+31   1005
+ DELETE      Y1E AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE     Y20C AT LEVEL    20
+ DELETE      Y5C AT LEVEL    19
+ DELETE      Y2C AT LEVEL    18
+ DELETE      Y1C AT LEVEL    17
+ DELETE     X20C AT LEVEL    16
+ DELETE     X10C AT LEVEL    15
+ DELETE      X5C AT LEVEL    14
+ DELETE      X2C AT LEVEL    13
+ DELETE      X1C AT LEVEL    12
+ DELETE      Y2E AT LEVEL    11
+ DELETE      X2E AT LEVEL    10
+ DELETE      X1E AT LEVEL     9
+ DELETE     X50C AT LEVEL     8
+ DELETE      X1E AT LEVEL     7
+ FLIP     Y10C TO >=         1 AT    6 WITH BND=   -3.2850001
+ SET      X2E TO <=     2 AT    7, BND=  -3.285     TWIN=-0.1000E+31   1006
+ SET      Y2E TO <=     0 AT    8, BND=  -3.570     TWIN= -5.430       1009
+ SET     X50C TO <=     0 AT    9, BND=  -3.570     TWIN=-0.1000E+31   1009
+ SET      X1E TO <=     0 AT   10, BND=  -3.570     TWIN=-0.1000E+31   1009
+ SET      Y1E TO <=     0 AT   11, BND=  -4.140     TWIN= -6.150       1012
+ SET      X1C TO <=     0 AT   12, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET      X2C TO <=     0 AT   13, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET      X5C TO <=     0 AT   14, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET     X10C TO <=     0 AT   15, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET     X20C TO <=     0 AT   16, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET      Y1C TO <=     0 AT   17, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET      Y2C TO <=     0 AT   18, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET      Y5C TO <=     0 AT   19, BND=  -4.140     TWIN=-0.1000E+31   1012
+ SET     Y50C TO <=     1 AT   20, BND=  -4.350     TWIN=-0.1000E+31   1014
+ SET     Y50C TO >=     1 AT   21, BND=  -4.350     TWIN=-0.1000E+31   1014
+ SET     Y20C TO <=     0 AT   22, BND=  -4.700     TWIN=-0.1000E+31   1015
+ DELETE     Y10C AT LEVEL    23
+ DELETE     Y20C AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE     Y50C AT LEVEL    20
+ DELETE      Y5C AT LEVEL    19
+ DELETE      Y2C AT LEVEL    18
+ DELETE      Y1C AT LEVEL    17
+ DELETE     X20C AT LEVEL    16
+ DELETE     X10C AT LEVEL    15
+ DELETE      X5C AT LEVEL    14
+ DELETE      X2C AT LEVEL    13
+ DELETE      X1C AT LEVEL    12
+ DELETE      Y1E AT LEVEL    11
+ DELETE      X1E AT LEVEL    10
+ DELETE     X50C AT LEVEL     9
+ DELETE      Y2E AT LEVEL     8
+ DELETE      X2E AT LEVEL     7
+ DELETE     Y10C AT LEVEL     6
+ DELETE      X2E AT LEVEL     5
+ DELETE     Y10E AT LEVEL     4
+ DELETE      Y5E AT LEVEL     3
+ DELETE      X5E AT LEVEL     2
+ FLIP     X10E TO >=         1 AT    1 WITH BND=   -2.3340001
+ SET      Y5E TO <=     1 AT    2, BND=  -2.334     TWIN= -3.333       1027
+ SET     Y10E TO <=     0 AT    3, BND=  -2.835     TWIN= -3.000       1055
+ SET      X5E TO <=     0 AT    4, BND=  -2.835     TWIN=-0.1000E+31   1055
+ SET     X10E TO <=     1 AT    5, BND=  -2.835     TWIN=-0.1000E+31   1055
+ SET      Y2E TO >=     1 AT    6, BND=  -2.934     TWIN= -3.670       1057
+ SET      Y5E TO >=     1 AT    7, BND=  -3.165     TWIN= -4.335       1063
+ SET      Y2E TO <=     1 AT    8, BND=  -3.165     TWIN=-0.1000E+31   1063
+ SET      X2E TO <=     0 AT    9, BND=  -3.330     TWIN= -5.670       1065
+ SET      Y1E TO <=     0 AT   10, BND=  -3.330     TWIN=-0.1000E+31   1065
+ SET      X1E TO <=     0 AT   11, BND=  -3.660     TWIN= -5.340       1067
+ SET     Y20C TO <=     0 AT   12, BND=  -3.660     TWIN=-0.1000E+31   1067
+ SET     Y50C TO <=     0 AT   13, BND=  -3.660     TWIN=-0.1000E+31   1067
+ SET     X50C TO <=     0 AT   14, BND=  -4.650     TWIN= -5.700       1069
+ SET      X1C TO <=     0 AT   15, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET      X2C TO <=     0 AT   16, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET      X5C TO <=     0 AT   17, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET     X10C TO <=     0 AT   18, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET      Y1C TO <=     0 AT   19, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET      Y2C TO <=     0 AT   20, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET      Y5C TO <=     0 AT   21, BND=  -4.650     TWIN=-0.1000E+31   1069
+ SET     Y10C TO <=     0 AT   22, BND=  -4.650     TWIN=-0.1000E+31   1069
+ DELETE     X20C AT LEVEL    23
+ DELETE     Y10C AT LEVEL    22
+ DELETE      Y5C AT LEVEL    21
+ DELETE      Y2C AT LEVEL    20
+ DELETE      Y1C AT LEVEL    19
+ DELETE     X10C AT LEVEL    18
+ DELETE      X5C AT LEVEL    17
+ DELETE      X2C AT LEVEL    16
+ DELETE      X1C AT LEVEL    15
+ DELETE     X50C AT LEVEL    14
+ DELETE     Y50C AT LEVEL    13
+ DELETE     Y20C AT LEVEL    12
+ DELETE      X1E AT LEVEL    11
+ DELETE      Y1E AT LEVEL    10
+ DELETE      X2E AT LEVEL     9
+ DELETE      Y2E AT LEVEL     8
+ FLIP      Y5E TO <=         0 AT    7 WITH BND=   -4.3350000
+ SET      X2E TO <=     0 AT    8, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET      Y1C TO <=     0 AT    9, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET      Y2C TO <=     0 AT   10, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET      Y5C TO <=     0 AT   11, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET     Y10C TO <=     0 AT   12, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET     Y20C TO <=     0 AT   13, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET     Y50C TO <=     0 AT   14, BND=  -4.335     TWIN=-0.1000E+31   1069
+ SET      Y2E TO <=     3 AT   15, BND=  -4.670     TWIN= -6.330       1075
+ SET      X1C TO <=     0 AT   16, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET      X2C TO <=     0 AT   17, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET      X5C TO <=     0 AT   18, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET     X10C TO <=     0 AT   19, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET     X20C TO <=     0 AT   20, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET     X50C TO <=     0 AT   21, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET      X1E TO <=     0 AT   22, BND=  -4.670     TWIN=-0.1000E+31   1075
+ SET      Y2E TO >=     3 AT   23, BND=  -4.670     TWIN=-0.1000E+31   1075
+ DELETE      Y1E AT LEVEL    24
+ DELETE      Y2E AT LEVEL    23
+ DELETE      X1E AT LEVEL    22
+ DELETE     X50C AT LEVEL    21
+ DELETE     X20C AT LEVEL    20
+ DELETE     X10C AT LEVEL    19
+ DELETE      X5C AT LEVEL    18
+ DELETE      X2C AT LEVEL    17
+ DELETE      X1C AT LEVEL    16
+ DELETE      Y2E AT LEVEL    15
+ DELETE     Y50C AT LEVEL    14
+ DELETE     Y20C AT LEVEL    13
+ DELETE     Y10C AT LEVEL    12
+ DELETE      Y5C AT LEVEL    11
+ DELETE      Y2C AT LEVEL    10
+ DELETE      Y1C AT LEVEL     9
+ DELETE      X2E AT LEVEL     8
+ DELETE      Y5E AT LEVEL     7
+ FLIP      Y2E TO <=         0 AT    6 WITH BND=   -3.6700001
+ SET      X2E TO <=     0 AT    7, BND=  -3.670     TWIN=-0.1000E+31   1075
+ SET      Y5E TO >=     1 AT    8, BND=  -3.670     TWIN=-0.1000E+31   1075
+ SET      Y1E TO >=     2 AT    9, BND=  -4.330     TWIN= -4.340       1080
+ SET      X1C TO <=     0 AT   10, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      X2C TO <=     0 AT   11, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      X5C TO <=     0 AT   12, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET     X10C TO <=     0 AT   13, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET     X20C TO <=     0 AT   14, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      Y1C TO <=     0 AT   15, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      Y2C TO <=     0 AT   16, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      Y5C TO <=     0 AT   17, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET     Y10C TO <=     0 AT   18, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET     Y20C TO <=     0 AT   19, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET     Y50C TO <=     0 AT   20, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      Y1E TO <=     2 AT   21, BND=  -4.330     TWIN=-0.1000E+31   1080
+ SET      X1E TO <=     0 AT   22, BND=  -4.660     TWIN=-0.1000E+31   1081
+ DELETE     X50C AT LEVEL    23
+ DELETE      X1E AT LEVEL    22
+ DELETE      Y1E AT LEVEL    21
+ DELETE     Y50C AT LEVEL    20
+ DELETE     Y20C AT LEVEL    19
+ DELETE     Y10C AT LEVEL    18
+ DELETE      Y5C AT LEVEL    17
+ DELETE      Y2C AT LEVEL    16
+ DELETE      Y1C AT LEVEL    15
+ DELETE     X20C AT LEVEL    14
+ DELETE     X10C AT LEVEL    13
+ DELETE      X5C AT LEVEL    12
+ DELETE      X2C AT LEVEL    11
+ DELETE      X1C AT LEVEL    10
+ FLIP      Y1E TO <=         1 AT    9 WITH BND=   -4.3400002
+ SET     X50C TO <=     0 AT   10, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET      X1E TO <=     0 AT   11, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET      Y1C TO <=     0 AT   12, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET      Y2C TO <=     0 AT   13, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET      Y5C TO <=     0 AT   14, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET     Y10C TO <=     0 AT   15, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET      Y1E TO >=     1 AT   16, BND=  -4.340     TWIN=-0.1000E+31   1081
+ SET     Y50C TO <=     1 AT   17, BND=  -4.850     TWIN= -6.650       1086
+ SET      X1C TO <=     0 AT   18, BND=  -4.850     TWIN=-0.1000E+31   1086
+ SET      X2C TO <=     0 AT   19, BND=  -4.850     TWIN=-0.1000E+31   1086
+ SET      X5C TO <=     0 AT   20, BND=  -4.850     TWIN=-0.1000E+31   1086
+ SET     X10C TO <=     0 AT   21, BND=  -4.850     TWIN=-0.1000E+31   1086
+ SET     X20C TO <=     0 AT   22, BND=  -4.850     TWIN=-0.1000E+31   1086
+ SET     Y50C TO >=     1 AT   23, BND=  -4.850     TWIN=-0.1000E+31   1086
+ DELETE     Y20C AT LEVEL    24
+ DELETE     Y50C AT LEVEL    23
+ DELETE     X20C AT LEVEL    22
+ DELETE     X10C AT LEVEL    21
+ DELETE      X5C AT LEVEL    20
+ DELETE      X2C AT LEVEL    19
+ DELETE      X1C AT LEVEL    18
+ DELETE     Y50C AT LEVEL    17
+ DELETE      Y1E AT LEVEL    16
+ DELETE     Y10C AT LEVEL    15
+ DELETE      Y5C AT LEVEL    14
+ DELETE      Y2C AT LEVEL    13
+ DELETE      Y1C AT LEVEL    12
+ DELETE      X1E AT LEVEL    11
+ DELETE     X50C AT LEVEL    10
+ DELETE      Y1E AT LEVEL     9
+ DELETE      Y5E AT LEVEL     8
+ DELETE      X2E AT LEVEL     7
+ DELETE      Y2E AT LEVEL     6
+ DELETE     X10E AT LEVEL     5
+ DELETE      X5E AT LEVEL     4
+ FLIP     Y10E TO >=         1 AT    3 WITH BND=   -3.0000000
+ SET     X10E TO <=     1 AT    4, BND=  -3.000     TWIN= -4.334       1100
+ SET      X1E TO <=     0 AT    5, BND=  -3.000     TWIN= -3.466       1103
+ SET      X5E TO >=     1 AT    6, BND=  -3.334     TWIN= -3.665       1119
+ SET      Y5E TO >=     1 AT    7, BND=  -4.666     TWIN= -3.334       1125
+ SET      X1C TO <=     0 AT    8, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      X2C TO <=     0 AT    9, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      X5C TO <=     0 AT   10, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     X10C TO <=     0 AT   11, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     X20C TO <=     0 AT   12, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     X50C TO <=     0 AT   13, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      X2E TO <=     0 AT   14, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      Y1C TO <=     0 AT   15, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      Y2C TO <=     0 AT   16, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      Y5C TO <=     0 AT   17, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     Y10C TO <=     0 AT   18, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     Y20C TO <=     0 AT   19, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     Y50C TO <=     0 AT   20, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      Y1E TO <=     0 AT   21, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET      Y2E TO <=     0 AT   22, BND=  -4.666     TWIN=-0.1000E+31   1125
+ SET     Y10E TO <=     1 AT   23, BND=  -4.666     TWIN=-0.1000E+31   1125
+ DELETE      X5E AT LEVEL    24
+ DELETE     Y10E AT LEVEL    23
+ DELETE      Y2E AT LEVEL    22
+ DELETE      Y1E AT LEVEL    21
+ DELETE     Y50C AT LEVEL    20
+ DELETE     Y20C AT LEVEL    19
+ DELETE     Y10C AT LEVEL    18
+ DELETE      Y5C AT LEVEL    17
+ DELETE      Y2C AT LEVEL    16
+ DELETE      Y1C AT LEVEL    15
+ DELETE      X2E AT LEVEL    14
+ DELETE     X50C AT LEVEL    13
+ DELETE     X20C AT LEVEL    12
+ DELETE     X10C AT LEVEL    11
+ DELETE      X5C AT LEVEL    10
+ DELETE      X2C AT LEVEL     9
+ DELETE      X1C AT LEVEL     8
+ FLIP      Y5E TO <=         0 AT    7 WITH BND=   -3.3343344
+ SET     Y10E TO <=     1 AT    8, BND=  -3.835     TWIN= -5.666       1135
+ SET      X5E TO <=     1 AT    9, BND=  -3.835     TWIN=-0.1000E+31   1135
+ SET      Y2E TO >=     1 AT   10, BND=  -4.165     TWIN= -4.670       1139
+ SET      X1C TO <=     0 AT   11, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      X2C TO <=     0 AT   12, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      X5C TO <=     0 AT   13, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET     X10C TO <=     0 AT   14, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET     X20C TO <=     0 AT   15, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      Y1C TO <=     0 AT   16, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      Y2C TO <=     0 AT   17, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      Y5C TO <=     0 AT   18, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET     Y10C TO <=     0 AT   19, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET     Y20C TO <=     0 AT   20, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET     Y50C TO <=     0 AT   21, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      Y1E TO <=     0 AT   22, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      Y2E TO <=     1 AT   23, BND=  -4.165     TWIN=-0.1000E+31   1139
+ SET      X2E TO <=     0 AT   24, BND=  -4.660     TWIN=-0.1000E+31   1140
+ DELETE     X50C AT LEVEL    25
+ DELETE      X2E AT LEVEL    24
+ DELETE      Y2E AT LEVEL    23
+ DELETE      Y1E AT LEVEL    22
+ DELETE     Y50C AT LEVEL    21
+ DELETE     Y20C AT LEVEL    20
+ DELETE     Y10C AT LEVEL    19
+ DELETE      Y5C AT LEVEL    18
+ DELETE      Y2C AT LEVEL    17
+ DELETE      Y1C AT LEVEL    16
+ DELETE     X20C AT LEVEL    15
+ DELETE     X10C AT LEVEL    14
+ DELETE      X5C AT LEVEL    13
+ DELETE      X2C AT LEVEL    12
+ DELETE      X1C AT LEVEL    11
+ FLIP      Y2E TO <=         0 AT   10 WITH BND=   -4.6700001
+ SET     X50C TO <=     0 AT   11, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET      X2E TO <=     0 AT   12, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET      Y1C TO <=     0 AT   13, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET      Y2C TO <=     0 AT   14, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET      Y5C TO <=     0 AT   15, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET     Y10C TO <=     0 AT   16, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET     Y20C TO <=     0 AT   17, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET     Y50C TO <=     0 AT   18, BND=  -4.670     TWIN=-0.1000E+31   1140
+ SET      Y1E TO >=     2 AT   19, BND=  -6.650     TWIN=-0.1000E+31   1144
+ DELETE      Y1E AT LEVEL    19
+ DELETE     Y50C AT LEVEL    18
+ DELETE     Y20C AT LEVEL    17
+ DELETE     Y10C AT LEVEL    16
+ DELETE      Y5C AT LEVEL    15
+ DELETE      Y2C AT LEVEL    14
+ DELETE      Y1C AT LEVEL    13
+ DELETE      X2E AT LEVEL    12
+ DELETE     X50C AT LEVEL    11
+ DELETE      Y2E AT LEVEL    10
+ DELETE      X5E AT LEVEL     9
+ DELETE     Y10E AT LEVEL     8
+ DELETE      Y5E AT LEVEL     7
+ FLIP      X5E TO <=         0 AT    6 WITH BND=   -3.6650000
+ SET      Y5E TO <=     0 AT    7, BND=  -3.665     TWIN=-0.1000E+31   1144
+ SET     Y10E TO <=     1 AT    8, BND=  -3.665     TWIN=-0.1000E+31   1144
+ SET      X2E TO >=     2 AT    9, BND=  -4.335     TWIN= -5.660       1146
+ SET      X1C TO <=     0 AT   10, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      X2C TO <=     0 AT   11, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      X5C TO <=     0 AT   12, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET     X10C TO <=     0 AT   13, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET     X20C TO <=     0 AT   14, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET     X50C TO <=     0 AT   15, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      X2E TO <=     2 AT   16, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      Y1C TO <=     0 AT   17, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      Y2C TO <=     0 AT   18, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      Y5C TO <=     0 AT   19, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET     Y10C TO <=     0 AT   20, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET     Y20C TO <=     0 AT   21, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET     Y50C TO <=     0 AT   22, BND=  -4.335     TWIN=-0.1000E+31   1146
+ SET      Y2E TO <=     0 AT   23, BND=  -4.670     TWIN=-0.1000E+31   1147
+ DELETE      Y1E AT LEVEL    24
+ DELETE      Y2E AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y20C AT LEVEL    21
+ DELETE     Y10C AT LEVEL    20
+ DELETE      Y5C AT LEVEL    19
+ DELETE      Y2C AT LEVEL    18
+ DELETE      Y1C AT LEVEL    17
+ DELETE      X2E AT LEVEL    16
+ DELETE     X50C AT LEVEL    15
+ DELETE     X20C AT LEVEL    14
+ DELETE     X10C AT LEVEL    13
+ DELETE      X5C AT LEVEL    12
+ DELETE      X2C AT LEVEL    11
+ DELETE      X1C AT LEVEL    10
+ DELETE      X2E AT LEVEL     9
+ DELETE     Y10E AT LEVEL     8
+ DELETE      Y5E AT LEVEL     7
+ DELETE      X5E AT LEVEL     6
+ FLIP      X1E TO >=         1 AT    5 WITH BND=   -3.4660001
+ SET     Y10E TO <=     1 AT    6, BND=  -3.466     TWIN=-0.1000E+31   1147
+ SET      X5E TO <=     0 AT    7, BND=  -4.165     TWIN= -4.534       1152
+ SET      X1C TO <=     0 AT    8, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      X2C TO <=     0 AT    9, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      X5C TO <=     0 AT   10, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET     X10C TO <=     0 AT   11, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET     X20C TO <=     0 AT   12, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      Y1C TO <=     0 AT   13, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      Y2C TO <=     0 AT   14, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      Y5C TO <=     0 AT   15, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET     Y10C TO <=     0 AT   16, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET     Y20C TO <=     0 AT   17, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET     Y50C TO <=     0 AT   18, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      Y1E TO <=     0 AT   19, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      Y2E TO <=     0 AT   20, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      Y5E TO <=     0 AT   21, BND=  -4.165     TWIN=-0.1000E+31   1152
+ SET      X2E TO <=     1 AT   22, BND=  -4.330     TWIN=-0.1000E+31   1153
+ SET      X2E TO >=     1 AT   23, BND=  -4.330     TWIN=-0.1000E+31   1153
+ SET      X1E TO <=     1 AT   24, BND=  -4.660     TWIN=-0.1000E+31   1154
+ DELETE     X50C AT LEVEL    25
+ DELETE      X1E AT LEVEL    24
+ DELETE      X2E AT LEVEL    23
+ DELETE      X2E AT LEVEL    22
+ DELETE      Y5E AT LEVEL    21
+ DELETE      Y2E AT LEVEL    20
+ DELETE      Y1E AT LEVEL    19
+ DELETE     Y50C AT LEVEL    18
+ DELETE     Y20C AT LEVEL    17
+ DELETE     Y10C AT LEVEL    16
+ DELETE      Y5C AT LEVEL    15
+ DELETE      Y2C AT LEVEL    14
+ DELETE      Y1C AT LEVEL    13
+ DELETE     X20C AT LEVEL    12
+ DELETE     X10C AT LEVEL    11
+ DELETE      X5C AT LEVEL    10
+ DELETE      X2C AT LEVEL     9
+ DELETE      X1C AT LEVEL     8
+ FLIP      X5E TO >=         1 AT    7 WITH BND=   -4.5339999
+ SET      X1C TO <=     0 AT    8, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      X2C TO <=     0 AT    9, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      X5C TO <=     0 AT   10, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET     X10C TO <=     0 AT   11, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET     X20C TO <=     0 AT   12, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET     X50C TO <=     0 AT   13, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      X1E TO <=     1 AT   14, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      X2E TO <=     0 AT   15, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      X5E TO <=     1 AT   16, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      Y1C TO <=     0 AT   17, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      Y2C TO <=     0 AT   18, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      Y5C TO <=     0 AT   19, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET     Y10C TO <=     0 AT   20, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET     Y20C TO <=     0 AT   21, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET     Y50C TO <=     0 AT   22, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      Y1E TO <=     0 AT   23, BND=  -4.534     TWIN=-0.1000E+31   1154
+ SET      Y2E TO <=     0 AT   24, BND=  -4.534     TWIN=-0.1000E+31   1154
+ DELETE      Y5E AT LEVEL    25
+ DELETE      Y2E AT LEVEL    24
+ DELETE      Y1E AT LEVEL    23
+ DELETE     Y50C AT LEVEL    22
+ DELETE     Y20C AT LEVEL    21
+ DELETE     Y10C AT LEVEL    20
+ DELETE      Y5C AT LEVEL    19
+ DELETE      Y2C AT LEVEL    18
+ DELETE      Y1C AT LEVEL    17
+ DELETE      X5E AT LEVEL    16
+ DELETE      X2E AT LEVEL    15
+ DELETE      X1E AT LEVEL    14
+ DELETE     X50C AT LEVEL    13
+ DELETE     X20C AT LEVEL    12
+ DELETE     X10C AT LEVEL    11
+ DELETE      X5C AT LEVEL    10
+ DELETE      X2C AT LEVEL     9
+ DELETE      X1C AT LEVEL     8
+ DELETE      X5E AT LEVEL     7
+ DELETE     Y10E AT LEVEL     6
+ DELETE      X1E AT LEVEL     5
+ FLIP     X10E TO >=         2 AT    4 WITH BND=   -4.3343344
+ SET      X5E TO <=     0 AT    5, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET     X10E TO <=     2 AT    6, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET      Y1C TO <=     0 AT    7, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET      Y2C TO <=     0 AT    8, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET      Y5C TO <=     0 AT    9, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET     Y10C TO <=     0 AT   10, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET     Y20C TO <=     0 AT   11, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET     Y50C TO <=     0 AT   12, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET      Y1E TO <=     0 AT   13, BND=  -4.334     TWIN=-0.1000E+31   1154
+ SET     Y10E TO <=     1 AT   14, BND=  -4.835     TWIN= -5.665       1161
+ SET      X1C TO <=     0 AT   15, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET      X2C TO <=     0 AT   16, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET      X5C TO <=     0 AT   17, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET     X10C TO <=     0 AT   18, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET     X20C TO <=     0 AT   19, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET     X50C TO <=     0 AT   20, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET      X1E TO <=     0 AT   21, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET      X2E TO <=     0 AT   22, BND=  -4.835     TWIN=-0.1000E+31   1161
+ SET      Y5E TO >=     1 AT   23, BND=  -4.835     TWIN=-0.1000E+31   1161
+ DELETE      Y2E AT LEVEL    24
+ DELETE      Y5E AT LEVEL    23
+ DELETE      X2E AT LEVEL    22
+ DELETE      X1E AT LEVEL    21
+ DELETE     X50C AT LEVEL    20
+ DELETE     X20C AT LEVEL    19
+ DELETE     X10C AT LEVEL    18
+ DELETE      X5C AT LEVEL    17
+ DELETE      X2C AT LEVEL    16
+ DELETE      X1C AT LEVEL    15
+ DELETE     Y10E AT LEVEL    14
+ DELETE      Y1E AT LEVEL    13
+ DELETE     Y50C AT LEVEL    12
+ DELETE     Y20C AT LEVEL    11
+ DELETE     Y10C AT LEVEL    10
+ DELETE      Y5C AT LEVEL     9
+ DELETE      Y2C AT LEVEL     8
+ DELETE      Y1C AT LEVEL     7
+ DELETE     X10E AT LEVEL     6
+ DELETE      X5E AT LEVEL     5
+ DELETE     X10E AT LEVEL     4
+ DELETE     Y10E AT LEVEL     3
+ FLIP      Y5E TO >=         2 AT    2 WITH BND=   -3.3329999
+ SET     Y10E TO <=     0 AT    3, BND=  -3.333     TWIN=-0.1000E+31   1161
+ SET     X10E TO <=     1 AT    4, BND=  -3.666     TWIN= -5.334       1163
+ SET      Y2E TO <=     0 AT    5, BND=  -3.666     TWIN=-0.1000E+31   1163
+ SET      Y5E TO <=     2 AT    6, BND=  -3.666     TWIN=-0.1000E+31   1163
+ SET      X5E TO <=     0 AT    7, BND=  -4.665     TWIN= -5.670       1166
+ SET      X1C TO <=     0 AT    8, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      X2C TO <=     0 AT    9, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      X5C TO <=     0 AT   10, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET     X10C TO <=     0 AT   11, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET     X20C TO <=     0 AT   12, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET     X50C TO <=     0 AT   13, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      X1E TO <=     0 AT   14, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      Y1C TO <=     0 AT   15, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      Y2C TO <=     0 AT   16, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      Y5C TO <=     0 AT   17, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET     Y10C TO <=     0 AT   18, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET     Y20C TO <=     0 AT   19, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET     Y50C TO <=     0 AT   20, BND=  -4.665     TWIN=-0.1000E+31   1166
+ SET      Y1E TO <=     0 AT   21, BND=  -4.665     TWIN=-0.1000E+31   1166
+ DELETE      X2E AT LEVEL    22
+ DELETE      Y1E AT LEVEL    21
+ DELETE     Y50C AT LEVEL    20
+ DELETE     Y20C AT LEVEL    19
+ DELETE     Y10C AT LEVEL    18
+ DELETE      Y5C AT LEVEL    17
+ DELETE      Y2C AT LEVEL    16
+ DELETE      Y1C AT LEVEL    15
+ DELETE      X1E AT LEVEL    14
+ DELETE     X50C AT LEVEL    13
+ DELETE     X20C AT LEVEL    12
+ DELETE     X10C AT LEVEL    11
+ DELETE      X5C AT LEVEL    10
+ DELETE      X2C AT LEVEL     9
+ DELETE      X1C AT LEVEL     8
+ DELETE      X5E AT LEVEL     7
+ DELETE      Y5E AT LEVEL     6
+ DELETE      Y2E AT LEVEL     5
+ DELETE     X10E AT LEVEL     4
+ DELETE     Y10E AT LEVEL     3
+ DELETE      Y5E AT LEVEL     2
+ DELETE     X10E AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=   396 PIVOTS=    1166
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      6.000000
+
+  VARIABLE        VALUE          REDUCED COST
+         Z         6.000000          1.000000
+       X1C         0.000000          0.000000
+       X2C         0.000000          0.000000
+       X5C         0.000000          0.000000
+      X10C         0.000000          0.000000
+      X20C         2.000000          0.000000
+      X50C         0.000000          0.000000
+       X1E         0.000000          0.000000
+       X2E         0.000000          0.000000
+       X5E         1.000000          0.000000
+      X10E         0.000000          0.000000
+       Y1C         0.000000          0.000000
+       Y2C         1.000000          0.000000
+       Y5C         1.000000          0.000000
+      Y10C         0.000000          0.000000
+      Y20C         0.000000          0.000000
+      Y50C         0.000000          0.000000
+       Y1E         0.000000          0.000000
+       Y2E         1.000000          0.000000
+       Y5E         0.000000          0.000000
+      Y10E         0.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        2)         0.000000          0.000000
+        3)         0.000000          0.000000
+
+ NO. ITERATIONS=    1166
+ BRANCHES=  396 DETERM.=  1.000E    0

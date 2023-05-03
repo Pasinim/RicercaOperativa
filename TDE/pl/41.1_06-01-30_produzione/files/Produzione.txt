@@ -1,0 +1,79 @@
+I prodotti sono 2, denominati X e Y.
+
+=======================================
+
+Tabella 1: costi di produzione [Euro/unità di prodotto]
+
+              Prodotto X   Prodotto Y
+Gennaio          125          240
+Febbraio         140          245
+Marzo            140          230
+Aprile           150          230
+Maggio           130          225
+Giugno           120          220
+Luglio           100          215
+Agosto           170          240
+Settembre        135          225
+Ottobre          145          235
+Novembre         160          240
+Dicembre         175          250
+
+=======================================
+
+Tabella 2: costi di stoccaggio [Euro / unità di prodotto]
+
+             Prodotto (X o Y)
+Gennaio          45
+Febbraio         45
+Marzo            40
+Aprile           25
+Maggio           20
+Giugno           10
+Luglio           10
+Agosto           10
+Settembre        15
+Ottobre          25
+Novembre         35
+Dicembre         40
+
+=======================================
+
+Tabella 3: Capacità produttiva [unità di prodotto]
+
+              Prodotto X   Prodotto Y
+Gennaio         2400         1000
+Febbraio        2300          900
+Marzo           2500         1000
+Aprile          2500         1000
+Maggio          2450         1000
+Giugno          2550         1000
+Luglio          2300          900
+Agosto          1200          400
+Settembre       2200         1000
+Ottobre         2500         1000
+Novembre        2500         1000
+Dicembre        1800          700
+
+=======================================
+
+Tabella 4: Domanda [unità di prodotto]
+
+              Prodotto X   Prodotto Y
+Gennaio         1800          500
+Febbraio        1700          400
+Marzo           1800          500
+Aprile          1800          600
+Maggio          1900          700
+Giugno          2300          800
+Luglio          2500          900
+Agosto          2500         1000
+Settembre       2000          800
+Ottobre         1800          800
+Novembre        1700          800
+Dicembre        2000         1000
+
+=======================================
+
+La capacità del magazzino è pari a 2500 unità di prodotto complessive.
+
+

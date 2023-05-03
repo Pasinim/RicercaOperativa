@@ -1,0 +1,73 @@
+Problem:    3_cereali
+Rows:       17
+Columns:    12
+Non-zeros:  48
+Status:     OPTIMAL
+Objective:  prof = 133340 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 acquaMax[1]  B         148225                      400000 
+     2 acquaMax[2]  B         148225                      400000 
+     3 acquaNecessaria[1,1]
+                    NU           120                         120            48 
+     4 acquaNecessaria[1,2]
+                    NU           120                         120            48 
+     5 acquaNecessaria[2,1]
+                    NU           160                         160            62 
+     6 acquaNecessaria[2,2]
+                    NU           160                         160            62 
+     7 acquaNecessaria[3,1]
+                    NU           100                         100            28 
+     8 acquaNecessaria[3,2]
+                    NU           100                         100            28 
+     9 acquaNecessaria[4,1]
+                    NU           140                         140            36 
+    10 acquaNecessaria[4,2]
+                    NU           140                         140            36 
+    11 acquaNecessaria[5,1]
+                    NU           215                         215           122 
+    12 acquaNecessaria[5,2]
+                    NU           215                         215           122 
+    13 acquaNecessaria[6,1]
+                    NU           180                         180            94 
+    14 acquaNecessaria[6,2]
+                    NU           180                         180            94 
+    15 acriMax[1]   B          29.39                         200 
+    16 acriMax[2]   B          32.06                         400 
+    17 prof         B         133340                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       B            120             0               
+     2 x[1,2]       B            160             0               
+     3 x[1,3]       B            100             0               
+     4 x[1,4]       B            140             0               
+     5 x[1,5]       B            215             0               
+     6 x[1,6]       B            180             0               
+     7 x[2,1]       B            120             0               
+     8 x[2,2]       B            160             0               
+     9 x[2,3]       B            100             0               
+    10 x[2,4]       B            140             0               
+    11 x[2,5]       B            215             0               
+    12 x[2,6]       B            180             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

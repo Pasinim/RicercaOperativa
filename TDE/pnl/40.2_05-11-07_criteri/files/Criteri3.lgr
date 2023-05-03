@@ -1,0 +1,21 @@
+ Feasible solution found at step:                   7
+
+                                           Variable           Value
+                                                  K        25.00000
+                                           MAXTEMPO        15.00000
+                                           MAXCOSTO        20.00000
+                                         T_STANDARD        12.00000
+                                         C_STANDARD        15.00000
+                                                  C        5.590170
+                                                  T        4.472136
+                                           T_UTOPIA        1.250000
+                                           C_UTOPIA        1.666667
+
+                                                Row    Slack or Surplus
+                                                  1       0.0000000
+                                                  2        10.52786
+                                                  3        14.40983
+                                                  4       0.0000000
+                                                  5       0.0000000
+                                                  6       0.0000000
+

@@ -1,0 +1,38 @@
+Tabella 1: Prezzi di vendita dei prodotti ittici
+
+    Prodotto       Prezzo (Euro/Kg)
+Pesce azzurro       10.00
+Pesci per frittura   7.50
+Frutti di mare      20.00
+
+===================================================
+
+Tabella 2: Volume occupato nella cella frigorifera
+
+    Prodotto       Volume (cc/Kg)
+Pesce azzurro       10000
+Pesci per frittura   7500
+Frutti di mare      12500
+
+La capacità della cella è di 50000 cc.
+===================================================
+
+Tabella 3: Tempo di preparazione e confezionamento
+
+    Prodotto       Tempo (min/Kg)
+Pesce azzurro        11
+Pesci per frittura    8
+Frutti di mare       10
+
+Il tempo disponibile ogni giorno per la pulizia ed il confezionamento è di 45 minuti
+===================================================
+
+Tabella 4: Limiti di acquisto giornaliero
+
+    Prodotto       Quantità max. (Kg/giorno)
+Pesce azzurro            40
+Pesci per frittura       60
+Frutti di mare           60
+
+I limiti si riferiscono alle quantità massime per ogni prodotto se il prodotto fosse l'unico acquistato.
+

@@ -1,0 +1,25 @@
+!Esercizio TeRO_30bis (16.6.2004)
+ 
+!Variabili: x(i) = numero di elettrodomestici acquistati per ogni tipo [pezzi/giorno]
+ 
+!Funzione obiettivo: max ricavi settmanali [Euro/settimana]
+ max 130 x1 +  50 x2 + 20 x3
+ 
+ st
+ 
+!Vincolo sul volume disponibile [pezzi/settimana]
+volume) 40 x1 +  75 x2 + 12 x3 <= 7200
+ 
+!Vincolo sul tempo massimo disponibile per ispezione e collaudo [min/settimana]
+tempo ) 10 x1 +   5 x2 +  5 x3 <=  1200
+ 
+!Vincolo sulle percentuali minime e massime [pezzi/settimana]
+totale) x1 + x2 + x3 - totale = 0
+min_1 ) x1 - 0.10 totale >= 0
+min_2 ) x2 - 0.05 totale >= 0
+min_3 ) x3 - 0.30 totale >= 0 
+max_1 ) x1 - 0.50 totale <= 0
+max_2 ) x2 - 0.40 totale <= 0
+max_3 ) x3 - 0.50 totale <= 0
+ 
+end

@@ -1,0 +1,11 @@
+I quadrati sono 5.
+
+Quadrato Lato
+    1      4
+    2      6
+    3      7
+    4      3
+    5      9
+
+Il rettangolo ha base 20 e altezza 30.
+

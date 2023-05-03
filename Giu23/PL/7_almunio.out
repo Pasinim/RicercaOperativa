@@ -1,0 +1,292 @@
+Problem:    7_almunio
+Rows:       128
+Columns:    6
+Non-zeros:  84
+Status:     UNDEFINED
+Objective:  p = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 tot          B              0           4.5             = 
+     2 risorseMax[1]
+                    B              0                         0.5 
+     3 risorseMax[2]
+                    B              0                         1.2 
+     4 risorseMax[3]
+                    B              0                         2.2 
+     5 risorseMax[4]
+                    B              0                      100000 
+     6 risorseMax[5]
+                    B              0                      100000 
+     7 risorseMax[6]
+                    B              0                      100000 
+     8 limiteSup[1,1]
+                    B              0                         2.7 
+     9 limiteSup[1,2]
+                    B              0                         2.7 
+    10 limiteSup[1,3]
+                    B              0                         2.7 
+    11 limiteSup[1,4]
+                    B              0                         2.7 
+    12 limiteSup[1,5]
+                    B              0                         2.7 
+    13 limiteSup[1,6]
+                    B              0                         2.7 
+    14 limiteSup[2,1]
+                    B              0                        4.05 
+    15 limiteSup[2,2]
+                    B              0                        4.05 
+    16 limiteSup[2,3]
+                    B              0                        4.05 
+    17 limiteSup[2,4]
+                    B              0                        4.05 
+    18 limiteSup[2,5]
+                    B              0                        4.05 
+    19 limiteSup[2,6]
+                    B              0                        4.05 
+    20 limiteSup[3,1]
+                    B              0                       1.575 
+    21 limiteSup[3,2]
+                    B              0                       1.575 
+    22 limiteSup[3,3]
+                    B              0                       1.575 
+    23 limiteSup[3,4]
+                    B              0                       1.575 
+    24 limiteSup[3,5]
+                    B              0                       1.575 
+    25 limiteSup[3,6]
+                    B              0                       1.575 
+    26 limiteSup[4,1]
+                    B              0                        0.45 
+    27 limiteSup[4,2]
+                    B              0                        0.45 
+    28 limiteSup[4,3]
+                    B              0                        0.45 
+    29 limiteSup[4,4]
+                    B              0                        0.45 
+    30 limiteSup[4,5]
+                    B              0                        0.45 
+    31 limiteSup[4,6]
+                    B              0                        0.45 
+    32 limiteSup[5,1]
+                    B              0                        0.45 
+    33 limiteSup[5,2]
+                    B              0                        0.45 
+    34 limiteSup[5,3]
+                    B              0                        0.45 
+    35 limiteSup[5,4]
+                    B              0                        0.45 
+    36 limiteSup[5,5]
+                    B              0                        0.45 
+    37 limiteSup[5,6]
+                    B              0                        0.45 
+    38 limiteSup[6,1]
+                    B              0                        0.45 
+    39 limiteSup[6,2]
+                    B              0                        0.45 
+    40 limiteSup[6,3]
+                    B              0                        0.45 
+    41 limiteSup[6,4]
+                    B              0                        0.45 
+    42 limiteSup[6,5]
+                    B              0                        0.45 
+    43 limiteSup[6,6]
+                    B              0                        0.45 
+    44 limiteSup[7,1]
+                    B              0                        0.45 
+    45 limiteSup[7,2]
+                    B              0                        0.45 
+    46 limiteSup[7,3]
+                    B              0                        0.45 
+    47 limiteSup[7,4]
+                    B              0                        0.45 
+    48 limiteSup[7,5]
+                    B              0                        0.45 
+    49 limiteSup[7,6]
+                    B              0                        0.45 
+    50 limiteSup[8,1]
+                    B              0                        0.45 
+    51 limiteSup[8,2]
+                    B              0                        0.45 
+    52 limiteSup[8,3]
+                    B              0                        0.45 
+    53 limiteSup[8,4]
+                    B              0                        0.45 
+    54 limiteSup[8,5]
+                    B              0                        0.45 
+    55 limiteSup[8,6]
+                    B              0                        0.45 
+    56 limiteSup[9,1]
+                    B              0                         450 
+    57 limiteSup[9,2]
+                    B              0                         450 
+    58 limiteSup[9,3]
+                    B              0                         450 
+    59 limiteSup[9,4]
+                    B              0                         450 
+    60 limiteSup[9,5]
+                    B              0                         450 
+    61 limiteSup[9,6]
+                    B              0                         450 
+    62 limiteSup[10,1]
+                    B              0                       0.675 
+    63 limiteSup[10,2]
+                    B              0                       0.675 
+    64 limiteSup[10,3]
+                    B              0                       0.675 
+    65 limiteSup[10,4]
+                    B              0                       0.675 
+    66 limiteSup[10,5]
+                    B              0                       0.675 
+    67 limiteSup[10,6]
+                    B              0                       0.675 
+    68 limiteInf[1,1]
+                    B              0           0.9               
+    69 limiteInf[1,2]
+                    B              0           0.9               
+    70 limiteInf[1,3]
+                    B              0           0.9               
+    71 limiteInf[1,4]
+                    B              0           0.9               
+    72 limiteInf[1,5]
+                    B              0           0.9               
+    73 limiteInf[1,6]
+                    B              0           0.9               
+    74 limiteInf[2,1]
+                    B              0         2.025               
+    75 limiteInf[2,2]
+                    B              0         2.025               
+    76 limiteInf[2,3]
+                    B              0         2.025               
+    77 limiteInf[2,4]
+                    B              0         2.025               
+    78 limiteInf[2,5]
+                    B              0         2.025               
+    79 limiteInf[2,6]
+                    B              0         2.025               
+    80 limiteInf[3,1]
+                    B              0            -0               
+    81 limiteInf[3,2]
+                    B              0            -0               
+    82 limiteInf[3,3]
+                    B              0            -0               
+    83 limiteInf[3,4]
+                    B              0            -0               
+    84 limiteInf[3,5]
+                    B              0            -0               
+    85 limiteInf[3,6]
+                    B              0            -0               
+    86 limiteInf[4,1]
+                    B              0            -0               
+    87 limiteInf[4,2]
+                    B              0            -0               
+    88 limiteInf[4,3]
+                    B              0            -0               
+    89 limiteInf[4,4]
+                    B              0            -0               
+    90 limiteInf[4,5]
+                    B              0            -0               
+    91 limiteInf[4,6]
+                    B              0            -0               
+    92 limiteInf[5,1]
+                    B              0            -0               
+    93 limiteInf[5,2]
+                    B              0            -0               
+    94 limiteInf[5,3]
+                    B              0            -0               
+    95 limiteInf[5,4]
+                    B              0            -0               
+    96 limiteInf[5,5]
+                    B              0            -0               
+    97 limiteInf[5,6]
+                    B              0            -0               
+    98 limiteInf[6,1]
+                    B              0            -0               
+    99 limiteInf[6,2]
+                    B              0            -0               
+   100 limiteInf[6,3]
+                    B              0            -0               
+   101 limiteInf[6,4]
+                    B              0            -0               
+   102 limiteInf[6,5]
+                    B              0            -0               
+   103 limiteInf[6,6]
+                    B              0            -0               
+   104 limiteInf[7,1]
+                    B              0            -0               
+   105 limiteInf[7,2]
+                    B              0            -0               
+   106 limiteInf[7,3]
+                    B              0            -0               
+   107 limiteInf[7,4]
+                    B              0            -0               
+   108 limiteInf[7,5]
+                    B              0            -0               
+   109 limiteInf[7,6]
+                    B              0            -0               
+   110 limiteInf[8,1]
+                    B              0           450               
+   111 limiteInf[8,2]
+                    B              0           450               
+   112 limiteInf[8,3]
+                    B              0           450               
+   113 limiteInf[8,4]
+                    B              0           450               
+   114 limiteInf[8,5]
+                    B              0           450               
+   115 limiteInf[8,6]
+                    B              0           450               
+   116 limiteInf[9,1]
+                    B              0        436.05               
+   117 limiteInf[9,2]
+                    B              0        436.05               
+   118 limiteInf[9,3]
+                    B              0        436.05               
+   119 limiteInf[9,4]
+                    B              0        436.05               
+   120 limiteInf[9,5]
+                    B              0        436.05               
+   121 limiteInf[9,6]
+                    B              0        436.05               
+   122 limiteInf[10,1]
+                    B              0            -0               
+   123 limiteInf[10,2]
+                    B              0            -0               
+   124 limiteInf[10,3]
+                    B              0            -0               
+   125 limiteInf[10,4]
+                    B              0            -0               
+   126 limiteInf[10,5]
+                    B              0            -0               
+   127 limiteInf[10,6]
+                    B              0            -0               
+   128 p            B              0                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NF             0                                     < eps
+     2 x[2]         NF             0                                     < eps
+     3 x[3]         NF             0                                     < eps
+     4 x[4]         NF             0                                     < eps
+     5 x[5]         NF             0                                     < eps
+     6 x[6]         NF             0                                     < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 4.50e+002 on row 110
+        max.rel.err = 9.98e-001 on row 110
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 2.44e+003 on column 6
+        max.rel.err = 1.00e+000 on column 6
+        DUAL SOLUTION IS WRONG
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

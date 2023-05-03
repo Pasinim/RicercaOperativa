@@ -1,0 +1,30 @@
+max p1 + p2 + p3   ! profitti relativi ai tre mercati
+
+s.t.
+
+USA) 0.35 x1 + 0.1 x2  + 0.6 x3  + 0.4 x4  - p1 = 0  ! definizione del profitto USA (p1)
+EUR) 0.1  x5 + 0.3 x6  + 0.8 x7  + 0.3 x8  - p2 = 0  ! definizione del profitto Europa (p2)
+JAP) 0.4  x9 + 0.3 x10 + 0.2 x11 + 0.1 x12 - p3 = 0  ! definizione del profitto Giappone (p3)
+
+! limiti sul numero totale di azioni acquistabili
+
+MMA) 0.5 x1 + 0.1 x2 + 0.25 x3 + 0.2 x4 <= 100      
+DDS) 0.3 x1 + 0.8 x2 + 0.2  x3 + 0.0 x4 <= 100      
+RP ) 0.2 x1 + 0.0 x2 + 0.35 x3 + 0.3 x4 <=  79      
+MLF) 0.0 x1 + 0.1 x2 + 0.2  x3 + 0.5 x4 <=  98      
+
+CA ) 0.9 x5 + 0.2 x6 + 0.0 x7 + 0.1 x8 <= 150      
+E  ) 0.1 x5 + 0.3 x6 + 0.2 x7 + 0.7 x8 <= 120      
+NP ) 0.0 x5 + 0.4 x6 + 0.0 x7 + 0.1 x8 <=  80      
+BFC) 0.0 x5 + 0.1 x6 + 0.8 x7 + 0.1 x8 <=  90      
+
+KA ) 0.7 x9 + 0.0 x10 + 0.1 x11 + 0.2 x12 <= 110    
+SF ) 0.2 x9 + 0.1 x10 + 0.5 x11 + 0.2 x12 <=  90    
+MW ) 0.1 x9 + 0.1 x10 + 0.3 x11 + 0.6 x12 <= 200    
+NSC) 0.0 x9 + 0.8 x10 + 0.1 x11 + 0.0 x12 <= 130    
+
+! totale capitale disponibile
+
+budget) x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 <= 1130
+
+end

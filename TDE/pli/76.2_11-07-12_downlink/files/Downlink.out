@@ -1,0 +1,201 @@
+Problem:    Downlink
+Rows:       65
+Columns:    48 (48 integer, 48 binary)
+Non-zeros:  192
+Status:     INTEGER OPTIMAL
+Objective:  value = 63 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 value                      63                             
+     2 contr_assignment[1]
+                                   1                           1 
+     3 contr_assignment[2]
+                                   1                           1 
+     4 contr_assignment[3]
+                                   1                           1 
+     5 contr_assignment[4]
+                                   1                           1 
+     6 contr_assignment[5]
+                                   1                           1 
+     7 contr_assignment[6]
+                                   1                           1 
+     8 contr_assignment[7]
+                                   0                           1 
+     9 contr_assignment[8]
+                                   1                           1 
+    10 contr_assignment[9]
+                                   0                           1 
+    11 contr_assignment[10]
+                                   1                           1 
+    12 contr_assignment[11]
+                                   1                           1 
+    13 contr_assignment[12]
+                                   1                           1 
+    14 constr_capacity[A]
+                                19.6                          20 
+    15 constr_capacity[B]
+                                15.7                          18 
+    16 constr_capacity[C]
+                                10.4                          11 
+    17 constr_capacity[D]
+                                23.2                        23.5 
+    18 constr_compatibility[1,A]
+                                   1                           1 
+    19 constr_compatibility[1,B]
+                                   0                          -0 
+    20 constr_compatibility[1,C]
+                                   0                           1 
+    21 constr_compatibility[1,D]
+                                   0                           1 
+    22 constr_compatibility[2,A]
+                                   0                           1 
+    23 constr_compatibility[2,B]
+                                   0                          -0 
+    24 constr_compatibility[2,C]
+                                   0                          -0 
+    25 constr_compatibility[2,D]
+                                   1                           1 
+    26 constr_compatibility[3,A]
+                                   0                          -0 
+    27 constr_compatibility[3,B]
+                                   0                           1 
+    28 constr_compatibility[3,C]
+                                   1                           1 
+    29 constr_compatibility[3,D]
+                                   0                           1 
+    30 constr_compatibility[4,A]
+                                   0                          -0 
+    31 constr_compatibility[4,B]
+                                   0                           1 
+    32 constr_compatibility[4,C]
+                                   0                           1 
+    33 constr_compatibility[4,D]
+                                   1                           1 
+    34 constr_compatibility[5,A]
+                                   0                          -0 
+    35 constr_compatibility[5,B]
+                                   0                          -0 
+    36 constr_compatibility[5,C]
+                                   0                           1 
+    37 constr_compatibility[5,D]
+                                   1                           1 
+    38 constr_compatibility[6,A]
+                                   0                           1 
+    39 constr_compatibility[6,B]
+                                   1                           1 
+    40 constr_compatibility[6,C]
+                                   0                          -0 
+    41 constr_compatibility[6,D]
+                                   0                          -0 
+    42 constr_compatibility[7,A]
+                                   0                          -0 
+    43 constr_compatibility[7,B]
+                                   0                           1 
+    44 constr_compatibility[7,C]
+                                   0                           1 
+    45 constr_compatibility[7,D]
+                                   0                          -0 
+    46 constr_compatibility[8,A]
+                                   0                          -0 
+    47 constr_compatibility[8,B]
+                                   0                           1 
+    48 constr_compatibility[8,C]
+                                   1                           1 
+    49 constr_compatibility[8,D]
+                                   0                          -0 
+    50 constr_compatibility[9,A]
+                                   0                           1 
+    51 constr_compatibility[9,B]
+                                   0                           1 
+    52 constr_compatibility[9,C]
+                                   0                           1 
+    53 constr_compatibility[9,D]
+                                   0                           1 
+    54 constr_compatibility[10,A]
+                                   1                           1 
+    55 constr_compatibility[10,B]
+                                   0                          -0 
+    56 constr_compatibility[10,C]
+                                   0                           1 
+    57 constr_compatibility[10,D]
+                                   0                          -0 
+    58 constr_compatibility[11,A]
+                                   0                          -0 
+    59 constr_compatibility[11,B]
+                                   1                           1 
+    60 constr_compatibility[11,C]
+                                   0                           1 
+    61 constr_compatibility[11,D]
+                                   0                          -0 
+    62 constr_compatibility[12,A]
+                                   1                           1 
+    63 constr_compatibility[12,B]
+                                   0                          -0 
+    64 constr_compatibility[12,C]
+                                   0                           1 
+    65 constr_compatibility[12,D]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,A]       *              1             0             1 
+     2 x[1,B]       *              0             0             1 
+     3 x[1,C]       *              0             0             1 
+     4 x[1,D]       *              0             0             1 
+     5 x[2,A]       *              0             0             1 
+     6 x[2,B]       *              0             0             1 
+     7 x[2,C]       *              0             0             1 
+     8 x[2,D]       *              1             0             1 
+     9 x[3,A]       *              0             0             1 
+    10 x[3,B]       *              0             0             1 
+    11 x[3,C]       *              1             0             1 
+    12 x[3,D]       *              0             0             1 
+    13 x[4,A]       *              0             0             1 
+    14 x[4,B]       *              0             0             1 
+    15 x[4,C]       *              0             0             1 
+    16 x[4,D]       *              1             0             1 
+    17 x[5,A]       *              0             0             1 
+    18 x[5,B]       *              0             0             1 
+    19 x[5,C]       *              0             0             1 
+    20 x[5,D]       *              1             0             1 
+    21 x[6,A]       *              0             0             1 
+    22 x[6,B]       *              1             0             1 
+    23 x[6,C]       *              0             0             1 
+    24 x[6,D]       *              0             0             1 
+    25 x[7,A]       *              0             0             1 
+    26 x[7,B]       *              0             0             1 
+    27 x[7,C]       *              0             0             1 
+    28 x[7,D]       *              0             0             1 
+    29 x[8,A]       *              0             0             1 
+    30 x[8,B]       *              0             0             1 
+    31 x[8,C]       *              1             0             1 
+    32 x[8,D]       *              0             0             1 
+    33 x[9,A]       *              0             0             1 
+    34 x[9,B]       *              0             0             1 
+    35 x[9,C]       *              0             0             1 
+    36 x[9,D]       *              0             0             1 
+    37 x[10,A]      *              1             0             1 
+    38 x[10,B]      *              0             0             1 
+    39 x[10,C]      *              0             0             1 
+    40 x[10,D]      *              0             0             1 
+    41 x[11,A]      *              0             0             1 
+    42 x[11,B]      *              1             0             1 
+    43 x[11,C]      *              0             0             1 
+    44 x[11,D]      *              0             0             1 
+    45 x[12,A]      *              1             0             1 
+    46 x[12,B]      *              0             0             1 
+    47 x[12,C]      *              0             0             1 
+    48 x[12,D]      *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

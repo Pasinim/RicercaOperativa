@@ -1,0 +1,119 @@
+! Cantieri
+! xi professionisti del cantiere i
+! yi volontari del cantiere i
+
+! Funzione obbiettivo; si deve massimizzare l'utillità complessiva. Non si considera la molteciplità di 8
+
+max + 2.5x1 + y1 +3x2 + y2 + 8x3 + y3 + 2x4 + 0.5y4 + 4x5 
+    + 1.5y5 + 3x6 + 0.5y6 + 4x7 + 2.5y7 + 10x8 + y8 + 3x9 
+    + y9  +4x10 + y10 + 5x11 + y11 + 5x12 + 2y12
+
+subject to
+
+! Numero minimo di professionisti per cantiere
+
+x1 >= 5
+x2 >= 0
+x3 >= 1
+x4 >= 4
+x5 >= 2
+x6 >= 3
+x10 >= 1
+x11 >= 1
+x12 >= 1
+
+
+! Numero massimo di professionisti per cantiere
+
+x1 <=7
+x2 <=5
+
+! numero minimo Volontari per cantiere 
+
+y1 >= 10
+y2 >= 15
+y3 >= 8
+y4 >= 10
+y5 >= 8
+y6 >= 5
+
+!numero massimo volontari per cantiere;
+
+y1 <= 20
+y2 <= 20
+y3 <= 12
+y4 <= 18
+y6 <= 20
+y7 <= 20
+y8 <= 15
+
+
+!Totale min e max di professionisti e volontari per cantiere
+
+x3 +y3 <=15
+x4 +y4 <=20
+x5 +y5 <=15
+x6 +y6 <=20
+x7 +y7 <=25
+x7 +y7 >=10
+x8 +y8 <=20
+x8 +y8 >=5
+x9 +y9 <=10
+x9 +y9 >=5
+x10 +y10 <=20
+x11 +y11 <=15
+x11 +y11 >=10
+x12 +y12 <=12
+x12 +y12 >=8
+
+
+
+
+
+
+
+
+! Rapporto volontari - professionisti
+
+y1 - 1.5 x1 >= 0
+
+y1 - 4 x1   <= 0
+
+y2 - x2 >= 0
+
+y3 - x3 >= 0
+
+y4 - 2 x4 >= 0
+
+y5 - 4 x5 >= 0
+
+y6 - 1.5 x6 >=0
+
+y6 - 8 x6 <=0
+
+y7 - 1.5 x7 >= 0
+
+y8 - 4 x8 >= 0
+
+y8 - 10 x8   <= 0
+
+y9 - 5 x9 >= 0
+
+y10 - 5 x10 >= 0
+
+y11 - 5 x11 >= 0
+
+y11 - 10 x11 <= 0
+
+y12 - 5 x12 >=0
+
+
+
+! Massimo numero di persone che si possono impegnare [Persone]
+
+Tot_ore ) x1 + x2 +x3 +x4 +x5 +x6 +x7 +x8 +x9 +x10 +x11 +x12 +y1 + y2 +y3 +y4 +y5 +y6 +y7 +y8 +y9 +y10 +y11 +y12 <= 200
+
+! Costi divisi per 8 [Euro]
+Costi)  25x1 + 25x2 + 25x3 + 25x4 + 25x5 + 25x6 + 25x7 + 25x8 + 25x9 + 25x10 + 25x11 + 25x12 + 
+        5y1 +  5y2 +  5y3 +  5y4 +  5y5 +  5y6 +  5y7 +  5y8 +  5y9 +  5y10 +  5y11 +  5y12 <= 3000
+end

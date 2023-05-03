@@ -1,0 +1,2 @@
+Cerchio:	1 2 3 4 5 
+raggio:		2 4 7 6 1 

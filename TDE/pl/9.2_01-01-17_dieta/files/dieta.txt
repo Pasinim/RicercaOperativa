@@ -1,0 +1,49 @@
+I risultati degli studi dietologici sono riassunti dalle tabelle seguenti.
+
+=====================================================================================================
+
+Tabella 1: Quantità di sostanza nutritive (grammi di sostanza per ogni etto di alimento)
+
+        Alimenti:  Pasta   Latte    Formaggio   Formaggio  Pesce  Patate  Spinaci  Pane   Polenta 
+                                     fresco    stagionato
+       (quantità) (100 g) (100 ml)   (100 g)     (100 g)  (100 g) (100 g) (100 g) (100 g) (100 g)
+
+Sostanze (grammi):
+
+Proteine           11.5    3.15       8            33      18.5    2.1     2.4     12.0     9
+Carboidrati        72.7    4.85       3.8           0       0.5    0       0.6     68      74
+Grassi              1.5    1.55      11            28.4    19      0.1     0.5      6       1
+
+=====================================================================================================
+
+Tabella 2: Percentuali di Calcio e Fosforo rispetto al fabbisogno giornaliero
+
+        Alimenti:  Pasta   Latte    Formaggio   Formaggio  Pesce  Patate  Spinaci  Pane   Polenta 
+                                     fresco    stagionato
+       (quantità) (100 g) (100 ml)   (100 g)     (100 g)  (100 g) (100 g) (100 g) (100 g) (100 g)
+
+Calcio                      15 %      52.5 %      139 %           1.25 %
+Fosforo                               28   %       85 %     20 %  6.05 %
+
+=====================================================================================================
+
+Tabella 3: Limiti superiori ed inferiori di sostanze nutritive (% sul totale)
+
+Sostanze        Limite inferiore    Limite superiore
+
+Proteine            25 %                 35 %
+Carboidrati         15 %                 25 %
+Grassi              10 %                 20 %
+
+=====================================================================================================
+
+Tabella 4: Costi degli alimenti
+
+ Alimenti:  Pasta  Latte  Formaggio   Formaggio  Pesce  Patate  Spinaci  Pane   Polenta 
+                           fresco    stagionato
+(quantità) (1 Kg)  (1 l)   (1 Kg)      (1 Kg)   (1 Kg)  (1 Kg)  (1 Kg)  (1 Kg)  (1 Kg)
+
+ Costo:     2000   2200    16000       29000     22500   3500    5000    7000   10000
+ (Lire)
+
+=====================================================================================================

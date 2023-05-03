@@ -1,0 +1,35 @@
+! Esercizio "Macchine"
+
+! Variabili x(j) = numero di macchine prodotte ogni settimana, j=1..4
+! Variabili y(i) = numero componenti comprati ogni settimana, i=1..5
+! Tutte le variabili sono continue e non-negative
+
+! Funzione obiettivo: massimizzazione profitti = ricavi - costi [Euro / settimana]
+
+max 2050 x1 + 3500 x2 + 2550 x3 + 1250 x4 - 30 y1 - 40 y2 - 35 y3 - 10 y4 - 15 y5
+
+st
+
+! Vincoli sulla produzione minima [numero macchine / settimana]
+
+xmin1) x1 >= 25
+xmin2) x2 >= 15
+xmin3) x3 >= 35
+xmin4) x4 >= 30
+
+! Vincoli sull'uso dei componenti [numero componenti / settimana]
+
+r1) 3 x1 + 4 x2 + 1 x3 + 1 x4 - y1 <= 0
+r2) 2 x1 + 2 x2 + 3 x3 + 2 x4 - y2 <= 0
+r3) 2 x1 + 5 x2 + 3 x3 + 0 x4 - y3 <= 0
+r4) 0 x1 + 4 x2 + 3 x3 + 1 x4 - y4 <= 0
+r5) 3 x1 + 4 x2 + 2 x3 + 1 x4 - y5 <= 0
+
+! Vincolo sul tempo di lavorazione [minuti / settimana]
+! Il termine noto è calcolato come prodotto tra il numero di operai e 
+! il numero di minuti di lavoro disponibili per ogni operaio per ogni settimana
+! 60 [min/h] * 40 [h/sett] * 9 [operai] = 21600 [min/sett]
+
+tempo) 10 y1 + 15 y2 + 10 y3 + 20 y4 + 25 y5 <= 21600
+
+end

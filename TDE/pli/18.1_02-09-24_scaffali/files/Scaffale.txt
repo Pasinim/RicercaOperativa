@@ -1,0 +1,21 @@
+Gli oggetti sono 12.
+
+Tabella 1: Dimensione degli oggetti
+
+Oggetto  Larghezza   Altezza
+   1        41          10
+   2        63          15
+   3        10          40
+   4        25          25
+   5        38          25
+   6        40          20
+   7        26          31
+   8        35          18
+   9        14          19
+  10        21          33
+  11        17          22
+  12        26          34
+
+La larghezza dello scaffale è pari a 116.
+
+

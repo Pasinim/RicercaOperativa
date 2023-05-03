@@ -1,0 +1,8 @@
+Tabella 1: Canali e strettoie
+
+Canale   Lunghezza della strettoia   Velocità della corrente
+  1                0,5  km                     2 km/h
+  2                0,75 km                     1 km/h
+
+La velocità delle chiatte rispetto all'acqua è di 10 km/h.
+La capacità delle chiatte è di 1500 tonnellate.

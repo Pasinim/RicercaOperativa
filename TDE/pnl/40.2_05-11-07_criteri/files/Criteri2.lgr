@@ -1,0 +1,24 @@
+ Local optimal solution found at step:             14
+ Objective value:                            25.12280
+
+                       Variable           Value        Reduced Cost
+                              K        25.00000           0.0000000
+                       MAXTEMPO        15.00000           0.0000000
+                       MAXCOSTO        20.00000           0.0000000
+                     T_STANDARD        12.00000           0.0000000
+                     C_STANDARD        15.00000           0.0000000
+                              C        5.123432          -0.7341276E-07
+                              T        4.879542           0.0000000
+                       T_UTOPIA        1.250000           0.0000000
+                       C_UTOPIA        1.666667           0.0000000
+                       DISTANZA        25.12280           0.0000000
+
+                            Row    Slack or Surplus      Dual Price
+                              1       0.0000000           -1.416840
+                              2        10.12046           0.0000000
+                              3        14.87657           0.0000000
+                              4       0.0000000           0.3629420
+                              5       0.0000000           0.4608857
+                              6       0.0000000            1.000000
+                              7        25.12280           -1.000000
+

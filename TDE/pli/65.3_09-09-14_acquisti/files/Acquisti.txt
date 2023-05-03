@@ -1,0 +1,15 @@
+I venditori sono 5.
+Le fasce di prezzo sono 3.
+
+Tabella 1: Fasce di prezzo [confezioni] e prezzi [Euro/confezione]
+
+Venditore   Fascia  Prezzo  Fascia   Prezzo  Fascia    Prezzo
+    1        0-100    50    100- 500    40   500-2000    35
+    2        0-150    55    150- 400    38   400-2000    34
+    3       50-200    48    200- 450    35   450-1000    30
+    4      100-500    40    500-1000    37  1000-2000    34
+    5      100-400    42    400-1200    38  1200-2500    36
+
+====================== 
+ 
+Quantità totale da acquistare = 8000 confezioni 

@@ -1,0 +1,23 @@
+Primo progetto.
+
+Ogni unità di prodotto venduto dà un profitto pari a 1 unità (costa 1 e si vende a 2).
+Senza venditori a domicilio si riesce a vendere 4 unità di prodotto ogni giorno.
+Ogni giorno di lavoro di un venditore a domicilio permette di vendere un'unità di prodotto in più.
+Lo stipendio giornaliero di un venditore a domicilio e' uguale al costo di acquisto di un prodotto (cioè 1 unità).
+Il budget già disponibile per il primo progetto è pari a 2 unità di costo ogni giorno.
+I venditori a domicilio si possono anche assumere part-time.
+Per l'acquisto dei prodotti non si possono ri-utilizzare i proventi delle vendite precedenti.
+
+Secondo progetto.
+
+Per la produzione dei due prodotti A e B si usano due materie prime U e V.
+Per ogni unità di A servono 1 unità di U e 3 unità di V.
+Per ogni unità di B serovno 4 unità di U e 1 unità di V.
+Sono disponibili complessivamente 27 unità di U e 20 unità di V.
+Il prezzo di vendita è pari a 1 per entrambi i prodotti.
+Il prodotto A viene venduto solo proporzionalmente a quanto viene pubblicizzato:
+per ogni ora di pubblicità in televisione, si può vendere un'unità di prodotto in più al giorno.
+Ogni ora di pubblicità costa 1 unità di spesa.
+Il budget a disposizione del progetto 2 è di una sola unità.
+
+Il budget a disposizione del mega-manager è pari a 7 unità di spesa.

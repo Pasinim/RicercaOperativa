@@ -1,0 +1,316 @@
+
+ LP OPTIMUM FOUND AT STEP     43
+ OBJECTIVE VALUE =   49.5000000
+
+ FIX ALL VARS.(   37)  WITH RC >   41760.0
+ DELETE       Y8 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   35)  WITH RC >   31435.0
+ DELETE       Y0 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   32)  WITH RC >   13920.0
+ DELETE       Y0 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   33)  WITH RC >   10325.0
+ SET       Y6 TO <=     0 AT    1, BND= -0.1730E+06 TWIN=-0.1000E+31    183
+ DELETE       Y5 AT LEVEL     2
+ DELETE       Y6 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   29)  WITH RC >   22917.0
+ SET      X15 TO <=     0 AT    1, BND= -0.1929E+06 TWIN=-0.1000E+31    240
+ DELETE       Y8 AT LEVEL     2
+ DELETE      X15 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   31)  WITH RC >   12946.0
+ DELETE       Y5 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   27)  WITH RC >   16732.0
+ SET      X35 TO <=     0 AT    1, BND= -0.2502E+06 TWIN=-0.1000E+31    442
+ SET      X50 TO <=     0 AT    2, BND= -0.2530E+06 TWIN=-0.1000E+31    456
+ SET      X16 TO <=     0 AT    4, BND= -0.1000E+31 TWIN=-0.1000E+31    463
+ DELETE      X16 AT LEVEL     4
+ DELETE      X16 AT LEVEL     3
+ DELETE      X50 AT LEVEL     2
+ DELETE      X35 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   26)  WITH RC >   38088.5
+ DELETE       Y0 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   22)  WITH RC >   25902.0
+ SET      X14 TO <=     0 AT    1, BND= -0.3700E+06 TWIN=-0.1000E+31    610
+ SET      X34 TO <=     0 AT    2, BND= -0.3841E+06 TWIN=-0.1000E+31    620
+ SET      X49 TO <=     0 AT    3, BND= -0.4606E+06 TWIN=-0.1000E+31    643
+ DELETE       Y6 AT LEVEL     4
+ DELETE      X49 AT LEVEL     3
+ DELETE      X34 AT LEVEL     2
+ DELETE      X14 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   25)  WITH RC >   25070.0
+ SET       Y5 TO <=     0 AT    1, BND= -0.3951E+06 TWIN=-0.1000E+31    734
+ SET      X69 TO <=     0 AT    2, BND= -0.3966E+06 TWIN=-0.1000E+31    748
+ SET      X89 TO <=     0 AT    4, BND= -0.1000E+31 TWIN=-0.1000E+31    766
+ DELETE      X89 AT LEVEL     4
+ DELETE      X89 AT LEVEL     3
+ DELETE      X69 AT LEVEL     2
+ DELETE       Y5 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   23)  WITH RC >   29425.7
+ SET      X79 TO <=     0 AT    1, BND= -0.4533E+06 TWIN=-0.1000E+31    923
+ SET      X59 TO <=     0 AT    2, BND= -0.4583E+06 TWIN=-0.1000E+31    944
+ SET      X14 TO <=     0 AT    3, BND= -0.4633E+06 TWIN=-0.1000E+31    966
+ SET      X60 TO <=     0 AT    4, BND= -0.5544E+06 TWIN=-0.1000E+31    985
+ DELETE       Y7 AT LEVEL     5
+ DELETE      X60 AT LEVEL     4
+ DELETE      X14 AT LEVEL     3
+ DELETE      X59 AT LEVEL     2
+ DELETE      X79 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   20)  WITH RC >   24914.0
+ SET      X70 TO <=     0 AT    1, BND= -0.4870E+06 TWIN=-0.1000E+31   1156
+ SET      X79 TO <=     0 AT    2, BND= -0.4955E+06 TWIN=-0.1000E+31   1189
+ SET      X59 TO <=     0 AT    3, BND= -0.5000E+06 TWIN=-0.1000E+31   1205
+ SET      X34 TO <=     0 AT    4, BND= -0.5027E+06 TWIN=-0.1000E+31   1228
+ SET      X24 TO <=     0 AT    5, BND= -0.5038E+06 TWIN=-0.1000E+31   1235
+ SET      X38 TO <=     0 AT    6, BND= -0.5894E+06 TWIN=-0.1000E+31   1257
+ DELETE       Y9 AT LEVEL     7
+ DELETE      X38 AT LEVEL     6
+ DELETE      X24 AT LEVEL     5
+ DELETE      X34 AT LEVEL     4
+ DELETE      X59 AT LEVEL     3
+ DELETE      X79 AT LEVEL     2
+ DELETE      X70 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   13)  WITH RC >   43750.0
+ SET      X28 TO <=     0 AT    1, BND= -0.5191E+06 TWIN=-0.1000E+31   1427
+ SET      X80 TO <=     0 AT    2, BND= -0.5219E+06 TWIN=-0.1000E+31   1471
+ SET      X17 TO <=     0 AT    3, BND= -0.5721E+06 TWIN=-0.1000E+31   1495
+ SET      X60 TO <=     0 AT    4, BND= -0.5722E+06 TWIN=-0.1000E+31   1529
+ DELETE       Y9 AT LEVEL     5
+ DELETE      X60 AT LEVEL     4
+ DELETE      X17 AT LEVEL     3
+ DELETE      X80 AT LEVEL     2
+ DELETE      X28 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   19)  WITH RC >   32599.3
+ SET      X18 TO <=     0 AT    1, BND= -0.6137E+06 TWIN=-0.1000E+31   1717
+ DELETE      X10 AT LEVEL     2
+ DELETE      X18 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ FIX ALL VARS.(   15)  WITH RC >   32619.0
+ SET      X27 TO >=     1 AT    1, BND= -0.2330E+07 TWIN=-0.6408E+06   1983
+
+ NEW INTEGER SOLUTION OF    2330136.00     AT BRANCH     39 PIVOT    1983
+ BOUND ON OPTIMUM:  640828.0
+ FLIP      X27 TO <=         0 AT    1 WITH BND=   -640828.00
+ SET      X18 TO <=     0 AT    2, BND= -0.6454E+06 TWIN=-0.1000E+31   2004
+ SET      X20 TO <=     0 AT    3, BND= -0.6470E+06 TWIN=-0.1000E+31   2037
+ SET      X50 TO <=     0 AT    4, BND= -0.6520E+06 TWIN=-0.1000E+31   2084
+ SET      X10 TO <=     0 AT    5, BND= -0.6541E+06 TWIN=-0.1000E+31   2118
+ SET      X60 TO <=     0 AT    6, BND= -0.6554E+06 TWIN=-0.1000E+31   2164
+ SET       Y6 TO <=     0 AT    7, BND= -0.6757E+06 TWIN=-0.1000E+31   2212
+ DELETE      X70 AT LEVEL     8
+ DELETE       Y6 AT LEVEL     7
+ DELETE      X60 AT LEVEL     6
+ DELETE      X10 AT LEVEL     5
+ DELETE      X50 AT LEVEL     4
+ DELETE      X20 AT LEVEL     3
+ DELETE      X18 AT LEVEL     2
+ DELETE      X27 AT LEVEL     1
+ RELEASE FIXED VARIABLES
+ SET      X28 TO <=     0 AT    1, BND= -0.6924E+06 TWIN=-0.2204E+07   2561
+ SET      X37 TO <=     0 AT    2, BND= -0.6940E+06 TWIN=-0.2430E+07   2741
+ SET      X30 TO <=     0 AT    3, BND= -0.6953E+06 TWIN=-0.2350E+07   2903
+ SET      X80 TO >=     1 AT    4, BND= -0.2245E+07 TWIN=-0.6973E+06   3067
+
+ NEW INTEGER SOLUTION OF    2245469.00     AT BRANCH     50 PIVOT    3067
+ BOUND ON OPTIMUM:  663682.5
+ FLIP      X80 TO <=         0 AT    4 WITH BND=   -697292.00
+ SET       Y8 TO <=     0 AT    5, BND= -0.1224E+07 TWIN=-0.2562E+07   3231
+ SET       Y2 TO <=     0 AT    6, BND= -0.2098E+07 TWIN=-0.2326E+07   3292
+
+ NEW INTEGER SOLUTION OF    2098497.00     AT BRANCH     52 PIVOT    3292
+ BOUND ON OPTIMUM:  663682.5
+ DELETE       Y2 AT LEVEL     6
+ DELETE       Y8 AT LEVEL     5
+ DELETE      X80 AT LEVEL     4
+ DELETE      X30 AT LEVEL     3
+ DELETE      X37 AT LEVEL     2
+ DELETE      X28 AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=    52 PIVOTS=    3292
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      2098497.
+
+  VARIABLE        VALUE          REDUCED COST
+       X14         1.000000     323750.000000
+       X15         0.000000     168350.000000
+       X16         0.000000     259000.000000
+       X17         1.000000     542500.000000
+       X18         0.000000     568750.000000
+       X19         0.000000     989000.000000
+       X10         1.000000     585488.000000
+       X24         0.000000     505050.000000
+       X25         0.000000     233100.000000
+       X26         0.000000     155400.000000
+       X27         0.000000     621250.000000
+       X28         0.000000     525000.000000
+       X29         0.000000    1083944.000000
+       X20         0.000000     648784.000000
+       X34         0.000000     362600.000000
+       X35         0.000000     246050.000000
+       X36         0.000000     142450.000000
+       X37         0.000000     708750.000000
+       X38         0.000000     507500.000000
+       X39         0.000000    1258008.000000
+       X30         0.000000     712080.000000
+       X47         1.000000     110040.000000
+       X48         0.000000     188640.000000
+       X49         0.000000     390720.000000
+       X40         1.000000      41760.000000
+       X57         0.000000      78600.000000
+       X58         0.000000     157200.000000
+       X59         0.000000     448800.000000
+       X50         0.000000     253440.000000
+       X67         0.000000     282960.000000
+       X68         0.000000     141480.000000
+       X69         0.000000     279840.000000
+       X60         0.000000     459360.000000
+       X79         0.000000     431730.000000
+       X70         1.000000     494910.000000
+       X89         0.000000     400140.000000
+       X80         0.000000     537030.000000
+        Y1         1.000000         12.000000
+        Y2         0.000000         10.000000
+        Y3         0.000000          8.000000
+        Y4         1.000000          8.000000
+        Y5         0.000000         13.000000
+        Y6         0.000000         11.000000
+        Y7         1.000000         14.000000
+        Y8         0.000000         16.000000
+        Y9         0.000000         17.000000
+        Y0         1.000000         15.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+  AMERICA)         0.000000          0.000000
+   EUROPA)         0.000000          0.000000
+     ASIA)         0.000000          0.000000
+  OCEANIA)         0.000000          0.000000
+        6)         0.000000          0.000000
+        7)         0.000000          0.000000
+        8)         1.000000          0.000000
+        9)         0.000000          0.000000
+       10)         1.000000          0.000000
+       11)         0.000000          0.000000
+       12)         0.000000          0.000000
+       13)         0.000000          0.000000
+       14)         1.000000          0.000000
+       15)         0.000000          0.000000
+       16)         1.000000          0.000000
+       17)         0.000000          0.000000
+       18)         0.000000          0.000000
+       19)         0.000000          0.000000
+       20)         0.000000          0.000000
+       21)         1.000000          0.000000
+       22)         0.000000          0.000000
+       23)         0.000000          0.000000
+       24)         0.000000          0.000000
+       25)         0.000000          0.000000
+       26)         0.000000          0.000000
+       27)         1.000000          0.000000
+       28)         0.000000          0.000000
+       29)         0.000000          0.000000
+       30)         0.000000          0.000000
+       31)         0.000000          0.000000
+       32)         0.000000          0.000000
+       33)         1.000000          0.000000
+       34)         0.000000          0.000000
+       35)         1.000000          0.000000
+       36)         0.000000          0.000000
+       37)         0.000000          0.000000
+       38)         0.000000          0.000000
+       39)         0.000000          0.000000
+       40)         0.000000          0.000000
+       41)         1.000000          0.000000
+       42)         0.000000          0.000000
+       43)         0.000000          0.000000
+       44)         0.000000          0.000000
+       45)         0.000000          0.000000
+       46)         0.000000          0.000000
+       47)         1.000000          0.000000
+       48)         0.000000          0.000000
+       49)         0.000000          0.000000
+       50)         1.000000          0.000000
+       51)         0.000000          0.000000
+       52)         1.000000          0.000000
+       53)         0.000000          0.000000
+       54)         0.000000          0.000000
+       55)         0.000000          0.000000
+       56)         0.000000          0.000000
+       57)         1.000000          0.000000
+       58)         0.000000          0.000000
+       59)         0.000000          0.000000
+       60)         0.000000          0.000000
+       61)         0.000000          0.000000
+       62)         0.000000          0.000000
+       63)         1.000000          0.000000
+       64)         0.000000          0.000000
+       65)         1.000000          0.000000
+       66)         0.000000          0.000000
+       67)         0.000000          0.000000
+       68)         0.000000          0.000000
+       69)         0.000000          0.000000
+       70)         0.000000          0.000000
+       71)         1.000000          0.000000
+       72)         1.000000          0.000000
+       73)         0.000000          0.000000
+       74)         0.000000          0.000000
+       75)         0.000000          0.000000
+       76)         0.000000          0.000000
+       77)         0.000000          0.000000
+       78)         0.000000          0.000000
+       79)         1.000000          0.000000
+       80)         0.000000          0.000000
+       81)         0.000000          0.000000
+       82)         0.000000          0.000000
+       83)         0.000000          0.000000
+       84)         0.000000          0.000000
+       85)         0.000000          0.000000
+       86)         0.000000          0.000000
+       87)         0.000000          0.000000
+       88)         1.000000          0.000000
+       89)         1.000000          0.000000
+       90)         0.000000          0.000000
+       91)         1.000000          0.000000
+       92)         1.000000          0.000000
+       93)         0.000000          0.000000
+       94)         0.000000          0.000000
+       95)         1.000000          0.000000
+       96)         1.000000          0.000000
+       97)         0.000000          0.000000
+       98)         1.000000          0.000000
+       99)         1.000000          0.000000
+      100)         0.000000          0.000000
+      101)         0.000000          0.000000
+      102)         0.000000          0.000000
+      103)         0.000000          0.000000
+      104)         0.000000          0.000000
+      105)         0.000000          0.000000
+      106)         1.000000          0.000000
+      107)         1.000000          0.000000
+      108)         0.000000          0.000000
+      109)         0.000000          0.000000
+      110)         1.000000          0.000000
+      111)         1.000000          0.000000
+      112)         0.000000          0.000000
+      113)         0.000000          0.000000
+      114)         0.000000          0.000000
+      115)         1.000000          0.000000
+      116)         0.000000          0.000000
+
+ NO. ITERATIONS=    3301
+ BRANCHES=   52 DETERM.=  1.000E    0

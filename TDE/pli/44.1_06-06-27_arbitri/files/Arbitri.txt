@@ -1,0 +1,29 @@
+Considerare un mini-campionato giocato da 6 squadre in un unico girone all'italiana.
+Il calendario è il seguente:
+
+Giornata 1
+AAA - FFF
+BBB - EEE
+CCC - DDD
+
+Giornata 2
+AAA - DDD
+BBB - FFF
+CCC - EEE
+
+Giornata 3
+AAA  -BBB
+CCC  -FFF
+DDD  -EEE
+
+Giornata 4
+AAA - EEE
+BBB - CCC
+DDD - FFF
+
+Giornata 5
+AAA - CCC
+BBB - DDD
+EEE - FFF
+
+Si consideri il caso con 3 arbitri e con 4 arbitri.

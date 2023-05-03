@@ -1,0 +1,54 @@
+! Funzione obiettivo: minimizzare i costi complessivi [Euro];
+min
++  2500 y12a +  4000 y12b +  7000 y12c + 10000 y12d 
++  3750 y13a +  6000 y13b + 10500 y13c + 15000 y13d 
++  5000 y14a +  8000 y14b + 14000 y14c + 20000 y14d 
++  3750 y25a +  6000 y25b + 10500 y25c + 15000 y25d 
++  5000 y26a +  8000 y26b + 14000 y26c + 20000 y26d 
++  2500 y35a +  4000 y35b +  7000 y35c + 10000 y35d 
++  3750 y36a +  6000 y36b + 10500 y36c + 15000 y36d 
++  3750 y45a +  6000 y45b + 10500 y45c + 15000 y45d 
++  2500 y46a +  4000 y46b +  7000 y46c + 10000 y46d 
++  5000 y57a +  8000 y57b + 14000 y57c + 20000 y57d 
++  2500 y67a +  4000 y67b +  7000 y67c + 10000 y67d
+
+st
+
+! Vincoli di capacità: il flusso su ogni arco non può eccedere la capacità [Gbit/sec]
+cap12) 8 y12a + 16 y12b + 32 y12c + 64 y12d - x12 >= 0
+cap13) 8 y13a + 16 y13b + 32 y13c + 64 y13d - x13 >= 0
+cap14) 8 y14a + 16 y14b + 32 y14c + 64 y14d - x14 >= 0
+cap25) 8 y25a + 16 y25b + 32 y25c + 64 y25d - x25 >= 0
+cap26) 8 y26a + 16 y26b + 32 y26c + 64 y26d - x26 >= 0
+cap35) 8 y35a + 16 y35b + 32 y35c + 64 y35d - x35 >= 0
+cap36) 8 y36a + 16 y36b + 32 y36c + 64 y36d - x36 >= 0
+cap45) 8 y45a + 16 y45b + 32 y45c + 64 y45d - x45 >= 0
+cap46) 8 y46a + 16 y46b + 32 y46c + 64 y46d - x46 >= 0
+cap57) 8 y57a + 16 y57b + 32 y57c + 64 y57d - x57 >= 0
+cap67) 8 y67a + 16 y67b + 32 y67c + 64 y67d - x67 >= 0
+
+! Vincoli di flusso: il flusso entrante ed uscente in ogni nodo devono essere uguali [Gbit/sec];
+flow1)  x12 + x13 + x14 = 120
+flow2) -x12 + x25 + x26 = 0
+flow3) -x13 + x35 + x36 = 0
+flow4) -x14 + x45 + x46 = 0
+flow5) -x25 - x35 - x45 + x57 = 0
+flow6) -x26 - x36 - x46 + x67 = 0
+
+! Vincoli di assegnamento: ad ogni arco dev'essere assegnato un tipo [adimensionale]
+ass12) y12a + y12b + y12c + y12d = 1
+ass13) y13a + y13b + y13c + y13d = 1
+ass14) y14a + y14b + y14c + y14d = 1
+ass25) y25a + y25b + y25c + y25d = 1
+ass26) y26a + y26b + y26c + y26d = 1
+ass35) y35a + y35b + y35c + y35d = 1
+ass36) y36a + y36b + y36c + y36d = 1
+ass45) y45a + y45b + y45c + y45d = 1
+ass46) y46a + y46b + y46c + y46d = 1
+ass57) y57a + y57b + y57c + y57d = 1
+ass67) y67a + y67b + y67c + y67d = 1
+
+end
+
+int 44
+

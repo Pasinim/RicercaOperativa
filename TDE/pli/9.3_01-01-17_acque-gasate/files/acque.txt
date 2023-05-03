@@ -1,0 +1,9 @@
+I camion sono 4 ed hanno capacità pari a 150 cassette ciascuno.
+I clienti da visitare sono 11.
+La tabella indica le quantità da consegnare 
+e da prelevare presso ogni cliente (numero di cassette).
+
+Cliente     1  2  3  4  5  6  7  8  9 10 11 Totale
+Consegnare 50 60 40 20 45 16 32 40 70 40 36   449
+Prelevare  80 96 20 32 18 45 15 20 30 36 42   434
+

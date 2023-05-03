@@ -1,0 +1,40 @@
+! Esercizio "Concentratori"
+!
+! Variabili binarie x(i,j) = 1 se e solo se la stazione i=1..6 
+! è servita da un concentratore localizzato nel nodo j=1..6 
+! Variabili binarie y(i) = 1 se e solo se il nodo i=1..6 ospita un concentratore
+
+! Funzione obiettivo: minimizzare i costi di allocazione
+! I coefficienti sono dati dal prodotto tra i costi unitari e i valori di domanda delle stazioni
+
+min 1200 x11 + 4500 x12 + 1800 x13 + 2700 x14 + 1900 x15 + 1800 x16 +  
+    5700 x21 + 5100 x22 + 2700 x23 + 4200 x24 + 5100 x25 + 4200 x26 +
+    1100 x31 + 1000 x32 + 1500 x33 + 3400 x34 + 2300 x35 + 1000 x36 +
+    7400 x41 + 7800 x42 + 6200 x43 + 5600 x44 + 5800 x45 + 4200 x46 +
+    3000 x51 + 6800 x52 + 2200 x53 + 4000 x54 + 5600 x55 + 3000 x56 +
+    3600 x61 + 9000 x62 + 6000 x63 + 5400 x64 + 8100 x65 + 7200 x66
+
+st
+
+! Vincoli di assegnamento di ogni stazione ad un concentratore (un vincolo per ogni stazione)
+Ass1) x11 + x12 + x13 + x14 + x15 + x16 = 1
+Ass2) x21 + x22 + x23 + x24 + x25 + x26 = 1
+Ass3) x31 + x32 + x33 + x34 + x35 + x36 = 1
+Ass4) x41 + x42 + x43 + x44 + x45 + x46 = 1
+Ass5) x51 + x52 + x53 + x54 + x55 + x56 = 1
+Ass6) x61 + x62 + x63 + x64 + x65 + x66 = 1
+
+! Vincoli di capacità (un vincolo per ogni concentratore)
+Cap1) 100 x11 + 150 x21 + 100 x31 + 200 x41 + 200 x51 + 300 x61 - 650 y1 <= 0
+Cap2) 100 x12 + 150 x22 + 100 x32 + 200 x42 + 200 x52 + 300 x62 - 500 y2 <= 0
+Cap3) 100 x13 + 150 x23 + 100 x33 + 200 x43 + 200 x53 + 300 x63 - 550 y3 <= 0
+Cap4) 100 x14 + 150 x24 + 100 x34 + 200 x44 + 200 x54 + 300 x64 - 450 y4 <= 0
+Cap5) 100 x15 + 150 x25 + 100 x35 + 200 x45 + 200 x55 + 300 x65 - 550 y5 <= 0
+Cap6) 100 x16 + 150 x26 + 100 x36 + 200 x46 + 200 x56 + 300 x66 - 600 y6 <= 0
+
+! Vincolo sul numero di concentratori da usare
+num_conc) y1 + y2 + y3 + y4 + y5 + y6 <= 2
+
+end
+
+int 42

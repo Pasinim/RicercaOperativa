@@ -1,0 +1,67 @@
+min cost
+
+st
+
+cost) 250 x11 + 350 x12 + 300 x13 + 380 x14 + 310 x15 + 340 x16
+    + 280 x21 + 420 x22 + 450 x23 + 390 x24 + 375 x25 + 350 x26
+    + 360 x31 + 410 x32 + 420 x33 + 400 x34 + 380 x35 + 290 x36 - cost = 0
+
+time11) 0.20 x11 - time <= 0
+time12) 0.35 x12 - time <= 0
+time13) 0.40 x13 - time <= 0
+time14) 0.25 x14 - time <= 0
+time15) 0.25 x15 - time <= 0
+time16) 0.30 x16 - time <= 0
+time21) 0.35 x21 - time <= 0
+time22) 0.50 x22 - time <= 0
+time23) 0.45 x23 - time <= 0
+time24) 0.35 x24 - time <= 0
+time25) 0.45 x25 - time <= 0
+time26) 0.40 x26 - time <= 0
+time31) 0.25 x31 - time <= 0
+time32) 0.35 x32 - time <= 0
+time33) 0.45 x33 - time <= 0
+time34) 0.40 x34 - time <= 0
+time35) 0.30 x35 - time <= 0
+time36) 0.40 x36 - time <= 0
+
+! Persone in partenza
+o1) x11 + x12 + x13 + x14 + x15 + x16 =  850
+o2) x21 + x22 + x23 + x24 + x25 + x26 = 1250
+o3) x31 + x32 + x33 + x34 + x35 + x36 =  900
+
+! Persone in arrivo
+d1) x11 + x21 + x31 <= 500
+d2) x12 + x22 + x32 <= 650
+d3) x13 + x23 + x33 <= 550
+d4) x14 + x24 + x34 <= 550
+d5) x15 + x25 + x35 <= 550
+d6) x16 + x26 + x36 <= 400
+
+time) time <= 200
+
+stand_t) 120 eta - time = 0
+stand_c) 1250000 eta - cost = 0
+
+end
+
+SUB x11 400
+SUB x12 400
+SUB x13 400
+SUB x14 400
+SUB x15 400
+SUB x16 400
+SUB x21 400
+SUB x22 400
+SUB x23 400
+SUB x24 400
+SUB x25 400
+SUB x26 400
+SUB x31 400
+SUB x32 400
+SUB x33 400
+SUB x34 400
+SUB x35 400
+SUB x36 400
+
+

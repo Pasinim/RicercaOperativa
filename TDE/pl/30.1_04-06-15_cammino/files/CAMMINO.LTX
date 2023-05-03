@@ -1,0 +1,36 @@
+! Esercizio "Cammino", TeRO_30, 15 Giugno 2004
+
+! Variabili: x(i,j): quantità di flusso su arco (i,j). Variabile continua non negativa.
+
+! Funzione obiettivo: minimizzazione dei costi
+min 
+    + 10 xs1 + 34 xs2 -  8 xs3 + 19 xs4 + 23 xs5 + 59 xst
+             +  2 x12 + 18 x13 + 54 x14 -  3 x15 + 21 x1t
+    + 18 x21          + 13 x23 + 22 x24 +  9 x25 + 18 x2t
+    + 16 x31 +  4 x32          + 11 x34 + 10 x35 + 24 x3t
+    +  7 x41 +  9 x42 + 15 x43          + 20 x45 + 30 x4t
+    + 32 x51 +  1 x52 -  4 x53 + 25 x54          + 31 x5t
+
+st
+
+! Vincolo ricavato dalla seconda funzione obiettivo
+
+Vinc)  40 xs1 + 15 xs2 + 60 xs3 + 31 xs4 + 17 xs5 +  1 xst
+              + 45 x12 + 32 x13 +  1 x14 + 50 x15 + 20 x1t
+     + 32 x21          + 37 x23 + 28 x24 + 41 x25 + 32 x2t
+     + 34 x31 + 44 x32          + 39 x34 + 40 x35 + 26 x3t
+     + 43 x41 + 42 x42 + 25 x43          + 30 x45 + 21 x4t
+     + 33 x51 + 51 x52 + 53 x53 + 25 x54          + 11 x5t <= 1000
+
+! Vincoli di flusso
+
+Nodos) xs1 + xs2 + xs3 + xs4 + xs5 + xst = 1
+Nodo1) x12 + x13 + x14 + x15 + x1t - xs1 - x21 - x31 - x41 - x51 = 0 
+Nodo2) x21 + x23 + x24 + x25 + x2t - xs2 - x12 - x32 - x42 - x52 = 0 
+Nodo3) x31 + x32 + x34 + x35 + x3t - xs3 - x13 - x23 - x43 - x53 = 0 
+Nodo4) x41 + x42 + x43 + x45 + x4t - xs4 - x14 - x24 - x34 - x54 = 0 
+Nodo5) x51 + x52 + x53 + x54 + x5t - xs5 - x15 - x25 - x35 - x45 = 0 
+Nodot) xst + x1t + x2t + x3t + x4t + x5t = 1
+
+end
+

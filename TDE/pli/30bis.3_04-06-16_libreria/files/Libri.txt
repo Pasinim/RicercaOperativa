@@ -1,0 +1,19 @@
+I libri sono 20.
+La massima larghezza dello scaffale è pari a 50 cm.
+
+================================
+
+Tabella 1: Dimensioni dei libri (millimetri)
+
+Larghezza  94  81  92  74   3  41  57  12  47  10  25  61  23  74  28  62  35  63  49  13
+Altezza   140 129 184 167 153 148 153 185 137 149 185 137 190 157 162 134 175 188 143 175
+
+================================
+
+Tabella 2: Costo di immagazzinamento fuori dallo scaffale (Euro)
+
+Costo      2 30 54 85  2 23 18 73 41 78 32 18 23 34 58 12 31 63 14 13
+
+================================
+
+Il costo unitario dovuto all'altezza dello scaffale è di 2 Euro al centimetro.

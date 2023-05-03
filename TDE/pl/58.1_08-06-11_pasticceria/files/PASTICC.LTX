@@ -1,0 +1,27 @@
+min 12 x1A + 8 x2A + 10 x3A + 15 x1B + 11.5 x2B + 12 x3B + 1.8 s1A + 1.8 s2A + 0.4 s1B + 0.4 s2B
+
+s.t.
+
+Flow1A) x1A - d1A - s1A = 0
+Flow1B) x1B - d1B - s1B = 0
+Flow2A) s1A + x2A - d2A - s2A = 0
+Flow2B) s1B + x2B - d2B - s2B = 0
+Flow3A) s2A + x3A - d3A = 0
+Flow3B) s2B + x3B - d3B = 0
+
+Min1) d1A + d1B >= 65
+Min2) d2A + d2B >= 70
+Min3) d3A + d3B >= 50
+Max1) d1A + d1B <= 135
+Max2) d2A + d2B <= 135
+Max3) d3A + d3B <= 135
+
+Prod) d1A + d2A + d3A + d1B + d2B + d3B >= 300
+
+Ingr1) 0.2 x1A + 0.2 x2A + 0.2 x3A + 0.5 x1B + 0.5 x2B + 0.5 x3B - q1 <= 0 
+Ingr2) 0.6 x1A + 0.6 x2A + 0.6 x3A + 0.1 x1B + 0.1 x2B + 0.1 x3B - q2 <= 0 
+Ingr3) 0.2 x1A + 0.2 x2A + 0.2 x3A + 0.4 x1B + 0.4 x2B + 0.4 x3B - q3 <= 0 
+
+Vol) 20 q1 + 35 q2 + 15 q3 <= 7100
+
+end

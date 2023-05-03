@@ -1,0 +1,104 @@
+! Funzione obiettivo: minimizzare i costi [Euro]
+
+min 
+       + 125 x101 + 240 x201
+       + 140 x102 + 245 x202
+       + 140 x103 + 230 x203
+       + 150 x104 + 230 x204
+       + 130 x105 + 225 x205
+       + 120 x106 + 220 x206
+       + 100 x107 + 215 x207
+       + 170 x108 + 240 x208
+       + 135 x109 + 225 x209
+       + 145 x110 + 235 x210
+       + 160 x111 + 240 x211
+       + 175 x112 + 250 x212
+       + 45 s101 + 45 s201
+       + 45 s102 + 45 s202
+       + 40 s103 + 40 s203
+       + 25 s104 + 25 s204
+       + 20 s105 + 20 s205
+       + 10 s106 + 10 s206
+       + 10 s107 + 10 s207
+       + 10 s108 + 10 s208
+       + 15 s109 + 15 s209
+       + 25 s110 + 25 s210
+       + 35 s111 + 35 s211
+       + 40 s112 + 40 s212
+
+st
+
+! Vincoli sulla massima capacità produttiva [Unità di prodotto]
+
+Max1Gen) x101 < 2400
+Max1Feb) x102 < 2300
+Max1Mar) x103 < 2500
+Max1Apr) x104 < 2500
+Max1Mag) x105 < 2450
+Max1Giu) x106 < 2550
+Max1Lug) x107 < 2300
+Max1Ago) x108 < 1200
+Max1Set) x109 < 2200
+Max1Ott) x110 < 2500
+Max1Nov) x111 < 2500
+Max1Dic) x112 < 1800
+
+Max2Gen) x201 < 1000
+Max2Feb) x202 <  900
+Max2Mar) x203 < 1000
+Max2Apr) x204 < 1000
+Max2Mag) x205 < 1000
+Max2Giu) x206 < 1000
+Max2Lug) x207 <  900
+Max2Ago) x208 <  400
+Max2Set) x209 < 1000
+Max2Ott) x210 < 1000
+Max2Nov) x211 < 1000
+Max2Dic) x212 <  700
+
+! Vincoli sulla domanda [Unità di prodotto]
+
+Dom1_Gen)        x101 - s101 = 1800
+Dom1_Feb) s101 + x102 - s102 = 1700
+Dom1_Mar) s102 + x103 - s103 = 1800
+Dom1_Apr) s103 + x104 - s104 = 1800
+Dom1_Mag) s104 + x105 - s105 = 1900
+Dom1_Giu) s105 + x106 - s106 = 2300
+Dom1_Lug) s106 + x107 - s107 = 2500
+Dom1_Ago) s107 + x108 - s108 = 2500
+Dom1_Set) s108 + x109 - s109 = 2000
+Dom1_Ott) s109 + x110 - s110 = 1800
+Dom1_Nov) s110 + x111 - s111 = 1700
+Dom1_Dic) s111 + x112 - s112 = 2000
+
+Dom2_Gen)        x201 - s201 =  500
+Dom2_Feb) s201 + x202 - s202 =  400
+Dom2_Mar) s202 + x203 - s203 =  500
+Dom2_Apr) s203 + x204 - s204 =  600
+Dom2_Mag) s204 + x205 - s205 =  700
+Dom2_Giu) s205 + x206 - s206 =  800
+Dom2_Lug) s206 + x207 - s207 =  900
+Dom2_Ago) s207 + x208 - s208 = 1000
+Dom2_Set) s208 + x209 - s209 =  800
+Dom2_Ott) s209 + x210 - s210 =  800
+Dom2_Nov) s210 + x211 - s211 =  800
+Dom2_Dic) s211 + x212 - s212 = 1000
+
+! Vincolo sulla capacità del magazzino
+
+Mag_Gen) s101 + s201 - Q <= 0
+Mag_Feb) s102 + s202 - Q <= 0
+Mag_Mar) s103 + s203 - Q <= 0
+Mag_Apr) s104 + s204 - Q <= 0
+Mag_Mag) s105 + s205 - Q <= 0
+Mag_Giu) s106 + s206 - Q <= 0
+Mag_Lug) s107 + s207 - Q <= 0
+Mag_Ago) s108 + s208 - Q <= 0
+Mag_Set) s109 + s209 - Q <= 0
+Mag_Ott) s110 + s210 - Q <= 0
+Mag_Nov) s111 + s211 - Q <= 0
+Mag_Dic) s112 + s212 - Q <= 0
+
+magazz) Q <= 2500
+
+end

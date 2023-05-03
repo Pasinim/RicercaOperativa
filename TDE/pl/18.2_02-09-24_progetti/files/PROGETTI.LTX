@@ -1,0 +1,19 @@
+! Funzione obiettivo complessiva
+
+max x1 + y1 + y2
+
+st
+
+! Vincoli primo progetto
+vendit1)  x1 -   x2        <=  4
+budget1)  x1 +   x2 - alfa <=  2
+
+! Vincoli secondo progetto
+mat_U)     y1 + 4 y2        <= 27
+mat_V)   3 y1 +   y2        <= 20
+pubblic)   y1        - beta <=  1
+
+! Vincolo sulle risorse complessive
+risorse) alfa + beta <= 7
+
+end

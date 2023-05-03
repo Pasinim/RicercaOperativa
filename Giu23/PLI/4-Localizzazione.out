@@ -1,0 +1,45 @@
+Problem:    4
+Rows:       16
+Columns:    5 (5 integer, 5 binary)
+Non-zeros:  60
+Status:     INTEGER UNDEFINED
+Objective:  z = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincoli[1]                  0             1               
+     2 vincoli[2]                  0             1               
+     3 vincoli[3]                  0             1               
+     4 vincoli[4]                  0             1               
+     5 vincoli[5]                  0             1               
+     6 vincoli[6]                  0             1               
+     7 vincoli[7]                  0             1               
+     8 vincoli[8]                  0             1               
+     9 vincoli[9]                  0             1               
+    10 vincoli[10]                 0             1               
+    11 cap[1]                      0                         175 
+    12 cap[2]                      0                         126 
+    13 cap[3]                      0                         110 
+    14 cap[4]                      0                          92 
+    15 cap[5]                      0                         155 
+    16 z                           0                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              0             0             1 
+     2 x[2]         *              0             0             1 
+     3 x[3]         *              0             0             1 
+     4 x[4]         *              0             0             1 
+     5 x[5]         *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.00e+000 on row 1
+        max.rel.err = 5.00e-001 on row 1
+        SOLUTION IS INFEASIBLE
+
+End of output

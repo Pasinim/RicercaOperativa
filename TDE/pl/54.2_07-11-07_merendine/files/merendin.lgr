@@ -1,0 +1,110 @@
+
+ LP OPTIMUM FOUND AT STEP      9
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      14933.33
+
+  VARIABLE        VALUE          REDUCED COST
+        X1       243.809525          0.000000
+        X2        60.952381          0.000000
+        X3       182.857147          0.000000
+        X4        60.952381          0.000000
+        X5        60.952381          0.000000
+        Y1       365.714294          0.000000
+        Y2        91.428574          0.000000
+        Y3       274.285706          0.000000
+        Y4        91.428574          0.000000
+        Y5        91.428574          0.000000
+    SLACKZ         2.857143          0.000000
+    SLACKM         0.000000         46.666668
+    SLACKC         3.809524          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+ ZUCCHERO)         0.000000          0.000000
+ MARMELLA)         0.000000         46.666668
+ CIOCCOLA)         0.000000          0.000000
+ BISC_MAX)         0.000000         90.666664
+ BISC_MIN)        91.428574          0.000000
+   SLACKZ)        27.142857          0.000000
+   SLACKM)        32.000000          0.000000
+   SLACKC)        20.190475          0.000000
+ MAX_PIC1)       121.904762          0.000000
+ MIN_PIC1)         0.000000          0.000000
+ MAX_PIC2)        30.476191          0.000000
+ MIN_PIC2)         0.000000          0.000000
+ MAX_PIC3)        91.428574          0.000000
+ MIN_PIC3)         0.000000          0.000000
+ MAX_PIC4)        30.476191          0.000000
+ MIN_PIC4)         0.000000          0.000000
+ MAX_PIC5)        30.476191          0.000000
+ MIN_PIC5)         0.000000          0.000000
+     MIN1)       457.142853          0.000000
+     MIN2)         0.000000       -110.666664
+     MIN3)       304.761902          0.000000
+     MIN4)         0.000000         -2.666667
+     MIN5)         0.000000         -6.666667
+
+ NO. ITERATIONS=       9
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1        8.000000         0.000000        35.000000
+       X2        6.000000         0.000000       140.000000
+       X3       12.000000         0.000000         5.833333
+       X4       14.000000         0.000000       245.000000
+       X5       10.000000         0.000000       140.000000
+       Y1        8.000000       158.666656         0.000000
+       Y2        6.000000      1936.666626         0.000000
+       Y3       12.000000         INFINITY         0.000000
+       Y4       14.000000         4.666667         0.000000
+       Y5       10.000000        11.666666         0.000000
+   SLACKZ        0.000000        50.256413        62.222221
+   SLACKM        0.000000        46.666668         INFINITY
+   SLACKC        0.000000        63.152172        15.135136
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+ ZUCCHERO      300.000000        27.142857         2.857143
+ MARMELLA      320.000000         3.076923        27.354837
+ CIOCCOLA      240.000000        20.190475         3.809524
+ BISC_MAX        0.000000         2.758621        14.620689
+ BISC_MIN        0.000000        91.428574         INFINITY
+   SLACKZ       30.000000         INFINITY        27.142857
+   SLACKM       32.000000         INFINITY        32.000000
+   SLACKC       24.000000         INFINITY        20.190475
+ MAX_PIC1        0.000000         INFINITY       121.904762
+ MIN_PIC1        0.000000       121.904762       243.809525
+ MAX_PIC2        0.000000         INFINITY        30.476191
+ MIN_PIC2        0.000000        30.476191        60.952381
+ MAX_PIC3        0.000000         INFINITY        91.428574
+ MIN_PIC3        0.000000        91.428574       182.857147
+ MAX_PIC4        0.000000         INFINITY        30.476191
+ MIN_PIC4        0.000000        30.476191        60.952381
+ MAX_PIC5        0.000000         INFINITY        30.476191
+ MIN_PIC5        0.000000        30.476191        60.952381
+     MIN1        0.000000       457.142853         INFINITY
+     MIN2        0.000000        11.521739         2.173913
+     MIN3        0.000000       304.761902         INFINITY
+     MIN4        0.000000        21.621622       114.594589
+     MIN5        0.000000        26.666668       160.000000
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: ZUCCHERO
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            300.000      0.000000E+00   14933.3
+   SLACKZ    SLACKM    24   297.143      0.000000E+00   14933.3
+ SLK    9  SLK   23     9   271.742       50.2564       13656.8
+ SLK    8  SLK   21     2   267.568       64.3609       13388.1
+ SLK   22  ART          8   252.660       131.503       11427.7
+                           0.000000E+00   +INFINITY   INFEASIBLE
+

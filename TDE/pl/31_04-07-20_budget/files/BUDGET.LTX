@@ -1,0 +1,21 @@
+! Primo obiettivo
+ max 10 x1 + 15 x2 + 18 x3
+
+! Secondo obiettivo
+! max 20 x1 + 16 x2 +  8 x3 
+
+st
+
+! Nessun investimento deve superare la somma degli altri due (Keuro)
+max1)   x1 - x2 - x3 <= 0
+max2) - x1 + x2 - x3 <= 0
+max3) - x1 - x2 + x3 <= 0
+
+! Massima e minima cifra totale (KEuro)
+max) x1 + x2 + x3 <= 800
+min) x1 + x2 + x3 >= 100
+
+! Vincolo ottenuto dal secondo obiettivo (KEuro)
+20 x1 + 16 x2 +  8 x3 >= 0
+
+end

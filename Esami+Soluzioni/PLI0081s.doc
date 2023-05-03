@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1040\deflangfe1040{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f37\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f38\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f40\froman\fcharset161\fprq2 Times New Roman Greek;}{\f41\froman\fcharset162\fprq2 Times New Roman Tur;}{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid8941113}{\*\generator Micro
+soft Word 11.0.6359;}{\info{\title Guida alla soluzione}{\author Righini Giovanni}{\operator Dipartimento di Tecnologie dell'Informazione}{\creatim\yr2000\mo6\dy9\hr10\min44}{\revtim\yr2009\mo1\dy9\hr22\min8}{\version12}{\edmins152}{\nofpages1}
+{\nofwords442}{\nofchars2523}{\*\company Polo didattico e di ricerca di Crema}{\nofcharsws2960}{\vern24703}}\margl1134\margr1134\margt1417\margb1134 
+\widowctrl\ftnbj\aenddoc\hyphhotz283\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\rsidroot8941113 \fet0\sectd \linex0\endnhere\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang 
+{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain 
+\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1040\cgrid\langnp1033\langfenp1040 {\b\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 Esercizio 1: Spedizione urgente
+\par }{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 
+\par }\pard \qj \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 \tab 
+Il problema richiede di selezionare da un insieme di elementi (imballi) due sottoinsiemi disgiunti (imballi spediti sui due voli). Si pu\'f2 formulare il problema con una variabile binaria }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 x(i,j) }{
+\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 per ogni coppia imballo }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 i}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113  - volo }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 j}{
+\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 , con }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 i}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 =1,..,12 e }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 j}{
+\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 =1,2. La variabile vale 1 se e solo se l'imballo }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 i}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113  viene spedito sul volo }{
+\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 j}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 .
+\par \tab I vincoli di selezione degli imballi impongono che per ogni imballo }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 i}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 , la somma delle variabili }{
+\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 x(i,j)}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113  su tutti i valori di }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 j}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 
+ sia minore o uguale a 1 (se la somma vale 0, l'imballo non viene caricato su nessuno dei due voli: viagger\'e0 per nave). Inoltre ogni volo \'e8 soggetto a due vincoli di capacit\'e0
+, uno sul peso complessivo degli oggetti caricati e uno sul loro volume complessivo.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 La funzione obiettivo deve tenere conto di due obiettivi, uno principale e uno secondario. L'obiettivo principale \'e8
+ la minimizzazione del numero di imballi non assegnati ad alcun aereo. L'obiettivo secondario \'e8 la minimizzazione del costo di spedizione. Per tenere conto di entrambi, \'e8 possibile associare una penalit\'e0
+ fittizia agli imballi non spediti, dandole un valore di almeno un ordine di grandezza superiore a quello dei costi di spedizione (nel nostro caso i costi di spedizione sono dell'ordine delle decine di migliaia di euro, quindi un valore adeguato per il c
+oefficiente di penalit\'e0 pu\'f2 essere 100000). In questo modo tutte le soluzioni in cui vengono spediti via aerea meno imballi costano di pi\'f9 delle soluzioni in cui ne vengono spediti di pi\'f9.
+\par }\pard \qj \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 \tab I costi fissi ovviamente si possono trascurare, dato che entrambi 
+gli aerei devono comunque essere utilizzati. I costi variabili si ottengono come combinazione lineare delle variabili }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 x}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 
+ moltiplicate per i coefficienti dati.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 Il problema \'e8 di Programmazione Lineare 0-1.
+\par }\pard \qj \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 \tab Il modello Lingo \'e8 nel file SPEDIZ.LG4 e la corrispondente soluzione nel file SPEDIZ.LGR.
+\par }\pard \qj \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 
+La soluzione ottima consiste nello spedire 11 dei 12 imballi (l'imballo numero 4 resta escluso). Si noti che peso e volume residui sono molto maggiori di quanto richiesto per trasportare l'imballo escluso, ma nessuna c
+ombinazione consente di trasportarli tutti e 12. La ripartizione ottima degli 11 imballi implica un costo di 25587 Euro (pi\'f9 i costi fissi) e si ottiene saturando in peso il secondo aereo, che ha costi variabili per unit\'e0
+ di peso molto inferiori a quelli del primo.
+\par }\pard \qj \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 \tab In alternativa al metodo che usa un termine di penalit\'e0, \'e8
+ possibile scomporre il procedimento risolutivo in due fasi successive. Prima si risolve il problema di massimizzare il numero di imballi trasportabili nel rispetto dei vincoli di capacit\'e0
+, usando come funzione obiettivo da massimizzare la somma delle 24 variabili binarie }{\i\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 x(i,j)}{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 
+. La soluzione ottima di questo primo problema (che ha valore 11) consente di inserire un vincolo di uguaglianza nel modello (somma delle variabili = 11) e di risol
+vere il secondo problema con la funzione obiettivo data dai costi, senza dover introdurre il termine di penalit\'e0.
+\par }{\fs24\lang1040\langfe1040\langnp1040\insrsid8941113 
+\par }}

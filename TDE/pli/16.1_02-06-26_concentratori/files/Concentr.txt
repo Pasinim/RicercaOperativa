@@ -1,0 +1,34 @@
+Le stazioni sono 6.
+
+I costi unitari di allocazione sono i seguenti:
+
+  Concentratore   1   2   3   4   5   6
+Stazione    
+   1             12  45  18  27  19  18     
+   2             37  34  18  28  35  28
+   3             11  10  15  34  23  10
+   4             37  39  31  28  29  21
+   5             15  34  11  20  28  15
+   6             12  30  20  18  27  24
+
+Le domande associate alle stazioni sono:
+
+Stazione   Domanda
+   1         120
+   2         150
+   3         110
+   4         175
+   5         210
+   6         180
+
+Le capacità dei concentratori sono le seguenti:
+
+Stazione  Capacità
+   1        410
+   2        490
+   3        400
+   4        380
+   5        470
+   6        440
+
+I concentratori disponibili sono 2.

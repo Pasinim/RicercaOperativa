@@ -1,0 +1,45 @@
+Tabella 1: Tempi di produzione
+
+Prodotto  Tempi [h]
+
+  Pane      1
+Biscotti    3
+Focacce    1.5
+ Paste      2
+
+==============================
+
+Tabella 2: Spazio occupato nel forno
+
+Prodotto Spazio [mq/Kg]
+
+  Pane      1
+Biscotti   0.2
+Focacce    1.5
+ Paste     1.5
+
+==============================
+
+Tabella 3: Produzione minima giornaliera
+
+Prodotto Prod. minima [Kg]
+
+  Pane        5
+Biscotti      2
+Focacce       3
+ Paste        2
+
+==============================
+
+Tabella 4: Prezzi di vendita
+
+Prodotto Prezzo [Euro/Kg]
+
+  Pane     2.50
+Biscotti   4.00
+Focacce    2.00
+ Paste     5.50
+
+==============================
+
+Il forno ha una superficie di 4 mq e funziona per 6 ore

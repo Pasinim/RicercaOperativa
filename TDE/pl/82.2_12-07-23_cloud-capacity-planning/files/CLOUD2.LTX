@@ -1,0 +1,21 @@
+! Esercizio "Cloud computing", 23 Luglio 2012
+! Versione PL
+
+! Variabili: z: costo complessivo [$/anno]
+!            q: capacità complessiva richiesta [ore/anno]
+
+! Obiettivo [$/anno]
+max z
+
+st
+
+! Vincoli max-min [$/anno]
+Serv1) z - 0.128 q <= 1560
+Serv2) z - 0.192 q <= 1280
+Serv3) z - 0.312 q <=  552 
+Serv4) z - 0.640 q <=    0
+
+! Vincolo per l'analisi parametrica
+Vincolo) q = 0
+
+end

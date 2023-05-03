@@ -1,0 +1,417 @@
+ SET       Y1 TO >=     3 AT    9, BND= -0.2518E+06 TWIN=-0.1000E+31   7063
+ SET       X1 TO >=     6 AT   10, BND= -0.2518E+06 TWIN=-0.1000E+31   7069
+ SET       Y4 TO >=     2 AT   11, BND= -0.2519E+06 TWIN=-0.1000E+31   7075
+ SET       X2 TO >=     6 AT   12, BND= -0.2519E+06 TWIN=-0.1000E+31   7080
+ SET       Y5 TO >=     3 AT   13, BND= -0.2519E+06 TWIN=-0.1000E+31   7089
+ SET       X3 TO >=     6 AT   14, BND= -0.2519E+06 TWIN=-0.1000E+31   7096
+ SET       Y6 TO >=     3 AT   15, BND= -0.2520E+06 TWIN=-0.1000E+31   7110
+ SET       Y1 TO <=     3 AT   16, BND= -0.2520E+06 TWIN=-0.1000E+31   7110
+ SET       X4 TO >=     6 AT   17, BND= -0.2521E+06 TWIN=-0.1000E+31   7117
+ SET       X5 TO >=     6 AT   18, BND= -0.2521E+06 TWIN=-0.1000E+31   7128
+ SET       X6 TO >=     6 AT   19, BND= -0.2539E+06 TWIN=-0.1000E+31   7143
+ DELETE       X6 AT LEVEL    19
+ DELETE       X5 AT LEVEL    18
+ DELETE       X4 AT LEVEL    17
+ DELETE       Y1 AT LEVEL    16
+ DELETE       Y6 AT LEVEL    15
+ DELETE       X3 AT LEVEL    14
+ DELETE       Y5 AT LEVEL    13
+ DELETE       X2 AT LEVEL    12
+ DELETE       Y4 AT LEVEL    11
+ DELETE       X1 AT LEVEL    10
+ DELETE       Y1 AT LEVEL     9
+ DELETE       Y4 AT LEVEL     8
+ FLIP       Y3 TO <=         0 AT    7 WITH BND=   -251560.00
+ SET       Y1 TO >=     3 AT    8, BND= -0.2517E+06 TWIN=-0.1000E+31   7165
+ SET       Y4 TO >=     3 AT    9, BND= -0.2517E+06 TWIN=-0.1000E+31   7169
+ SET       X1 TO >=     6 AT   10, BND= -0.2517E+06 TWIN=-0.1000E+31   7174
+ SET       X2 TO >=     6 AT   11, BND= -0.2517E+06 TWIN=-0.1000E+31   7182
+ SET       Y5 TO >=     3 AT   12, BND= -0.2518E+06 TWIN=-0.2519E+06   7190
+ SET       Y6 TO >=     3 AT   13, BND= -0.2518E+06 TWIN=-0.2521E+06   7203
+ SET       X3 TO >=     6 AT   14, BND= -0.2518E+06 TWIN=-0.1000E+31   7212
+ SET       X4 TO >=     6 AT   15, BND= -0.2519E+06 TWIN=-0.2522E+06   7222
+ SET       Y1 TO <=     3 AT   16, BND= -0.2519E+06 TWIN=-0.1000E+31   7222
+ SET       X5 TO >=     6 AT   17, BND= -0.2520E+06 TWIN=-0.1000E+31   7235
+ SET       X6 TO >=     6 AT   18, BND= -0.2538E+06 TWIN=-0.1000E+31   7252
+ DELETE       X6 AT LEVEL    18
+ DELETE       X5 AT LEVEL    17
+ DELETE       Y1 AT LEVEL    16
+ FLIP       X4 TO <=         5 AT   15 WITH BND=   -252230.00
+ SET       X4 TO >=     5 AT   16, BND= -0.2522E+06 TWIN=-0.1000E+31   7252
+ DELETE       Y4 AT LEVEL    17
+ DELETE       X4 AT LEVEL    16
+ DELETE       X4 AT LEVEL    15
+ DELETE       X3 AT LEVEL    14
+ FLIP       Y6 TO <=         2 AT   13 WITH BND=   -252069.98
+ DELETE       Y4 AT LEVEL    14
+ DELETE       Y6 AT LEVEL    13
+ FLIP       Y5 TO <=         2 AT   12 WITH BND=   -251910.00
+ DELETE       Y4 AT LEVEL    13
+ DELETE       Y5 AT LEVEL    12
+ DELETE       X2 AT LEVEL    11
+ DELETE       X1 AT LEVEL    10
+ DELETE       Y4 AT LEVEL     9
+ DELETE       Y1 AT LEVEL     8
+ DELETE       Y3 AT LEVEL     7
+ DELETE       Y1 AT LEVEL     6
+ DELETE       Y2 AT LEVEL     5
+ DELETE       Y3 AT LEVEL     4
+ DELETE       Y2 AT LEVEL     3
+ DELETE       Y3 AT LEVEL     2
+ FLIP       Y2 TO <=         1 AT    1 WITH BND=   -250920.00
+ SET       Y1 TO >=     2 AT    2, BND= -0.2510E+06 TWIN=-0.1000E+31   7260
+ SET       Y2 TO >=     1 AT    3, BND= -0.2510E+06 TWIN=-0.2511E+06   7263
+ SET       Y3 TO >=     3 AT    4, BND= -0.2510E+06 TWIN=-0.2512E+06   7267
+ SET       Y4 TO >=     3 AT    5, BND= -0.2510E+06 TWIN=-0.2513E+06   7270
+ SET       X1 TO >=     6 AT    6, BND= -0.2511E+06 TWIN=-0.2514E+06   7275
+ SET       X2 TO >=     6 AT    7, BND= -0.2511E+06 TWIN=-0.2516E+06   7282
+ SET       Y5 TO >=     3 AT    8, BND= -0.2511E+06 TWIN=-0.2513E+06   7290
+ SET       Y6 TO >=     3 AT    9, BND= -0.2512E+06 TWIN=-0.2514E+06   7307
+ SET       X3 TO >=     6 AT   10, BND= -0.2512E+06 TWIN=-0.2516E+06   7317
+ SET       X4 TO >=     6 AT   11, BND= -0.2513E+06 TWIN=-0.2516E+06   7327
+ SET       X5 TO >=     6 AT   12, BND= -0.2513E+06 TWIN=-0.2518E+06   7343
+ SET       X6 TO <=     5 AT   13, BND= -0.2519E+06 TWIN=-0.2531E+06   7364
+ SET       X6 TO >=     5 AT   14, BND= -0.2519E+06 TWIN=-0.1000E+31   7364
+ SET       Y4 TO <=     3 AT   15, BND= -0.2521E+06 TWIN=-0.1000E+31   7365
+ SET       Y1 TO >=     3 AT   16, BND= -0.2544E+06 TWIN=-0.1000E+31   7380
+ DELETE       Y1 AT LEVEL    16
+ DELETE       Y4 AT LEVEL    15
+ DELETE       X6 AT LEVEL    14
+ DELETE       X6 AT LEVEL    13
+ FLIP       X5 TO <=         5 AT   12 WITH BND=   -251750.00
+ SET       Y4 TO <=     3 AT   13, BND= -0.2520E+06 TWIN=-0.1000E+31   7381
+ SET       X5 TO >=     5 AT   14, BND= -0.2520E+06 TWIN=-0.1000E+31   7381
+ SET       Y1 TO >=     3 AT   15, BND= -0.2524E+06 TWIN=-0.1000E+31   7393
+ SET       X1 TO <=     6 AT   16, BND= -0.2524E+06 TWIN=-0.1000E+31   7393
+ SET       X2 TO <=     6 AT   17, BND= -0.2524E+06 TWIN=-0.1000E+31   7393
+ SET       Y1 TO <=     3 AT   18, BND= -0.2524E+06 TWIN=-0.1000E+31   7393
+ SET       Y3 TO <=     3 AT   19, BND= -0.2524E+06 TWIN=-0.1000E+31   7393
+ SET       Y5 TO <=     3 AT   20, BND= -0.2524E+06 TWIN=-0.1000E+31   7393
+ SET       X6 TO >=     6 AT   21, BND= -0.2542E+06 TWIN=-0.1000E+31   7400
+ DELETE       X6 AT LEVEL    21
+ DELETE       Y5 AT LEVEL    20
+ DELETE       Y3 AT LEVEL    19
+ DELETE       Y1 AT LEVEL    18
+ DELETE       X2 AT LEVEL    17
+ DELETE       X1 AT LEVEL    16
+ DELETE       Y1 AT LEVEL    15
+ DELETE       X5 AT LEVEL    14
+ DELETE       Y4 AT LEVEL    13
+ DELETE       X5 AT LEVEL    12
+ FLIP       X4 TO <=         5 AT   11 WITH BND=   -251590.00
+ SET       Y4 TO <=     3 AT   12, BND= -0.2518E+06 TWIN=-0.1000E+31   7401
+ SET       Y1 TO >=     3 AT   13, BND= -0.2522E+06 TWIN=-0.1000E+31   7408
+ SET       Y1 TO <=     3 AT   14, BND= -0.2522E+06 TWIN=-0.1000E+31   7408
+ SET       X4 TO >=     5 AT   15, BND= -0.2522E+06 TWIN=-0.1000E+31   7415
+ SET       Y3 TO <=     3 AT   16, BND= -0.2522E+06 TWIN=-0.1000E+31   7415
+ SET       X5 TO >=     6 AT   17, BND= -0.2523E+06 TWIN=-0.1000E+31   7424
+ SET       X1 TO <=     6 AT   18, BND= -0.2523E+06 TWIN=-0.1000E+31   7424
+ SET       X6 TO >=     6 AT   19, BND= -0.2541E+06 TWIN=-0.1000E+31   7435
+ DELETE       X6 AT LEVEL    19
+ DELETE       X1 AT LEVEL    18
+ DELETE       X5 AT LEVEL    17
+ DELETE       Y3 AT LEVEL    16
+ DELETE       X4 AT LEVEL    15
+ DELETE       Y1 AT LEVEL    14
+ DELETE       Y1 AT LEVEL    13
+ DELETE       Y4 AT LEVEL    12
+ DELETE       X4 AT LEVEL    11
+ FLIP       X3 TO <=         5 AT   10 WITH BND=   -251628.00
+ SET       Y3 TO <=     3 AT   11, BND= -0.2516E+06 TWIN=-0.1000E+31   7435
+ SET       Y1 TO >=     3 AT   12, BND= -0.2520E+06 TWIN=-0.1000E+31   7448
+ SET       X3 TO >=     5 AT   13, BND= -0.2520E+06 TWIN=-0.1000E+31   7457
+ SET       Y1 TO <=     3 AT   14, BND= -0.2520E+06 TWIN=-0.1000E+31   7457
+ SET       X4 TO >=     6 AT   15, BND= -0.2521E+06 TWIN=-0.1000E+31   7464
+ SET       X5 TO >=     6 AT   16, BND= -0.2521E+06 TWIN=-0.1000E+31   7476
+ SET       X6 TO >=     6 AT   17, BND= -0.2539E+06 TWIN=-0.1000E+31   7491
+ DELETE       X6 AT LEVEL    17
+ DELETE       X5 AT LEVEL    16
+ DELETE       X4 AT LEVEL    15
+ DELETE       Y1 AT LEVEL    14
+ DELETE       X3 AT LEVEL    13
+ DELETE       Y1 AT LEVEL    12
+ DELETE       Y3 AT LEVEL    11
+ DELETE       X3 AT LEVEL    10
+ FLIP       Y6 TO <=         2 AT    9 WITH BND=   -251430.00
+ SET       Y4 TO <=     3 AT   10, BND= -0.2516E+06 TWIN=-0.1000E+31   7492
+ SET       Y1 TO >=     3 AT   11, BND= -0.2519E+06 TWIN=-0.1000E+31   7499
+ SET       Y6 TO >=     2 AT   12, BND= -0.2519E+06 TWIN=-0.1000E+31   7508
+ SET       X3 TO >=     6 AT   13, BND= -0.2520E+06 TWIN=-0.2523E+06   7520
+ SET       Y1 TO <=     3 AT   14, BND= -0.2520E+06 TWIN=-0.1000E+31   7520
+ SET       X4 TO >=     6 AT   15, BND= -0.2521E+06 TWIN=-0.1000E+31   7529
+ SET       X5 TO >=     6 AT   16, BND= -0.2521E+06 TWIN=-0.1000E+31   7540
+ SET       Y3 TO <=     3 AT   17, BND= -0.2521E+06 TWIN=-0.1000E+31   7540
+ SET       X6 TO >=     6 AT   18, BND= -0.2539E+06 TWIN=-0.1000E+31   7553
+ DELETE       X6 AT LEVEL    18
+ DELETE       Y3 AT LEVEL    17
+ DELETE       X5 AT LEVEL    16
+ DELETE       X4 AT LEVEL    15
+ DELETE       Y1 AT LEVEL    14
+ FLIP       X3 TO <=         5 AT   13 WITH BND=   -252300.00
+ SET       X3 TO >=     5 AT   14, BND= -0.2523E+06 TWIN=-0.1000E+31   7553
+ DELETE       Y3 AT LEVEL    15
+ DELETE       X3 AT LEVEL    14
+ DELETE       X3 AT LEVEL    13
+ DELETE       Y6 AT LEVEL    12
+ DELETE       Y1 AT LEVEL    11
+ DELETE       Y4 AT LEVEL    10
+ DELETE       Y6 AT LEVEL     9
+ FLIP       Y5 TO <=         2 AT    8 WITH BND=   -251270.00
+ SET       Y4 TO <=     3 AT    9, BND= -0.2515E+06 TWIN=-0.1000E+31   7555
+ SET       Y1 TO >=     3 AT   10, BND= -0.2517E+06 TWIN=-0.1000E+31   7558
+ SET       Y5 TO >=     2 AT   11, BND= -0.2518E+06 TWIN=-0.1000E+31   7564
+ SET       X3 TO >=     6 AT   12, BND= -0.2518E+06 TWIN=-0.2521E+06   7573
+ SET       Y6 TO >=     3 AT   13, BND= -0.2518E+06 TWIN=-0.1000E+31   7583
+ SET       X4 TO >=     6 AT   14, BND= -0.2519E+06 TWIN=-0.1000E+31   7592
+ SET       Y1 TO <=     3 AT   15, BND= -0.2519E+06 TWIN=-0.1000E+31   7592
+ SET       X5 TO >=     6 AT   16, BND= -0.2520E+06 TWIN=-0.1000E+31   7601
+ SET       X6 TO >=     6 AT   17, BND= -0.2538E+06 TWIN=-0.1000E+31   7614
+ DELETE       X6 AT LEVEL    17
+ DELETE       X5 AT LEVEL    16
+ DELETE       Y1 AT LEVEL    15
+ DELETE       X4 AT LEVEL    14
+ DELETE       Y6 AT LEVEL    13
+ FLIP       X3 TO <=         5 AT   12 WITH BND=   -252140.00
+ DELETE       Y3 AT LEVEL    13
+ DELETE       X3 AT LEVEL    12
+ DELETE       Y5 AT LEVEL    11
+ DELETE       Y1 AT LEVEL    10
+ DELETE       Y4 AT LEVEL     9
+ DELETE       Y5 AT LEVEL     8
+ FLIP       X2 TO <=         5 AT    7 WITH BND=   -251560.00
+ SET       Y1 TO >=     3 AT    8, BND= -0.2517E+06 TWIN=-0.1000E+31   7620
+ SET       X2 TO >=     5 AT    9, BND= -0.2517E+06 TWIN=-0.1000E+31   7628
+ SET       Y5 TO >=     3 AT   10, BND= -0.2518E+06 TWIN=-0.2519E+06   7634
+ SET       Y6 TO >=     3 AT   11, BND= -0.2518E+06 TWIN=-0.2521E+06   7648
+ SET       X3 TO >=     6 AT   12, BND= -0.2518E+06 TWIN=-0.2523E+06   7656
+ SET       X4 TO >=     6 AT   13, BND= -0.2519E+06 TWIN=-0.2522E+06   7669
+ SET       Y1 TO <=     3 AT   14, BND= -0.2519E+06 TWIN=-0.1000E+31   7669
+ SET       X5 TO >=     6 AT   15, BND= -0.2520E+06 TWIN=-0.1000E+31   7680
+ SET       X6 TO >=     6 AT   16, BND= -0.2538E+06 TWIN=-0.1000E+31   7695
+ DELETE       X6 AT LEVEL    16
+ DELETE       X5 AT LEVEL    15
+ DELETE       Y1 AT LEVEL    14
+ FLIP       X4 TO <=         5 AT   13 WITH BND=   -252230.00
+ SET       X4 TO >=     5 AT   14, BND= -0.2522E+06 TWIN=-0.1000E+31   7695
+ DELETE       Y4 AT LEVEL    15
+ DELETE       X4 AT LEVEL    14
+ DELETE       X4 AT LEVEL    13
+ FLIP       X3 TO <=         5 AT   12 WITH BND=   -252268.00
+ SET       X3 TO >=     5 AT   13, BND= -0.2523E+06 TWIN=-0.1000E+31   7696
+ DELETE       Y3 AT LEVEL    14
+ DELETE       X3 AT LEVEL    13
+ DELETE       X3 AT LEVEL    12
+ FLIP       Y6 TO <=         2 AT   11 WITH BND=   -252070.00
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y6 AT LEVEL    11
+ FLIP       Y5 TO <=         2 AT   10 WITH BND=   -251910.00
+ SET       Y1 TO <=     3 AT   12, BND= -0.2519E+06 TWIN=-0.1000E+31   7699
+ SET       Y4 TO <=     3 AT   12, BND= -0.2519E+06 TWIN=-0.1000E+31   7699
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y1 AT LEVEL    11
+ DELETE       Y5 AT LEVEL    10
+ DELETE       X2 AT LEVEL     9
+ DELETE       Y1 AT LEVEL     8
+ DELETE       X2 AT LEVEL     7
+ FLIP       X1 TO <=         5 AT    6 WITH BND=   -251400.00
+ SET       Y1 TO >=     3 AT    7, BND= -0.2515E+06 TWIN=-0.1000E+31   7719
+ SET       X1 TO >=     5 AT    8, BND= -0.2516E+06 TWIN=-0.1000E+31   7724
+ SET       X2 TO >=     6 AT    9, BND= -0.2516E+06 TWIN=-0.1000E+31   7730
+ SET       Y5 TO >=     3 AT   10, BND= -0.2516E+06 TWIN=-0.2518E+06   7736
+ SET       Y6 TO >=     3 AT   11, BND= -0.2516E+06 TWIN=-0.2519E+06   7750
+ SET       X3 TO >=     6 AT   12, BND= -0.2517E+06 TWIN=-0.2521E+06   7758
+ SET       X4 TO >=     6 AT   13, BND= -0.2517E+06 TWIN=-0.2521E+06   7771
+ SET       X5 TO >=     6 AT   14, BND= -0.2518E+06 TWIN=-0.2522E+06   7787
+ SET       Y1 TO <=     3 AT   15, BND= -0.2518E+06 TWIN=-0.1000E+31   7787
+ SET       X6 TO >=     6 AT   16, BND= -0.2536E+06 TWIN=-0.1000E+31   7802
+ DELETE       X6 AT LEVEL    16
+ DELETE       Y1 AT LEVEL    15
+ FLIP       X5 TO <=         5 AT   14 WITH BND=   -252230.00
+ SET       X5 TO >=     5 AT   15, BND= -0.2522E+06 TWIN=-0.1000E+31   7802
+ DELETE       Y4 AT LEVEL    16
+ DELETE       X5 AT LEVEL    15
+ DELETE       X5 AT LEVEL    14
+ FLIP       X4 TO <=         5 AT   13 WITH BND=   -252070.00
+ SET       X4 TO >=     5 AT   14, BND= -0.2521E+06 TWIN=-0.1000E+31   7803
+ DELETE       Y4 AT LEVEL    15
+ DELETE       X4 AT LEVEL    14
+ DELETE       X4 AT LEVEL    13
+ FLIP       X3 TO <=         5 AT   12 WITH BND=   -252108.00
+ DELETE       Y3 AT LEVEL    13
+ DELETE       X3 AT LEVEL    12
+ FLIP       Y6 TO <=         2 AT   11 WITH BND=   -251910.00
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y6 AT LEVEL    11
+ FLIP       Y5 TO <=         2 AT   10 WITH BND=   -251750.00
+ SET       Y1 TO <=     3 AT   12, BND= -0.2518E+06 TWIN=-0.1000E+31   7807
+ SET       Y4 TO <=     3 AT   12, BND= -0.2518E+06 TWIN=-0.1000E+31   7807
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y1 AT LEVEL    11
+ DELETE       Y5 AT LEVEL    10
+ DELETE       X2 AT LEVEL     9
+ DELETE       X1 AT LEVEL     8
+ DELETE       Y1 AT LEVEL     7
+ DELETE       X1 AT LEVEL     6
+ FLIP       Y4 TO <=         2 AT    5 WITH BND=   -251320.00
+ SET       Y1 TO >=     3 AT    6, BND= -0.2515E+06 TWIN=-0.1000E+31   7835
+ SET       Y4 TO >=     2 AT    7, BND= -0.2515E+06 TWIN=-0.1000E+31   7839
+ SET       X1 TO >=     6 AT    8, BND= -0.2516E+06 TWIN=-0.1000E+31   7842
+ SET       X2 TO >=     6 AT    9, BND= -0.2516E+06 TWIN=-0.1000E+31   7847
+ SET       Y5 TO >=     3 AT   10, BND= -0.2516E+06 TWIN=-0.1000E+31   7854
+ SET       Y6 TO >=     3 AT   11, BND= -0.2516E+06 TWIN=-0.1000E+31   7863
+ SET       X3 TO >=     6 AT   12, BND= -0.2517E+06 TWIN=-0.2520E+06   7875
+ SET       X4 TO >=     6 AT   13, BND= -0.2517E+06 TWIN=-0.1000E+31   7884
+ SET       X5 TO >=     6 AT   14, BND= -0.2518E+06 TWIN=-0.1000E+31   7897
+ SET       Y1 TO <=     3 AT   15, BND= -0.2518E+06 TWIN=-0.1000E+31   7897
+ SET       X6 TO >=     6 AT   16, BND= -0.2536E+06 TWIN=-0.1000E+31   7912
+ DELETE       X6 AT LEVEL    16
+ DELETE       Y1 AT LEVEL    15
+ DELETE       X5 AT LEVEL    14
+ DELETE       X4 AT LEVEL    13
+ FLIP       X3 TO <=         5 AT   12 WITH BND=   -251980.00
+ DELETE       Y3 AT LEVEL    13
+ DELETE       X3 AT LEVEL    12
+ DELETE       Y6 AT LEVEL    11
+ DELETE       Y5 AT LEVEL    10
+ DELETE       X2 AT LEVEL     9
+ DELETE       X1 AT LEVEL     8
+ DELETE       Y4 AT LEVEL     7
+ DELETE       Y1 AT LEVEL     6
+ DELETE       Y4 AT LEVEL     5
+ FLIP       Y3 TO <=         2 AT    4 WITH BND=   -251240.00
+ SET       Y1 TO >=     3 AT    5, BND= -0.2513E+06 TWIN=-0.1000E+31   7927
+ SET       Y3 TO >=     2 AT    6, BND= -0.2514E+06 TWIN=-0.1000E+31   7932
+ SET       Y4 TO >=     3 AT    7, BND= -0.2514E+06 TWIN=-0.1000E+31   7937
+ SET       X1 TO >=     6 AT    8, BND= -0.2514E+06 TWIN=-0.1000E+31   7942
+ SET       X2 TO >=     6 AT    9, BND= -0.2514E+06 TWIN=-0.1000E+31   7950
+ SET       Y5 TO >=     3 AT   10, BND= -0.2515E+06 TWIN=-0.2516E+06   7958
+ SET       Y6 TO >=     3 AT   11, BND= -0.2515E+06 TWIN=-0.2517E+06   7971
+ SET       X3 TO >=     6 AT   12, BND= -0.2515E+06 TWIN=-0.1000E+31   7980
+ SET       X4 TO >=     6 AT   13, BND= -0.2516E+06 TWIN=-0.2519E+06   7990
+ SET       X5 TO >=     6 AT   14, BND= -0.2516E+06 TWIN=-0.2521E+06   8004
+ SET       X6 TO <=     5 AT   15, BND= -0.2522E+06 TWIN=-0.2534E+06   8023
+ SET       X6 TO >=     5 AT   16, BND= -0.2522E+06 TWIN=-0.1000E+31   8023
+ DELETE       Y4 AT LEVEL    17
+ DELETE       X6 AT LEVEL    16
+ DELETE       X6 AT LEVEL    15
+ FLIP       X5 TO <=         5 AT   14 WITH BND=   -252070.00
+ SET       X5 TO >=     5 AT   15, BND= -0.2521E+06 TWIN=-0.1000E+31   8024
+ DELETE       Y4 AT LEVEL    16
+ DELETE       X5 AT LEVEL    15
+ DELETE       X5 AT LEVEL    14
+ FLIP       X4 TO <=         5 AT   13 WITH BND=   -251910.00
+ DELETE       Y4 AT LEVEL    14
+ DELETE       X4 AT LEVEL    13
+ DELETE       X3 AT LEVEL    12
+ FLIP       Y6 TO <=         2 AT   11 WITH BND=   -251749.98
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y6 AT LEVEL    11
+ FLIP       Y5 TO <=         2 AT   10 WITH BND=   -251590.00
+ SET       Y1 TO <=     3 AT   12, BND= -0.2516E+06 TWIN=-0.1000E+31   8027
+ SET       Y4 TO <=     3 AT   12, BND= -0.2516E+06 TWIN=-0.1000E+31   8027
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y1 AT LEVEL    11
+ DELETE       Y5 AT LEVEL    10
+ DELETE       X2 AT LEVEL     9
+ DELETE       X1 AT LEVEL     8
+ DELETE       Y4 AT LEVEL     7
+ DELETE       Y3 AT LEVEL     6
+ DELETE       Y1 AT LEVEL     5
+ DELETE       Y3 AT LEVEL     4
+ FLIP       Y2 TO <=         0 AT    3 WITH BND=   -251080.00
+ SET       Y1 TO >=     3 AT    4, BND= -0.2512E+06 TWIN=-0.1000E+31   8056
+ SET       Y3 TO >=     3 AT    5, BND= -0.2512E+06 TWIN=-0.1000E+31   8061
+ SET       Y4 TO >=     3 AT    6, BND= -0.2512E+06 TWIN=-0.1000E+31   8064
+ SET       X1 TO >=     6 AT    7, BND= -0.2512E+06 TWIN=-0.1000E+31   8069
+ SET       X2 TO >=     6 AT    8, BND= -0.2512E+06 TWIN=-0.1000E+31   8077
+ SET       Y5 TO >=     3 AT    9, BND= -0.2513E+06 TWIN=-0.2514E+06   8085
+ SET       Y6 TO >=     3 AT   10, BND= -0.2513E+06 TWIN=-0.2516E+06   8102
+ SET       X3 TO >=     6 AT   11, BND= -0.2514E+06 TWIN=-0.2518E+06   8112
+ SET       X4 TO >=     6 AT   12, BND= -0.2514E+06 TWIN=-0.2518E+06   8122
+ SET       X5 TO >=     6 AT   13, BND= -0.2515E+06 TWIN=-0.2519E+06   8138
+ SET       X6 TO <=     5 AT   14, BND= -0.2521E+06 TWIN=-0.2533E+06   8159
+ SET       X6 TO >=     5 AT   15, BND= -0.2521E+06 TWIN=-0.1000E+31   8159
+ DELETE       Y4 AT LEVEL    16
+ DELETE       X6 AT LEVEL    15
+ DELETE       X6 AT LEVEL    14
+ FLIP       X5 TO <=         5 AT   13 WITH BND=   -251910.00
+ SET       X5 TO >=     5 AT   14, BND= -0.2519E+06 TWIN=-0.1000E+31   8160
+ DELETE       Y4 AT LEVEL    15
+ DELETE       X5 AT LEVEL    14
+ DELETE       X5 AT LEVEL    13
+ FLIP       X4 TO <=         5 AT   12 WITH BND=   -251750.00
+ DELETE       Y4 AT LEVEL    13
+ DELETE       X4 AT LEVEL    12
+ FLIP       X3 TO <=         5 AT   11 WITH BND=   -251788.00
+ DELETE       Y3 AT LEVEL    12
+ DELETE       X3 AT LEVEL    11
+ FLIP       Y6 TO <=         2 AT   10 WITH BND=   -251590.00
+ SET       Y1 TO <=     3 AT   12, BND= -0.2516E+06 TWIN=-0.1000E+31   8164
+ SET       Y4 TO <=     3 AT   12, BND= -0.2516E+06 TWIN=-0.1000E+31   8164
+ DELETE       Y4 AT LEVEL    12
+ DELETE       Y1 AT LEVEL    11
+ DELETE       Y6 AT LEVEL    10
+ FLIP       Y5 TO <=         2 AT    9 WITH BND=   -251430.00
+ DELETE       Y4 AT LEVEL    10
+ DELETE       Y5 AT LEVEL     9
+ DELETE       X2 AT LEVEL     8
+ DELETE       X1 AT LEVEL     7
+ DELETE       Y4 AT LEVEL     6
+ DELETE       Y3 AT LEVEL     5
+ DELETE       Y1 AT LEVEL     4
+ DELETE       Y2 AT LEVEL     3
+ DELETE       Y1 AT LEVEL     2
+ DELETE       Y2 AT LEVEL     1
+ ENUMERATION COMPLETE. BRANCHES=  1291 PIVOTS=    8183
+
+ LAST INTEGER SOLUTION IS THE BEST FOUND
+ RE-INSTALLING BEST SOLUTION...
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      252960.0
+
+  VARIABLE        VALUE          REDUCED COST
+        X1         6.000000       5600.000000
+        X2         6.000000       5440.000000
+        X3         6.000000       5280.000000
+        X4         6.000000       5120.000000
+        X5         6.000000       4960.000000
+        X6         6.000000       4800.000000
+        Y1         1.000000       6080.000000
+        Y2         2.000000       5920.000000
+        Y3         3.000000       5760.000000
+        Y4         3.000000       5600.000000
+        Y5         3.000000       5440.000000
+        Y6         3.000000       5280.000000
+        Z1         0.000000          0.000000
+        Z2        12.000000          0.000000
+        Z3        10.000000          0.000000
+        Z4         4.000000          0.000000
+        Z5        48.000000          0.000000
+        Z6        22.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+      CP1)        14.000000          0.000000
+      CP2)        14.000000          0.000000
+      CP3)        14.000000          0.000000
+      CP4)        14.000000          0.000000
+      CP5)        14.000000          0.000000
+      CP6)        14.000000          0.000000
+     CPE1)        39.000000          0.000000
+     CPE2)        23.000000          0.000000
+     CPE3)         7.000000          0.000000
+     CPE4)         7.000000          0.000000
+     CPE5)         7.000000          0.000000
+     CPE6)         7.000000          0.000000
+   STOCK1)         0.000000        -60.000000
+   STOCK2)         0.000000         50.000000
+   STOCK3)         0.000000         40.000000
+   STOCK4)         0.000000         30.000000
+   STOCK5)         0.000000         20.000000
+   STOCK6)         0.000000         10.000000
+ STOCKFIN)         6.000000          0.000000
+
+ NO. ITERATIONS=    8188
+ BRANCHES= 1291 DETERM.=  1.000E    0

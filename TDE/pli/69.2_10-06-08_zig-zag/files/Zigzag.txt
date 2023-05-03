@@ -1,0 +1,2 @@
+La sequenza data è composta dai seguenti 25 numeri interi:
+24 28 12 45 46 11 12 11 37 42 90 93 12 67 69 36 18 94 29 34 41 12 15 26 3

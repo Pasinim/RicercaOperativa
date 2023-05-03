@@ -1,0 +1,9 @@
+Rispetto al sistema di riferimento scelto:
+- il pianoro su cui può schierarsi il reparto di artiglieria è rappresentato dai punti sull'asse delle ascisse 
+con ascissa non superiore a 8500;
+- la vetta della cresta rocciosa ha coordinate (10000,400);
+- l'altopiano da battere è orizzontale ed ha ordinata pari a 200 ed ascissa da 11000 in su.
+
+La velocità iniziale del proietto è pari a 100 m/sec.
+
+L'accelerazione di gravità è pari a 9.8 m/sec^2.

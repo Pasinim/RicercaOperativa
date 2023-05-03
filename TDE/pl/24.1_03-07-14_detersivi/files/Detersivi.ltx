@@ -1,0 +1,64 @@
+!
+!	Esercizio 24.1:	Detersivi
+!
+!	Dati contenuti nel file detersivi.txt
+!
+!	Variabili:	xij = quantità di sostanza i=(a,v,p) per prodotto j=(B,S,T)
+!			qj = quantità massima di prodotto j=(B,S,T) prodotta (quindi vendibile) ogni giorno
+!
+
+
+! Funzione obiettivo: massimizzare i ricavi giornalieri [euro/giorno]
+
+max 2.5 qB + 2.0 qS + 3.0 qT
+
+subject to
+
+! 1: Posso produrre un TOT di ogni prodotto al giorno, come indicato nei dati
+
+! [litri/giorno]
+
+tot_B) xaB + xvB + xpB - qB = 0
+tot_S) xaS + xvS + xpS - qS = 0
+tot_T) xaT + xvT + xpT - qT = 0
+
+! 2: Percentuali minime e massime delle sostanze per ogni prodotto
+! 
+! [litri/giorno]
+
+! Brillatutto
+
+min_aB) xaB - 0.80 qB >= 0
+max_aB) xaB - 0.90 qB <= 0
+min_vB) xvB - 0.05 qB >= 0
+max_vB) xvB - 0.10 qB <= 0
+min_pB) xpB - 0.10 qB >= 0
+max_pB) xpB - 0.20 qB <= 0
+
+! Smacchialamacchia
+
+min_aS) xaS - 0.70 qS >= 0
+max_aS) xaS - 0.85 qS <= 0
+min_vS) xvS - 0.10 qS >= 0
+max_vS) xvS - 0.20 qS <= 0 
+min_pS) xpS - 0.05 qS >= 0
+max_pS) xpS - 0.15 qS <= 0
+
+! T'acceco
+
+min_aT) xaT - 0.65 qT >= 0
+max_aT) xaT - 0.70 qT <= 0
+min_vT) xvT - 0.20 qT >= 0
+max_vT) xvT - 0.50 qT <= 0
+min_pT) xpT - 0.15 qT >= 0
+max_pT) xpT - 0.35 qT <= 0
+
+! 3: Quantità massime di sostanze disponibili
+!
+! [litri/giorno]
+
+quant_a) xaB + xaS + xaT  <= 700
+quant_v) xvB + xvS + xvT  <= 150
+quant_p) xpB + xpS + xpT  <= 200
+
+end

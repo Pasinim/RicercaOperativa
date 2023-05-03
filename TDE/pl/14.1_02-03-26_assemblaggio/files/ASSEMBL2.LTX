@@ -1,0 +1,52 @@
+!Esercizio "Assembla"
+
+!Variabili:
+!Ricavi [KEuro/settimana]: ricavi dovuti alla vendita dei prodotti
+!Costi [KEuro/settimana]: costi dovuti all'acquisto dei semilavorati
+!y(1..2) [prodotti/settimana]: numero di prodotti finiti di ciascun tipo prodotti ogni settimana
+!z(1..5) [pezzi/settimana]: numero di semilavorati di ciascun tipo acquistati ogni settimana
+!x(1..5) [pezzi/settimana]: numero di semilavorati di ciascun tipo prodotti ogni settimana
+
+!Funzione obiettivo: massimizzazione dei profitti [KEuro/settimana]
+max Ricavi - Costi
+
+s.t.
+
+!Definizione dei ricavi [KEuro/settimana]
+Ricavi) 140 y1 + 150 y2 - Ricavi = 0
+
+!Definizione dei costi [KEuro/settimana]
+Costi)  7.5 z1 + 8.2 z2 + 12.0 z3 + 13.3 z4 + 5.5 z5 - Costi = 0
+
+!Vincoli sull'assemblaggio [pezzi/settimana]
+Ass1) 5 y1 + 6 y2 - x1a       - x1c - z1 <= 0
+Ass2) 8 y1 + 7 y2 - x2a - x2b       - z2 <= 0
+Ass3) 2 y1 + 5 y2 - x3a - x3b       - z3 <= 0
+Ass4) 7 y1 + 6 y2 -       x4b - x4c - z4 <= 0
+Ass5) 3 y1 + 4 y2 -             x5c - z5 <= 0
+
+!Vincoli di produzione dei semilavorati [Kg/settimana (primi due) o oreuomo/settimana (terzo)]
+!Primo impianto
+Prod_a1) 150 x1a + 170 x2a + 190 x3a                     <= 13800
+Prod_a2)  78 x1a +  52 x2a +  25 x3a                     <=  3500
+Prod_am)     x1a +     x2a +     x3a                     - ma <= 0
+!Secondo impianto
+Prod_b1)           150 x2b + 175 x3b + 195 x4b           <= 12800
+Prod_b2)            84 x2b +  60 x3b +  33 x4b           <=  5000
+Prod_bm)               x2b +     x3b +     x4b           - mb <= 0
+!Terzo impianto
+Prod_c1) 125 x1c                     + 180 x4c + 110 x5c <= 11500
+Prod_c2)  90 x1c                     +  40 x4c +  60 x5c <=  5500
+Prod_cm)     x1c                     +     x4c +     x5c - mc <= 0
+
+!Vincolo sulla manodopera complessivamente disponibile [oreuomo/settimana]
+Manod) ma + mb + mc <= 240      ! 6 operai * 40 oreuomo/settimana*operaio
+
+!Senza acquisti esterni di semilavorati
+z1 = 0
+z2 = 0
+z3 = 0
+z4 = 0
+z5 = 0
+
+end

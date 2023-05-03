@@ -1,0 +1,20 @@
+Tabella 1: Resa dei componenti [n. utenze] per ogni punto percentuale acquistato
+
+  CPU  RAM Banda
+   6    9    4 
+
+Tabella 2: Prezzo di acquisto delle risorse [Euro] per ogni punto percentuale acquistato
+
+  CPU  RAM Banda
+   5    8    4 
+
+Tabella 3: Limiti superiori alle quantità acquistabili [punti percentuali]
+
+  CPU  RAM Banda
+   50   50   60 
+
+Per ogni punto percentuale di RAM acquistata, è necessario acquistarne 2 di CPU.
+
+Budget disponibile: 450 Euro.
+
+

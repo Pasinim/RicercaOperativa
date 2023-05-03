@@ -1,0 +1,43 @@
+Le stazioni sono 6.
+
+============================================================
+
+Tabella 1: Costi unitari di allocazione
+
+  Concentratore   1   2   3   4   5   6
+Stazione    
+   1             12  45  18  27  19  18     
+   2             38  34  18  28  34  28
+   3             11  10  15  34  23  10
+   4             37  39  31  28  29  21
+   5             15  34  11  20  28  15
+   6             12  30  20  18  27  24
+
+
+============================================================
+
+Tabella 2: Domande associate alle stazioni
+
+Stazione   Domanda
+   1         100
+   2         150
+   3         100
+   4         200
+   5         200
+   6         300
+
+============================================================
+
+Tabella 3: Capacità dei concentratori
+
+Stazione  Capacità
+   1        650
+   2        500
+   3        550
+   4        450
+   5        550
+   6        600
+
+============================================================
+
+I concentratori disponibili sono 2.

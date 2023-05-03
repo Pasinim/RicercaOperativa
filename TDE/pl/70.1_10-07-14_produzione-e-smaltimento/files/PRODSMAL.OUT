@@ -1,0 +1,71 @@
+
+ LP OPTIMUM FOUND AT STEP     14
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      5269.796
+
+  VARIABLE        VALUE          REDUCED COST
+        X1         1.414249          0.000000
+        X2         0.000000         17.360809
+        X3         2.796370          0.000000
+     COSTI       901.494751          0.000000
+        B1        18.632809          0.000000
+        B2      2879.933594          0.000000
+        B3         3.088858          0.000000
+       SCA      1098.134277          0.000000
+       SCB      3396.780273          0.000000
+       SCC       155.085449          0.000000
+       YA1      1098.134277          0.000000
+       YA2         0.000000          0.090000
+       YB1         0.000000          0.130000
+       YB2      3396.780273          0.000000
+       YC1       151.865692          0.000000
+       YC2         3.219764          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+ RISORSA1)         0.000000        178.656479
+ RISORSA2)         0.000000          0.105092
+ RISORSA3)         0.000000        525.460266
+   BUDGET)         0.000000          5.254602
+ SCORIE_A)         0.000000          0.260579
+ SCORIE_B)         0.000000          0.180579
+ SCORIE_C)         0.000000          0.110579
+    ORIGA)         0.000000         -0.260579
+    ORIGB)         0.000000         -0.180579
+    ORIGC)         0.000000         -0.110579
+    DEST1)         0.000000          0.010579
+    DEST2)         0.000000          0.000579
+    COSTI)         0.000000          1.000000
+
+
+
+  *** ANALISI PARAMETRICA CON BUDGET INFERIORE ***
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: BUDGET
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            1000.00       5.25460       5269.80
+      YC1  SLK   13     7   876.172       5.25460       4619.13
+       X3       YC1     8   465.957       5.25602       2463.03
+      YC2  SLK   12    13   398.182       5.25913       2106.59
+       B2  SLK    3     2  0.000000E+00   5.29052      0.287732E-03
+
+
+
+  *** ANALISI PARAMETRICA CON BUDGET SUPERIORE ***
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: BUDGET
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            1000.00       5.25460       5269.80
+      YC2  SLK   12    13   1002.13       5.25460       5280.97
+       X1       YB1    12   1143.25       5.21506       6016.94
+ SLK   12  SLK    5    13   1289.54       4.90613       6734.64
+                            99999.0     -0.206057E-14   6734.64
+

@@ -1,0 +1,149 @@
+
+ Rows=      8 Vars=     20 No. integer vars=      0  ( all are linear)
+ Nonzeros=     72 Constraint nonz=    64(     0 are +- 1) Density=0.381
+ Smallest and largest elements in abs value=   0.940000        137.900
+ No. < :   0 No. =:   8 No. > :   0, Obj=MIN, GUBs <=   1
+ Single cols=   12
+ Feasible solution found at step:        1
+
+
+                                           Variable           Value
+                                         DURATA( 1)        1.000000
+                                         DURATA( 2)        2.000000
+                                         DURATA( 3)        1.000000
+                                         DURATA( 4)        1.500000
+                                         DURATA( 5)       0.5000000
+                                         DURATA( 6)        1.000000
+                                         DURATA( 7)        1.000000
+                                         DURATA( 8)        2.000000
+                                         DURATA( 9)        1.200000
+                                        DURATA( 10)        2.500000
+                                        DURATA( 11)       0.2000000
+                                        DURATA( 12)       0.5000000
+                                         ERRORE( 1)       0.0000000
+                                         ERRORE( 2)       0.0000000
+                                         ERRORE( 3)       0.0000000
+                                         ERRORE( 4)       0.0000000
+                                         ERRORE( 5)       0.0000000
+                                         ERRORE( 6)       0.0000000
+                                         ERRORE( 7)       0.0000000
+                                         ERRORE( 8)       0.0000000
+                                         ERRORE( 9)       0.0000000
+                                        ERRORE( 10)       0.0000000
+                                        ERRORE( 11)       0.0000000
+                                        ERRORE( 12)       0.0000000
+                                          CALSP( 1)        5.081595
+                                          CALSP( 2)        5.943914
+                                          CALSP( 3)        1.890043
+                                          CALSP( 4)       0.4491028
+                                          CALSP( 5)        2.285797
+                                          CALSP( 6)        8.744070
+                                          CALSP( 7)        2.473838
+                                          CALSP( 8)       0.2676772
+                                      DELTAT( 1, 1)       0.2000000
+                                      DELTAT( 1, 2)       0.4000000
+                                      DELTAT( 1, 3)       0.5000000
+                                      DELTAT( 1, 4)       0.6000000
+                                      DELTAT( 1, 5)       0.6000000
+                                      DELTAT( 1, 6)       0.5000000
+                                      DELTAT( 1, 7)       0.2000000
+                                      DELTAT( 1, 8)       0.2000000
+                                      DELTAT( 2, 1)       0.1000000
+                                      DELTAT( 2, 2)        1.000000
+                                      DELTAT( 2, 3)       0.1000000
+                                      DELTAT( 2, 4)        1.200000
+                                      DELTAT( 2, 5)        1.100000
+                                      DELTAT( 2, 6)        1.000000
+                                      DELTAT( 2, 7)       0.6000000
+                                      DELTAT( 2, 8)       0.3000000
+                                      DELTAT( 3, 1)       0.1000000
+                                      DELTAT( 3, 2)       0.5000000
+                                      DELTAT( 3, 3)       0.5000000
+                                      DELTAT( 3, 4)       0.7000000
+                                      DELTAT( 3, 5)       0.5000000
+                                      DELTAT( 3, 6)       0.5000000
+                                      DELTAT( 3, 7)       0.1000000
+                                      DELTAT( 3, 8)       0.2000000
+                                      DELTAT( 4, 1)       0.2000000
+                                      DELTAT( 4, 2)       0.6000000
+                                      DELTAT( 4, 3)       0.6000000
+                                      DELTAT( 4, 4)       0.8000000
+                                      DELTAT( 4, 5)       0.6000000
+                                      DELTAT( 4, 6)       0.6000000
+                                      DELTAT( 4, 7)       0.2000000
+                                      DELTAT( 4, 8)       0.3000000
+                                      DELTAT( 5, 1)       0.1000000
+                                      DELTAT( 5, 2)       0.4000000
+                                      DELTAT( 5, 3)       0.2000000
+                                      DELTAT( 5, 4)       0.3000000
+                                      DELTAT( 5, 5)       0.2000000
+                                      DELTAT( 5, 6)       0.2000000
+                                      DELTAT( 5, 7)       0.0000000
+                                      DELTAT( 5, 8)       0.2000000
+                                      DELTAT( 6, 1)       0.2000000
+                                      DELTAT( 6, 2)       0.5000000
+                                      DELTAT( 6, 3)       0.4000000
+                                      DELTAT( 6, 4)       0.7000000
+                                      DELTAT( 6, 5)       0.5000000
+                                      DELTAT( 6, 6)       0.4000000
+                                      DELTAT( 6, 7)       0.2000000
+                                      DELTAT( 6, 8)       0.3000000
+                                      DELTAT( 7, 1)       0.3000000
+                                      DELTAT( 7, 2)       0.4000000
+                                      DELTAT( 7, 3)       0.5000000
+                                      DELTAT( 7, 4)       0.8000000
+                                      DELTAT( 7, 5)       0.4000000
+                                      DELTAT( 7, 6)       0.4000000
+                                      DELTAT( 7, 7)       0.2000000
+                                      DELTAT( 7, 8)       0.2000000
+                                      DELTAT( 8, 1)       0.6000000
+                                      DELTAT( 8, 2)       0.8000000
+                                      DELTAT( 8, 3)        1.000000
+                                      DELTAT( 8, 4)        1.500000
+                                      DELTAT( 8, 5)        1.300000
+                                      DELTAT( 8, 6)       0.6000000
+                                      DELTAT( 8, 7)       0.5000000
+                                      DELTAT( 8, 8)       0.6000000
+                                      DELTAT( 9, 1)       0.3000000
+                                      DELTAT( 9, 2)       0.4000000
+                                      DELTAT( 9, 3)       0.5000000
+                                      DELTAT( 9, 4)       0.7000000
+                                      DELTAT( 9, 5)       0.5000000
+                                      DELTAT( 9, 6)       0.5000000
+                                      DELTAT( 9, 7)       0.3000000
+                                      DELTAT( 9, 8)       0.2000000
+                                     DELTAT( 10, 1)       0.5000000
+                                     DELTAT( 10, 2)       0.9000000
+                                     DELTAT( 10, 3)        1.100000
+                                     DELTAT( 10, 4)        1.300000
+                                     DELTAT( 10, 5)       0.9000000
+                                     DELTAT( 10, 6)        1.200000
+                                     DELTAT( 10, 7)       0.8000000
+                                     DELTAT( 10, 8)       0.5000000
+                                     DELTAT( 11, 1)       0.0000000
+                                     DELTAT( 11, 2)       0.2000000
+                                     DELTAT( 11, 3)       0.0000000
+                                     DELTAT( 11, 4)       0.0000000
+                                     DELTAT( 11, 5)       0.1000000
+                                     DELTAT( 11, 6)       0.0000000
+                                     DELTAT( 11, 7)       0.0000000
+                                     DELTAT( 11, 8)       0.1000000
+                                     DELTAT( 12, 1)       0.0000000
+                                     DELTAT( 12, 2)       0.5000000
+                                     DELTAT( 12, 3)       0.2000000
+                                     DELTAT( 12, 4)       0.3000000
+                                     DELTAT( 12, 5)       0.2000000
+                                     DELTAT( 12, 6)       0.1000000
+                                     DELTAT( 12, 7)       0.1000000
+                                     DELTAT( 12, 8)       0.3000000
+
+                                                Row    Slack or Surplus
+                                                  1       0.0000000
+                                                  2       0.0000000
+                                                  3       0.0000000
+                                                  4       0.0000000
+                                                  5       0.0000000
+                                                  6       0.0000000
+                                                  7       0.0000000
+                                                  8       0.0000000
+

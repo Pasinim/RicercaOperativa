@@ -1,0 +1,18 @@
+Ci sono 7 obiettivi sensibili e 3 squadre.
+I luoghi dove localizzare le squadre sono 6.
+
+=========================================
+
+Tabella 1: Tempi di intervento (minuti)
+
+   Obiettivi   1   2   3   4   5   6   7
+Luoghi
+  1            0   9   7  15   3   4   2
+  2           12   0   2  14   8   4   3
+  3            6   4   9   9  19  11  15
+  4            5   1   8   0   6  12  17
+  5            2  10  11  10   0   6  20
+  6            8   7  15   5   5   0  12
+
+=========================================
+

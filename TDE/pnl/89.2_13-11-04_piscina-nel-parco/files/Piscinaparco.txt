@@ -1,0 +1,17 @@
+In un sistema di riferimento cartesiano 
+il parco occupa un'area quadrata con vertici nei punti (0,0), (0,100), (100,100) e (100,0).
+Gli alberi si trovano nelle posizioni seguenti.
+
+Albero   x    y
+
+   1     5   90
+   2    85   10
+   3    92   86
+   4     7   12
+   5    50   48
+   6    52   25
+   7    28   51
+   8    73   50
+   9    54   75
+
+Il lato corto della piscina deve essere almeno pari a 2/5 del lato lungo.

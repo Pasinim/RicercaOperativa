@@ -1,0 +1,10 @@
+I dati del problema sono i seguenti:
+
+Altezza della persona:    H = 1.80 m
+Altezza dell'impugnatura: S = 1.40 m
+Lunghezza del manico:     B = 0.90 m
+Diametro dell'ombrello:   L = 0.80 m
+Inclinazione massima del corpo: alfa_max = 0.4 radianti
+Velocità di caduta della pioggia: v = 1.00 m/sec.
+Velocità del vento:               w = 0.75 m/sec.
+

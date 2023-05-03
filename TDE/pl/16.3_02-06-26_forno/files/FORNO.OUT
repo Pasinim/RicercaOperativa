@@ -1,0 +1,72 @@
+
+ LP OPTIMUM FOUND AT STEP      9
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      57.87500
+
+  VARIABLE        VALUE          REDUCED COST
+        X1         5.000000          0.000000
+        X2         5.833333          0.000000
+        X3         3.000000          0.000000
+        X4         2.916667          0.000000
+         M         5.833333          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+   P_MIN1)         0.000000         -0.714286
+   P_MIN2)         3.833333          0.000000
+   P_MIN3)         0.000000         -5.232143
+   P_MIN4)         0.916667          0.000000
+      RIS)         0.000000          3.214286
+        7)         4.166667          0.000000
+        8)         5.833333          0.000000
+        9)         0.166667          0.000000
+       10)         0.000000         -2.071429
+       11)         0.833333          0.000000
+       12)         0.000000          2.071429
+       13)         2.833333          0.000000
+       14)         2.916667          0.000000
+
+ NO. ITERATIONS=       9
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       X1        2.500000         0.714286         INFINITY
+       X2        4.000000         INFINITY         1.500000
+       X3        2.000000         5.232143         INFINITY
+       X4        5.500000        14.499999         3.000000
+        M        0.000000         7.250000         1.500000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+   P_MIN1        5.000000         0.564516         0.350000
+   P_MIN2        2.000000         3.833333         INFINITY
+   P_MIN3        3.000000         0.777778         0.054264
+   P_MIN4        2.000000         0.916667         INFINITY
+      RIS       24.000000         0.350000         1.750000
+        7        0.000000         4.166667         INFINITY
+        8        0.000000         5.833333         INFINITY
+        9        0.000000         0.166667         INFINITY
+       10        0.000000         1.166667         0.233333
+       11        0.000000         INFINITY         0.833333
+       12        0.000000         2.916667         0.583333
+       13        0.000000         INFINITY         2.833333
+       14        0.000000         INFINITY         2.916667
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: RIS
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            24.0000       3.21429       57.8750
+ SLK    9  SLK    2     9   24.3500       3.21429       59.0000
+ SLK   11  SLK    4     2   25.3500       2.50000       61.5000
+                            100.000       2.42604       242.604
+

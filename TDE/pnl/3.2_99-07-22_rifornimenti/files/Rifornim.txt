@@ -1,0 +1,31 @@
+I 5 tipi di merce sono indicati da A, B, C, D ed E.
+
+Coefficiente per i costi di immagazzinamento:
+
+Tipo di merce     Coefficiente
+             [Euro/(unità*giorno)]
+   A                  10
+   B                  18
+   C                  25
+   D                  50
+   E                  75
+
+Costi dei rifornimenti:
+
+Tipo di merce    Costo
+             [Euro/viaggio]
+   A              200
+   B              250 
+   C              300
+   D              300
+   E              400
+
+Vendite:
+
+Tipo di merce   Ritmo di vendita
+                [unità / giorno]
+   A                  2
+   B                  4.5
+   C                  1
+   D                  3
+   E                  1.5

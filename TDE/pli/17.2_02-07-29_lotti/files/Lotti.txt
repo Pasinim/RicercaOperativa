@@ -1,0 +1,56 @@
+I periodi produttivi sono 6.
+I prodotti da considerare sono 3.
+
+************************************************
+
+Tabella 1: Costi fissi per l'utilizzo dei periodi produttivi
+
+Periodo Costo [Euro]
+   1     1300
+   2     1500
+   3     1700
+   4     1500
+   5     1000
+   6      800
+
+************************************************
+
+Tabella 2: Costi di produzione [Euro/unità di prodotto]
+
+     Periodo  1    2    3    4    5    6
+Prodotto    
+    1        12   10   15   17   17   15
+    2        24   21   28   20   25   25
+    3        18   15   20   18   18   20
+
+************************************************
+
+Tabella 3: Costi di stoccaggio [Euro/unità di prodotto]
+
+     Periodo  1    2    3    4    5    6
+Prodotto    
+    1         5    5    8    8    4    2
+    2         8    9   12   15   16   10
+    3         6    7    7    8    4    4
+
+
+************************************************
+
+Tabella 4: Capacità produttiva [Unità di prodotto] in ogni periodo
+
+     Periodo  1    2    3    4    5    6
+Prodotto    
+    1        75   75   75   75   80   80
+    2        50   50   55   55   60   65
+    3        50   50   40   40   50   50
+
+************************************************
+
+Tabella 5: Domanda del mercato [Unità di prodotto] per ogni periodo
+
+     Periodo  1    2    3    4    5    6
+Prodotto    
+    1        15   15   15   15   15   15
+    2        25   25   35   35   25   25
+    3        10    5    5    5   10   15
+

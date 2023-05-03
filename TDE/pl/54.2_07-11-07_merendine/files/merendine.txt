@@ -1,0 +1,61 @@
+I prodotti sono: merendine, brioches, biscotti normali, biscotti speciali, tortine.
+Gli ingredienti sono: pasta, zucchero, marmellata, cioccolato e acqua.
+
+=====================================================
+
+Tabella 1: Prezzi di vendita dei prodotti
+
+Prodotto    Prezzo [Euro/Kg]
+
+Merendine      8
+Brioches       6
+Biscotti      12
+Biscotti++    14
+Tortine       10
+
+=====================================================
+
+Tabella 2: Composizione percentuale dei prodotti
+
+    Prodotto  Merend.  Brioc.  Bisc.   Bisc.++  Tort.
+Pasta            20      40      70      25      20
+Zucchero         25      15      10      20      30 
+Marmellata       40      30       0      10      10  
+Cioccolato       10       0      15      40      30  
+Acqua             5      15       5       5      10
+
+=====================================================
+
+Tabella 3: Quantità di ingredienti disponibili [Kg/g]
+
+Pasta      illimitata
+Zucchero   300
+Marmellata 320
+Cioccolato 240
+Acqua      illimitata
+
+=====================================================
+
+La produzione di biscotti speciali deve essere compresa tra il 10% e il 25% della produzione di biscotti normali.
+
+=====================================================
+
+Gli avanzi di zucchero, marmellata e cioccolato non devono eccedere il 10% delle quantità disponibili.
+
+=====================================================
+
+Il totale di prodotti venduti in confezioni grandi deve essere compreso tra il 40% e il 60% del totale.
+Il vincolo deve essere rispettato sia per ogni tipo di prodotto sia complessivamente.
+
+=====================================================
+
+Ciascun tipo di prodotto deve costituire almeno il 10% della produzione totale.
+
+=====================================================
+
+La produzione attuale è la seguente:
+
+    Prodotto  Merend.  Brioc.  Bisc.   Bisc.++  Tort.
+Conf. piccola   250     60      180      60      70
+Conf. grande    350     90      250      90      90
+
