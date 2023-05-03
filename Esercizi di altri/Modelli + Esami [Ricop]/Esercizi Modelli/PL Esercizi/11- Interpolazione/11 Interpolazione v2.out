@@ -1,0 +1,80 @@
+Problem:    11
+Rows:       15
+Columns:    21
+Non-zeros:  128
+Status:     OPTIMAL
+Objective:  abs_avg_err = 3.428538111e-017 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Def_errore[1]
+                    NS            10            10             =         < eps
+     2 Def_errore[2]
+                    NS            20            20             =         < eps
+     3 Def_errore[3]
+                    NS            10            10             =         < eps
+     4 Def_errore[4]
+                    NS            15            15             =         < eps
+     5 Def_errore[5]
+                    NS             5             5             =         < eps
+     6 Def_errore[6]
+                    NS            10            10             =         < eps
+     7 Def_errore[7]
+                    NS            10            10             =         < eps
+     8 Def_errore[8]
+                    NS            20            20             =         < eps
+     9 Def_errore[9]
+                    NS            12            12             =         < eps
+    10 Def_errore[10]
+                    NS            25            25             =         < eps
+    11 Def_errore[11]
+                    NS             2             2             =         < eps
+    12 Def_errore[12]
+                    NS             5             5             =         < eps
+    13 abs_avg_err  B              0                             
+    14 minmax1      NL             0            -0                         0.5 
+    15 minmax2      NL             0            -0                         0.5 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                       < eps
+     2 x[2]         NL             0             0                       < eps
+     3 x[3]         B        25.7143             0               
+     4 x[4]         NL             0             0                       < eps
+     5 x[5]         NL             0             0                       < eps
+     6 x[6]         NL             0             0                       < eps
+     7 x[7]         NL             0             0                       < eps
+     8 x[8]         NL             0             0                       < eps
+     9 err[1]       B       -2.85714                             
+    10 err[2]       B        17.4286                             
+    11 err[3]       B       -2.85714                             
+    12 err[4]       B      -0.428571                             
+    13 err[5]       B      -0.142857                             
+    14 err[6]       B      -0.285714                             
+    15 err[7]       B       -2.85714                             
+    16 err[8]       B       -5.71429                             
+    17 err[9]       B      -0.857143                             
+    18 err[10]      B       -3.28571                             
+    19 err[11]      B              2                             
+    20 err[12]      B      -0.142857                             
+    21 z2           B              0                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 3.55e-015 on row 2
+        max.rel.err = 1.65e-016 on row 6
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

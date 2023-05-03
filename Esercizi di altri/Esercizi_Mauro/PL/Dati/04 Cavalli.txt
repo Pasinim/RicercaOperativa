@@ -1,0 +1,7 @@
+Cavallo	    Quotazione
+Fulmine		3
+Freccia		4
+Dardo		5
+Lampo		6
+
+Budget: 57 Euro.

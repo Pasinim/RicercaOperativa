@@ -1,0 +1,52 @@
+Problem:    06
+Rows:       7
+Columns:    7
+Non-zeros:  47
+Status:     OPTIMAL
+Objective:  z = 26.23620095 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Quantita_minima[1]
+                    NL            25            25                     1.43861 
+     2 Quantita_minima[2]
+                    B             25            15               
+     3 Quantita_minima[3]
+                    B             20            10               
+     4 Quantita_massima[1]
+                    B             25                          35 
+     5 Quantita_massima[2]
+                    NU            25                          25     -0.220572 
+     6 Quantita_massima[3]
+                    NU            20                          20     -0.210733 
+     7 z            B        26.2362                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                     3.80769 
+     2 x[2]         NL             0             0                    0.864799 
+     3 x[3]         NL             0             0                     6.64739 
+     4 x[4]         B       0.930007             0               
+     5 x[5]         B        1.65008             0               
+     6 x[6]         B       0.360809             0               
+     7 x[7]         NL             0             0                     8.58558 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.55e-015 on column 1
+        max.rel.err = 1.04e-016 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,43 @@
+Problem:    2
+Rows:       6
+Columns:    5
+Non-zeros:  19
+Status:     OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Sum1         NS             1             1             =         < eps
+     2 Bil[A]       NS             0            -0             =         < eps
+     3 Bil[B]       NS             0            -0             =         < eps
+     4 Bil[C]       NS             0            -0             =         < eps
+     5 Bil[D]       NS             0            -0             =         < eps
+     6 Bil[E]       B              0            -0             = 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A]         B       0.155549             0               
+     2 x[B]         B        0.27584             0               
+     3 x[C]         B      0.0364108             0               
+     4 x[D]         B       0.416334             0               
+     5 x[E]         B       0.115867             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 4.44e-016 on row 3
+        max.rel.err = 7.94e-017 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 2.22e-016 on row 6
+        max.rel.err = 2.22e-016 on row 6
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

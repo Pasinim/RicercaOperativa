@@ -1,0 +1,140 @@
+Problem:    cifreVagantiPDF
+Rows:       25
+Columns:    74 (72 integer, 72 binary)
+Non-zeros:  272
+Status:     INTEGER OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 CifraUnicaX[1]
+                                   1             1             = 
+     2 CifraUnicaX[2]
+                                   1             1             = 
+     3 CifraUnicaX[3]
+                                   1             1             = 
+     4 CifraUnicaX[4]
+                                   1             1             = 
+     5 CifraUnicaY[1]
+                                   1             1             = 
+     6 CifraUnicaY[2]
+                                   1             1             = 
+     7 CifraUnicaY[3]
+                                   1             1             = 
+     8 CifraUnicaY[4]
+                                   1             1             = 
+     9 CifraNonPiuDiUnaVolta[1]
+                                   0                           1 
+    10 CifraNonPiuDiUnaVolta[2]
+                                   1                           1 
+    11 CifraNonPiuDiUnaVolta[3]
+                                   0                           1 
+    12 CifraNonPiuDiUnaVolta[4]
+                                   0                           1 
+    13 CifraNonPiuDiUnaVolta[5]
+                                   1                           1 
+    14 CifraNonPiuDiUnaVolta[6]
+                                   0                           1 
+    15 CifraNonPiuDiUnaVolta[7]
+                                   1                           1 
+    16 CifraNonPiuDiUnaVolta[8]
+                                   1                           1 
+    17 CifraNonPiuDiUnaVolta[9]
+                                   0                           1 
+    18 NumeroX                     0            -0             = 
+    19 NumeroY                     0            -0             = 
+    20 Somma                    8612          8612             = 
+    21 Migliaia                    0            -0             = 
+    22 Centinaia                   0            -0             = 
+    23 Decine                      0            -0             = 
+    24 Unita                       0            -0             = 
+    25 Speciali                    2             2             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[2,1]       *              0             0             1 
+     3 x[3,1]       *              0             0             1 
+     4 x[4,1]       *              0             0             1 
+     5 x[5,1]       *              1             0             1 
+     6 x[6,1]       *              0             0             1 
+     7 x[7,1]       *              0             0             1 
+     8 x[8,1]       *              0             0             1 
+     9 x[9,1]       *              0             0             1 
+    10 x[1,2]       *              0             0             1 
+    11 x[2,2]       *              0             0             1 
+    12 x[3,2]       *              0             0             1 
+    13 x[4,2]       *              0             0             1 
+    14 x[5,2]       *              0             0             1 
+    15 x[6,2]       *              0             0             1 
+    16 x[7,2]       *              0             0             1 
+    17 x[8,2]       *              1             0             1 
+    18 x[9,2]       *              0             0             1 
+    19 x[1,3]       *              0             0             1 
+    20 x[2,3]       *              0             0             1 
+    21 x[3,3]       *              0             0             1 
+    22 x[4,3]       *              0             0             1 
+    23 x[5,3]       *              0             0             1 
+    24 x[6,3]       *              0             0             1 
+    25 x[7,3]       *              1             0             1 
+    26 x[8,3]       *              0             0             1 
+    27 x[9,3]       *              0             0             1 
+    28 x[1,4]       *              0             0             1 
+    29 x[2,4]       *              1             0             1 
+    30 x[3,4]       *              0             0             1 
+    31 x[4,4]       *              0             0             1 
+    32 x[5,4]       *              0             0             1 
+    33 x[6,4]       *              0             0             1 
+    34 x[7,4]       *              0             0             1 
+    35 x[8,4]       *              0             0             1 
+    36 x[9,4]       *              0             0             1 
+    37 y[1,1]       *              0             0             1 
+    38 y[2,1]       *              0             0             1 
+    39 y[3,1]       *              0             0             1 
+    40 y[4,1]       *              0             0             1 
+    41 y[5,1]       *              0             0             1 
+    42 y[6,1]       *              0             0             1 
+    43 y[7,1]       *              1             0             1 
+    44 y[8,1]       *              0             0             1 
+    45 y[9,1]       *              0             0             1 
+    46 y[1,2]       *              0             0             1 
+    47 y[2,2]       *              1             0             1 
+    48 y[3,2]       *              0             0             1 
+    49 y[4,2]       *              0             0             1 
+    50 y[5,2]       *              0             0             1 
+    51 y[6,2]       *              0             0             1 
+    52 y[7,2]       *              0             0             1 
+    53 y[8,2]       *              0             0             1 
+    54 y[9,2]       *              0             0             1 
+    55 y[1,3]       *              0             0             1 
+    56 y[2,3]       *              0             0             1 
+    57 y[3,3]       *              0             0             1 
+    58 y[4,3]       *              0             0             1 
+    59 y[5,3]       *              0             0             1 
+    60 y[6,3]       *              0             0             1 
+    61 y[7,3]       *              0             0             1 
+    62 y[8,3]       *              1             0             1 
+    63 y[9,3]       *              0             0             1 
+    64 y[1,4]       *              0             0             1 
+    65 y[2,4]       *              0             0             1 
+    66 y[3,4]       *              0             0             1 
+    67 y[4,4]       *              0             0             1 
+    68 y[5,4]       *              1             0             1 
+    69 y[6,4]       *              0             0             1 
+    70 y[7,4]       *              0             0             1 
+    71 y[8,4]       *              0             0             1 
+    72 y[9,4]       *              0             0             1 
+    73 X                        2785                             
+    74 Y                        5827                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

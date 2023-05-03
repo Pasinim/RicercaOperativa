@@ -1,0 +1,44 @@
+Problem:    tempoDenarov3
+Rows:       7
+Columns:    5
+Non-zeros:  19
+Status:     OPTIMAL
+Objective:  z = 6.54 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Consumi[1]   NU            91                          91    -0.0046729 
+     2 Consumi[2]   B           39.1                          40 
+     3 Consumi[3]   NU            59                          59    -0.0186916 
+     4 Manodopera   NU             0                          -0            -1 
+     5 Def1         NS             0            -0             =   -0.00102804 
+     6 z            B           6.54                             
+     7 Parametric   NL          7848          7848                  0.00102804 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B           0.14             0               
+     2 x[2]         B              0             0               
+     3 x[3]         B            6.4             0               
+     4 f1           B           7848                             
+     5 f2           B           6.54                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 7.11e-015 on row 2
+        max.rel.err = 8.97e-017 on row 2
+        High quality
+
+KKT.PB: max.abs.err = 1.34e-015 on column 2
+        max.rel.err = 1.34e-015 on column 2
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-016 on column 2
+        max.rel.err = 6.40e-017 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

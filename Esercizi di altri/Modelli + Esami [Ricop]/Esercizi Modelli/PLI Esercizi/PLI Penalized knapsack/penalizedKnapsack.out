@@ -1,0 +1,87 @@
+Problem:    penalizedKnapsack
+Rows:       32
+Columns:    31 (30 integer, 30 binary)
+Non-zeros:  121
+Status:     INTEGER OPTIMAL
+Objective:  z = 907 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Capacity                  992                        1000 
+     2 z                         907                             
+     3 minMax[1]                  59            -0               
+     4 minMax[2]                  34            -0               
+     5 minMax[3]                  93            -0               
+     6 minMax[4]                  59            -0               
+     7 minMax[5]                  53            -0               
+     8 minMax[6]                  64            -0               
+     9 minMax[7]                   9            -0               
+    10 minMax[8]                  93            -0               
+    11 minMax[9]                  93            -0               
+    12 minMax[10]                 45            -0               
+    13 minMax[11]                 40            -0               
+    14 minMax[12]                  8            -0               
+    15 minMax[13]                 56            -0               
+    16 minMax[14]                 93            -0               
+    17 minMax[15]                  8            -0               
+    18 minMax[16]                 56            -0               
+    19 minMax[17]                  3            -0               
+    20 minMax[18]                 36            -0               
+    21 minMax[19]                 31            -0               
+    22 minMax[20]                 59            -0               
+    23 minMax[21]                 18            -0               
+    24 minMax[22]                  5            -0               
+    25 minMax[23]                 93            -0               
+    26 minMax[24]                 18            -0               
+    27 minMax[25]                  0            -0               
+    28 minMax[26]                 93            -0               
+    29 minMax[27]                 54            -0               
+    30 minMax[28]                 35            -0               
+    31 minMax[29]                 56            -0               
+    32 minMax[30]                 87            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              1             0             1 
+     2 x[2]         *              1             0             1 
+     3 x[3]         *              0             0             1 
+     4 x[4]         *              1             0             1 
+     5 x[5]         *              1             0             1 
+     6 x[6]         *              1             0             1 
+     7 x[7]         *              1             0             1 
+     8 x[8]         *              0             0             1 
+     9 x[9]         *              0             0             1 
+    10 x[10]        *              1             0             1 
+    11 x[11]        *              1             0             1 
+    12 x[12]        *              1             0             1 
+    13 x[13]        *              1             0             1 
+    14 x[14]        *              0             0             1 
+    15 x[15]        *              1             0             1 
+    16 x[16]        *              1             0             1 
+    17 x[17]        *              1             0             1 
+    18 x[18]        *              1             0             1 
+    19 x[19]        *              1             0             1 
+    20 x[20]        *              1             0             1 
+    21 x[21]        *              1             0             1 
+    22 x[22]        *              1             0             1 
+    23 x[23]        *              0             0             1 
+    24 x[24]        *              1             0             1 
+    25 x[25]        *              1             0             1 
+    26 x[26]        *              0             0             1 
+    27 x[27]        *              1             0             1 
+    28 x[28]        *              1             0             1 
+    29 x[29]        *              1             0             1 
+    30 x[30]        *              1             0             1 
+    31 delta                      93                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,92 @@
+Problem:    compressioneFiles
+Rows:       12
+Columns:    48 (48 integer, 48 binary)
+Non-zeros:  120
+Status:     INTEGER OPTIMAL
+Objective:  z = 4 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Capacity[1]               595                         700 
+     2 Capacity[2]               690                         700 
+     3 Capacity[3]               700                         700 
+     4 Assignment[1]
+                                   1             1             = 
+     5 Assignment[2]
+                                   1             1             = 
+     6 Assignment[3]
+                                   1             1             = 
+     7 Assignment[4]
+                                   1             1             = 
+     8 Assignment[5]
+                                   1             1             = 
+     9 Assignment[6]
+                                   1             1             = 
+    10 Assignment[7]
+                                   1             1             = 
+    11 Assignment[8]
+                                   1             1             = 
+    12 z                           4                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[2,1]       *              0             0             1 
+     3 x[3,1]       *              0             0             1 
+     4 x[4,1]       *              1             0             1 
+     5 x[5,1]       *              0             0             1 
+     6 x[6,1]       *              0             0             1 
+     7 x[7,1]       *              0             0             1 
+     8 x[8,1]       *              1             0             1 
+     9 x[1,2]       *              1             0             1 
+    10 x[2,2]       *              0             0             1 
+    11 x[3,2]       *              0             0             1 
+    12 x[4,2]       *              0             0             1 
+    13 x[5,2]       *              0             0             1 
+    14 x[6,2]       *              0             0             1 
+    15 x[7,2]       *              0             0             1 
+    16 x[8,2]       *              0             0             1 
+    17 x[1,3]       *              0             0             1 
+    18 x[2,3]       *              0             0             1 
+    19 x[3,3]       *              0             0             1 
+    20 x[4,3]       *              0             0             1 
+    21 x[5,3]       *              0             0             1 
+    22 x[6,3]       *              0             0             1 
+    23 x[7,3]       *              1             0             1 
+    24 x[8,3]       *              0             0             1 
+    25 y[1,1]       *              0             0             1 
+    26 y[2,1]       *              0             0             1 
+    27 y[3,1]       *              1             0             1 
+    28 y[4,1]       *              0             0             1 
+    29 y[5,1]       *              0             0             1 
+    30 y[6,1]       *              0             0             1 
+    31 y[7,1]       *              0             0             1 
+    32 y[8,1]       *              0             0             1 
+    33 y[1,2]       *              0             0             1 
+    34 y[2,2]       *              1             0             1 
+    35 y[3,2]       *              0             0             1 
+    36 y[4,2]       *              0             0             1 
+    37 y[5,2]       *              0             0             1 
+    38 y[6,2]       *              0             0             1 
+    39 y[7,2]       *              0             0             1 
+    40 y[8,2]       *              0             0             1 
+    41 y[1,3]       *              0             0             1 
+    42 y[2,3]       *              0             0             1 
+    43 y[3,3]       *              0             0             1 
+    44 y[4,3]       *              0             0             1 
+    45 y[5,3]       *              1             0             1 
+    46 y[6,3]       *              1             0             1 
+    47 y[7,3]       *              0             0             1 
+    48 y[8,3]       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

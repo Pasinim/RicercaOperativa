@@ -1,0 +1,212 @@
+Problem:    immagini
+Rows:       75
+Columns:    40 (40 integer, 40 binary)
+Non-zeros:  219
+Status:     INTEGER OPTIMAL
+Objective:  z = 4892 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Capacity                  288                         300 
+     2 Incompatibility[1,2]
+                                   1                           1 
+     3 Incompatibility[6,7]
+                                   1                           1 
+     4 Incompatibility[13,14]
+                                   1                           1 
+     5 Incompatibility[13,15]
+                                   1                           1 
+     6 Incompatibility[14,15]
+                                   0                           1 
+     7 Incompatibility[14,16]
+                                   1                           1 
+     8 Incompatibility[15,16]
+                                   1                           1 
+     9 Incompatibility[15,17]
+                                   0                           1 
+    10 Incompatibility[15,18]
+                                   0                           1 
+    11 Incompatibility[15,19]
+                                   0                           1 
+    12 Incompatibility[15,20]
+                                   0                           1 
+    13 Incompatibility[16,17]
+                                   1                           1 
+    14 Incompatibility[16,18]
+                                   1                           1 
+    15 Incompatibility[16,19]
+                                   1                           1 
+    16 Incompatibility[16,20]
+                                   1                           1 
+    17 Incompatibility[16,21]
+                                   1                           1 
+    18 Incompatibility[17,18]
+                                   0                           1 
+    19 Incompatibility[17,19]
+                                   0                           1 
+    20 Incompatibility[17,20]
+                                   0                           1 
+    21 Incompatibility[18,19]
+                                   0                           1 
+    22 Incompatibility[18,20]
+                                   0                           1 
+    23 Incompatibility[19,20]
+                                   0                           1 
+    24 Incompatibility[19,21]
+                                   0                           1 
+    25 Incompatibility[19,22]
+                                   1                           1 
+    26 Incompatibility[20,21]
+                                   0                           1 
+    27 Incompatibility[21,22]
+                                   1                           1 
+    28 Incompatibility[21,23]
+                                   1                           1 
+    29 Incompatibility[24,25]
+                                   1                           1 
+    30 Incompatibility[24,26]
+                                   1                           1 
+    31 Incompatibility[24,27]
+                                   1                           1 
+    32 Incompatibility[24,28]
+                                   1                           1 
+    33 Incompatibility[24,29]
+                                   1                           1 
+    34 Incompatibility[24,30]
+                                   1                           1 
+    35 Incompatibility[24,31]
+                                   1                           1 
+    36 Incompatibility[24,32]
+                                   1                           1 
+    37 Incompatibility[24,33]
+                                   1                           1 
+    38 Incompatibility[24,34]
+                                   1                           1 
+    39 Incompatibility[25,26]
+                                   0                           1 
+    40 Incompatibility[26,27]
+                                   0                           1 
+    41 Incompatibility[26,28]
+                                   0                           1 
+    42 Incompatibility[26,29]
+                                   0                           1 
+    43 Incompatibility[26,30]
+                                   0                           1 
+    44 Incompatibility[27,28]
+                                   0                           1 
+    45 Incompatibility[29,30]
+                                   0                           1 
+    46 Incompatibility[29,31]
+                                   0                           1 
+    47 Incompatibility[29,32]
+                                   0                           1 
+    48 Incompatibility[29,33]
+                                   0                           1 
+    49 Incompatibility[30,31]
+                                   0                           1 
+    50 Incompatibility[30,32]
+                                   0                           1 
+    51 Incompatibility[30,33]
+                                   0                           1 
+    52 Incompatibility[30,34]
+                                   0                           1 
+    53 Incompatibility[31,32]
+                                   0                           1 
+    54 Incompatibility[31,33]
+                                   0                           1 
+    55 Incompatibility[32,33]
+                                   0                           1 
+    56 Incompatibility[32,34]
+                                   0                           1 
+    57 Incompatibility[33,34]
+                                   0                           1 
+    58 Incompatibility[33,35]
+                                   0                           1 
+    59 Incompatibility[34,35]
+                                   0                           1 
+    60 Incompatibility[36,37]
+                                   1                           1 
+    61 Incompatibility[36,38]
+                                   0                           1 
+    62 Incompatibility[36,39]
+                                   0                           1 
+    63 Incompatibility[37,38]
+                                   1                           1 
+    64 Incompatibility[37,39]
+                                   1                           1 
+    65 Incompatibility[38,39]
+                                   0                           1 
+    66 Incompatibility[38,40]
+                                   1                           1 
+    67 Incompatibility[39,40]
+                                   1                           1 
+    68 Richieste_Forzate[2]
+                                   1             1             = 
+    69 Richieste_Forzate[3]
+                                   1             1             = 
+    70 Richieste_Forzate[6]
+                                   1             1             = 
+    71 Richieste_Forzate[13]
+                                   1             1             = 
+    72 Richieste_Forzate[16]
+                                   1             1             = 
+    73 Richieste_Forzate[24]
+                                   1             1             = 
+    74 Richieste_Forzate[37]
+                                   1             1             = 
+    75 z                        4892                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              0             0             1 
+     2 x[2]         *              1             0             1 
+     3 x[3]         *              1             0             1 
+     4 x[4]         *              1             0             1 
+     5 x[5]         *              1             0             1 
+     6 x[6]         *              1             0             1 
+     7 x[7]         *              0             0             1 
+     8 x[8]         *              1             0             1 
+     9 x[9]         *              1             0             1 
+    10 x[10]        *              1             0             1 
+    11 x[11]        *              1             0             1 
+    12 x[12]        *              1             0             1 
+    13 x[13]        *              1             0             1 
+    14 x[14]        *              0             0             1 
+    15 x[15]        *              0             0             1 
+    16 x[16]        *              1             0             1 
+    17 x[17]        *              0             0             1 
+    18 x[18]        *              0             0             1 
+    19 x[19]        *              0             0             1 
+    20 x[20]        *              0             0             1 
+    21 x[21]        *              0             0             1 
+    22 x[22]        *              1             0             1 
+    23 x[23]        *              1             0             1 
+    24 x[24]        *              1             0             1 
+    25 x[25]        *              0             0             1 
+    26 x[26]        *              0             0             1 
+    27 x[27]        *              0             0             1 
+    28 x[28]        *              0             0             1 
+    29 x[29]        *              0             0             1 
+    30 x[30]        *              0             0             1 
+    31 x[31]        *              0             0             1 
+    32 x[32]        *              0             0             1 
+    33 x[33]        *              0             0             1 
+    34 x[34]        *              0             0             1 
+    35 x[35]        *              0             0             1 
+    36 x[36]        *              0             0             1 
+    37 x[37]        *              1             0             1 
+    38 x[38]        *              0             0             1 
+    39 x[39]        *              0             0             1 
+    40 x[40]        *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

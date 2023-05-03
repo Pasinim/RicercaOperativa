@@ -1,0 +1,43 @@
+Tabella 1. Disponibilità presso i magazzini
+
+Magazzini   Copie stampate
+TO		1200
+NA		1400
+PA		 800 
+
+------------
+
+Tabella 2. Richieste dei distributori.
+
+Distributori  Copie richieste
+MI		1000
+BO		1200
+RM		 700 
+BA		 500
+
+-------------
+
+Tabella 3. Capacità disponibili per il trasporto.
+
+	  MI	  BO	  RM	  BA 
+TO	 500	1000	1000	1000
+NA	 500	 800	 800	 800
+PA	 800	 600	 600	 600
+
+-------------
+
+Tabella 4. Costi unitari [€/libro].
+
+	 MI	 BO	 RM	 BA 
+TO	 7,5	 2,6	 1,7	 1,6
+NA	 6,4	 2,2	 2,0	 1,5
+PA	 5,8	 2,4	 1,8	 1,4
+
+-------------
+
+Tabella 5. Prezzi-base del trasportatore "Tutto Trasporti B" [€/libro].
+
+	 MI	 BO	 RM	 BA  
+TO	 3,9	 1,4	 1,1	 1,4 
+NA	 2,7	 0,9	 1,2	 0,9 
+PA	 2,4	 1,4	 1,7	 1,3

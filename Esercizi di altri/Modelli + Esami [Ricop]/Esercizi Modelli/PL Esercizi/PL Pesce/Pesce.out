@@ -1,0 +1,41 @@
+Problem:    Pesce
+Rows:       6
+Columns:    3
+Non-zeros:  12
+Status:     OPTIMAL
+Objective:  z = 80 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Capacity     NU         50000                       50000        0.0016 
+     2 Time         B             40                          45 
+     3 Upper[1]     B              0                           1 
+     4 Upper[2]     B              0                           1 
+     5 Upper[3]     B      0.0666667                           1 
+     6 z            B             80                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                          -6 
+     2 x[2]         NL             0             0                        -4.5 
+     3 x[3]         B              4             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,113 @@
+Problem:    11
+Rows:       37
+Columns:    32
+Non-zeros:  161
+Status:     OPTIMAL
+Objective:  avg_abs_err = 0.3607629727 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Def_errore[1]
+                    NS            10            10             =    -0.0833333 
+     2 Def_errore[2]
+                    NS            20            20             =   -0.00883905 
+     3 Def_errore[3]
+                    NS            10            10             =   0.000395778 
+     4 Def_errore[4]
+                    NS            15            15             =     0.0833333 
+     5 Def_errore[5]
+                    NS             5             5             =    -0.0775945 
+     6 Def_errore[6]
+                    NS            10            10             =     0.0462511 
+     7 Def_errore[7]
+                    NS            10            10             =    -0.0350814 
+     8 Def_errore[8]
+                    NS            20            20             =   -0.00989446 
+     9 Def_errore[9]
+                    NS            12            12             =     0.0833333 
+    10 Def_errore[10]
+                    NS            25            25             =    -0.0183707 
+    11 Def_errore[11]
+                    NS             2             2             =     0.0833333 
+    12 Def_errore[12]
+                    NS             5             5             =     -0.023263 
+    13 avg_abs_err  B       0.360763                             
+    14 minmax1[1]   B       0.844327            -0               
+    15 minmax1[2]   NL             0            -0                   0.0372471 
+    16 minmax1[3]   NL             0            -0                   0.0418646 
+    17 minmax1[4]   NL             0            -0                   0.0833333 
+    18 minmax1[5]   NL             0            -0                  0.00286939 
+    19 minmax1[6]   NL             0            -0                   0.0647922 
+    20 minmax1[7]   NL             0            -0                    0.024126 
+    21 minmax1[8]   NL             0            -0                   0.0367194 
+    22 minmax1[9]   NL             0            -0                   0.0833333 
+    23 minmax1[10]  NL             0            -0                   0.0324813 
+    24 minmax1[11]  NL             0            -0                   0.0833333 
+    25 minmax1[12]  NL             0            -0                   0.0300352 
+    26 minmax2[1]   NL             0            -0                   0.0833333 
+    27 minmax2[2]   NL             0            -0                   0.0460862 
+    28 minmax2[3]   NL             0            -0                   0.0414688 
+    29 minmax2[4]   B        4.72296            -0               
+    30 minmax2[5]   NL             0            -0                   0.0804639 
+    31 minmax2[6]   NL             0            -0                   0.0185411 
+    32 minmax2[7]   NL             0            -0                   0.0592073 
+    33 minmax2[8]   NL             0            -0                   0.0466139 
+    34 minmax2[9]   B        1.45515            -0               
+    35 minmax2[10]  NL             0            -0                    0.050852 
+    36 minmax2[11]  B        1.63588            -0               
+    37 minmax2[12]  NL             0            -0                   0.0532982 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B        3.35752             0               
+     2 x[2]         B        4.84828             0               
+     3 x[3]         B        1.86675             0               
+     4 x[4]         B        1.74802             0               
+     5 x[5]         B        2.03166             0               
+     6 x[6]         B        7.01187             0               
+     7 x[7]         B        5.42876             0               
+     8 x[8]         B      0.0923483             0               
+     9 err[1]       B      -0.422164                             
+    10 err[2]       B              0                             
+    11 err[3]       B              0                             
+    12 err[4]       B        2.36148                             
+    13 err[5]       B              0                             
+    14 err[6]       B              0                             
+    15 err[7]       B              0                             
+    16 err[8]       B              0                             
+    17 err[9]       B       0.727573                             
+    18 err[10]      B              0                             
+    19 err[11]      B       0.817942                             
+    20 err[12]      B              0                             
+    21 z3[1]        B       0.422164                             
+    22 z3[2]        B              0                             
+    23 z3[3]        B              0                             
+    24 z3[4]        B        2.36148                             
+    25 z3[5]        B              0                             
+    26 z3[6]        B              0                             
+    27 z3[7]        B              0                             
+    28 z3[8]        B              0                             
+    29 z3[9]        B       0.727573                             
+    30 z3[10]       B              0                             
+    31 z3[11]       B       0.817942                             
+    32 z3[12]       B              0                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 7.11e-015 on row 10
+        max.rel.err = 1.39e-016 on row 10
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.78e-017 on column 5
+        max.rel.err = 2.23e-017 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

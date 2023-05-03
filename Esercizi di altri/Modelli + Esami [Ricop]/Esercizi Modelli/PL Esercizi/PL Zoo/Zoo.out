@@ -1,0 +1,47 @@
+Problem:    Zoo
+Rows:       9
+Columns:    4
+Non-zeros:  22
+Status:     OPTIMAL
+Objective:  z = 1519.466667 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Cibo[Carne]  B        112.487          21.6               
+     2 Cibo[Latte]  B          15.02            10               
+     3 Cibo[Frutta] B        96.2333          29.3               
+     4 Cibo[Verdura]
+                    B        146.027          81.7               
+     5 Cibo[Zuccheri]
+                    NL           5.3           5.3                          84 
+     6 Cibo[Grassi] NL           7.6           7.6                     2.66667 
+     7 Cibo[Farine] NL          15.5          15.5                         5.6 
+     8 Cibo[Acqua]  NL         120.9         120.9                           8 
+     9 z            B        1519.47                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B            106             0               
+     2 x[2]         B          300.4             0               
+     3 x[3]         B             62             0               
+     4 x[4]         B        50.6667             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-014 on row 8
+        max.rel.err = 5.85e-017 on row 8
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

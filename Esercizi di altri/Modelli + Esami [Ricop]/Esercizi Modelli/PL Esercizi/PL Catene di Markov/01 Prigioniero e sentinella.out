@@ -1,0 +1,46 @@
+Problem:    01
+Rows:       5
+Columns:    4
+Non-zeros:  16
+Status:     OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Bilanciamento[1]
+                    NS             0            -0             =         < eps
+     2 Bilanciamento[2]
+                    NS             0            -0             =         < eps
+     3 Bilanciamento[3]
+                    NS             0            -0             =         < eps
+     4 Bilanciamento[4]
+                    B              0            -0             = 
+     5 Normalizzazione
+                    NS             1             1             =         < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 P[1]         B       0.251323             0               
+     2 P[2]         B       0.224868             0               
+     3 P[3]         B       0.248677             0               
+     4 P[4]         B       0.275132             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.78e-017 on row 3
+        max.rel.err = 1.85e-017 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

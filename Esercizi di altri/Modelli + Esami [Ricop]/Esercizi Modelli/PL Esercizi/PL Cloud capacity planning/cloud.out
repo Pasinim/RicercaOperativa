@@ -1,0 +1,40 @@
+Problem:    cloud
+Rows:       6
+Columns:    2
+Non-zeros:  10
+Status:     OPTIMAL
+Objective:  z = 0 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Minimo[1]    B              0                        1560 
+     2 Minimo[2]    B              0                        1280 
+     3 Minimo[3]    B              0                         552 
+     4 Minimo[4]    NU             0                          -0             1 
+     5 z            B              0                             
+     6 Parametric   NU             0                          -0          0.64 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 costo        B              0                             
+     2 q            B              0                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

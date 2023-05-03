@@ -1,0 +1,46 @@
+Gli stabilimenti produttivi sono 8, i magazzini sono 4.
+
+
+Tabella 1
+=====================================
+Reparto produz.	Quantità
+(quintali)
+1	30
+2	40
+3	20
+4	35
+5	40
+6	30
+7	25
+8	50
+
+
+
+Tabella 2
+=====================================
+Magazzino	Quantità
+(quintali)
+1	70
+2	70
+3	50
+4	80
+
+
+
+Tabella 3
+=====================================
+Costi
+(Euro/quintale)	Mag. 1	Mag. 2	Mag. 3	Mag. 4
+Reparto 1		20		25		30		28
+Reparto 2		15		12		32		26
+Reparto 3		18		41		36		37
+Reparto 4		32		23		35		20
+Reparto 5		31		40		19		38
+Reparto 6		33		22		34		21
+Reparto 7		25		29		26		27
+Reparto 8		30		24		39		28
+
+Considerare la variante del problema in cui le quantità devono essere 
+trasportate con piccolo veicolo di capacità pari a 4 quintali ed ogni 
+viaggio ha un ulteriore costo fisso di 150 euro indipendentemente dal carico.
+

@@ -1,0 +1,23 @@
+I porti sono 8: Genova, Marsiglia, Gioia Tauro, Barcellona, Atene, Istanbul, Beirut, Alessandria.
+
+Sbilanciam. A =   +19       +15        -12         + 9       -24     - 2      - 3        - 2
+Sbilanciam. B =   -12       +23        - 9         +18       - 2     -22      -18        +22
+
+Tratte (bidirezionali), capacità A e B, costo
+
+Genova - Barcellona         25  15       150
+Marsiglia - Barcellona      18  12       120
+Genova - Gioia Tauro        20  10       180
+Marsiglia - Alessandria     20  18       200
+Barcellona - Gioia Tauro    10  10       180
+Gioia Tauro - Alessandria    8  13       110
+Gioia Tauro - Atene         26   8       230
+Alessandria - Atene         15   4       190
+Gioia Tauro - Beirut        20   5       250
+Alessandria - Istanbul      24  20       270
+Alessandria - Beirut        28  15       210
+Atene - Beirut              10  20       220
+Atene - Istanbul            12  20       110
+Istanbul - Beirut           10  20       120
+
+

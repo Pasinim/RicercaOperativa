@@ -1,0 +1,7 @@
+Costi dei server su prenotazione:
+Heavy  utilization: $1560/anno   $0.128/ora
+Medium utilization: $1280/anno   $0.192/ora
+Light  utilization: $ 552/anno   $0.312/ora
+
+Costi dei server a domanda:      $0.640/ora
+

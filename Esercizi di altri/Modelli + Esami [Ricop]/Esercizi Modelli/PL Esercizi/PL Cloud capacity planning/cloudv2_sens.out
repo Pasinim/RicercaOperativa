@@ -1,0 +1,41 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    cloudv2
+Objective:  z = 1077.096 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Minimo[1]    BS     861.67200     698.32800          -Inf           -Inf      -1.00000     215.42400 Minimo[3]
+                                            .         1560.00000      861.67200          +Inf          +Inf
+
+     2 Minimo[2]    BS     753.96000     526.04000          -Inf           -Inf      -1.00000     323.13600 Minimo[3]
+                                            .         1280.00000      753.96000          +Inf          +Inf
+
+     3 Minimo[3]    NU     552.00000        .               -Inf           -Inf      -1.00000          -Inf
+                                           1.00000     552.00000      552.02400          +Inf    1077.12000 Minimo[4]
+
+     4 Minimo[4]    BS       -.02400        .02400          -Inf           -Inf      -1.00000    1077.12000 Minimo[3]
+                                            .             .                +Inf        .95122    1077.07317 Parametric
+
+     5 z            BS    1077.09600   -1077.09600          -Inf           -Inf      -1.00000        .      Minimo[3]
+                                            .               +Inf     1077.09600          +Inf          +Inf
+
+     6 Parametric   NU    1683.00000        .               -Inf     1682.92683       -.31200    1077.07317 Minimo[4]
+                                            .31200    1683.00000     5478.26087          +Inf    2261.21739 Minimo[1]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    cloudv2
+Objective:  z = 1077.096 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 costo        BS    1077.09600       1.00000          -Inf           -Inf        .             .      Minimo[3]
+                                            .               +Inf     1077.09600          +Inf          +Inf
+
+     2 q            BS    1683.00000        .               -Inf     1682.92683       -.31200     552.00000 Parametric
+                                            .               +Inf     1683.00000          +Inf          +Inf
+
+End of report

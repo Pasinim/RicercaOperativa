@@ -1,0 +1,87 @@
+Problem:    07
+Rows:       25
+Columns:    6
+Non-zeros:  81
+Status:     OPTIMAL
+Objective:  z = 7398.988343 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Max_quantity[ALMC]
+                    NU           0.5                         0.5      -828.556 
+     2 Max_quantity[KAC]
+                    NU           1.2                         1.2      -827.985 
+     3 Max_quantity[Rottami]
+                    B       0.744156                         2.2 
+     4 Produzione_totale
+                    NS           4.5           4.5             =          1300 
+     5 Limiti_inf[Silicio]
+                    B        0.45417           0.2               
+     6 Limiti_inf[Magnesio]
+                    NL          0.45          0.45                       51.39 
+     7 Limiti_inf[Ferro]
+                    B       0.133434            -0               
+     8 Limiti_inf[Rame]
+                    B      0.0120462            -0               
+     9 Limiti_inf[Manganese]
+                    B       0.015824            -0               
+    10 Limiti_inf[Zinco]
+                    B       0.015824            -0               
+    11 Limiti_inf[Cromo]
+                    B       0.015824            -0               
+    12 Limiti_inf[Titanio]
+                    B       0.015824            -0               
+    13 Limiti_inf[Alluminio]
+                    NL          96.9          96.9                        37.8 
+    14 Limiti_inf[Altri]
+                    B           0.15            -0               
+    15 Limiti_sup[Silicio]
+                    B        0.45417                         0.6 
+    16 Limiti_sup[Magnesio]
+                    B           0.45                         0.9 
+    17 Limiti_sup[Ferro]
+                    B       0.133434                        0.35 
+    18 Limiti_sup[Rame]
+                    B      0.0120462                         0.1 
+    19 Limiti_sup[Manganese]
+                    B       0.015824                         0.1 
+    20 Limiti_sup[Zinco]
+                    B       0.015824                         0.1 
+    21 Limiti_sup[Cromo]
+                    B       0.015824                         0.1 
+    22 Limiti_sup[Titanio]
+                    B       0.015824                         0.1 
+    23 Limiti_sup[Alluminio]
+                    B           96.9                         100 
+    24 Limiti_sup[Altri]
+                    NU          0.15                        0.15      -4860.64 
+    25 z            B        7398.99                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[ALMC]      B            0.5             0               
+     2 x[KAC]       B            1.2             0               
+     3 x[Rottami]   B       0.744156             0               
+     4 x[Al]        B        2.04176             0               
+     5 x[Si]        B     0.00970519             0               
+     6 x[Mg]        B     0.00437922             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.55e-017 on row 6
+        max.rel.err = 2.92e-017 on row 6
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.55e-013 on column 1
+        max.rel.err = 1.07e-016 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

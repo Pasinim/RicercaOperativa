@@ -1,0 +1,92 @@
+! Esercizio "Ferrovia"
+!
+! Variabili x(i,j,k) = quantità di merce k=A..C spedita lungo l'arco (i,j).
+! Le variabili sono continue e non negative, misurate in tonnellate/giorno.
+
+! Funzione obiettivo: massimizzare il valore delle merci spedite da s a t ogni giorno
+! E' misurata in Euro/giorno
+
+max 80 xs1A + 80 xs2A + 50 xs1B + 50 xs2B + 65 xs1C + 65 xs2C
+
+s.t.
+
+! Vincoli di capacità sugli archi [ton/giorno]
+
+cap_s1) xs1A + xs1B + xs1C <= 800
+cap_s2) xs2A + xs2B + xs2C <= 480
+cap_13) x13A + x13B + x13C <= 400
+cap_14) x14A + x14B + x14C <= 360
+cap_24) x24A + x24B + x24C <= 256
+cap_25) x25A + x25B + x25C <= 128
+cap_36) x36A + x36B + x36C <= 320
+cap_37) x37A + x37B + x37C <= 384
+cap_46) x46A + x46B + x46C <= 240
+cap_47) x47A + x47B + x47C <= 192
+cap_48) x48A + x48B + x48C <= 240
+cap_57) x57A + x57B + x57C <= 720
+cap_58) x58A + x58B + x58C <= 400
+cap_6t) x6tA + x6tB + x6tC <= 486
+cap_7t) x7tA + x7tB + x7tC <= 300
+cap_8t) x8tA + x8tB + x8tC <= 396
+
+! Vincoli di capacità sui nodi [ton/giorno]
+
+cap_sA) xs1A + xs2A <= 1000
+cap_sB) xs1B + xs2B <= 1000
+cap_sC) xs1C + xs2C <= 1000
+cap_1A) xs1A <=  300
+cap_1B) xs1B <= 1800
+cap_1C) xs1C <= 1400
+cap_2A) xs2A <=  250
+cap_2B) xs2B <=  900
+cap_2C) xs2C <=  100
+cap_3A) x13A <=  900
+cap_3B) x13B <=  650
+cap_3C) x13C <= 1400
+cap_4A) x14A + x24A <= 2000
+cap_4B) x14B + x24B <= 1500
+cap_4C) x14C + x24C <= 2000
+cap_5A) x25A <= 1000
+cap_5B) x25B <= 1000
+cap_5C) x25C <= 1000
+cap_6A) x6tA <= 1200
+cap_6B) x6tB <= 1200
+cap_6C) x6tC <= 1400
+cap_7A) x7tA <=  600
+cap_7B) x7tB <=  700
+cap_7C) x7tC <=  950
+cap_8A) x8tA <=  300
+cap_8B) x8tB <= 1700
+cap_8C) x8tC <= 1900
+cap_tA) x6tA + x7tA + x8tA <= 1000
+cap_tB) x6tB + x7tB + x8tB <= 1000
+cap_tC) x6tC + x7tC + x8tC <= 1000
+
+! Vincoli di conservazione del flusso per ogni tipo di merce
+
+nodo_1A) xs1A - x13A - x14A = 0
+nodo_1B) xs1B - x13B - x14B = 0
+nodo_1C) xs1C - x13C - x14C = 0
+nodo_2A) xs2A - x24A - x25A = 0
+nodo_2B) xs2B - x24B - x25B = 0
+nodo_2C) xs2C - x24C - x25C = 0
+nodo_3A) x13A - x36A - x37A = 0
+nodo_3B) x13B - x36B - x37B = 0
+nodo_3C) x13C - x36C - x37C = 0
+nodo_4A) x14A + x24A - x46A - x47A - x48A = 0
+nodo_4B) x14B + x24B - x46B - x47B - x48B = 0
+nodo_4C) x14C + x24C - x46C - x47C - x48C = 0 
+nodo_5A) x25A - x57A - x58A = 0
+nodo_5B) x25B - x57B - x58B = 0
+nodo_5C) x25C - x57C - x58C = 0
+nodo_6A) x36A + x46A - x6tA = 0
+nodo_6B) x36B + x46B - x6tB = 0
+nodo_6C) x36C + x46C - x6tC = 0
+nodo_7A) x37A + x47A + x57A - x7tA = 0
+nodo_7B) x37B + x47B + x57B - x7tB = 0
+nodo_7C) x37C + x47C + x57C - x7tC = 0
+nodo_8A) x48A + x58A - x8tA = 0
+nodo_8B) x48B + x58B - x8tB = 0
+nodo_8C) x48C + x58C - x8tC = 0
+
+end

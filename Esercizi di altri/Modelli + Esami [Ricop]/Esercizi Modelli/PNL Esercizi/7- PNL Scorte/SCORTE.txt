@@ -1,0 +1,25 @@
+Le merci sono 7.
+I loro periodi ottimi sono i seguenti:
+
+Merce    Periodo ottimo
+            [giorni]
+  A            17
+  B            10
+  C            19
+  D            12
+  E             5
+  F            12.5
+  G            24
+
+I costi ottimi corrispondenti sono i seguenti:
+
+Merce    Costo ottimo
+       [KEuro/settimana]
+  A            140
+  B             65
+  C            200
+  D            115
+  E             75
+  F            145
+  G            100
+

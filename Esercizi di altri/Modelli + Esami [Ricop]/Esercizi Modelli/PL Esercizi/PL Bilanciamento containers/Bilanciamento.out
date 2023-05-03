@@ -1,0 +1,233 @@
+Problem:    Bilanciamento
+Rows:       73
+Columns:    56
+Non-zeros:  168
+Status:     UNDEFINED
+Objective:  z = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Ribilanc_A[1]
+                    B              0                          19 
+     2 Ribilanc_A[2]
+                    B              0                          15 
+     3 Ribilanc_A[3]
+                    B              0                         -12 
+     4 Ribilanc_A[4]
+                    B              0                           9 
+     5 Ribilanc_A[5]
+                    B              0                         -24 
+     6 Ribilanc_A[6]
+                    B              0                          -2 
+     7 Ribilanc_A[7]
+                    B              0                          -3 
+     8 Ribilanc_A[8]
+                    B              0                          -2 
+     9 Ribilanc_B[1]
+                    B              0                         -12 
+    10 Ribilanc_B[2]
+                    B              0                          23 
+    11 Ribilanc_B[3]
+                    B              0                          -9 
+    12 Ribilanc_B[4]
+                    B              0                          18 
+    13 Ribilanc_B[5]
+                    B              0                          -2 
+    14 Ribilanc_B[6]
+                    B              0                         -22 
+    15 Ribilanc_B[7]
+                    B              0                         -18 
+    16 Ribilanc_B[8]
+                    B              0                          22 
+    17 Capacity_Auno[1,3]
+                    B              0                          20 
+    18 Capacity_Auno[1,4]
+                    B              0                          25 
+    19 Capacity_Auno[2,4]
+                    B              0                          18 
+    20 Capacity_Auno[2,8]
+                    B              0                          20 
+    21 Capacity_Auno[3,5]
+                    B              0                          26 
+    22 Capacity_Auno[3,7]
+                    B              0                          20 
+    23 Capacity_Auno[3,8]
+                    B              0                           8 
+    24 Capacity_Auno[4,3]
+                    B              0                          10 
+    25 Capacity_Auno[5,6]
+                    B              0                          12 
+    26 Capacity_Auno[5,7]
+                    B              0                          10 
+    27 Capacity_Auno[6,7]
+                    B              0                          10 
+    28 Capacity_Auno[8,5]
+                    B              0                          15 
+    29 Capacity_Auno[8,6]
+                    B              0                          24 
+    30 Capacity_Auno[8,7]
+                    B              0                          28 
+    31 Capacity_Adue[1,3]
+                    B              0                          20 
+    32 Capacity_Adue[1,4]
+                    B              0                          25 
+    33 Capacity_Adue[2,4]
+                    B              0                          18 
+    34 Capacity_Adue[2,8]
+                    B              0                          20 
+    35 Capacity_Adue[3,5]
+                    B              0                          26 
+    36 Capacity_Adue[3,7]
+                    B              0                          20 
+    37 Capacity_Adue[3,8]
+                    B              0                           8 
+    38 Capacity_Adue[4,3]
+                    B              0                          10 
+    39 Capacity_Adue[5,6]
+                    B              0                          12 
+    40 Capacity_Adue[5,7]
+                    B              0                          10 
+    41 Capacity_Adue[6,7]
+                    B              0                          10 
+    42 Capacity_Adue[8,5]
+                    B              0                          15 
+    43 Capacity_Adue[8,6]
+                    B              0                          24 
+    44 Capacity_Adue[8,7]
+                    B              0                          28 
+    45 Capacity_Buno[1,3]
+                    B              0                          10 
+    46 Capacity_Buno[1,4]
+                    B              0                          15 
+    47 Capacity_Buno[2,4]
+                    B              0                          12 
+    48 Capacity_Buno[2,8]
+                    B              0                          18 
+    49 Capacity_Buno[3,5]
+                    B              0                           8 
+    50 Capacity_Buno[3,7]
+                    B              0                           5 
+    51 Capacity_Buno[3,8]
+                    B              0                          13 
+    52 Capacity_Buno[4,3]
+                    B              0                          10 
+    53 Capacity_Buno[5,6]
+                    B              0                          20 
+    54 Capacity_Buno[5,7]
+                    B              0                          20 
+    55 Capacity_Buno[6,7]
+                    B              0                          20 
+    56 Capacity_Buno[8,5]
+                    B              0                           4 
+    57 Capacity_Buno[8,6]
+                    B              0                          20 
+    58 Capacity_Buno[8,7]
+                    B              0                          15 
+    59 Capacity_Bdue[1,3]
+                    B              0                          10 
+    60 Capacity_Bdue[1,4]
+                    B              0                          15 
+    61 Capacity_Bdue[2,4]
+                    B              0                          12 
+    62 Capacity_Bdue[2,8]
+                    B              0                          18 
+    63 Capacity_Bdue[3,5]
+                    B              0                           8 
+    64 Capacity_Bdue[3,7]
+                    B              0                           5 
+    65 Capacity_Bdue[3,8]
+                    B              0                          13 
+    66 Capacity_Bdue[4,3]
+                    B              0                          10 
+    67 Capacity_Bdue[5,6]
+                    B              0                          20 
+    68 Capacity_Bdue[5,7]
+                    B              0                          20 
+    69 Capacity_Bdue[6,7]
+                    B              0                          20 
+    70 Capacity_Bdue[8,5]
+                    B              0                           4 
+    71 Capacity_Bdue[8,6]
+                    B              0                          20 
+    72 Capacity_Bdue[8,7]
+                    B              0                          15 
+    73 z            B              0                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xA[3,1]      NL             0             0                       < eps
+     2 xA[1,3]      NL             0             0                       < eps
+     3 xA[3,4]      NL             0             0                       < eps
+     4 xA[4,3]      NL             0             0                       < eps
+     5 xA[4,1]      NL             0             0                       < eps
+     6 xA[1,4]      NL             0             0                       < eps
+     7 xA[4,2]      NL             0             0                       < eps
+     8 xA[2,4]      NL             0             0                       < eps
+     9 xA[5,3]      NL             0             0                       < eps
+    10 xA[3,5]      NL             0             0                       < eps
+    11 xA[5,8]      NL             0             0                       < eps
+    12 xA[8,5]      NL             0             0                       < eps
+    13 xA[6,5]      NL             0             0                       < eps
+    14 xA[5,6]      NL             0             0                       < eps
+    15 xA[6,8]      NL             0             0                       < eps
+    16 xA[8,6]      NL             0             0                       < eps
+    17 xA[7,3]      NL             0             0                       < eps
+    18 xA[3,7]      NL             0             0                       < eps
+    19 xA[7,5]      NL             0             0                       < eps
+    20 xA[5,7]      NL             0             0                       < eps
+    21 xA[7,6]      NL             0             0                       < eps
+    22 xA[6,7]      NL             0             0                       < eps
+    23 xA[7,8]      NL             0             0                       < eps
+    24 xA[8,7]      NL             0             0                       < eps
+    25 xA[8,2]      NL             0             0                       < eps
+    26 xA[2,8]      NL             0             0                       < eps
+    27 xA[8,3]      NL             0             0                       < eps
+    28 xA[3,8]      NL             0             0                       < eps
+    29 xB[3,1]      NL             0             0                       < eps
+    30 xB[1,3]      NL             0             0                       < eps
+    31 xB[3,4]      NL             0             0                       < eps
+    32 xB[4,3]      NL             0             0                       < eps
+    33 xB[4,1]      NL             0             0                       < eps
+    34 xB[1,4]      NL             0             0                       < eps
+    35 xB[4,2]      NL             0             0                       < eps
+    36 xB[2,4]      NL             0             0                       < eps
+    37 xB[5,3]      NL             0             0                       < eps
+    38 xB[3,5]      NL             0             0                       < eps
+    39 xB[5,8]      NL             0             0                       < eps
+    40 xB[8,5]      NL             0             0                       < eps
+    41 xB[6,5]      NL             0             0                       < eps
+    42 xB[5,6]      NL             0             0                       < eps
+    43 xB[6,8]      NL             0             0                       < eps
+    44 xB[8,6]      NL             0             0                       < eps
+    45 xB[7,3]      NL             0             0                       < eps
+    46 xB[3,7]      NL             0             0                       < eps
+    47 xB[7,5]      NL             0             0                       < eps
+    48 xB[5,7]      NL             0             0                       < eps
+    49 xB[7,6]      NL             0             0                       < eps
+    50 xB[6,7]      NL             0             0                       < eps
+    51 xB[7,8]      NL             0             0                       < eps
+    52 xB[8,7]      NL             0             0                       < eps
+    53 xB[8,2]      NL             0             0                       < eps
+    54 xB[2,8]      NL             0             0                       < eps
+    55 xB[8,3]      NL             0             0                       < eps
+    56 xB[3,8]      NL             0             0                       < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 2.40e+001 on row 5
+        max.rel.err = 9.60e-001 on row 5
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 2.70e+002 on column 15
+        max.rel.err = 9.96e-001 on column 15
+        DUAL SOLUTION IS WRONG
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

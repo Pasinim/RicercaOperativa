@@ -1,0 +1,10 @@
+ampl: model Cloud.mod;
+ampl: option solver gurobi;
+ampl: solve;
+Gurobi 9.5.0: optimal solution; objective 0
+ampl: display z, costo, q;
+z = 0
+costo = 0
+q = 0
+
+ampl:  

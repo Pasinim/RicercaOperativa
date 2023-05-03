@@ -1,0 +1,93 @@
+Problem:    10
+Rows:       21
+Columns:    36 (36 integer, 36 binary)
+Non-zeros:  119
+Status:     INTEGER OPTIMAL
+Objective:  z1 = 10 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Capacity[1]                44                          44 
+     2 Capacity[2]                42                          44 
+     3 Capacity[3]                39                          44 
+     4 Assegnamento[1]
+                                   1                           1 
+     5 Assegnamento[2]
+                                   1                           1 
+     6 Assegnamento[3]
+                                   1                           1 
+     7 Assegnamento[4]
+                                   0                           1 
+     8 Assegnamento[5]
+                                   1                           1 
+     9 Assegnamento[6]
+                                   1                           1 
+    10 Assegnamento[7]
+                                   1                           1 
+    11 Assegnamento[8]
+                                   1                           1 
+    12 Assegnamento[9]
+                                   1                           1 
+    13 Assegnamento[10]
+                                   0                           1 
+    14 Assegnamento[11]
+                                   1                           1 
+    15 Assegnamento[12]
+                                   1                           1 
+    16 Urgenti[1]                  1             1             = 
+    17 Urgenti[3]                  1             1             = 
+    18 Urgenti[5]                  1             1             = 
+    19 Urgenti[8]                  1             1             = 
+    20 Urgenti[9]                  1             1             = 
+    21 z1                         10                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              1             0             1 
+     2 x[2,1]       *              0             0             1 
+     3 x[3,1]       *              0             0             1 
+     4 x[4,1]       *              0             0             1 
+     5 x[5,1]       *              1             0             1 
+     6 x[6,1]       *              1             0             1 
+     7 x[7,1]       *              0             0             1 
+     8 x[8,1]       *              0             0             1 
+     9 x[9,1]       *              0             0             1 
+    10 x[10,1]      *              0             0             1 
+    11 x[11,1]      *              0             0             1 
+    12 x[12,1]      *              1             0             1 
+    13 x[1,2]       *              0             0             1 
+    14 x[2,2]       *              0             0             1 
+    15 x[3,2]       *              1             0             1 
+    16 x[4,2]       *              0             0             1 
+    17 x[5,2]       *              0             0             1 
+    18 x[6,2]       *              0             0             1 
+    19 x[7,2]       *              0             0             1 
+    20 x[8,2]       *              1             0             1 
+    21 x[9,2]       *              1             0             1 
+    22 x[10,2]      *              0             0             1 
+    23 x[11,2]      *              0             0             1 
+    24 x[12,2]      *              0             0             1 
+    25 x[1,3]       *              0             0             1 
+    26 x[2,3]       *              1             0             1 
+    27 x[3,3]       *              0             0             1 
+    28 x[4,3]       *              0             0             1 
+    29 x[5,3]       *              0             0             1 
+    30 x[6,3]       *              0             0             1 
+    31 x[7,3]       *              1             0             1 
+    32 x[8,3]       *              0             0             1 
+    33 x[9,3]       *              0             0             1 
+    34 x[10,3]      *              0             0             1 
+    35 x[11,3]      *              1             0             1 
+    36 x[12,3]      *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

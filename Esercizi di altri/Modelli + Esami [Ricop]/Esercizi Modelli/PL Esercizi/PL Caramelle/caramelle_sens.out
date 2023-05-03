@@ -1,0 +1,117 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    caramelle
+Objective:  z = 311.1010909 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Consumi[Fruttosio]
+                    NS        .             .             .             -.65800          -Inf     308.17000 x[Dolce]
+                                           4.45455        .             1.28075          +Inf     316.80625 y[Saccarosio]
+
+     2 Consumi[Saccarosio]
+                    NS        .             .             .             -.93145          -Inf     309.23818 y[Saccarosio]
+                                           2.00000        .             4.06855          +Inf     319.23818 y[Saccarosio]
+
+     3 Consumi[Glucioso]
+                    NS        .             .             .            -6.21111          -Inf     235.87889 y[Conservanti]
+                                          12.11091        .             5.86875          +Inf     382.17699 y[Destrosio]
+
+     4 Consumi[Destrosio]
+                    NS        .             .             .            -3.75600          -Inf     297.95509 y[Destrosio]
+                                           3.50000        .            14.24400          +Inf     360.95509 y[Destrosio]
+
+     5 Consumi[Estratti_di_erbe]
+                    NS        .             .             .           -10.68745          -Inf     225.60145 y[Estratti_di_erbe]
+                                           8.00000        .             9.31255          +Inf     385.60145 y[Estratti_di_erbe]
+
+     6 Consumi[Estratti_di_frutta]
+                    NS        .             .             .            -7.16503          -Inf     208.21119 y[Saccarosio]
+                                          14.36000        .             5.98182          +Inf     397.00000 x[Dolce]
+
+     7 Consumi[Coloranti]
+                    NS        .             .             .            -5.04706          -Inf     298.07968 x[Sweety]
+                                           2.58000        .              .78182          +Inf     313.11818 y[Conservanti]
+
+     8 Consumi[Conservanti]
+                    NS        .             .             .             -.50818          -Inf     308.56018 y[Conservanti]
+                                           5.00000        .            11.99182          +Inf     371.06018 y[Conservanti]
+
+     9 Consumi[Aromatizzanti]
+                    NS        .             .             .             -.85982          -Inf     305.94218 y[Aromatizzanti]
+                                           6.00000        .             9.14018          +Inf     365.94218 y[Aromatizzanti]
+
+    10 z            BS     311.10109    -311.10109          -Inf      308.17380      -1.00000        .      y[Coloranti]
+                                            .               +Inf      311.10109          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    caramelle
+Objective:  z = 311.1010909 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Dolce]     BS       2.39273       5.00000        .           -17.95000       4.87500     310.80200 y[Fruttosio]
+                                            .               +Inf        8.44920       5.48333     312.25758 y[Coloranti]
+
+     2 x[Delizia]   NL        .            4.00000        .           -12.31366          -Inf     341.41956 y[Saccarosio]
+                                          -2.46218          +Inf        2.81909       6.46218     304.15997 y[Saccarosio]
+
+     3 x[Bacetto]   BS      56.36364       8.00000        .            33.77778       4.94450     138.88200 y[Glucioso]
+                                            .               +Inf       57.56000       8.25000     325.19200 y[Fruttosio]
+
+     4 x[Golosa]    NL        .            5.00000        .           -43.69290          -Inf     362.86526 y[Estratti_di_erbe]
+                                          -1.18473          +Inf       12.90722       6.18473     295.80956 y[Destrosio]
+
+     5 x[Sfizio]    NL        .            6.00000        .           -29.24444          -Inf     360.44444 x[Dolce]
+                                          -1.68727          +Inf       32.27087       7.68727     256.65134 y[Saccarosio]
+
+     6 x[Slurp]     BS      37.48000       7.50000        .            13.11888       6.21765     263.03850 y[Estratti_di_frutta]
+                                            .               +Inf       44.93333      16.75909     658.13182 y[Glucioso]
+
+     7 x[Sweety]    BS      17.16000       4.50000        .           -41.47513       4.32941     308.17380 y[Coloranti]
+                                            .               +Inf       32.92308       6.48182     345.10909 y[Estratti_di_frutta]
+
+     8 y[Fruttosio] NU       9.00000      -4.00000        .             8.34200      -4.45455     310.80200 x[Dolce]
+                                            .45455       9.00000       10.28075          +Inf     311.68325 y[Saccarosio]
+
+     9 y[Saccarosio]
+                    BS       4.06855      -2.00000        .             3.59000      -2.62500     308.55825 y[Fruttosio]
+                                            .            5.00000        9.88583       5.45192     341.41956 x[Delizia]
+
+    10 y[Glucioso]  NU      20.00000      -1.00000        .            13.78889     -12.11091     242.09000 y[Conservanti]
+                                          11.11091      20.00000       25.86875          +Inf     376.30824 y[Destrosio]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    caramelle
+Objective:  z = 311.1010909 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 y[Destrosio] BS      14.24400      -3.50000        .            13.94118     -13.16667     173.40909 y[Coloranti]
+                                            .           18.00000       20.68634        .57123     369.09166 x[Golosa]
+
+    12 y[Estratti_di_erbe]
+                    BS       9.31255      -8.00000        .             8.45455     -11.41176     279.32888 y[Coloranti]
+                                            .           20.00000        9.49200      -6.33333     326.62200 y[Fruttosio]
+
+    13 y[Estratti_di_frutta]
+                    NU      17.00000     -10.00000        .             9.83497     -14.36000     279.86154 y[Saccarosio]
+                                           4.36000      17.00000       22.98182          +Inf     337.18182 x[Dolce]
+
+    14 y[Coloranti] NU      18.40000      -2.00000        .            13.35294      -2.58000     308.17380 x[Sweety]
+                                            .58000      18.40000       19.18182          +Inf     311.55455 y[Conservanti]
+
+    15 y[Conservanti]
+                    BS      11.99182      -5.00000        .             8.71123      -5.89231     300.40070 y[Coloranti]
+                                            .           12.50000       12.28810      46.61188     930.02139 x[Golosa]
+
+    16 y[Aromatizzanti]
+                    BS       9.14018      -6.00000        .             6.46524      -7.09434     301.09863 y[Coloranti]
+                                            .           10.00000        9.20000      -1.00000     356.80200 y[Fruttosio]
+
+End of report

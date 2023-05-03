@@ -1,0 +1,44 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Pesce
+Objective:  z = 80 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Capacity     NU   50000.00000        .               -Inf         .            -.00160        .      x[3]
+                                            .00160   50000.00000    56250.00000          +Inf      90.00000 Time
+
+     2 Time         BS      40.00000       5.00000          -Inf         .           -2.00000        .      Capacity
+                                            .           45.00000       55.00000       2.00000     160.00000 x[1]
+
+     3 Upper[1]     BS        .            1.00000          -Inf         .               -Inf      80.00000
+                                            .            1.00000         .04167     240.00000      80.00000 x[1]
+
+     4 Upper[2]     BS        .            1.00000          -Inf         .               -Inf      80.00000
+                                            .            1.00000         .04167     270.00000      80.00000 x[2]
+
+     5 Upper[3]     BS        .06667        .93333          -Inf         .04444    -450.00000      50.00000 x[1]
+                                            .            1.00000         .06667          +Inf          +Inf
+
+     6 z            BS      80.00000     -80.00000          -Inf       68.75000      -1.00000        .      x[2]
+                                            .               +Inf       80.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Pesce
+Objective:  z = 80 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         NL        .           10.00000        .           -70.00000          -Inf     500.00000 Upper[3]
+                                          -6.00000          +Inf        1.66667      16.00000      70.00000 Time
+
+     2 x[2]         NL        .            7.50000        .           -93.33333          -Inf     500.00000 Upper[3]
+                                          -4.50000          +Inf        2.50000      12.00000      68.75000 Time
+
+     3 x[3]         BS       4.00000      20.00000        .             2.50000      12.50000      50.00000 x[2]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+End of report

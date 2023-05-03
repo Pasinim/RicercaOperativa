@@ -1,0 +1,39 @@
+Problem:    3
+Rows:       4
+Columns:    3
+Non-zeros:  10
+Status:     OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Norm         NS             1             1             =         < eps
+     2 Bil[A]       NS             0            -0             =         < eps
+     3 Bil[L]       B              0            -0             = 
+     4 Bil[C]       NS             0            -0             =         < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 P[A]         B       0.165829             0               
+     2 P[L]         B       0.502513             0               
+     3 P[C]         B       0.331658             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.11e-016 on row 1
+        max.rel.err = 3.70e-017 on row 1
+        High quality
+
+KKT.PB: max.abs.err = 2.78e-017 on row 3
+        max.rel.err = 2.78e-017 on row 3
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

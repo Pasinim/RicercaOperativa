@@ -1,0 +1,14 @@
+ampl: option solver cplex;
+ampl: model tempoDenaro.mod;
+ampl: solve;
+CPLEX 20.1.0.0: optimal solution; objective 7848
+2 dual simplex iterations (1 in phase I)
+ampl: display z;
+z = 7848
+ampl: display x;
+x [*] :=
+1	0.14
+2	0
+3	6.4
+;
+ampl: 

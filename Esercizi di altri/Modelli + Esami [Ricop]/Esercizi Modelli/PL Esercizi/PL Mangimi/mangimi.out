@@ -1,0 +1,115 @@
+Problem:    mangimi
+Rows:       29
+Columns:    45
+Non-zeros:  138
+Status:     OPTIMAL
+Objective:  z = 12693.33333 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Consumi[1]   B        127.567                         150 
+     2 Consumi[2]   B        80.5833                         135 
+     3 Consumi[3]   B        43.5167                          90 
+     4 Consumi[4]   NU            75                          75       111.111 
+     5 Periodo[1,1] NS             0            -0             =       1.33333 
+     6 Periodo[1,2] NS             0            -0             =       1.66667 
+     7 Periodo[1,3] NS             0            -0             =       3.33333 
+     8 Periodo[2,1] NS             0            -0             =         < eps
+     9 Periodo[2,2] NS             0            -0             =         < eps
+    10 Periodo[2,3] NS             0            -0             =         < eps
+    11 Periodo[3,1] NS             0            -0             =       1.83333 
+    12 Periodo[3,2] NS             0            -0             =       1.83333 
+    13 Periodo[3,3] NS             0            -0             =       9.16667 
+    14 Periodo[4,1] NS             0            -0             =       4.38889 
+    15 Periodo[4,2] NS             0            -0             =       8.77778 
+    16 Periodo[4,3] NS             0            -0             =       8.77778 
+    17 Periodo[5,1] NS             0            -0             =       4.44444 
+    18 Periodo[5,2] NS             0            -0             =       2.66667 
+    19 Periodo[5,3] NS             0            -0             =       2.66667 
+    20 Sequenza[3,1]
+                    B             90            -0               
+    21 Sequenza[3,2]
+                    NL             0            -0                       < eps
+    22 Sequenza[3,3]
+                    NL             0            -0                       < eps
+    23 Sequenza[4,1]
+                    NL             0            -0                    -1.83333 
+    24 Sequenza[4,2]
+                    NL             0            -0                    -1.83333 
+    25 Sequenza[4,3]
+                    NL             0            -0                    -8.77778 
+    26 Sequenza[5,1]
+                    NL             0            -0                    -4.38889 
+    27 Sequenza[5,2]
+                    NL             0            -0                    -2.66667 
+    28 Sequenza[5,3]
+                    NL             0            -0                    -2.66667 
+    29 z            B        12693.3                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       B             24             0               
+     2 x[1,2]       B             30             0               
+     3 x[1,3]       B             60             0               
+     4 x[2,1]       NL             0             0                       < eps
+     5 x[2,2]       NL             0             0                       < eps
+     6 x[2,3]       B        33.6667             0               
+     7 x[3,1]       B           10.5             0               
+     8 x[3,2]       B           10.5             0               
+     9 x[3,3]       B             75             0               
+    10 x[4,1]       B              3             0               
+    11 x[4,2]       B             15             0               
+    12 x[4,3]       B              6             0               
+    13 x[5,1]       B             35             0               
+    14 x[5,2]       B             12             0               
+    15 x[5,3]       B             12             0               
+    16 s[1,1]       NL             0             0           120      -1.33333 
+    17 s[1,2]       NL             0             0           120      -1.66667 
+    18 s[1,3]       NL             0             0           120      -3.33333 
+    19 s[2,1]       B             30            30           180 
+    20 s[2,2]       B            120            30           180 
+    21 s[2,3]       B        52.6667            30           180 
+    22 s[3,1]       NL           120           120           270      -1.83333 
+    23 s[3,2]       NL           120           120           270      -1.83333 
+    24 s[3,3]       NL           120           120           270      -9.16667 
+    25 s[4,1]       NL           225           225           300      -2.55556 
+    26 s[4,2]       NL           225           225           300      -6.94444 
+    27 s[4,3]       B            270           225           300 
+    28 s[5,1]       NL           255           255           360    -0.0555556 
+    29 s[5,2]       B            300           255           360 
+    30 s[5,3]       B            300           255           360 
+    31 e[1,1]       NU           120             0           120       1.33333 
+    32 e[1,2]       NU           120             0           120       1.66667 
+    33 e[1,3]       NU           120             0           120       3.33333 
+    34 e[2,1]       NL            30            30           180         < eps
+    35 e[2,2]       B            120            30           180 
+    36 e[2,3]       B            120            30           180 
+    37 e[3,1]       B            225           120           270 
+    38 e[3,2]       B            225           120           270 
+    39 e[3,3]       NU           270           120           270      0.388889 
+    40 e[4,1]       B            255           225           300 
+    41 e[4,2]       NU           300           225           300       6.11111 
+    42 e[4,3]       NU           300           225           300       6.11111 
+    43 e[5,1]       NU           360           255           360       4.44444 
+    44 e[5,2]       NU           360           255           360       2.66667 
+    45 e[5,3]       NU           360           255           360       2.66667 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.68e-014 on row 19
+        max.rel.err = 1.26e-016 on row 23
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 7.11e-015 on column 1
+        max.rel.err = 1.16e-016 on column 13
+        High quality
+
+KKT.DB: max.abs.err = 7.11e-015 on column 4
+        max.rel.err = 7.11e-015 on column 4
+        High quality
+
+End of output

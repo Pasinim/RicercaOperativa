@@ -1,0 +1,44 @@
+Problem:    zaino
+Rows:       2
+Columns:    10
+Non-zeros:  20
+Status:     OPTIMAL
+Objective:  z = 307.6923077 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Capacity     NU           100                         100       3.07692 
+     2 z            B        307.692                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                    -20.6154 
+     2 x[2]         NL             0             0                    -21.6923 
+     3 x[3]         B        7.69231             0               
+     4 x[4]         NL             0             0                    -58.8462 
+     5 x[5]         NL             0             0                    -66.1538 
+     6 x[6]         NL             0             0                    -90.7692 
+     7 x[7]         NL             0             0                    -105.154 
+     8 x[8]         NL             0             0                    -137.385 
+     9 x[9]         NL             0             0                    -163.231 
+    10 x[10]        NL             0             0                    -159.385 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

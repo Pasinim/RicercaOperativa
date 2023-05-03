@@ -1,0 +1,38 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    tempoDenaro
+Objective:  z = 7848 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Consumi[1]   NU      91.00000        .               -Inf       59.00000     -24.00000    7080.00000 x[3]
+                                          24.00000      91.00000       91.77778          +Inf    7866.66667 x[1]
+
+     2 Consumi[2]   BS      39.10000        .90000          -Inf       29.50000     -80.00000    4720.00000 Consumi[1]
+                                            .           40.00000       39.12745    1070.00000   49685.00000 x[2]
+
+     3 Consumi[3]   NU      59.00000        .               -Inf       58.50000     -96.00000    7800.00000 x[1]
+                                          96.00000      59.00000       63.50000          +Inf    8280.00000 Consumi[2]
+
+     4 z            BS    7848.00000   -7848.00000          -Inf     7080.00000      -1.00000        .      Consumi[1]
+                                            .               +Inf     7848.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    tempoDenaro
+Objective:  z = 7848 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS        .14000    1200.00000        .            -4.45000     990.19608    7818.62745 x[2]
+                                            .               +Inf        5.90000    1333.33333    7866.66667 Consumi[1]
+
+     2 x[2]         NL        .         1300.00000        .           -10.66667          -Inf   12413.33333 x[3]
+                                        -428.00000          +Inf         .06863    1728.00000    7818.62745 x[1]
+
+     3 x[3]         BS       6.40000    1200.00000        .                -Inf    1080.00000    7080.00000 Consumi[1]
+                                            .               +Inf        6.50000    1680.00000   10920.00000 Consumi[3]
+
+End of report

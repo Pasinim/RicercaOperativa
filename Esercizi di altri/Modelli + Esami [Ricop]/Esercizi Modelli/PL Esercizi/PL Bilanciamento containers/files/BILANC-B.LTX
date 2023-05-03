@@ -1,0 +1,98 @@
+! Esercizio: Bilanciamento containers. Appello del 21 Giugno 2012
+
+! Variabili: A(i,j), B(i,j): flusso di container A e B da porto i a porto j, continue, non-negative.
+!            na(i), nb(i): containers noleggiati in ciascun porto, continue, non-negative.
+
+! Funzione obiettivo: minimizzazione dei costi di spostamento
+min 
+150 A14 +120 A24 +180 A13 +200 A28 +180 A34 +110 A38 +230 A35 +190 A58 +250 A37 +270 A68 +210 A78 +220 A57 +110 A56 +120 A67+
+150 A41 +120 A42 +180 A31 +200 A82 +180 A43 +110 A83 +230 A53 +190 A85 +250 A73 +270 A86 +210 A87 +220 A75 +110 A65 +120 A76+
+150 B14 +120 B24 +180 B13 +200 B28 +180 B34 +110 B38 +230 B35 +190 B58 +250 B37 +270 B68 +210 B78 +220 B57 +110 B56 +120 B67+
+150 B41 +120 B42 +180 B31 +200 B82 +180 B43 +110 B83 +230 B53 +190 B85 +250 B73 +270 B86 +210 B87 +220 B75 +110 B65 +120 B76+
+500 na3 + 500 na5 + 500 na6 + 500 na7 + 500 na8 + 
+500 nb1 + 500 nb3 + 500 nb5 + 500 nb6 + 500 nb7 
+
+st
+
+! Vincoli di ribilanciamento A in ogni porto
+A1) + A14 + A13 - A41 - A31                                           <= +19
+A2) + A24 + A28 - A42 - A82                                           <= +15
+A3) - A13 + A34 + A38 + A35 + A37 + A31 - A43 - A83 - A53 - A73 - na3 <= -12
+A4) - A14 - A24 - A34 + A41 + A42 + A43                               <= + 9
+A5) - A35 + A58 + A57 + A56 + A53 - A85 - A75 - A65             - na5 <= -24
+A6) + A68 - A56 + A67 - A86 + A65 - A76                         - na6 <= - 2
+A7) - A37 + A78 - A57 - A67 + A73 - A87 + A75 + A76             - na7 <= - 3
+A8) - A28 - A38 - A58 - A68 - A78 + A82 + A83 + A85 + A86 + A87 - na8 <= - 2
+
+! Vincoli di ribilanciamento B in ogni porto
+B1) + B14 + B13 - B41 - B31                                     - nb1 <= -12
+B2) + B24 + B28 - B42 - B82                                           <= +23
+B3) - B13 + B34 + B38 + B35 + B37 + B31 - B43 - B83 - B53 - B73 - nb3 <= - 9
+B4) - B14 - B24 - B34 + B41 + B42 + B43                               <= +18
+B5) - B35 + B58 + B57 + B56 + B53 - B85 - B75 - B65             - nb5 <= - 2
+B6) + B68 - B56 + B67 - B86 + B65 - B76                         - nb6 <= -22
+B7) - B37 + B78 - B57 - B67 + B73 - B87 + B75 + B76             - nb7 <= -18
+B8) - B28 - B38 - B58 - B68 - B78 + B82 + B83 + B85 + B86 + B87       <= +22
+
+! Vincoli di capacità
+A14 <=  25
+A24 <=  18
+A13 <=  20
+A28 <=  20
+A34 <=  10
+A38 <=   8
+A35 <=  26
+A58 <=  15
+A37 <=  20
+A68 <=  24
+A78 <=  28
+A57 <=  10
+A56 <=  12
+A67 <=  10
+A41 <=  25
+A42 <=  18
+A31 <=  20
+A82 <=  20
+A43 <=  10
+A83 <=   8
+A53 <=  26
+A85 <=  15
+A73 <=  20
+A86 <=  24
+A87 <=  28
+A75 <=  10
+A65 <=  12
+A76 <=  10
+
+B14 <=  15
+B24 <=  12
+B13 <=  10
+B28 <=  18
+B34 <=  10
+B38 <=  13
+B35 <=   8
+B58 <=   4
+B37 <=   5
+B68 <=  20
+B78 <=  15
+B57 <=  20
+B56 <=  20
+B67 <=  20
+B41 <=  15
+B42 <=  12
+B31 <=  10
+B82 <=  18
+B43 <=  10
+B83 <=  13
+B53 <=   8
+B85 <=   4
+B73 <=   5
+B86 <=  20
+B87 <=  15
+B75 <=  20
+B65 <=  20
+B76 <=  20
+
+end
+
+

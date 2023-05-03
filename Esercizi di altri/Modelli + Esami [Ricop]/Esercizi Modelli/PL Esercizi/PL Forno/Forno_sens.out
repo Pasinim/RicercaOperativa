@@ -1,0 +1,95 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Forno
+Objective:  z = 57.875 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 produzione_minima[1]
+                    NL       5.00000        .            5.00000        4.65000          -Inf      58.12500 Double[2,3]
+                                           -.71429          +Inf        5.56452        .71429      57.47177 Double[1,4]
+
+     2 produzione_minima[2]
+                    BS       5.83333      -3.83333       2.00000        5.56452      -1.50000      49.12500 produzione_minima[1]
+                                            .               +Inf        5.83333          +Inf          +Inf
+
+     3 produzione_minima[3]
+                    NL       3.00000        .            3.00000        2.94574          -Inf      58.15891 Double[2,3]
+                                          -5.23214          +Inf        3.77778       5.23214      53.80556 Double[1,4]
+
+     4 produzione_minima[4]
+                    BS       2.91667       -.91667       2.00000        2.78226      -3.00000      49.12500 produzione_minima[1]
+                                            .               +Inf        3.58333      14.50000     100.16667 Double[2,4]
+
+     5 Double[1,2]  BS      -6.66667       6.66667          -Inf       -6.66667          -Inf          +Inf
+                                            .             .            -5.56452        .36585      55.43598 produzione_minima[1]
+
+     6 Double[1,3]  BS      -1.00000       1.00000          -Inf       -2.55556      -2.61607      60.49107 produzione_minima[3]
+                                            .             .             -.43548        .71429      57.16071 produzione_minima[1]
+
+     7 Double[1,4]  BS       -.83333        .83333          -Inf       -2.16667      -7.25000      63.91667 Double[2,4]
+                                            .             .              .64286        .48387      57.47177 produzione_minima[1]
+
+     8 Double[2,1]  BS      -4.16667       4.16667          -Inf       -5.56452       -.28846      59.07692 produzione_minima[1]
+                                            .             .            -4.16667          +Inf          -Inf
+
+     9 Double[2,3]  BS       -.16667        .16667          -Inf        -.43548      -1.50000      58.12500 produzione_minima[1]
+                                            .             .             -.16667          +Inf          -Inf
+
+    10 Double[2,4]  NU        .             .               -Inf       -4.66667      -2.07143      48.20833 Double[1,2]
+                                           2.07143        .              .23333          +Inf      58.35833 Double[2,3]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Forno
+Objective:  z = 57.875 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Double[3,1]  BS      -7.00000       7.00000          -Inf       -8.12903       -.35714      60.37500 produzione_minima[1]
+                                            .             .            -6.22222       5.23214      21.25000 produzione_minima[3]
+
+    12 Double[3,2]  BS      -8.66667       8.66667          -Inf       -8.66667          -Inf          +Inf
+                                            .             .            -8.12903        .75000      51.37500 produzione_minima[1]
+
+    13 Double[3,4]  BS      -2.83333       2.83333          -Inf       -4.16667      -7.25000      78.41667 Double[2,4]
+                                            .             .            -2.56452       1.50000      53.62500 produzione_minima[1]
+
+    14 Double[4,1]  BS      -7.08333       7.08333          -Inf       -8.34677       -.31915      60.13564 produzione_minima[1]
+                                            .             .            -6.41667      14.50000     -44.83333 Double[2,4]
+
+    15 Double[4,2]  BS      -8.75000       8.75000          -Inf       -8.75000          -Inf          +Inf
+                                            .             .            -8.34677       1.00000      49.12500 produzione_minima[1]
+
+    16 Double[4,3]  BS      -3.08333       3.08333          -Inf       -5.05556      -2.06338      64.23709 produzione_minima[3]
+                                            .             .            -2.41667      14.50000      13.16667 Double[2,4]
+
+    17 Limit        NU      24.00000        .               -Inf       22.25000      -3.21429      52.25000 Double[1,4]
+                                           3.21429      24.00000       24.35000          +Inf      59.00000 Double[2,3]
+
+    18 z            BS      57.87500     -57.87500          -Inf       53.80556      -1.00000        .      produzione_minima[3]
+                                            .               +Inf       57.87500          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Forno
+Objective:  z = 57.875 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS       5.00000       2.50000        .             5.00000          -Inf          -Inf
+                                            .               +Inf        5.56452       3.21429      61.44643 produzione_minima[1]
+
+     2 x[2]         BS       5.83333       4.00000        .             5.56452       2.50000      49.12500 produzione_minima[1]
+                                            .               +Inf        5.83333          +Inf          +Inf
+
+     3 x[3]         BS       3.00000       2.00000        .             3.00000          -Inf          -Inf
+                                            .               +Inf        3.77778       7.23214      73.57143 produzione_minima[3]
+
+     4 x[4]         BS       2.91667       5.50000        .             2.78226       2.50000      49.12500 produzione_minima[1]
+                                            .               +Inf        3.58333      20.00000     100.16667 Double[2,4]
+
+End of report

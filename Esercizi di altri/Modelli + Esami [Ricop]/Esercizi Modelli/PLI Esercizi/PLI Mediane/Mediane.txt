@@ -1,0 +1,19 @@
+DISTANZE [Km]	Tolosa	Nizza	Mars.	Lione	Limoges	Digione	Orleans	Parigi	Lille	Nantes
+Tolosa		0	565	401	529	295	720	550	817	891	539
+Nizza		565	0	210	474	799	665	760	936	1008	979
+Marsiglia	401	210	0	309	635	500	674	771	949	838
+Lione		529	474	309	0	375	194	377	465	643	579
+Limoges		295	799	635	375	0	411	259	394	599	293
+Digione		720	665	500	194	411	0	281	861	450	570
+Parigi		817	936	771	465	394	861	117	0	220	378
+
+Costi di attivazione:
+Tolosa     40 
+Nizza      50
+Marsiglia  40
+Lione      40
+Limoges    40
+Digione    40
+Parigi     60 
+
+Budget: 100

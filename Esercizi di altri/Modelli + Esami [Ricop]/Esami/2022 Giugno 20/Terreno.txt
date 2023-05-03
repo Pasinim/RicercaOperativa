@@ -1,0 +1,17 @@
+La base del rettangolo misura 20 metri.
+L'altezza del rettangolo misura 10 metri.
+
+Spostare un metro cubo di terra ad un metro di distanza costa 0.50 €.
+
+Quota delle celle della griglia in cui il terreno è suddiviso:
+-5	-4	-3	-2	-1	 0	-1	-1	-1	 0	 1	 1	 1	 2	 3	 4	 3	 3	 4	 5
+-5	-4	-3	-2	-1	 0	 0	 0	 0	 1	 2	 1	 0	 1	 2	 3	 2	 2	 3	 4
+-4	-3	-3	-2	-1	 0	 1	 0	 1	 0	 1	 0	-1	 0	 1	 2	 1	 1	 2	 3
+-4	-3	-2	-2	-1	 0	 1	 0	 1	 1	 1	 0	-1	-1	 0	 1	 0	 0	 1	 2
+-3	-2	-2	-2	-1	 0	 1	 0	 1	 1	 1	 1	 0	 0	 1	 0	-1	-1	 0	 1
+-2	-2	-2	-1	-1	 0	 1	 1	 1	 2	 2	 2	 1	 0	 0	-1	-2	-2	-1	 0
+-1	-1	-1	 0	 0	 1	 2	 2	 2	 3	 3	 3	 2	 1	 0	-1	-2	-3	-2	-1
+ 0	 0	-1	 0	 1	 2	 3	 3	 3	 4	 4	 4	 3	 2	 1	 0	-1	-2	-3	-2
+ 1	 1	 0	 1	 2	 3	 4	 4	 4	 5	 5	 5	 4	 3	 2	 1	 0	-1	-2	-3
+ 2	 2	 1	 2	 3	 4	 5	 5	 5	 6	 6	 6	 5	 4	 3	 2	 1	 0	-1	-2
+

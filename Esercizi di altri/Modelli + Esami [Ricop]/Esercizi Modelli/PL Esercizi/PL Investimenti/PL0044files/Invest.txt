@@ -1,0 +1,82 @@
+Su ciascun mercato sono acquistabili 4 fondi ciascuno composto 
+da (al massimo) 4 tipi di azioni.
+
+==================================================================
+                              MERCATO USA 
+
+FONDI    Rendimento percentuale previsto
+Stars                   35%
+Stripes                 10%
+Yankee                  60%
+HotDog                  40%
+
+AZIONI                   Max importo acquistabile (milioni di Euro)
+Mickey Mouse Airlines           100
+Donald Duck Stores              100
+Rockerduck Petroleum             79
+Minnie's Ladies Fashion          98
+
+Composizione dei fondi 
+(percentuale di ogni tipo di azione in ciascun fondo)
+
+      Stars  Stripes  Yankee  HotDog
+MMA    50%     10%     25%     20%
+DDS    30%     80%     20%      0%
+RP     20%      0%     35%     30%
+MLF     0%     10%     20%     50%
+
+===============================================================
+                            MERCATO EUROPEO
+
+FONDI    Rendimento percentuale previsto
+Colosseo                10%
+Tour Eiffel             30%
+Plaza de Toros          80%
+Westminster             30%
+
+AZIONI                   Max importo acquistabile (milioni di Euro)
+Clessidra Airlines                  150
+Essecorta                           120
+Napoletana Pizze                     80
+Borgorosso Football Club             90
+
+Composizione dei fondi 
+(percentuale di ogni tipo di azione in ciascun fondo)
+
+      Colosseo Tour Eiffel Plaza de Toros Westminster
+CA      90%        20%            0%          10%
+E       10%        30%           20%          70%
+NP       0%        40%            0%          10%
+BFC      0%        10%           80%          10%
+
+================================================================
+                             MERCATO GIAPPONESE
+
+FONDI    Rendimento percentuale previsto
+Sol Levante         40%
+Banzai              30%
+Kimono              20%
+Kung Fu             10%
+
+AZIONI              Max importo acquistabile (milioni di Euro)
+Kamikaze Airlines                110
+Singapore Fish                    90
+Malaysia Wood                    200
+Nagano Ski Club                  130
+  
+Composizione dei fondi 
+(percentuale di ogni tipo di azione in ciascun fondo)
+
+      Sol Levante Banzai  Kimono   Kung Fu
+KA        70%       0%     10%       20%
+SF        20%      10%     50%       20%
+MW        10%      10%     30%       60%
+NSC        0%      80%     10%        0%
+
+================================================================
+
+I capitali del finanziere sono i seguenti (in milioni di Euro):
+
+Svizzera             433
+Colombia             320
+Principato di Monaco 377

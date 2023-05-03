@@ -1,0 +1,53 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    tempoDenarov2
+Objective:  z = 130 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Consumi[1]   BS       1.20000      89.80000          -Inf        1.00000     -50.00000      70.00000 x[1]
+                                            .           91.00000        1.40000      50.00000     190.00000 x[3]
+
+     2 Consumi[2]   BS        .70000      39.30000          -Inf         .50000     -50.00000      95.00000 x[1]
+                                            .           40.00000         .70000          +Inf          +Inf
+
+     3 Consumi[3]   BS       1.50000      57.50000          -Inf         .90000     -16.66667     105.00000 x[3]
+                                            .           59.00000        1.50000          +Inf          +Inf
+
+     4 Manodopera   NU        .             .               -Inf        -.10000   -1300.00000        .      x[2]
+                                        1300.00000        .             3.83333          +Inf    5113.33333 Consumi[3]
+
+     5 Def1         NS        .             .             .                -Inf          -Inf          -Inf
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+     6 z            BS     130.00000    -130.00000          -Inf         .           -1.00000        .      Manodopera
+                                            .               +Inf      130.00000          +Inf          +Inf
+
+     7 Parametric   NU        .10000        .               -Inf         .        -1300.00000        .      x[2]
+                                        1300.00000        .10000        3.93333          +Inf    5113.33333 Consumi[3]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    tempoDenarov2
+Objective:  z = 130 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         NL        .             .             .           -11.50000          -Inf    1280.00000 Consumi[3]
+                                        -100.00000          +Inf         .10000     100.00000     120.00000 x[2]
+
+     2 x[2]         BS        .10000        .             .                -Inf    -100.00000     120.00000 x[1]
+                                            .               +Inf         .10000          +Inf          +Inf
+
+     3 x[3]         NL        .             .             .            -9.58333          -Inf    1088.33333 Consumi[3]
+                                        -100.00000          +Inf         .10000     100.00000     120.00000 x[2]
+
+     4 f1           BS     130.00000       1.00000          -Inf         .             .             .      Manodopera
+                                            .               +Inf      130.00000          +Inf          +Inf
+
+     5 f2           BS        .10000        .               -Inf         .        -1300.00000        .      Parametric
+                                            .               +Inf         .10000          +Inf          +Inf
+
+End of report

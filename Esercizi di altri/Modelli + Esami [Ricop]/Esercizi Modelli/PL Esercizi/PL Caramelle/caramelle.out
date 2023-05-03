@@ -1,0 +1,72 @@
+Problem:    caramelle
+Rows:       10
+Columns:    16
+Non-zeros:  80
+Status:     OPTIMAL
+Objective:  z = 311.1010909 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Consumi[Fruttosio]
+                    NS             0            -0             =       4.45455 
+     2 Consumi[Saccarosio]
+                    NS             0            -0             =             2 
+     3 Consumi[Glucioso]
+                    NS             0            -0             =       12.1109 
+     4 Consumi[Destrosio]
+                    NS             0            -0             =           3.5 
+     5 Consumi[Estratti_di_erbe]
+                    NS             0            -0             =             8 
+     6 Consumi[Estratti_di_frutta]
+                    NS             0            -0             =         14.36 
+     7 Consumi[Coloranti]
+                    NS             0            -0             =          2.58 
+     8 Consumi[Conservanti]
+                    NS             0            -0             =             5 
+     9 Consumi[Aromatizzanti]
+                    NS             0            -0             =             6 
+    10 z            B        311.101                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Dolce]     B        2.39273             0               
+     2 x[Delizia]   NL             0             0                    -2.46218 
+     3 x[Bacetto]   B        56.3636             0               
+     4 x[Golosa]    NL             0             0                    -1.18473 
+     5 x[Sfizio]    NL             0             0                    -1.68727 
+     6 x[Slurp]     B          37.48             0               
+     7 x[Sweety]    B          17.16             0               
+     8 y[Fruttosio] NU             9             0             9      0.454545 
+     9 y[Saccarosio]
+                    B        4.06855             0             5 
+    10 y[Glucioso]  NU            20             0            20       11.1109 
+    11 y[Destrosio] B         14.244             0            18 
+    12 y[Estratti_di_erbe]
+                    B        9.31255             0            20 
+    13 y[Estratti_di_frutta]
+                    NU            17             0            17          4.36 
+    14 y[Coloranti] NU          18.4             0          18.4          0.58 
+    15 y[Conservanti]
+                    B        11.9918             0          12.5 
+    16 y[Aromatizzanti]
+                    B        9.14018             0            10 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.14e-013 on row 10
+        max.rel.err = 1.02e-016 on row 6
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-016 on column 2
+        max.rel.err = 6.38e-017 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
