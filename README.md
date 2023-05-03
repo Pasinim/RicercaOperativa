@@ -1,5 +1,7 @@
 # RicercaOperativa
 
+Gli appunti teorici delle videolezioni sono in [`Teoria/Note.md`](https://github.com/Pasinim/RicercaOperativa/blob/main/Teoria/Note.md)
+
 Repository contenente gli esercizi di [Ricerca Operativa](https://homes.di.unimi.it/righini/Didattica/RicercaOperativa/Materiale/).
 
 Un esercizio in cui si può vedere bene la sintassi del linguaggio è [Caramelle.](https://github.com/Pasinim/RicercaOperativa/blob/main/ES_Sett/E%20-%20Caramelle)
