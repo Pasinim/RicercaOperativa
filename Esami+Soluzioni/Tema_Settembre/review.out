@@ -1,0 +1,115 @@
+Problem:    review
+Rows:       31
+Columns:    30 (30 integer, 30 binary)
+Non-zeros:  146
+Status:     INTEGER OPTIMAL
+Objective:  z = 9 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 sorvegliato[1]
+                                   1             1               
+     2 sorvegliato[2]
+                                   1             1               
+     3 sorvegliato[3]
+                                   1             1               
+     4 sorvegliato[4]
+                                   2             1               
+     5 sorvegliato[5]
+                                   1             1               
+     6 sorvegliato[6]
+                                   1             1               
+     7 sorvegliato[7]
+                                   1             1               
+     8 sorvegliato[8]
+                                   2             1               
+     9 sorvegliato[9]
+                                   1             1               
+    10 sorvegliato[10]
+                                   1             1               
+    11 sorvegliato[11]
+                                   1             1               
+    12 sorvegliato[12]
+                                   1             1               
+    13 sorvegliato[13]
+                                   2             1               
+    14 sorvegliato[14]
+                                   1             1               
+    15 sorvegliato[15]
+                                   1             1               
+    16 sorvegliato[16]
+                                   1             1               
+    17 sorvegliato[17]
+                                   1             1               
+    18 sorvegliato[18]
+                                   1             1               
+    19 sorvegliato[19]
+                                   2             1               
+    20 sorvegliato[20]
+                                   1             1               
+    21 sorvegliato[21]
+                                   1             1               
+    22 sorvegliato[22]
+                                   1             1               
+    23 sorvegliato[23]
+                                   1             1               
+    24 sorvegliato[24]
+                                   1             1               
+    25 sorvegliato[25]
+                                   1             1               
+    26 sorvegliato[26]
+                                   1             1               
+    27 sorvegliato[27]
+                                   1             1               
+    28 sorvegliato[28]
+                                   1             1               
+    29 sorvegliato[29]
+                                   1             1               
+    30 sorvegliato[30]
+                                   1             1               
+    31 z                           9                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2]         *              0             0             1 
+     2 x[3]         *              1             0             1 
+     3 x[4]         *              0             0             1 
+     4 x[1]         *              0             0             1 
+     5 x[30]        *              1             0             1 
+     6 x[13]        *              0             0             1 
+     7 x[16]        *              0             0             1 
+     8 x[5]         *              1             0             1 
+     9 x[6]         *              0             0             1 
+    10 x[24]        *              1             0             1 
+    11 x[8]         *              0             0             1 
+    12 x[7]         *              0             0             1 
+    13 x[9]         *              1             0             1 
+    14 x[10]        *              0             0             1 
+    15 x[12]        *              0             0             1 
+    16 x[27]        *              0             0             1 
+    17 x[11]        *              0             0             1 
+    18 x[23]        *              1             0             1 
+    19 x[29]        *              0             0             1 
+    20 x[18]        *              1             0             1 
+    21 x[19]        *              0             0             1 
+    22 x[14]        *              0             0             1 
+    23 x[15]        *              0             0             1 
+    24 x[17]        *              1             0             1 
+    25 x[28]        *              0             0             1 
+    26 x[20]        *              1             0             1 
+    27 x[21]        *              0             0             1 
+    28 x[22]        *              0             0             1 
+    29 x[25]        *              0             0             1 
+    30 x[26]        *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
