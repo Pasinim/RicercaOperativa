@@ -1,0 +1,774 @@
+Problem:    8
+Rows:       255
+Columns:    240 (225 integer, 225 binary)
+Non-zeros:  900
+Status:     INTEGER OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 hScaffale[1,1]
+                                  12            -0               
+     2 hScaffale[1,2]
+                                  12            -0               
+     3 hScaffale[1,3]
+                                  12            -0               
+     4 hScaffale[1,4]
+                                   2            -0               
+     5 hScaffale[1,5]
+                                  12            -0               
+     6 hScaffale[1,6]
+                                   0            -0               
+     7 hScaffale[1,7]
+                                  12            -0               
+     8 hScaffale[1,8]
+                                   3            -0               
+     9 hScaffale[1,9]
+                                  12            -0               
+    10 hScaffale[1,10]
+                                  12            -0               
+    11 hScaffale[1,11]
+                                   4            -0               
+    12 hScaffale[1,12]
+                                  12            -0               
+    13 hScaffale[1,13]
+                                   5            -0               
+    14 hScaffale[1,14]
+                                   2            -0               
+    15 hScaffale[1,15]
+                                  12            -0               
+    16 hScaffale[2,1]
+                                  15            -0               
+    17 hScaffale[2,2]
+                                  15            -0               
+    18 hScaffale[2,3]
+                                   5            -0               
+    19 hScaffale[2,4]
+                                  15            -0               
+    20 hScaffale[2,5]
+                                  15            -0               
+    21 hScaffale[2,6]
+                                  15            -0               
+    22 hScaffale[2,7]
+                                  15            -0               
+    23 hScaffale[2,8]
+                                  15            -0               
+    24 hScaffale[2,9]
+                                   0            -0               
+    25 hScaffale[2,10]
+                                   2            -0               
+    26 hScaffale[2,11]
+                                  15            -0               
+    27 hScaffale[2,12]
+                                   8            -0               
+    28 hScaffale[2,13]
+                                  15            -0               
+    29 hScaffale[2,14]
+                                  15            -0               
+    30 hScaffale[2,15]
+                                  15            -0               
+    31 hScaffale[3,1]
+                                   0            -0               
+    32 hScaffale[3,2]
+                                   0            -0               
+    33 hScaffale[3,3]
+                                   0            -0               
+    34 hScaffale[3,4]
+                                   0            -0               
+    35 hScaffale[3,5]
+                                   0            -0               
+    36 hScaffale[3,6]
+                                   0            -0               
+    37 hScaffale[3,7]
+                                   0            -0               
+    38 hScaffale[3,8]
+                                   0            -0               
+    39 hScaffale[3,9]
+                                   0            -0               
+    40 hScaffale[3,10]
+                                   0            -0               
+    41 hScaffale[3,11]
+                                   0            -0               
+    42 hScaffale[3,12]
+                                   0            -0               
+    43 hScaffale[3,13]
+                                   0            -0               
+    44 hScaffale[3,14]
+                                   0            -0               
+    45 hScaffale[3,15]
+                                   0            -0               
+    46 hScaffale[4,1]
+                                   0            -0               
+    47 hScaffale[4,2]
+                                   0            -0               
+    48 hScaffale[4,3]
+                                   0            -0               
+    49 hScaffale[4,4]
+                                   0            -0               
+    50 hScaffale[4,5]
+                                   0            -0               
+    51 hScaffale[4,6]
+                                   0            -0               
+    52 hScaffale[4,7]
+                                   0            -0               
+    53 hScaffale[4,8]
+                                   0            -0               
+    54 hScaffale[4,9]
+                                   0            -0               
+    55 hScaffale[4,10]
+                                   0            -0               
+    56 hScaffale[4,11]
+                                   0            -0               
+    57 hScaffale[4,12]
+                                   0            -0               
+    58 hScaffale[4,13]
+                                   0            -0               
+    59 hScaffale[4,14]
+                                   0            -0               
+    60 hScaffale[4,15]
+                                   0            -0               
+    61 hScaffale[5,1]
+                                   0            -0               
+    62 hScaffale[5,2]
+                                   0            -0               
+    63 hScaffale[5,3]
+                                   0            -0               
+    64 hScaffale[5,4]
+                                   0            -0               
+    65 hScaffale[5,5]
+                                   0            -0               
+    66 hScaffale[5,6]
+                                   0            -0               
+    67 hScaffale[5,7]
+                                   0            -0               
+    68 hScaffale[5,8]
+                                   0            -0               
+    69 hScaffale[5,9]
+                                   0            -0               
+    70 hScaffale[5,10]
+                                   0            -0               
+    71 hScaffale[5,11]
+                                   0            -0               
+    72 hScaffale[5,12]
+                                   0            -0               
+    73 hScaffale[5,13]
+                                   0            -0               
+    74 hScaffale[5,14]
+                                   0            -0               
+    75 hScaffale[5,15]
+                                   0            -0               
+    76 hScaffale[6,1]
+                                   0            -0               
+    77 hScaffale[6,2]
+                                   0            -0               
+    78 hScaffale[6,3]
+                                   0            -0               
+    79 hScaffale[6,4]
+                                   0            -0               
+    80 hScaffale[6,5]
+                                   0            -0               
+    81 hScaffale[6,6]
+                                   0            -0               
+    82 hScaffale[6,7]
+                                   0            -0               
+    83 hScaffale[6,8]
+                                   0            -0               
+    84 hScaffale[6,9]
+                                   0            -0               
+    85 hScaffale[6,10]
+                                   0            -0               
+    86 hScaffale[6,11]
+                                   0            -0               
+    87 hScaffale[6,12]
+                                   0            -0               
+    88 hScaffale[6,13]
+                                   0            -0               
+    89 hScaffale[6,14]
+                                   0            -0               
+    90 hScaffale[6,15]
+                                   0            -0               
+    91 hScaffale[7,1]
+                                   0            -0               
+    92 hScaffale[7,2]
+                                   0            -0               
+    93 hScaffale[7,3]
+                                   0            -0               
+    94 hScaffale[7,4]
+                                   0            -0               
+    95 hScaffale[7,5]
+                                   0            -0               
+    96 hScaffale[7,6]
+                                   0            -0               
+    97 hScaffale[7,7]
+                                   0            -0               
+    98 hScaffale[7,8]
+                                   0            -0               
+    99 hScaffale[7,9]
+                                   0            -0               
+   100 hScaffale[7,10]
+                                   0            -0               
+   101 hScaffale[7,11]
+                                   0            -0               
+   102 hScaffale[7,12]
+                                   0            -0               
+   103 hScaffale[7,13]
+                                   0            -0               
+   104 hScaffale[7,14]
+                                   0            -0               
+   105 hScaffale[7,15]
+                                   0            -0               
+   106 hScaffale[8,1]
+                                   0            -0               
+   107 hScaffale[8,2]
+                                   0            -0               
+   108 hScaffale[8,3]
+                                   0            -0               
+   109 hScaffale[8,4]
+                                   0            -0               
+   110 hScaffale[8,5]
+                                   0            -0               
+   111 hScaffale[8,6]
+                                   0            -0               
+   112 hScaffale[8,7]
+                                   0            -0               
+   113 hScaffale[8,8]
+                                   0            -0               
+   114 hScaffale[8,9]
+                                   0            -0               
+   115 hScaffale[8,10]
+                                   0            -0               
+   116 hScaffale[8,11]
+                                   0            -0               
+   117 hScaffale[8,12]
+                                   0            -0               
+   118 hScaffale[8,13]
+                                   0            -0               
+   119 hScaffale[8,14]
+                                   0            -0               
+   120 hScaffale[8,15]
+                                   0            -0               
+   121 hScaffale[9,1]
+                                   0            -0               
+   122 hScaffale[9,2]
+                                   0            -0               
+   123 hScaffale[9,3]
+                                   0            -0               
+   124 hScaffale[9,4]
+                                   0            -0               
+   125 hScaffale[9,5]
+                                   0            -0               
+   126 hScaffale[9,6]
+                                   0            -0               
+   127 hScaffale[9,7]
+                                   0            -0               
+   128 hScaffale[9,8]
+                                   0            -0               
+   129 hScaffale[9,9]
+                                   0            -0               
+   130 hScaffale[9,10]
+                                   0            -0               
+   131 hScaffale[9,11]
+                                   0            -0               
+   132 hScaffale[9,12]
+                                   0            -0               
+   133 hScaffale[9,13]
+                                   0            -0               
+   134 hScaffale[9,14]
+                                   0            -0               
+   135 hScaffale[9,15]
+                                   0            -0               
+   136 hScaffale[10,1]
+                                   0            -0               
+   137 hScaffale[10,2]
+                                   0            -0               
+   138 hScaffale[10,3]
+                                   0            -0               
+   139 hScaffale[10,4]
+                                   0            -0               
+   140 hScaffale[10,5]
+                                   0            -0               
+   141 hScaffale[10,6]
+                                   0            -0               
+   142 hScaffale[10,7]
+                                   0            -0               
+   143 hScaffale[10,8]
+                                   0            -0               
+   144 hScaffale[10,9]
+                                   0            -0               
+   145 hScaffale[10,10]
+                                   0            -0               
+   146 hScaffale[10,11]
+                                   0            -0               
+   147 hScaffale[10,12]
+                                   0            -0               
+   148 hScaffale[10,13]
+                                   0            -0               
+   149 hScaffale[10,14]
+                                   0            -0               
+   150 hScaffale[10,15]
+                                   0            -0               
+   151 hScaffale[11,1]
+                                   0            -0               
+   152 hScaffale[11,2]
+                                   0            -0               
+   153 hScaffale[11,3]
+                                   0            -0               
+   154 hScaffale[11,4]
+                                   0            -0               
+   155 hScaffale[11,5]
+                                   0            -0               
+   156 hScaffale[11,6]
+                                   0            -0               
+   157 hScaffale[11,7]
+                                   0            -0               
+   158 hScaffale[11,8]
+                                   0            -0               
+   159 hScaffale[11,9]
+                                   0            -0               
+   160 hScaffale[11,10]
+                                   0            -0               
+   161 hScaffale[11,11]
+                                   0            -0               
+   162 hScaffale[11,12]
+                                   0            -0               
+   163 hScaffale[11,13]
+                                   0            -0               
+   164 hScaffale[11,14]
+                                   0            -0               
+   165 hScaffale[11,15]
+                                   0            -0               
+   166 hScaffale[12,1]
+                                   0            -0               
+   167 hScaffale[12,2]
+                                   0            -0               
+   168 hScaffale[12,3]
+                                   0            -0               
+   169 hScaffale[12,4]
+                                   0            -0               
+   170 hScaffale[12,5]
+                                   0            -0               
+   171 hScaffale[12,6]
+                                   0            -0               
+   172 hScaffale[12,7]
+                                   0            -0               
+   173 hScaffale[12,8]
+                                   0            -0               
+   174 hScaffale[12,9]
+                                   0            -0               
+   175 hScaffale[12,10]
+                                   0            -0               
+   176 hScaffale[12,11]
+                                   0            -0               
+   177 hScaffale[12,12]
+                                   0            -0               
+   178 hScaffale[12,13]
+                                   0            -0               
+   179 hScaffale[12,14]
+                                   0            -0               
+   180 hScaffale[12,15]
+                                   0            -0               
+   181 hScaffale[13,1]
+                                   0            -0               
+   182 hScaffale[13,2]
+                                   2            -0               
+   183 hScaffale[13,3]
+                                   2            -0               
+   184 hScaffale[13,4]
+                                   2            -0               
+   185 hScaffale[13,5]
+                                   2            -0               
+   186 hScaffale[13,6]
+                                   2            -0               
+   187 hScaffale[13,7]
+                                   2            -0               
+   188 hScaffale[13,8]
+                                   2            -0               
+   189 hScaffale[13,9]
+                                   2            -0               
+   190 hScaffale[13,10]
+                                   2            -0               
+   191 hScaffale[13,11]
+                                   2            -0               
+   192 hScaffale[13,12]
+                                   2            -0               
+   193 hScaffale[13,13]
+                                   2            -0               
+   194 hScaffale[13,14]
+                                   2            -0               
+   195 hScaffale[13,15]
+                                   2            -0               
+   196 hScaffale[14,1]
+                                   0            -0               
+   197 hScaffale[14,2]
+                                   0            -0               
+   198 hScaffale[14,3]
+                                   0            -0               
+   199 hScaffale[14,4]
+                                   0            -0               
+   200 hScaffale[14,5]
+                                   0            -0               
+   201 hScaffale[14,6]
+                                   0            -0               
+   202 hScaffale[14,7]
+                                   0            -0               
+   203 hScaffale[14,8]
+                                   0            -0               
+   204 hScaffale[14,9]
+                                   0            -0               
+   205 hScaffale[14,10]
+                                   0            -0               
+   206 hScaffale[14,11]
+                                   0            -0               
+   207 hScaffale[14,12]
+                                   0            -0               
+   208 hScaffale[14,13]
+                                   0            -0               
+   209 hScaffale[14,14]
+                                   0            -0               
+   210 hScaffale[14,15]
+                                   0            -0               
+   211 hScaffale[15,1]
+                                  20            -0               
+   212 hScaffale[15,2]
+                                   0            -0               
+   213 hScaffale[15,3]
+                                  20            -0               
+   214 hScaffale[15,4]
+                                  20            -0               
+   215 hScaffale[15,5]
+                                  12            -0               
+   216 hScaffale[15,6]
+                                  20            -0               
+   217 hScaffale[15,7]
+                                   2            -0               
+   218 hScaffale[15,8]
+                                  20            -0               
+   219 hScaffale[15,9]
+                                  20            -0               
+   220 hScaffale[15,10]
+                                  20            -0               
+   221 hScaffale[15,11]
+                                  20            -0               
+   222 hScaffale[15,12]
+                                  20            -0               
+   223 hScaffale[15,13]
+                                  20            -0               
+   224 hScaffale[15,14]
+                                  20            -0               
+   225 hScaffale[15,15]
+                                  15            -0               
+   226 assegnamento[1]
+                                   1             1             = 
+   227 assegnamento[2]
+                                   1             1             = 
+   228 assegnamento[3]
+                                   1             1             = 
+   229 assegnamento[4]
+                                   1             1             = 
+   230 assegnamento[5]
+                                   1             1             = 
+   231 assegnamento[6]
+                                   1             1             = 
+   232 assegnamento[7]
+                                   1             1             = 
+   233 assegnamento[8]
+                                   1             1             = 
+   234 assegnamento[9]
+                                   1             1             = 
+   235 assegnamento[10]
+                                   1             1             = 
+   236 assegnamento[11]
+                                   1             1             = 
+   237 assegnamento[12]
+                                   1             1             = 
+   238 assegnamento[13]
+                                   1             1             = 
+   239 assegnamento[14]
+                                   1             1             = 
+   240 assegnamento[15]
+                                   1             1             = 
+   241 larghezzaTot[1]
+                                  42                          50 
+   242 larghezzaTot[2]
+                                  42                          50 
+   243 larghezzaTot[3]
+                                   0                          50 
+   244 larghezzaTot[4]
+                                   0                          50 
+   245 larghezzaTot[5]
+                                   0                          50 
+   246 larghezzaTot[6]
+                                   0                          50 
+   247 larghezzaTot[7]
+                                   0                          50 
+   248 larghezzaTot[8]
+                                   0                          50 
+   249 larghezzaTot[9]
+                                   0                          50 
+   250 larghezzaTot[10]
+                                   0                          50 
+   251 larghezzaTot[11]
+                                   0                          50 
+   252 larghezzaTot[12]
+                                   0                          50 
+   253 larghezzaTot[13]
+                                  10                          50 
+   254 larghezzaTot[14]
+                                   0                          50 
+   255 larghezzaTot[15]
+                                  46                          50 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[1,1]       *              0             0             1 
+     2 y[2,1]       *              0             0             1 
+     3 y[3,1]       *              0             0             1 
+     4 y[4,1]       *              1             0             1 
+     5 y[5,1]       *              0             0             1 
+     6 y[6,1]       *              1             0             1 
+     7 y[7,1]       *              0             0             1 
+     8 y[8,1]       *              1             0             1 
+     9 y[9,1]       *              0             0             1 
+    10 y[10,1]      *              0             0             1 
+    11 y[11,1]      *              1             0             1 
+    12 y[12,1]      *              0             0             1 
+    13 y[13,1]      *              1             0             1 
+    14 y[14,1]      *              1             0             1 
+    15 y[15,1]      *              0             0             1 
+    16 y[1,2]       *              0             0             1 
+    17 y[2,2]       *              0             0             1 
+    18 y[3,2]       *              1             0             1 
+    19 y[4,2]       *              0             0             1 
+    20 y[5,2]       *              0             0             1 
+    21 y[6,2]       *              0             0             1 
+    22 y[7,2]       *              0             0             1 
+    23 y[8,2]       *              0             0             1 
+    24 y[9,2]       *              1             0             1 
+    25 y[10,2]      *              1             0             1 
+    26 y[11,2]      *              0             0             1 
+    27 y[12,2]      *              1             0             1 
+    28 y[13,2]      *              0             0             1 
+    29 y[14,2]      *              0             0             1 
+    30 y[15,2]      *              0             0             1 
+    31 y[1,3]       *              0             0             1 
+    32 y[2,3]       *              0             0             1 
+    33 y[3,3]       *              0             0             1 
+    34 y[4,3]       *              0             0             1 
+    35 y[5,3]       *              0             0             1 
+    36 y[6,3]       *              0             0             1 
+    37 y[7,3]       *              0             0             1 
+    38 y[8,3]       *              0             0             1 
+    39 y[9,3]       *              0             0             1 
+    40 y[10,3]      *              0             0             1 
+    41 y[11,3]      *              0             0             1 
+    42 y[12,3]      *              0             0             1 
+    43 y[13,3]      *              0             0             1 
+    44 y[14,3]      *              0             0             1 
+    45 y[15,3]      *              0             0             1 
+    46 y[1,4]       *              0             0             1 
+    47 y[2,4]       *              0             0             1 
+    48 y[3,4]       *              0             0             1 
+    49 y[4,4]       *              0             0             1 
+    50 y[5,4]       *              0             0             1 
+    51 y[6,4]       *              0             0             1 
+    52 y[7,4]       *              0             0             1 
+    53 y[8,4]       *              0             0             1 
+    54 y[9,4]       *              0             0             1 
+    55 y[10,4]      *              0             0             1 
+    56 y[11,4]      *              0             0             1 
+    57 y[12,4]      *              0             0             1 
+    58 y[13,4]      *              0             0             1 
+    59 y[14,4]      *              0             0             1 
+    60 y[15,4]      *              0             0             1 
+    61 y[1,5]       *              0             0             1 
+    62 y[2,5]       *              0             0             1 
+    63 y[3,5]       *              0             0             1 
+    64 y[4,5]       *              0             0             1 
+    65 y[5,5]       *              0             0             1 
+    66 y[6,5]       *              0             0             1 
+    67 y[7,5]       *              0             0             1 
+    68 y[8,5]       *              0             0             1 
+    69 y[9,5]       *              0             0             1 
+    70 y[10,5]      *              0             0             1 
+    71 y[11,5]      *              0             0             1 
+    72 y[12,5]      *              0             0             1 
+    73 y[13,5]      *              0             0             1 
+    74 y[14,5]      *              0             0             1 
+    75 y[15,5]      *              0             0             1 
+    76 y[1,6]       *              0             0             1 
+    77 y[2,6]       *              0             0             1 
+    78 y[3,6]       *              0             0             1 
+    79 y[4,6]       *              0             0             1 
+    80 y[5,6]       *              0             0             1 
+    81 y[6,6]       *              0             0             1 
+    82 y[7,6]       *              0             0             1 
+    83 y[8,6]       *              0             0             1 
+    84 y[9,6]       *              0             0             1 
+    85 y[10,6]      *              0             0             1 
+    86 y[11,6]      *              0             0             1 
+    87 y[12,6]      *              0             0             1 
+    88 y[13,6]      *              0             0             1 
+    89 y[14,6]      *              0             0             1 
+    90 y[15,6]      *              0             0             1 
+    91 y[1,7]       *              0             0             1 
+    92 y[2,7]       *              0             0             1 
+    93 y[3,7]       *              0             0             1 
+    94 y[4,7]       *              0             0             1 
+    95 y[5,7]       *              0             0             1 
+    96 y[6,7]       *              0             0             1 
+    97 y[7,7]       *              0             0             1 
+    98 y[8,7]       *              0             0             1 
+    99 y[9,7]       *              0             0             1 
+   100 y[10,7]      *              0             0             1 
+   101 y[11,7]      *              0             0             1 
+   102 y[12,7]      *              0             0             1 
+   103 y[13,7]      *              0             0             1 
+   104 y[14,7]      *              0             0             1 
+   105 y[15,7]      *              0             0             1 
+   106 y[1,8]       *              0             0             1 
+   107 y[2,8]       *              0             0             1 
+   108 y[3,8]       *              0             0             1 
+   109 y[4,8]       *              0             0             1 
+   110 y[5,8]       *              0             0             1 
+   111 y[6,8]       *              0             0             1 
+   112 y[7,8]       *              0             0             1 
+   113 y[8,8]       *              0             0             1 
+   114 y[9,8]       *              0             0             1 
+   115 y[10,8]      *              0             0             1 
+   116 y[11,8]      *              0             0             1 
+   117 y[12,8]      *              0             0             1 
+   118 y[13,8]      *              0             0             1 
+   119 y[14,8]      *              0             0             1 
+   120 y[15,8]      *              0             0             1 
+   121 y[1,9]       *              0             0             1 
+   122 y[2,9]       *              0             0             1 
+   123 y[3,9]       *              0             0             1 
+   124 y[4,9]       *              0             0             1 
+   125 y[5,9]       *              0             0             1 
+   126 y[6,9]       *              0             0             1 
+   127 y[7,9]       *              0             0             1 
+   128 y[8,9]       *              0             0             1 
+   129 y[9,9]       *              0             0             1 
+   130 y[10,9]      *              0             0             1 
+   131 y[11,9]      *              0             0             1 
+   132 y[12,9]      *              0             0             1 
+   133 y[13,9]      *              0             0             1 
+   134 y[14,9]      *              0             0             1 
+   135 y[15,9]      *              0             0             1 
+   136 y[1,10]      *              0             0             1 
+   137 y[2,10]      *              0             0             1 
+   138 y[3,10]      *              0             0             1 
+   139 y[4,10]      *              0             0             1 
+   140 y[5,10]      *              0             0             1 
+   141 y[6,10]      *              0             0             1 
+   142 y[7,10]      *              0             0             1 
+   143 y[8,10]      *              0             0             1 
+   144 y[9,10]      *              0             0             1 
+   145 y[10,10]     *              0             0             1 
+   146 y[11,10]     *              0             0             1 
+   147 y[12,10]     *              0             0             1 
+   148 y[13,10]     *              0             0             1 
+   149 y[14,10]     *              0             0             1 
+   150 y[15,10]     *              0             0             1 
+   151 y[1,11]      *              0             0             1 
+   152 y[2,11]      *              0             0             1 
+   153 y[3,11]      *              0             0             1 
+   154 y[4,11]      *              0             0             1 
+   155 y[5,11]      *              0             0             1 
+   156 y[6,11]      *              0             0             1 
+   157 y[7,11]      *              0             0             1 
+   158 y[8,11]      *              0             0             1 
+   159 y[9,11]      *              0             0             1 
+   160 y[10,11]     *              0             0             1 
+   161 y[11,11]     *              0             0             1 
+   162 y[12,11]     *              0             0             1 
+   163 y[13,11]     *              0             0             1 
+   164 y[14,11]     *              0             0             1 
+   165 y[15,11]     *              0             0             1 
+   166 y[1,12]      *              0             0             1 
+   167 y[2,12]      *              0             0             1 
+   168 y[3,12]      *              0             0             1 
+   169 y[4,12]      *              0             0             1 
+   170 y[5,12]      *              0             0             1 
+   171 y[6,12]      *              0             0             1 
+   172 y[7,12]      *              0             0             1 
+   173 y[8,12]      *              0             0             1 
+   174 y[9,12]      *              0             0             1 
+   175 y[10,12]     *              0             0             1 
+   176 y[11,12]     *              0             0             1 
+   177 y[12,12]     *              0             0             1 
+   178 y[13,12]     *              0             0             1 
+   179 y[14,12]     *              0             0             1 
+   180 y[15,12]     *              0             0             1 
+   181 y[1,13]      *              1             0             1 
+   182 y[2,13]      *              0             0             1 
+   183 y[3,13]      *              0             0             1 
+   184 y[4,13]      *              0             0             1 
+   185 y[5,13]      *              0             0             1 
+   186 y[6,13]      *              0             0             1 
+   187 y[7,13]      *              0             0             1 
+   188 y[8,13]      *              0             0             1 
+   189 y[9,13]      *              0             0             1 
+   190 y[10,13]     *              0             0             1 
+   191 y[11,13]     *              0             0             1 
+   192 y[12,13]     *              0             0             1 
+   193 y[13,13]     *              0             0             1 
+   194 y[14,13]     *              0             0             1 
+   195 y[15,13]     *              0             0             1 
+   196 y[1,14]      *              0             0             1 
+   197 y[2,14]      *              0             0             1 
+   198 y[3,14]      *              0             0             1 
+   199 y[4,14]      *              0             0             1 
+   200 y[5,14]      *              0             0             1 
+   201 y[6,14]      *              0             0             1 
+   202 y[7,14]      *              0             0             1 
+   203 y[8,14]      *              0             0             1 
+   204 y[9,14]      *              0             0             1 
+   205 y[10,14]     *              0             0             1 
+   206 y[11,14]     *              0             0             1 
+   207 y[12,14]     *              0             0             1 
+   208 y[13,14]     *              0             0             1 
+   209 y[14,14]     *              0             0             1 
+   210 y[15,14]     *              0             0             1 
+   211 y[1,15]      *              0             0             1 
+   212 y[2,15]      *              1             0             1 
+   213 y[3,15]      *              0             0             1 
+   214 y[4,15]      *              0             0             1 
+   215 y[5,15]      *              1             0             1 
+   216 y[6,15]      *              0             0             1 
+   217 y[7,15]      *              1             0             1 
+   218 y[8,15]      *              0             0             1 
+   219 y[9,15]      *              0             0             1 
+   220 y[10,15]     *              0             0             1 
+   221 y[11,15]     *              0             0             1 
+   222 y[12,15]     *              0             0             1 
+   223 y[13,15]     *              0             0             1 
+   224 y[14,15]     *              0             0             1 
+   225 y[15,15]     *              1             0             1 
+   226 H[1]                       12             0               
+   227 H[2]                       15             0               
+   228 H[3]                        0             0               
+   229 H[4]                        0             0               
+   230 H[5]                        0             0               
+   231 H[6]                        0             0               
+   232 H[7]                        0             0               
+   233 H[8]                        0             0               
+   234 H[9]                        0             0               
+   235 H[10]                       0             0               
+   236 H[11]                       0             0               
+   237 H[12]                       0             0               
+   238 H[13]                       2             0               
+   239 H[14]                       0             0               
+   240 H[15]                      20             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
