@@ -20,7 +20,7 @@ Quando le variabili sono vincolate da alcuni valori il problema è di **ottimizz
 
 ## 2. Programmazione lineare
 
-### S.t? f.o = funzione obiettivo?? variabili libere??
+### S.t = subj to. f.o = funzione obiettivo
 
 In un problema di programmazione lineare:
 
@@ -491,3 +491,15 @@ Una eccezione positiva è la **programmazione convessa**, in cui l'ottimalità l
   - tutti i vincoli di disuguaglianza, riscritti in forma $g(x) \leq 0$ sono convessi
 
 La f.o. da minimizzare deve essere convessa (oppure concava nel caso di massimizzazione). <mark></mark>
+
+Nella programmazione lineare, se esistono le derivate prime e seconde dui una funzione, è possibile enumerare i punti dove sono soddisfatte le condizioni analitiche. Per risolvere un problema di PNL.
+
+Gli algoritmi per l'ottimizzazione non lineare (anche quelli presenti nei solutori) sono **algoritmi iterativi** che convergono verso un minimo locale che partendo da una soluzione data $x^{(0)}$ (punto di inizializzazione) calcolano una sequenza di soluzioni tali che il valore di $f(x)$ diminuisce monoticamente e si ferma quando il miglioramento ottenuto o il passo compiuto sono più piccoli di una certa soglia.
+
+Ad ogni iterazione *k* l'algoritmo calcola una direzione $d^{(k)}$ e un passo $s_k$: $x^{(k+1)} = x^{(k)} + s_kd^{(k)}$
+
+Le due strategie principali sono:
+
+1. Line search: prima si seglie la direzione, poi il passo
+
+2. Trust regions: prima si sceglie il passo, poi la direzione

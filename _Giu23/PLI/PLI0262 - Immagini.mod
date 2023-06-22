@@ -1,44 +1,37 @@
-# ESERCIZIO PLI 26 - Immagini
+#
+param nO := 40;
+set o := 1..nO;
+param s {o}; #istante iniziale
+param e{o}; #istante finale aquisitizione
+param t{o}; #tempo necessario per la trasmissione
+param v{o}; #valore immagine
+param T := 300; #tempo massimo disponibile
+set F within o;
 
-#DATI
-param n;					# Numero richieste
-set N := 1..n;				# Insieme delle richieste
-param s {N};				# Start time [sec]
-param e {N};				# End time [sec]
-param v {N};				# Valore [Euro]
-param t {N};				# Tempo necessario di trasmissione [sec]
-param T;					# Tempo totale disponibile per la trasmissione [sec]
-set F within N;				# Sottoinsieme di richieste forzate
+#Var
+var x{o} binary; #var binaria di selezione
 
-#VARIABILI
-var x {N} binary;			# Selezione richieste
+#Vincoli
+subj to sovrapposizioni {i in o, j in o: (i<j) and (e[i] > s[j]) and (e[j]>s[i])}:
+x[i] + x[j] <= 1;
 
-#VINCOLI
-#Vincolo di capacita
-subject to Capacity:
-	sum {i in N} t[i] * x[i] <= T;
+#subj to sovrapposizioni {i in o, j in o: (i<j) and (s[i] < e[j]) and (s[j]<e[i])}:
+#x[i] + x[j] <= 1;
 
-#Vincoli di incompatibilita'
-subject to Incompatibility {i in N, j in N: (i<j) and (s[i]<e[j]) and (s[j]<e[i])}:
-	x[i] + x[j] <=1;
-subj to sovrapposizioni {i in o, j in o: (i<j) and (e[i] >= s[j]) and (e[j]>=s[i])}:
-	x[i] + x[j] <= 1;
-
-#Vincoli su richieste forzate
-subject to Richieste_Forzate {i in F}:
+subj to tempoTot:
+	sum {i in o} x[i] * t[i] <= T;
+	
+#Img forzaate
+subj to imgForzate {i in F}:
 	x[i] = 1;
+#Ob
+maximize profitto:
+	sum {i in o} v[i]*x[i];
 
-#OBIETTIVO
-# Massimizzare valore complessivo richieste soddisfatte
-maximize z : sum {i in N} v[i] * x[i];
 
-#######################################
 data;
 
-param n := 40;
-param T:= 300;
 set F := 2, 3, 6, 13, 16, 24, 37;
-
 param s:=
 1  0
 2  4

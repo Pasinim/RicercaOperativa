@@ -1,0 +1,212 @@
+Problem:    PLI0262
+Rows:       75
+Columns:    40 (40 integer, 40 binary)
+Non-zeros:  219
+Status:     INTEGER OPTIMAL
+Objective:  profitto = 4892 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 sovrapposizioni[1,2]
+                                   1                           1 
+     2 sovrapposizioni[6,7]
+                                   1                           1 
+     3 sovrapposizioni[13,14]
+                                   1                           1 
+     4 sovrapposizioni[13,15]
+                                   1                           1 
+     5 sovrapposizioni[14,15]
+                                   0                           1 
+     6 sovrapposizioni[14,16]
+                                   1                           1 
+     7 sovrapposizioni[15,16]
+                                   1                           1 
+     8 sovrapposizioni[15,17]
+                                   0                           1 
+     9 sovrapposizioni[15,18]
+                                   0                           1 
+    10 sovrapposizioni[15,19]
+                                   0                           1 
+    11 sovrapposizioni[15,20]
+                                   0                           1 
+    12 sovrapposizioni[16,17]
+                                   1                           1 
+    13 sovrapposizioni[16,18]
+                                   1                           1 
+    14 sovrapposizioni[16,19]
+                                   1                           1 
+    15 sovrapposizioni[16,20]
+                                   1                           1 
+    16 sovrapposizioni[16,21]
+                                   1                           1 
+    17 sovrapposizioni[17,18]
+                                   0                           1 
+    18 sovrapposizioni[17,19]
+                                   0                           1 
+    19 sovrapposizioni[17,20]
+                                   0                           1 
+    20 sovrapposizioni[18,19]
+                                   0                           1 
+    21 sovrapposizioni[18,20]
+                                   0                           1 
+    22 sovrapposizioni[19,20]
+                                   0                           1 
+    23 sovrapposizioni[19,21]
+                                   0                           1 
+    24 sovrapposizioni[19,22]
+                                   1                           1 
+    25 sovrapposizioni[20,21]
+                                   0                           1 
+    26 sovrapposizioni[21,22]
+                                   1                           1 
+    27 sovrapposizioni[21,23]
+                                   1                           1 
+    28 sovrapposizioni[24,25]
+                                   1                           1 
+    29 sovrapposizioni[24,26]
+                                   1                           1 
+    30 sovrapposizioni[24,27]
+                                   1                           1 
+    31 sovrapposizioni[24,28]
+                                   1                           1 
+    32 sovrapposizioni[24,29]
+                                   1                           1 
+    33 sovrapposizioni[24,30]
+                                   1                           1 
+    34 sovrapposizioni[24,31]
+                                   1                           1 
+    35 sovrapposizioni[24,32]
+                                   1                           1 
+    36 sovrapposizioni[24,33]
+                                   1                           1 
+    37 sovrapposizioni[24,34]
+                                   1                           1 
+    38 sovrapposizioni[25,26]
+                                   0                           1 
+    39 sovrapposizioni[26,27]
+                                   0                           1 
+    40 sovrapposizioni[26,28]
+                                   0                           1 
+    41 sovrapposizioni[26,29]
+                                   0                           1 
+    42 sovrapposizioni[26,30]
+                                   0                           1 
+    43 sovrapposizioni[27,28]
+                                   0                           1 
+    44 sovrapposizioni[29,30]
+                                   0                           1 
+    45 sovrapposizioni[29,31]
+                                   0                           1 
+    46 sovrapposizioni[29,32]
+                                   0                           1 
+    47 sovrapposizioni[29,33]
+                                   0                           1 
+    48 sovrapposizioni[30,31]
+                                   0                           1 
+    49 sovrapposizioni[30,32]
+                                   0                           1 
+    50 sovrapposizioni[30,33]
+                                   0                           1 
+    51 sovrapposizioni[30,34]
+                                   0                           1 
+    52 sovrapposizioni[31,32]
+                                   0                           1 
+    53 sovrapposizioni[31,33]
+                                   0                           1 
+    54 sovrapposizioni[32,33]
+                                   0                           1 
+    55 sovrapposizioni[32,34]
+                                   0                           1 
+    56 sovrapposizioni[33,34]
+                                   0                           1 
+    57 sovrapposizioni[33,35]
+                                   0                           1 
+    58 sovrapposizioni[34,35]
+                                   0                           1 
+    59 sovrapposizioni[36,37]
+                                   1                           1 
+    60 sovrapposizioni[36,38]
+                                   0                           1 
+    61 sovrapposizioni[36,39]
+                                   0                           1 
+    62 sovrapposizioni[37,38]
+                                   1                           1 
+    63 sovrapposizioni[37,39]
+                                   1                           1 
+    64 sovrapposizioni[38,39]
+                                   0                           1 
+    65 sovrapposizioni[38,40]
+                                   1                           1 
+    66 sovrapposizioni[39,40]
+                                   1                           1 
+    67 tempoTot                  288                         300 
+    68 imgForzate[2]
+                                   1             1             = 
+    69 imgForzate[3]
+                                   1             1             = 
+    70 imgForzate[6]
+                                   1             1             = 
+    71 imgForzate[13]
+                                   1             1             = 
+    72 imgForzate[16]
+                                   1             1             = 
+    73 imgForzate[24]
+                                   1             1             = 
+    74 imgForzate[37]
+                                   1             1             = 
+    75 profitto                 4892                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2]         *              1             0             1 
+     2 x[1]         *              0             0             1 
+     3 x[7]         *              0             0             1 
+     4 x[6]         *              1             0             1 
+     5 x[14]        *              0             0             1 
+     6 x[13]        *              1             0             1 
+     7 x[15]        *              0             0             1 
+     8 x[16]        *              1             0             1 
+     9 x[17]        *              0             0             1 
+    10 x[18]        *              0             0             1 
+    11 x[19]        *              0             0             1 
+    12 x[20]        *              0             0             1 
+    13 x[21]        *              0             0             1 
+    14 x[22]        *              1             0             1 
+    15 x[23]        *              1             0             1 
+    16 x[25]        *              0             0             1 
+    17 x[24]        *              1             0             1 
+    18 x[26]        *              0             0             1 
+    19 x[27]        *              0             0             1 
+    20 x[28]        *              0             0             1 
+    21 x[29]        *              0             0             1 
+    22 x[30]        *              0             0             1 
+    23 x[31]        *              0             0             1 
+    24 x[32]        *              0             0             1 
+    25 x[33]        *              0             0             1 
+    26 x[34]        *              0             0             1 
+    27 x[35]        *              0             0             1 
+    28 x[37]        *              1             0             1 
+    29 x[36]        *              0             0             1 
+    30 x[38]        *              0             0             1 
+    31 x[39]        *              0             0             1 
+    32 x[40]        *              1             0             1 
+    33 x[3]         *              1             0             1 
+    34 x[4]         *              1             0             1 
+    35 x[5]         *              1             0             1 
+    36 x[8]         *              1             0             1 
+    37 x[9]         *              1             0             1 
+    38 x[10]        *              1             0             1 
+    39 x[11]        *              1             0             1 
+    40 x[12]        *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
