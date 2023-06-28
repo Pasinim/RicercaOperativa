@@ -503,3 +503,11 @@ Le due strategie principali sono:
 1. Line search: prima si seglie la direzione, poi il passo
 
 2. Trust regions: prima si sceglie il passo, poi la direzione
+
+Nel line search le direzioni più scelte sono:
+
+- La direzione opposta a quella del gradiente, dato che è indica la direzione in cui la funzione aumenta
+
+- Metodo di Newton: la direzione dipende dal gradiente ma anche dai termini di secondo grado
+
+- Metodo del gradiente coniugato: dipende dal gradiente ma anche da quale era la direzione nella iterazione precedente (come se mantenesse una certa inerzia)

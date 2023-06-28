@@ -14,7 +14,7 @@ maximize z:
 	P*A - (k*sqrt(A) + cv*A);
 
 end;
-#Si possono avere degli errori di compilazione, in questao caso parte a calcolare
+#Si possono avere degli errori di compilazsione, in questao caso parte a calcolare
 #il gradiente dal punto 0 e esce errore perchè sta calcolando la derivata (tangente verticale)
 #in cui non esiste; Per evitare questo problema devo definire il punto in cui iniziare
 #a calcolare il gradiente. Per questo motivo defisco A:=1
