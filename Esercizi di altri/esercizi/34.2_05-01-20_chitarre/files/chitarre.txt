@@ -1,0 +1,34 @@
+
+Tab. 1) Ricavo per unità di produzione di chitarre (euro/unità)
+
+De'Paoli   LittleDiablo     Stradivarius
+
+  350		160		100
+
+=======================================================================================
+
+Tab. 2) Numero di addetti in ogni reparto
+
+Reparto         Numero di addetti
+
+Falegnameria           10
+Elettrotecnica          5
+Liuteria                3
+
+Ogni addetto lavora 8 ore al giorno, per 5 giorni ogni settimana.
+
+=======================================================================================
+
+Tab. 3) Tempi necessari alla lavorazione delle chitarre in ogni stadio (ore/unità)
+
+		De'Paoli   LittleDiablo	   Stradivarius
+Stadio
+
+corpo e manico     2            4               1
+pickup 		   1            2.5             0.5
+circuiti           1            1.5             1
+finiture           4            1               1
+
+=======================================================================================
+
+La quantità minima di chitarre da produrre è 100 unità ogni settimana.

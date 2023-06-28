@@ -1,0 +1,73 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model Pmo.mod --ranges sens.out
+Reading model section from Pmo.mod...
+Reading data section from Pmo.mod...
+55 lines were read
+Generating Consumi...
+Generating def_f1...
+Generating def_f2...
+Generating z...
+Model has been successfully generated
+GLPK Simplex Optimizer 5.0
+7 rows, 6 columns, 27 non-zeros
+Preprocessing...
+4 rows, 4 columns, 15 non-zeros
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.100e+01  ratio =  1.100e+01
+GM: min|aij| =  3.433e-01  max|aij| =  2.913e+00  ratio =  8.485e+00
+EQ: min|aij| =  1.179e-01  max|aij| =  1.000e+00  ratio =  8.485e+00
+Constructing initial basis...
+Size of triangular part is 4
+*     0: obj =  -0.000000000e+00 inf =   0.000e+00 (4)
+*     2: obj =   3.974596774e+01 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.1 Mb (118344 bytes)
+Writing basic solution to '/dev/stdout'...
+Problem:    Pmo
+Rows:       7
+Columns:    6
+Non-zeros:  27
+Status:     OPTIMAL
+Objective:  z = 39.74596774 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Consumi[1]   B        92.7419                         100 
+     2 Consumi[2]   NU           120                         120      0.137903 
+     3 Consumi[3]   B        75.6452                          90 
+     4 Consumi[4]   NU           110                         110      0.210887 
+     5 def_f1       NS             0            -0             =          0.25 
+     6 def_f2       NS             0            -0             =          0.75 
+     7 z            B         39.746                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B        13.7097             0               
+     2 x[2]         NL             0             0                   -0.704032 
+     3 x[3]         B        10.3226             0               
+     4 x[4]         NL             0             0                    -1.30766 
+     5 f1           B         27.129                             
+     6 f2           B        43.9516                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 3
+        max.rel.err = 4.78e-17 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
+Write sensitivity analysis report to 'sens.out'...

@@ -1,0 +1,28 @@
+Benzine  : Super Normale Verde
+Sostanze : A  B  C  D
+
+----------------------------------------------------
+Sostanza	Quantità disponibile	Prezzo
+		     [barili]		[$/barile]
+A			3000		3
+B			2000		6
+C			4000		4
+D			1000		5
+----------------------------------------------------
+Benzina		Prezzo
+		[$/barile]
+Super		5.5
+Normale		4.5
+Verde		3.5
+----------------------------------------------------
+% min	Super	Normale	Verde
+A	0.0	0.0	0.0
+B	0.4	0.1	0.0
+C	0.0	0.0	0.0
+D	0.0	0.0	0.0
+
+% max	Super	Normale	Verde
+A	0.3	0.5	0.7
+B	1.0	1.0	1.0
+C	0.5	1.0	1.0
+D	1.0	1.0	1.0

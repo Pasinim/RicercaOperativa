@@ -1,0 +1,13 @@
+1 . la soluzione ottima è garantita perchè in tutte le variabili fuori base nessuno di loro ha costo marginale a 0
+    dunque, l ottimalità della soluzione è garantita
+2.  la caramella delizia non è conveniente da produrre
+3.  il suo coefficiente dovrebbe aumentare a 3.13 , dunque 7.13
+4.  siccome la proporzione non varia la soluzione non cambia
+5.  rispetto l oscillazione cambio sono tutte uguale, per le singole caramelle invece, confrontando
+    il prezzo attuale con la massima variazione , prima che cambi la base ottima, dunque la 
+    piu' rubusta è la sweety , la meno robusta, è lo sfizio (obj coef range)
+6.  basta vedere la tabella di sensitività degli ingredienti e notiamo che gli ingredienti in base
+    hanno una parte non utilizzata che dunque potrebbe non esser ordinata
+7.  i conservanti no , dato che sono in base e già ci avanzano , invece per quanto riguarda il coloranti
+    ci fa molto utile comprarli dato che migliorebbe di circa 9 , il prezzo obbiettivo, ma solo fino al primo cambio di base
+    perchè dopo diventa sconveniente dato che è entrato in base e quindi abbiamo l'eccesso

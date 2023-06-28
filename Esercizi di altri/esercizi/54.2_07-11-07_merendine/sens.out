@@ -1,0 +1,84 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    merendine
+Objective:  z = 173.2258065 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 produzione_minima[merendine]
+                    NL        .             .             .        -1.92531e+07          -Inf  906931.05839 disponibilita[pasta]
+                                           -.04710          +Inf      414.28571        .04710     153.71429 disponibilita[marmellata]
+
+     2 produzione_minima[brioches]
+                    BS     483.87097    -483.87097        .                -Inf       -.03706     155.29412 disponibilita[zucchero]
+                                            .               +Inf      518.51852        .09667     220.00000 disponibilita[cioccolato]
+
+     3 produzione_minima[biscotti]
+                    BS     435.48387    -435.48387        .           345.38745       -.05571     148.96552 produzione_minima[biscotti_speciali]
+                                            .               +Inf      705.88235        .06632     202.10526 disponibilita[zucchero]
+
+     4 produzione_minima[biscotti_speciali]
+                    NL        .             .             .          -731.70732          -Inf     259.02439 produzione_minima[brioches]
+                                           -.11726          +Inf       42.80443        .11726     168.20664 disponibilita[marmellata]
+
+     5 produzione_minima[tortine]
+                    NL        .             .             .           -77.85235          -Inf     183.40940 disponibilita[marmellata]
+                                           -.13081          +Inf      352.94118        .13081     127.05882 produzione_minima[biscotti]
+
+     6 disponibilita[pasta]
+                    BS     820.16129   9.99918e+06          -Inf      605.00000       -.09068      98.85093 produzione_minima[merendine]
+                                            .              1e+07      820.16129          +Inf          +Inf
+
+     7 disponibilita[zucchero]
+                    NU     300.00000        .               -Inf      211.76471       -.20323     155.29412 produzione_minima[brioches]
+                                            .20323     300.00000      304.49612          +Inf     174.13953 disponibilita[marmellata]
+
+     8 disponibilita[marmellata]
+                    BS     310.64516       9.35484          -Inf      127.05882       -.09767     142.88372 disponibilita[zucchero]
+                                            .          320.00000      411.42857        .35802     284.44444 disponibilita[cioccolato]
+
+     9 disponibilita[cioccolato]
+                    NU     240.00000        .               -Inf      232.83951       -.46774     169.87654 disponibilita[marmellata]
+                                            .46774     240.00000      340.00000          +Inf     220.00000 produzione_minima[brioches]
+
+    10 disponibilita[acqua]
+                    BS     167.90323   9.99983e+06          -Inf       91.76471       -.23551     133.68224 disponibilita[zucchero]
+                                            .              1e+07      170.61728       1.23404     380.42553 disponibilita[cioccolato]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    merendine
+Objective:  z = 173.2258065 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 z            BS     173.22581    -173.22581          -Inf      155.29412      -1.00000        .      disponibilita[zucchero]
+                                            .               +Inf      173.22581          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    merendine
+Objective:  z = 173.2258065 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[merendine] BS       1.83871       8.00000          -Inf        1.41176     -34.00000      96.00000 disponibilita[zucchero]
+                                            .               +Inf        5.71429      13.03448     182.48276 produzione_minima[merendine]
+
+     2 x[brioches]  BS       6.67742       6.00000          -Inf        1.41176       2.59459     150.48649 disponibilita[zucchero]
+                                            .               +Inf        7.01235      16.00000     240.00000 disponibilita[cioccolato]
+
+     3 x[biscotti]  BS       6.19355      12.00000          -Inf        5.25461       6.65441     140.11765 produzione_minima[biscotti_speciali]
+                                            .               +Inf        8.47059      19.87500     222.00000 disponibilita[zucchero]
+
+     4 x[biscotti_speciali]
+                    BS       1.83871      14.00000          -Inf        1.41176     -28.00000      96.00000 disponibilita[zucchero]
+                                            .               +Inf        2.22878      26.86726     196.88496 produzione_minima[biscotti_speciali]
+
+     5 x[tortine]   BS       1.83871      10.00000          -Inf        1.41176     -32.00000      96.00000 disponibilita[zucchero]
+                                            .               +Inf        4.94118      24.88073     200.58716 produzione_minima[tortine]
+
+End of report

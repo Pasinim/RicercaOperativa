@@ -1,0 +1,49 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    prigioniero
+Objective:  0 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Normalizzazione
+                    NS       1.00000        .            1.00000         .               -Inf        .      P[W]
+                                            .            1.00000           +Inf          +Inf        .     
+
+     2 Bilanciamento[N]
+                    NS        .             .             .              .               -Inf        .      Bilanciamento[W]
+                                            .             .              .               +Inf        .      Bilanciamento[W]
+
+     3 Bilanciamento[E]
+                    NS        .             .             .              .               -Inf        .      Bilanciamento[W]
+                                            .             .              .               +Inf        .      Bilanciamento[W]
+
+     4 Bilanciamento[S]
+                    NS        .             .             .              .               -Inf        .      Bilanciamento[W]
+                                            .             .              .               +Inf        .      Bilanciamento[W]
+
+     5 Bilanciamento[W]
+                    BS        .             .             .              .               -Inf        .     
+                                            .             .              .               +Inf        .     
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    prigioniero
+Objective:  0 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 P[N]         BS        .25132        .             .              .25132          -Inf          -Inf
+                                            .               +Inf         .25132          +Inf          +Inf
+
+     2 P[E]         BS        .22487        .             .              .22487          -Inf          -Inf
+                                            .               +Inf         .22487          +Inf          +Inf
+
+     3 P[S]         BS        .24868        .             .              .24868          -Inf          -Inf
+                                            .               +Inf         .24868          +Inf          +Inf
+
+     4 P[W]         BS        .27513        .             .              .27513          -Inf          -Inf
+                                            .               +Inf         .27513          +Inf          +Inf
+
+End of report

@@ -1,0 +1,98 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model interpolazione.mod --ranges
+ sens.out
+Reading model section from interpolazione.mod...
+Reading data section from interpolazione.mod...
+70 lines were read
+Generating Errore...
+Generating z2...
+Generating modulopos...
+Generating moduloneg...
+Model has been successfully generated
+GLPK Simplex Optimizer 5.0
+15 rows, 21 columns, 128 non-zeros
+Preprocessing...
+14 rows, 21 columns, 127 non-zeros
+Scaling...
+ A: min|aij| =  8.333e-02  max|aij| =  1.500e+00  ratio =  1.800e+01
+GM: min|aij| =  4.179e-01  max|aij| =  2.393e+00  ratio =  5.726e+00
+EQ: min|aij| =  1.826e-01  max|aij| =  1.000e+00  ratio =  5.477e+00
+Constructing initial basis...
+Size of triangular part is 14
+      0: obj =   0.000000000e+00 inf =   1.554e+02 (1)
+      1: obj =   0.000000000e+00 inf =   3.286e-14 (0)
+*     2: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.1 Mb (151171 bytes)
+Writing basic solution to '/dev/stdout'...
+Problem:    interpolazione
+Rows:       15
+Columns:    21
+Non-zeros:  128
+Status:     OPTIMAL
+Objective:  z2 = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Errore[1]    NS            10            10             =         < eps
+     2 Errore[2]    NS            20            20             =         < eps
+     3 Errore[3]    NS            10            10             =         < eps
+     4 Errore[4]    NS            15            15             =         < eps
+     5 Errore[5]    NS             5             5             =         < eps
+     6 Errore[6]    NS            10            10             =         < eps
+     7 Errore[7]    NS            10            10             =         < eps
+     8 Errore[8]    NS            20            20             =         < eps
+     9 Errore[9]    NS            12            12             =         < eps
+    10 Errore[10]   NS            25            25             =         < eps
+    11 Errore[11]   NS             2             2             =         < eps
+    12 Errore[12]   NS             5             5             =         < eps
+    13 z2           B              0                             
+    14 modulopos    NL             0            -0                         0.5 
+    15 moduloneg    NL             0            -0                         0.5 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                       < eps
+     2 x[2]         NL             0             0                       < eps
+     3 x[3]         B        25.7143             0               
+     4 x[4]         NL             0             0                       < eps
+     5 x[5]         NL             0             0                       < eps
+     6 x[6]         NL             0             0                       < eps
+     7 x[7]         NL             0             0                       < eps
+     8 x[8]         NL             0             0                       < eps
+     9 e[1]         B       -2.85714                             
+    10 e[2]         B        17.4286                             
+    11 e[3]         B       -2.85714                             
+    12 e[4]         B      -0.428571                             
+    13 e[5]         B      -0.142857                             
+    14 e[6]         B      -0.285714                             
+    15 e[7]         B       -2.85714                             
+    16 e[8]         B       -5.71429                             
+    17 e[9]         B      -0.857143                             
+    18 e[10]        B       -3.28571                             
+    19 e[11]        B              2                             
+    20 e[12]        B      -0.142857                             
+    21 delta        B              0                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 3.55e-15 on row 2
+        max.rel.err = 5.76e-16 on row 14
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 21
+        max.rel.err = 7.40e-17 on column 21
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
+Write sensitivity analysis report to 'sens.out'...

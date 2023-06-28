@@ -1,0 +1,99 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    dieta
+Objective:  z = 816.8028005 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 val_y[Proteine]
+                    NS        .             .             .           -35.00000          -Inf        .      y[Grassi]
+                                          23.33722        .             5.42453          +Inf     943.39623 y[Proteine]
+
+     2 val_y[Carboidrati]
+                    NS        .             .             .           -35.00000          -Inf        .      y[Grassi]
+                                          23.33722        .           195.73077          +Inf    5384.61538 y[Carboidrati]
+
+     3 val_y[Grassi]
+                    NS        .             .             .           -35.00000          -Inf        .      y[Proteine]
+                                          23.33722        .              .62352          +Inf     831.35392 y[Grassi]
+
+     4 uB[Proteine] NL      35.00000        .           35.00000       25.00000     -23.33722     583.43057 uB[Carboidrati]
+                                          23.33722          +Inf           +Inf          +Inf          +Inf
+
+     5 uB[Carboidrati]
+                    BS      35.00000     -10.00000      25.00000           +Inf     -23.33722        .      uB[Proteine]
+                                            .               +Inf       35.00000          +Inf          +Inf
+
+     6 uB[Grassi]   BS      35.00000     -15.00000      20.00000           +Inf     -23.33722        .      uB[Proteine]
+                                            .               +Inf       35.00000          +Inf          +Inf
+
+     7 lB[Proteine] BS      35.00000     -10.00000      25.00000           +Inf     -23.33722        .      uB[Proteine]
+                                            .               +Inf       35.00000          +Inf          +Inf
+
+     8 lB[Carboidrati]
+                    BS      35.00000     -20.00000      15.00000           +Inf     -23.33722        .      uB[Proteine]
+                                            .               +Inf       35.00000          +Inf          +Inf
+
+     9 lB[Grassi]   BS      35.00000     -25.00000      10.00000           +Inf     -23.33722        .      uB[Proteine]
+                                            .               +Inf       35.00000          +Inf          +Inf
+
+    10 z            BS     816.80280    -816.80280          -Inf    16530.94463      -1.00000        .      x[Formaggio_stagionato]
+                                            .               +Inf      816.80280          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    dieta
+Objective:  z = 816.8028005 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Pasta]     BS        .40840    2000.00000        .                +Inf        .             .      uB[Proteine]
+                                            .               +Inf       -5.60528    6975.58140    2848.83721 x[Pane]
+
+     2 x[Latte]     NL        .         2200.00000        .             -.44300     222.87048     -59.06675 y[Grassi]
+                                        1977.12952          +Inf        3.66492          +Inf    8062.82723 x[Pasta]
+
+     3 x[Formaggio_fresco]
+                    NL        .        16000.00000        .             -.05779     532.08868     -77.05008 y[Grassi]
+                                       15467.91132          +Inf        1.53509          +Inf   24561.40351 x[Pasta]
+
+     4 x[Formaggio_stagionato]
+                    NL        .        29000.00000        .             -.02242    1432.90548     198.78041 y[Grassi]
+                                       27567.09452          +Inf         .57003          +Inf   16530.94463 x[Pasta]
+
+     5 x[Pesce]     NL        .        22500.00000        .             -.03341     886.81447      94.66684 y[Grassi]
+                                       21613.18553          +Inf         .92105          +Inf   20723.68421 x[Pasta]
+
+     6 x[Patate]    NL        .         3500.00000        .            -2.60231      51.34189   -8157.69057 y[Proteine]
+                                        3448.65811          +Inf       15.90909          +Inf   55681.81818 x[Pasta]
+
+     7 x[Spinaci]   NL        .         5000.00000        .            -1.39628      81.68028   -6050.53191 y[Grassi]
+                                        4918.31972          +Inf       10.00000          +Inf   50000.00000 x[Pasta]
+
+     8 x[Pane]      NL        .         7000.00000        .             -.13629    2007.00117     136.29283 y[Grassi]
+                                        4992.99883          +Inf         .40698          +Inf    2848.83721 x[Pasta]
+
+     9 x[Polenta]   NL        .        10000.00000        .           -10.82766    1960.32672  -86234.04255 y[Carboidrati]
+                                        8039.67328          +Inf         .41667          +Inf    4166.66667 x[Pasta]
+
+    10 y[Proteine]  BS       4.69662        .             .                +Inf    -173.91304        .      uB[Proteine]
+                                            .               +Inf        3.75000    3538.77761   17437.08269 x[Polenta]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    dieta
+Objective:  z = 816.8028005 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 y[Carboidrati]
+                    BS      29.69078        .             .                +Inf     -27.51032        .      uB[Proteine]
+                                            .               +Inf         .          529.25995   16530.94463 x[Formaggio_stagionato]
+
+    12 y[Grassi]    BS        .61260        .             .            16.18893   -1008.84797     198.78041 x[Formaggio_stagionato]
+                                            .               +Inf         .41667   17096.77419   11290.32258 x[Polenta]
+
+End of report

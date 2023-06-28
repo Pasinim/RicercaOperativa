@@ -1,0 +1,154 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model interpolazione.mod --ranges
+ sens.out
+Reading model section from interpolazione.mod...
+Reading data section from interpolazione.mod...
+74 lines were read
+Generating Errore...
+Generating z3...
+Generating val_ass_pos...
+Generating val_ass_neg...
+Model has been successfully generated
+GLPK Simplex Optimizer 5.0
+37 rows, 32 columns, 161 non-zeros
+Preprocessing...
+36 rows, 32 columns, 149 non-zeros
+Scaling...
+ A: min|aij| =  1.000e-01  max|aij| =  1.500e+00  ratio =  1.500e+01
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 36
+      0: obj =   0.000000000e+00 inf =   1.440e+02 (12)
+     15: obj =   1.641509434e+00 inf =   0.000e+00 (0)
+*    24: obj =   3.607629727e-01 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.2 Mb (189994 bytes)
+Writing basic solution to '/dev/stdout'...
+Problem:    interpolazione
+Rows:       37
+Columns:    32
+Non-zeros:  161
+Status:     OPTIMAL
+Objective:  z3 = 0.3607629727 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Errore[1]    NS            10            10             =    -0.0833333 
+     2 Errore[2]    NS            20            20             =   -0.00883905 
+     3 Errore[3]    NS            10            10             =   0.000395778 
+     4 Errore[4]    NS            15            15             =     0.0833333 
+     5 Errore[5]    NS             5             5             =    -0.0775945 
+     6 Errore[6]    NS            10            10             =     0.0462511 
+     7 Errore[7]    NS            10            10             =    -0.0350814 
+     8 Errore[8]    NS            20            20             =   -0.00989446 
+     9 Errore[9]    NS            12            12             =     0.0833333 
+    10 Errore[10]   NS            25            25             =    -0.0183707 
+    11 Errore[11]   NS             2             2             =     0.0833333 
+    12 Errore[12]   NS             5             5             =     -0.023263 
+    13 z3           B       0.360763                             
+    14 val_ass_pos[1]
+                    B       0.844327            -0               
+    15 val_ass_pos[2]
+                    NL             0            -0                   0.0372471 
+    16 val_ass_pos[3]
+                    NL             0            -0                   0.0418646 
+    17 val_ass_pos[4]
+                    NL             0            -0                   0.0833333 
+    18 val_ass_pos[5]
+                    NL             0            -0                  0.00286939 
+    19 val_ass_pos[6]
+                    NL             0            -0                   0.0647922 
+    20 val_ass_pos[7]
+                    NL             0            -0                    0.024126 
+    21 val_ass_pos[8]
+                    NL             0            -0                   0.0367194 
+    22 val_ass_pos[9]
+                    NL             0            -0                   0.0833333 
+    23 val_ass_pos[10]
+                    NL             0            -0                   0.0324813 
+    24 val_ass_pos[11]
+                    NL             0            -0                   0.0833333 
+    25 val_ass_pos[12]
+                    NL             0            -0                   0.0300352 
+    26 val_ass_neg[1]
+                    NL             0            -0                   0.0833333 
+    27 val_ass_neg[2]
+                    NL             0            -0                   0.0460862 
+    28 val_ass_neg[3]
+                    NL             0            -0                   0.0414688 
+    29 val_ass_neg[4]
+                    B        4.72296            -0               
+    30 val_ass_neg[5]
+                    NL             0            -0                   0.0804639 
+    31 val_ass_neg[6]
+                    NL             0            -0                   0.0185411 
+    32 val_ass_neg[7]
+                    NL             0            -0                   0.0592073 
+    33 val_ass_neg[8]
+                    NL             0            -0                   0.0466139 
+    34 val_ass_neg[9]
+                    B        1.45515            -0               
+    35 val_ass_neg[10]
+                    NL             0            -0                    0.050852 
+    36 val_ass_neg[11]
+                    B        1.63588            -0               
+    37 val_ass_neg[12]
+                    NL             0            -0                   0.0532982 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B        3.35752             0               
+     2 x[2]         B        4.84828             0               
+     3 x[3]         B        1.86675             0               
+     4 x[4]         B        1.74802             0               
+     5 x[5]         B        2.03166             0               
+     6 x[6]         B        7.01187             0               
+     7 x[7]         B        5.42876             0               
+     8 x[8]         B      0.0923483             0               
+     9 e[1]         B      -0.422164                             
+    10 e[2]         B              0                             
+    11 e[3]         B              0                             
+    12 e[4]         B        2.36148                             
+    13 e[5]         B              0                             
+    14 e[6]         B              0                             
+    15 e[7]         B              0                             
+    16 e[8]         B              0                             
+    17 e[9]         B       0.727573                             
+    18 e[10]        B              0                             
+    19 e[11]        B       0.817942                             
+    20 e[12]        B              0                             
+    21 delta[1]     B       0.422164                             
+    22 delta[2]     B              0                             
+    23 delta[3]     B              0                             
+    24 delta[4]     B        2.36148                             
+    25 delta[5]     B              0                             
+    26 delta[6]     B              0                             
+    27 delta[7]     B              0                             
+    28 delta[8]     B              0                             
+    29 delta[9]     B       0.727573                             
+    30 delta[10]    B              0                             
+    31 delta[11]    B       0.817942                             
+    32 delta[12]    B              0                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.55e-15 on row 15
+        max.rel.err = 5.55e-15 on row 15
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.86e-16 on column 29
+        max.rel.err = 4.16e-16 on column 29
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
+Write sensitivity analysis report to 'sens.out'...

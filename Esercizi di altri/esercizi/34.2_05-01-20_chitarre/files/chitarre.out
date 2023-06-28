@@ -1,0 +1,51 @@
+
+ LP OPTIMUM FOUND AT STEP      4
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      12786.67
+
+  VARIABLE        VALUE          REDUCED COST
+     PAOLI         6.666667          0.000000
+    DIABLO        18.666666          0.000000
+     STRAD        74.666664          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+   FALEGN)       237.333328          0.000000
+   ELETTR)         0.000000         24.000000
+   LIUTAI)         0.000000         79.333336
+  PRODMIN)         0.000000        -15.333333
+
+ NO. ITERATIONS=       4
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+    PAOLI      350.000000         INFINITY        45.999996
+   DIABLO      160.000000      1190.000000        28.749998
+    STRAD      100.000000         8.214286         INFINITY
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+   FALEGN      400.000000         INFINITY       237.333328
+   ELETTR      200.000000       186.666656        46.666664
+   LIUTAI      120.000000       279.999969        19.999998
+  PRODMIN      100.000000        19.999998        40.000000
+
+
+ RIGHTHANDSIDE PARAMETRICS REPORT FOR ROW: ELETTR
+
+    VAR       VAR    PIVOT    RHS       DUAL PRICE      OBJ
+    OUT       IN      ROW     VAL      BEFORE PIVOT     VAL
+
+                            200.000       24.0000       12786.7
+    STRAD  SLK    5     4   386.667       24.0000       17266.7
+ SLK    2     STRAD     2   400.000       20.7143       17542.9
+    PAOLI  SLK    3     5   413.333       4.28571       17600.0
+                            1000.00      0.000000E+00   17600.0
+

@@ -1,0 +1,115 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    tulipani
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 lBound[A]    BS    7500.00000   -7500.00000        .         -2500.00000       -.30000  563001.84599 uBound[A]
+                                            .               +Inf    12708.33333       1.06835  573264.50422 AreaMin[A]
+
+     2 lBound[B]    BS   17183.54430  -17183.54430        .         11250.00000       -.10296  563482.71277 AreaMin[D]
+                                            .               +Inf    43500.00000      14.07222  807062.50000 MaxAcqua
+
+     3 lBound[C]    BS  222183.54430 -222183.54430        .        -15870.25316       -.35000  487487.60549 uBound[C]
+                                            .               +Inf   224893.61702        .22541  615335.14493 AreaMin[D]
+
+     4 lBound[D]    BS   12500.00000  -12500.00000        .        -12500.00000       -.25000  562126.84599 x[D]
+                                            .               +Inf    15824.46809        .18376  567548.78692 AreaMin[D]
+
+     5 lBound[E]    BS   12500.00000  -12500.00000        .              .            -.05000  564626.84599 uBound[E]
+                                            .               +Inf    17573.05195        .41584  570449.89451 AreaMin[E]
+
+     6 uBound[A]    NU        .             .               -Inf    -7500.00000       -.30000  563001.84599 lBound[A]
+                                            .30000        .         15000.00000          +Inf  569751.84599 x[A]
+
+     7 uBound[B]    NU        .             .               -Inf   -17183.54430       -.30000  560096.78270 lBound[B]
+                                            .30000        .         15274.26160          +Inf  569834.12447 x[B]
+
+     8 uBound[C]    NU        .             .               -Inf  -222183.54430       -.35000  487487.60549 lBound[C]
+                                            .35000        .         79351.26582          +Inf  593024.78903 x[C]
+
+     9 uBound[D]    BS        .             .               -Inf   -12500.00000       -.25000  565251.84599 x[D]
+                                            .             .              .               +Inf  565251.84599
+
+    10 uBound[E]    NU        .             .               -Inf   -12500.00000       -.05000  564626.84599 lBound[E]
+                                            .05000        .         12500.00000          +Inf  565876.84599 x[E]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    tulipani
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 MaxAcqua     NU   30000.00000        .               -Inf     6900.00000     -16.03165  194920.83333 AreaMin[C]
+                                          16.03165   30000.00000    30945.35519          +Inf  580407.44536 MassimoC2
+
+    12 MassimoC1    NU    3000.00000        .               -Inf     2816.17647     -33.27004  559136.02941 AreaMin[B]
+                                          33.27004    3000.00000     4495.45455          +Inf  615005.68182 AreaMax
+
+    13 MassimoC2    BS    4854.00844     145.99156          -Inf     1286.66667    -103.81148   61350.06831 MaxAcqua
+                                            .         5000.00000     4918.08511       9.53371  611528.56830 AreaMin[D]
+
+    14 AreaMin[A]   NL     250.00000        .          250.00000         .               -Inf  573264.50422 lBound[A]
+                                         -32.05063          +Inf      423.61111      32.05063  559687.50000 AreaMin[B]
+
+    15 AreaMin[B]   BS     381.85654    -131.85654     250.00000       81.43608      -4.63298  563482.71277 AreaMin[D]
+                                            .               +Inf      966.66667     633.25000  807062.50000 MaxAcqua
+
+    16 AreaMin[C]   BS    3174.05063   -2924.05063     250.00000         .         -126.65000  163258.33333 MaxAcqua
+                                            .               +Inf     3212.76596      15.77899  615335.14493 AreaMin[D]
+
+    17 AreaMin[D]   NL     250.00000        .          250.00000         .               -Inf  567548.78692 y[D]
+                                          -9.18776          +Inf      316.48936       9.18776  564640.95745 AreaMin[B]
+
+    18 AreaMin[E]   NL     250.00000        .          250.00000         .               -Inf  570449.89451 lBound[E]
+                                         -20.79219          +Inf      351.46104      20.79219  563142.24838 AreaMin[B]
+
+    19 AreaMax      BS    4305.90717     694.09283          -Inf     4279.25532     -22.92105  466555.92105 AreaMin[D]
+                                            .         5000.00000     4312.50000     844.00000   4.19944e+06 AreaMin[A]
+
+    20 z            BS  565251.84599 -565251.84599          -Inf   487487.60549      -1.00000        .      uBound[C]
+                                            .               +Inf   565251.84599          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    tulipani
+Objective:  z = 565251.846 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A]         BS     150.00000      60.00000        .           150.00000          -Inf          -Inf
+                                            .               +Inf      225.00000      90.00000  569751.84599 uBound[A]
+
+     2 x[B]         BS     152.74262      80.00000        .           100.00000      68.41755  563482.71277 AreaMin[D]
+                                            .               +Inf      324.57806     110.00000  569834.12447 uBound[B]
+
+     3 x[C]         BS     793.51266     120.00000        .            62.50000    -386.60000  163258.33333 MaxAcqua
+                                            .               +Inf     3015.34810     155.00000  593024.78903 uBound[C]
+
+     4 x[D]         NL        .           75.00000        .              .               -Inf  565251.84599 uBound[D]
+                                         -25.00000          +Inf      125.00000     100.00000  562126.84599 lBound[D]
+
+     5 x[E]         BS     125.00000      80.00000        .           125.00000          -Inf          -Inf
+                                            .               +Inf      250.00000      85.00000  565876.84599 uBound[E]
+
+     6 y[A]         BS     100.00000      90.00000        .            25.00000      60.00000  562251.84599 uBound[A]
+                                            .               +Inf      169.44444     170.12658  573264.50422 AreaMin[A]
+
+     7 y[B]         BS     229.11392     110.00000        .           150.00000     102.27837  563482.71277 AreaMin[D]
+                                            .               +Inf      580.00000    1165.41667  807062.50000 MaxAcqua
+
+     8 y[C]         BS    2380.53797     155.00000        .           158.70253     120.00000  481933.01688 uBound[C]
+                                            .               +Inf     2409.57447     176.03865  615335.14493 AreaMin[D]
+
+     9 y[D]         BS     250.00000     100.00000        .           125.00000      75.00000  559001.84599 x[D]
+                                            .               +Inf      316.48936     109.18776  567548.78692 AreaMin[D]
+
+    10 y[E]         BS     125.00000      85.00000        .              .           80.00000  564626.84599 uBound[E]
+                                            .               +Inf      175.73052     126.58439  570449.89451 AreaMin[E]
+
+End of report

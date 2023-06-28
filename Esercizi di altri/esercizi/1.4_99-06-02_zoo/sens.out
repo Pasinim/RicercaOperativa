@@ -1,0 +1,800 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Fabbisogno[Antilope,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+     2 Fabbisogno[Antilope,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+     3 Fabbisogno[Antilope,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+     4 Fabbisogno[Antilope,Verdure]
+                    BS      31.33333     -29.33333       2.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+     5 Fabbisogno[Antilope,Zuccheri]
+                    BS       2.00000      -1.80000        .20000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+     6 Fabbisogno[Antilope,Grassi]
+                    BS       2.00000      -1.50000        .50000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+     7 Fabbisogno[Antilope,Farine]
+                    BS       4.00000      -3.00000       1.00000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+     8 Fabbisogno[Antilope,Acqua]
+                    BS      28.20000     -25.20000       3.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+     9 Fabbisogno[Babbuino,Carne]
+                    BS      38.33333     -36.33333       2.00000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    10 Fabbisogno[Babbuino,Latte]
+                    BS       3.00000      -1.00000       2.00000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Fabbisogno[Babbuino,Frutta]
+                    BS      20.46667     -14.46667       6.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    12 Fabbisogno[Babbuino,Verdure]
+                    BS      31.33333     -30.73333        .60000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    13 Fabbisogno[Babbuino,Zuccheri]
+                    BS       2.00000      -1.60000        .40000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    14 Fabbisogno[Babbuino,Grassi]
+                    BS       2.00000      -1.60000        .40000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    15 Fabbisogno[Babbuino,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    16 Fabbisogno[Babbuino,Acqua]
+                    BS      28.20000     -24.20000       4.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    17 Fabbisogno[Canguro,Carne]
+                    BS      38.33333     -38.23333        .10000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    18 Fabbisogno[Canguro,Latte]
+                    BS       3.00000      -2.50000        .50000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    19 Fabbisogno[Canguro,Frutta]
+                    BS      20.46667     -20.36667        .10000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    20 Fabbisogno[Canguro,Verdure]
+                    BS      31.33333     -30.33333       1.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Fabbisogno[Canguro,Zuccheri]
+                    BS       2.00000      -1.90000        .10000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    22 Fabbisogno[Canguro,Grassi]
+                    BS       2.00000      -1.70000        .30000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    23 Fabbisogno[Canguro,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    24 Fabbisogno[Canguro,Acqua]
+                    BS      28.20000     -24.20000       4.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    25 Fabbisogno[Dromedario,Carne]
+                    BS      38.33333     -37.83333        .50000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    26 Fabbisogno[Dromedario,Latte]
+                    BS       3.00000      -2.50000        .50000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    27 Fabbisogno[Dromedario,Frutta]
+                    BS      20.46667     -19.46667       1.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    28 Fabbisogno[Dromedario,Verdure]
+                    BS      31.33333     -30.83333        .50000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    29 Fabbisogno[Dromedario,Zuccheri]
+                    BS       2.00000      -1.90000        .10000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    30 Fabbisogno[Dromedario,Grassi]
+                    BS       2.00000      -1.50000        .50000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Fabbisogno[Dromedario,Farine]
+                    BS       4.00000      -3.50000        .50000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    32 Fabbisogno[Dromedario,Acqua]
+                    BS      28.20000     -23.20000       5.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    33 Fabbisogno[Elefante,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    34 Fabbisogno[Elefante,Latte]
+                    BS       3.00000      -2.50000        .50000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    35 Fabbisogno[Elefante,Frutta]
+                    BS      20.46667     -15.46667       5.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    36 Fabbisogno[Elefante,Verdure]
+                    BS      31.33333     -22.33333       9.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    37 Fabbisogno[Elefante,Zuccheri]
+                    BS       2.00000      -1.50000        .50000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    38 Fabbisogno[Elefante,Grassi]
+                    BS       2.00000      -1.00000       1.00000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    39 Fabbisogno[Elefante,Farine]
+                    BS       4.00000      -3.00000       1.00000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    40 Fabbisogno[Elefante,Acqua]
+                    BS      28.20000     -19.20000       9.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 Fabbisogno[Fringuello,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    42 Fabbisogno[Fringuello,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    43 Fabbisogno[Fringuello,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    44 Fabbisogno[Fringuello,Verdure]
+                    BS      31.33333     -31.33333        .                +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    45 Fabbisogno[Fringuello,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    46 Fabbisogno[Fringuello,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    47 Fabbisogno[Fringuello,Farine]
+                    BS       4.00000      -3.20000        .80000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    48 Fabbisogno[Fringuello,Acqua]
+                    BS      28.20000     -27.40000        .80000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    49 Fabbisogno[Giraffa,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    50 Fabbisogno[Giraffa,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 Fabbisogno[Giraffa,Frutta]
+                    BS      20.46667     -20.26667        .20000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    52 Fabbisogno[Giraffa,Verdure]
+                    BS      31.33333     -28.33333       3.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    53 Fabbisogno[Giraffa,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    54 Fabbisogno[Giraffa,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    55 Fabbisogno[Giraffa,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    56 Fabbisogno[Giraffa,Acqua]
+                    BS      28.20000     -24.20000       4.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    57 Fabbisogno[Ippopotamo,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    58 Fabbisogno[Ippopotamo,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    59 Fabbisogno[Ippopotamo,Frutta]
+                    BS      20.46667     -12.46667       8.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    60 Fabbisogno[Ippopotamo,Verdure]
+                    BS      31.33333     -25.33333       6.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 Fabbisogno[Ippopotamo,Zuccheri]
+                    BS       2.00000      -1.50000        .50000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    62 Fabbisogno[Ippopotamo,Grassi]
+                    BS       2.00000      -1.00000       1.00000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    63 Fabbisogno[Ippopotamo,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    64 Fabbisogno[Ippopotamo,Acqua]
+                    BS      28.20000      -8.20000      20.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    65 Fabbisogno[Koala,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    66 Fabbisogno[Koala,Latte]
+                    NL       3.00000        .            3.00000        2.00000     -40.00000     381.33333 Fabbisogno[Babbuino,Latte]
+                                          40.00000          +Inf           +Inf          +Inf          +Inf
+
+    67 Fabbisogno[Koala,Frutta]
+                    BS      20.46667     -17.46667       3.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    68 Fabbisogno[Koala,Verdure]
+                    BS      31.33333     -28.33333       3.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    69 Fabbisogno[Koala,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    70 Fabbisogno[Koala,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 Fabbisogno[Koala,Farine]
+                    BS       4.00000      -3.40000        .60000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    72 Fabbisogno[Koala,Acqua]
+                    BS      28.20000     -26.70000       1.50000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    73 Fabbisogno[Leone,Carne]
+                    BS      38.33333     -28.33333      10.00000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    74 Fabbisogno[Leone,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    75 Fabbisogno[Leone,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    76 Fabbisogno[Leone,Verdure]
+                    BS      31.33333     -31.33333        .                +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    77 Fabbisogno[Leone,Zuccheri]
+                    NL       2.00000        .            2.00000        1.00000    -100.00000     321.33333 Fabbisogno[Zebra,Zuccheri]
+                                         100.00000          +Inf           +Inf          +Inf          +Inf
+
+    78 Fabbisogno[Leone,Grassi]
+                    BS       2.00000      -1.00000       1.00000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    79 Fabbisogno[Leone,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    80 Fabbisogno[Leone,Acqua]
+                    BS      28.20000     -18.20000      10.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    81 Fabbisogno[Muflone,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    82 Fabbisogno[Muflone,Latte]
+                    BS       3.00000      -1.00000       2.00000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    83 Fabbisogno[Muflone,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    84 Fabbisogno[Muflone,Verdure]
+                    BS      31.33333     -21.33333      10.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    85 Fabbisogno[Muflone,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    86 Fabbisogno[Muflone,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    87 Fabbisogno[Muflone,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    88 Fabbisogno[Muflone,Acqua]
+                    BS      28.20000     -22.20000       6.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    89 Fabbisogno[Narvalo,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    90 Fabbisogno[Narvalo,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    91 Fabbisogno[Narvalo,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+    92 Fabbisogno[Narvalo,Verdure]
+                    BS      31.33333     -31.33333        .                +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+    93 Fabbisogno[Narvalo,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    94 Fabbisogno[Narvalo,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+    95 Fabbisogno[Narvalo,Farine]
+                    BS       4.00000      -1.00000       3.00000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+    96 Fabbisogno[Narvalo,Acqua]
+                    BS      28.20000     -28.20000        .                +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+    97 Fabbisogno[Orso,Carne]
+                    BS      38.33333     -33.33333       5.00000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+    98 Fabbisogno[Orso,Latte]
+                    BS       3.00000      -2.50000        .50000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+    99 Fabbisogno[Orso,Frutta]
+                    BS      20.46667     -17.46667       3.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   100 Fabbisogno[Orso,Verdure]
+                    BS      31.33333     -30.33333       1.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   101 Fabbisogno[Orso,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   102 Fabbisogno[Orso,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   103 Fabbisogno[Orso,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   104 Fabbisogno[Orso,Acqua]
+                    BS      28.20000     -18.20000      10.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+   105 Fabbisogno[Pappagallo,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   106 Fabbisogno[Pappagallo,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+   107 Fabbisogno[Pappagallo,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   108 Fabbisogno[Pappagallo,Verdure]
+                    BS      31.33333     -31.33333        .                +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+   109 Fabbisogno[Pappagallo,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   110 Fabbisogno[Pappagallo,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  12
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   111 Fabbisogno[Pappagallo,Farine]
+                    BS       4.00000      -2.40000       1.60000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   112 Fabbisogno[Pappagallo,Acqua]
+                    BS      28.20000     -24.20000       4.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+   113 Fabbisogno[Rinoceronte,Carne]
+                    BS      38.33333     -37.33333       1.00000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   114 Fabbisogno[Rinoceronte,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+   115 Fabbisogno[Rinoceronte,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   116 Fabbisogno[Rinoceronte,Verdure]
+                    BS      31.33333     -19.33333      12.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+   117 Fabbisogno[Rinoceronte,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   118 Fabbisogno[Rinoceronte,Grassi]
+                    NL       2.00000        .            2.00000        1.00000     -26.66667     394.66667 Fabbisogno[Elefante,Grassi]
+                                          26.66667          +Inf           +Inf          +Inf          +Inf
+
+   119 Fabbisogno[Rinoceronte,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   120 Fabbisogno[Rinoceronte,Acqua]
+                    BS      28.20000     -13.20000      15.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  13
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   121 Fabbisogno[Serpente_a_sonagli,Carne]
+                    BS      38.33333     -35.33333       3.00000           +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   122 Fabbisogno[Serpente_a_sonagli,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+   123 Fabbisogno[Serpente_a_sonagli,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   124 Fabbisogno[Serpente_a_sonagli,Verdure]
+                    BS      31.33333     -30.73333        .60000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+   125 Fabbisogno[Serpente_a_sonagli,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   126 Fabbisogno[Serpente_a_sonagli,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   127 Fabbisogno[Serpente_a_sonagli,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   128 Fabbisogno[Serpente_a_sonagli,Acqua]
+                    BS      28.20000     -27.60000        .60000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+   129 Fabbisogno[Tapiro,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   130 Fabbisogno[Tapiro,Latte]
+                    BS       3.00000      -2.80000        .20000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  14
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   131 Fabbisogno[Tapiro,Frutta]
+                    BS      20.46667     -19.46667       1.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   132 Fabbisogno[Tapiro,Verdure]
+                    BS      31.33333     -22.33333       9.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+   133 Fabbisogno[Tapiro,Zuccheri]
+                    BS       2.00000      -1.80000        .20000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   134 Fabbisogno[Tapiro,Grassi]
+                    BS       2.00000      -1.50000        .50000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   135 Fabbisogno[Tapiro,Farine]
+                    BS       4.00000      -4.00000        .                +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   136 Fabbisogno[Tapiro,Acqua]
+                    BS      28.20000     -22.20000       6.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+   137 Fabbisogno[Upupa,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   138 Fabbisogno[Upupa,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+   139 Fabbisogno[Upupa,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   140 Fabbisogno[Upupa,Verdure]
+                    BS      31.33333     -29.33333       2.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  15
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   141 Fabbisogno[Upupa,Zuccheri]
+                    BS       2.00000      -1.60000        .40000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   142 Fabbisogno[Upupa,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   143 Fabbisogno[Upupa,Farine]
+                    BS       4.00000      -2.00000       2.00000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   144 Fabbisogno[Upupa,Acqua]
+                    BS      28.20000     -24.20000       4.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+   145 Fabbisogno[Visone,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   146 Fabbisogno[Visone,Latte]
+                    BS       3.00000      -2.20000        .80000           +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+   147 Fabbisogno[Visone,Frutta]
+                    BS      20.46667     -18.46667       2.00000           +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   148 Fabbisogno[Visone,Verdure]
+                    BS      31.33333     -19.33333      12.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+   149 Fabbisogno[Visone,Zuccheri]
+                    BS       2.00000      -2.00000        .                +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   150 Fabbisogno[Visone,Grassi]
+                    BS       2.00000      -2.00000        .                +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  16
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   151 Fabbisogno[Visone,Farine]
+                    NL       4.00000        .            4.00000        3.00000     -12.00000     409.33333 Fabbisogno[Narvalo,Farine]
+                                          12.00000          +Inf           +Inf          +Inf          +Inf
+
+   152 Fabbisogno[Visone,Acqua]
+                    BS      28.20000     -24.20000       4.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+   153 Fabbisogno[Zebra,Carne]
+                    BS      38.33333     -38.33333        .                +Inf      -6.25000     181.75000 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       38.33333          +Inf          +Inf
+
+   154 Fabbisogno[Zebra,Latte]
+                    BS       3.00000      -3.00000        .                +Inf     -40.00000     301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf        3.00000          +Inf          +Inf
+
+   155 Fabbisogno[Zebra,Frutta]
+                    BS      20.46667     -20.46667        .                +Inf      -8.00000     257.60000 Fabbisogno[Koala,Latte]
+                                            .               +Inf       20.46667          +Inf          +Inf
+
+   156 Fabbisogno[Zebra,Verdure]
+                    BS      31.33333     -21.33333      10.00000           +Inf      -5.00000     264.66667 Fabbisogno[Koala,Latte]
+                                            .               +Inf       31.33333          +Inf          +Inf
+
+   157 Fabbisogno[Zebra,Zuccheri]
+                    BS       2.00000      -1.00000       1.00000           +Inf    -100.00000     221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   158 Fabbisogno[Zebra,Grassi]
+                    BS       2.00000      -1.60000        .40000           +Inf     -26.66667     368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf        2.00000          +Inf          +Inf
+
+   159 Fabbisogno[Zebra,Farine]
+                    BS       4.00000      -3.00000       1.00000           +Inf     -12.00000     373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf        4.00000          +Inf          +Inf
+
+   160 Fabbisogno[Zebra,Acqua]
+                    BS      28.20000     -18.20000      10.00000           +Inf      -8.00000     195.73333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       28.20000          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  17
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+   161 z            BS     421.33333    -421.33333          -Inf           +Inf      -1.00000        .      Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf      421.33333          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  18
+
+Problem:    zoo
+Objective:  z = 421.3333333 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[P1]        BS      40.00000       5.00000        .                +Inf        .          221.33333 Fabbisogno[Leone,Zuccheri]
+                                            .               +Inf       40.00000          +Inf          +Inf
+
+     2 x[P2]        BS      60.00000       2.00000        .                +Inf        .          301.33333 Fabbisogno[Koala,Latte]
+                                            .               +Inf       60.00000          +Inf          +Inf
+
+     3 x[P3]        BS      16.00000       3.00000        .                +Inf        .          373.33333 Fabbisogno[Visone,Farine]
+                                            .               +Inf       16.00000          +Inf          +Inf
+
+     4 x[P4]        BS      13.33333       4.00000        .                +Inf        .          368.00000 Fabbisogno[Rinoceronte,Grassi]
+                                            .               +Inf       13.33333          +Inf          +Inf
+
+End of report

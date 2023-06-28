@@ -1,0 +1,97 @@
+
+ LP OPTIMUM FOUND AT STEP      6
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      2833.333
+
+  VARIABLE        VALUE          REDUCED COST
+        QB       333.333344          0.000000
+        QS         0.000000          0.000000
+        QT       666.666687          0.000000
+       XAB       266.666656          0.000000
+       XVB        16.666666          0.000000
+       XPB        50.000000          0.000000
+       XAS         0.000000          0.000000
+       XVS         0.000000          5.555555
+       XPS         0.000000          0.000000
+       XAT       433.333344          0.000000
+       XVT       133.333328          0.000000
+       XPT       100.000000          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+    TOT_B)         0.000000          0.000000
+    TOT_S)         0.000000         -0.522876
+    TOT_T)         0.000000          0.000000
+   MIN_AB)         0.000000         -2.745098
+   MAX_AB)        33.333332          0.000000
+   MIN_VB)         0.000000         -6.078432
+   MAX_VB)        16.666666          0.000000
+   MIN_PB)        16.666666          0.000000
+   MAX_PB)        16.666666          0.000000
+   MIN_AS)         0.000000         -2.222222
+   MAX_AS)         0.000000          0.000000
+   MIN_VS)         0.000000          0.000000
+   MAX_VS)         0.000000          0.000000
+   MIN_PS)         0.000000          0.000000
+   MAX_PS)         0.000000          0.522876
+   MIN_AT)         0.000000         -2.745098
+   MAX_AT)        33.333332          0.000000
+   MIN_VT)         0.000000         -6.078432
+   MAX_VT)       200.000000          0.000000
+   MIN_PT)         0.000000          0.000000
+   MAX_PT)       133.333328          0.000000
+  QUANT_A)         0.000000          2.745098
+  QUANT_V)         0.000000          6.078432
+  QUANT_P)        50.000000          0.000000
+
+ NO. ITERATIONS=       6
+
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       QB        2.500000         0.071429         0.250000
+       QS        2.000000         0.333333         0.078431
+       QT        3.000000         1.000000         0.285714
+      XAB        0.000000         0.089286         0.312500
+      XVB        0.000000         1.428571         5.000000
+      XPB        0.000000         0.476190         1.666667
+      XAS        0.000000         0.392157         0.112045
+      XVS        0.000000         5.555556         INFINITY
+      XPS        0.000000         2.222222         0.261438
+      XAT        0.000000         1.538462         0.439560
+      XVT        0.000000         5.000000         1.428571
+      XPT        0.000000         6.666667         1.904762
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+    TOT_B        0.000000        16.666666        16.666666
+    TOT_S        0.000000         0.000000         0.000000
+    TOT_T        0.000000        50.000000         0.000000
+   MIN_AB        0.000000        15.454545        18.085106
+   MAX_AB        0.000000         INFINITY        33.333332
+   MIN_VB        0.000000        22.368420        13.281249
+   MAX_VB        0.000000         INFINITY        16.666666
+   MIN_PB        0.000000        16.666666         INFINITY
+   MAX_PB        0.000000         INFINITY        16.666666
+   MIN_AS        0.000000         0.000000         0.000000
+   MAX_AS        0.000000         INFINITY         0.000000
+   MIN_VS        0.000000         0.000000         INFINITY
+   MAX_VS        0.000000         INFINITY         0.000000
+   MIN_PS        0.000000         0.000000         INFINITY
+   MAX_PS        0.000000         0.000000         0.000000
+   MIN_AT        0.000000         0.000000        42.500000
+   MAX_AT        0.000000         INFINITY        33.333332
+   MIN_VT        0.000000         0.000000        42.500000
+   MAX_VT        0.000000         INFINITY       200.000000
+   MIN_PT        0.000000         0.000000         INFINITY
+   MAX_PT        0.000000         INFINITY       133.333328
+  QUANT_A      700.000000       283.333313       212.499985
+  QUANT_V      150.000000        65.384605       106.249992
+  QUANT_P      200.000000         INFINITY        50.000000
+

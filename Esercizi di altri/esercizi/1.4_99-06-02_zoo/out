@@ -1,0 +1,7 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model zoo.mod --ranges sens.out
+Reading model section from zoo.mod...
+zoo.mod:19: j not defined
+Context: ...{ m in P } x [ j ] * a2 [ j , m ] ) / q [ i ] >= a [ i , j ]
+MathProg model processing error

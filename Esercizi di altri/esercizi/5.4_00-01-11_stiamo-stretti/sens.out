@@ -1,0 +1,832 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 definizioneU1[1,A]
+                    NS        .             .             .          -252.74225          -Inf   34200.57313 Acquisti[1,A]
+                                          18.00000        .                +Inf          +Inf          +Inf
+
+     2 definizioneU1[1,B]
+                    NS        .             .             .          -181.23422          -Inf   31500.56457 Utilizzo[1,B]
+                                          40.00000        .                +Inf          +Inf          +Inf
+
+     3 definizioneU1[1,C]
+                    NS        .             .             .          -197.33422          -Inf   34211.24639 Utilizzo[1,C]
+                                          23.00000        .                +Inf          +Inf          +Inf
+
+     4 definizioneU1[1,D]
+                    NS        .             .             .          -214.37380          -Inf   36177.44799 Utilizzo[1,D]
+                                          12.00000        .                +Inf          +Inf          +Inf
+
+     5 definizioneU1[2,A]
+                    NS        .             .             .          -184.56915          -Inf   34320.27404 Acquisti[2,A]
+                                          24.00000        .                +Inf          +Inf          +Inf
+
+     6 definizioneU1[2,B]
+                    NS        .             .             .           -76.46538          -Inf   35053.42512 Produzione[2,Q]
+                                          48.34225        .           104.78077          +Inf   43815.27128 MagazzinoProdotti[1,Q]
+
+     7 definizioneU1[2,C]
+                    NS        .             .             .           -85.02147          -Inf   36454.35382 Acquisti[2,C]
+                                          27.00000        .                +Inf          +Inf          +Inf
+
+     8 definizioneU1[2,D]
+                    NS        .             .             .          -114.88190          -Inf   36567.17747 Utilizzo[2,D]
+                                          19.00000        .                +Inf          +Inf          +Inf
+
+     9 definizioneU1[3,A]
+                    NS        .             .             .           -47.43861          -Inf   37326.77533 Utilizzo[3,A]
+                                          30.00000        .                +Inf          +Inf          +Inf
+
+    10 definizioneU1[3,B]
+                    NS        .             .             .           -37.46429          -Inf   36593.58533 Utilizzo[3,B]
+                                          57.55744        .           102.86923          +Inf   44670.82271 MagazzinoProdotti[2,Z]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 definizioneU1[3,C]
+                    NS        .             .             .           -45.59430          -Inf   37199.72723 Utilizzo[3,C]
+                                          34.00000        .                +Inf          +Inf          +Inf
+
+    12 definizioneU1[3,D]
+                    NS        .             .             .           -30.89430          -Inf   37884.89305 Utilizzo[3,D]
+                                          28.00000        .                +Inf          +Inf          +Inf
+
+    13 definizioneU1[4,A]
+                    NS        .             .             .           -12.25000          -Inf   38382.43355 MagazzinoMateriePrime[3,A]
+                                          30.00000        .           161.22917          +Inf   43586.80855 capTot[3]
+
+    14 definizioneU1[4,B]
+                    NS        .             .             .           -12.25000          -Inf   38044.85497 MagazzinoMateriePrime[3,B]
+                                          57.55744        .           102.86923          +Inf   44670.82271 MagazzinoProdotti[2,Z]
+
+    15 definizioneU1[4,C]
+                    NS        .             .             .           -12.25000          -Inf   38333.43355 MagazzinoMateriePrime[3,C]
+                                          34.00000        .            96.73750          +Inf   42039.00855 capTot[3]
+
+    16 definizioneU1[4,D]
+                    NS        .             .             .           -12.25000          -Inf   38406.93355 MagazzinoMateriePrime[3,D]
+                                          28.00000        .           107.48611          +Inf   41759.54467 capTot[3]
+
+    17 ConservazioneFlussoP1[2,X]
+                    NS      77.00000        .           77.00000      -47.25625          -Inf   35092.61363 Produzione[2,Q]
+                                          29.43369      77.00000      247.26875          +Inf   43761.57113 MagazzinoProdotti[1,Q]
+
+    18 ConservazioneFlussoP1[2,Y]
+                    NS      28.00000        .           28.00000      -56.00000          -Inf   36051.39986 MagazzinoProdotti[1,Y]
+                                          32.12540      28.00000      179.35000          +Inf   43612.11301 MagazzinoProdotti[1,Q]
+
+    19 ConservazioneFlussoP1[2,Z]
+                    NS     126.00000        .          126.00000     -169.27848          -Inf   30343.81312 Produzione[2,Z]
+                                          28.46845     126.00000      649.90385          +Inf   53664.66358 MagazzinoProdotti[1,Q]
+
+    20 ConservazioneFlussoP1[2,W]
+                    NS      49.00000        .           49.00000         .               -Inf   37300.24104 Produzione[2,W]
+                                          29.58556      49.00000      468.12308          +Inf   51149.92512 MagazzinoProdotti[1,Q]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 ConservazioneFlussoP1[2,K]
+                    NS      21.00000        .           21.00000         .               -Inf   37970.38997 Produzione[2,K]
+                                          37.12112      21.00000      230.56154          +Inf   46529.09320 MagazzinoProdotti[1,Q]
+
+    22 ConservazioneFlussoP1[2,Q]
+                    NS      84.00000        .           84.00000      -15.40500          -Inf   36427.12576 Produzione[2,Q]
+                                          23.36711      84.00000     2179.61538          +Inf   87718.41358 MagazzinoProdotti[1,Q]
+
+    23 ConservazioneFlussoP1[3,X]
+                    NS      77.00000        .           77.00000       -4.68750          -Inf   35882.32851 Produzione[3,Z]
+                                          35.10458      77.00000      244.16250          +Inf   44618.10223 MagazzinoProdotti[2,Z]
+
+    24 ConservazioneFlussoP1[3,Y]
+                    NS      28.00000        .           28.00000      -28.00000          -Inf   36593.64527 MagazzinoProdotti[2,Y]
+                                          38.50515      28.00000      176.58889          +Inf   44471.37070 MagazzinoProdotti[2,Z]
+
+    25 ConservazioneFlussoP1[3,Z]
+                    NS     126.00000        .          126.00000       63.76190          -Inf   36514.87100 Produzione[3,Z]
+                                          35.91149     126.00000      640.34615          +Inf   57220.86886 MagazzinoProdotti[2,Z]
+
+    26 ConservazioneFlussoP1[3,W]
+                    NS      49.00000        .           49.00000         .               -Inf   36917.85497 Produzione[3,W]
+                                          37.38936      49.00000      460.47692          +Inf   54134.79194 MagazzinoProdotti[2,Z]
+
+    27 ConservazioneFlussoP1[3,K]
+                    NS      21.00000        .           21.00000      -21.00000          -Inf   36848.22740 Produzione[3,K]
+                                          45.27872      21.00000      226.73846          +Inf   48065.50732 MagazzinoProdotti[2,Z]
+
+    28 ConservazioneFlussoP1[3,Q]
+                    NS      84.00000        .           84.00000       18.65000          -Inf   36759.65226 Produzione[3,Z]
+                                          30.45572      84.00000      217.73000          +Inf   42822.77698 MagazzinoProdotti[2,Z]
+
+    29 ConservazioneFlussoP1[4,X]
+                    NS      77.00000        .           77.00000         .               -Inf   36046.88121 MagazzinoProdotti[3,X]
+                                          35.10458      77.00000      244.16250          +Inf   44618.10223 MagazzinoProdotti[2,Z]
+
+    30 ConservazioneFlussoP1[4,Y]
+                    NS      28.00000        .           28.00000         .               -Inf   37671.78941 MagazzinoProdotti[3,Y]
+                                          38.50515      28.00000      176.58889          +Inf   44471.37070 MagazzinoProdotti[2,Z]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 ConservazioneFlussoP1[4,Z]
+                    NS     126.00000        .          126.00000       63.76190          -Inf   36514.87100 Produzione[3,Z]
+                                          35.91149     126.00000      310.26190          +Inf   45367.05258 capTot[3]
+
+    32 ConservazioneFlussoP1[4,W]
+                    NS      49.00000        .           49.00000         .               -Inf   36917.85497 MagazzinoMateriePrime[3,B]
+                                          37.38936      49.00000      171.84127          +Inf   43342.88989 capTot[3]
+
+    33 ConservazioneFlussoP1[4,K]
+                    NS      21.00000        .           21.00000         .               -Inf   37799.08048 MagazzinoProdotti[3,K]
+                                          45.27872      21.00000      175.78000          +Inf   45758.17352 capTot[3]
+
+    34 ConservazioneFlussoP1[4,Q]
+                    NS      84.00000        .           84.00000       18.65000          -Inf   36759.65226 Produzione[3,Z]
+                                          30.45572      84.00000      217.73000          +Inf   42822.77698 MagazzinoProdotti[2,Z]
+
+    35 ConservazioneFlussoP2[X]
+                    NS      77.00000        .           77.00000     -231.00000          -Inf   31265.53355 Produzione[1,X]
+                                          24.30000      77.00000           +Inf          +Inf          +Inf
+
+    36 ConservazioneFlussoP2[Y]
+                    NS      28.00000        .           28.00000      -84.00000          -Inf   35798.73355 Produzione[1,Y]
+                                          26.35000      28.00000           +Inf          +Inf          +Inf
+
+    37 ConservazioneFlussoP2[Z]
+                    NS     126.00000        .          126.00000         .               -Inf   35952.73355 Produzione[1,Z]
+                                          22.20000     126.00000           +Inf          +Inf          +Inf
+
+    38 ConservazioneFlussoP2[W]
+                    NS      49.00000        .           49.00000         .               -Inf   37610.68355 Produzione[1,W]
+                                          23.25000      49.00000           +Inf          +Inf          +Inf
+
+    39 ConservazioneFlussoP2[K]
+                    NS      21.00000        .           21.00000         .               -Inf   38105.23355 Produzione[1,K]
+                                          30.70000      21.00000           +Inf          +Inf          +Inf
+
+    40 ConservazioneFlussoP2[Q]
+                    NS      84.00000        .           84.00000     -145.68449          -Inf   34856.78142 Produzione[1,Q]
+                                          16.95000      84.00000           +Inf          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 ConservazioneFlussoM1[2,A]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[2,A]
+                                          24.00000        .                +Inf          +Inf          +Inf
+
+    42 ConservazioneFlussoM1[2,B]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[2,B]
+                                          48.34225        .           104.78077          +Inf   43815.27128 MagazzinoProdotti[1,Q]
+
+    43 ConservazioneFlussoM1[2,C]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[2,C]
+                                          27.00000        .                +Inf          +Inf          +Inf
+
+    44 ConservazioneFlussoM1[2,D]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[2,D]
+                                          19.00000        .                +Inf          +Inf          +Inf
+
+    45 ConservazioneFlussoM1[3,A]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[3,A]
+                                          30.00000        .                +Inf          +Inf          +Inf
+
+    46 ConservazioneFlussoM1[3,B]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[3,B]
+                                          57.55744        .           102.86923          +Inf   44670.82271 MagazzinoProdotti[2,Z]
+
+    47 ConservazioneFlussoM1[3,C]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[3,C]
+                                          34.00000        .                +Inf          +Inf          +Inf
+
+    48 ConservazioneFlussoM1[3,D]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[3,D]
+                                          28.00000        .                +Inf          +Inf          +Inf
+
+    49 ConservazioneFlussoM1[4,A]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[4,A]
+                                          30.00000        .           161.22917          +Inf   43586.80855 capTot[3]
+
+    50 ConservazioneFlussoM1[4,B]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[4,B]
+                                          57.55744        .           102.86923          +Inf   44670.82271 MagazzinoProdotti[2,Z]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 ConservazioneFlussoM1[4,C]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[4,C]
+                                          34.00000        .            96.73750          +Inf   42039.00855 capTot[3]
+
+    52 ConservazioneFlussoM1[4,D]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM1[4,D]
+                                          28.00000        .           107.48611          +Inf   41759.54467 capTot[3]
+
+    53 ConservazioneFlussoM2[A]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM2[A]
+                                          18.00000        .                +Inf          +Inf          +Inf
+
+    54 ConservazioneFlussoM2[B]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM2[B]
+                                          40.00000        .                +Inf          +Inf          +Inf
+
+    55 ConservazioneFlussoM2[C]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM2[C]
+                                          23.00000        .                +Inf          +Inf          +Inf
+
+    56 ConservazioneFlussoM2[D]
+                    NS        .             .             .              .               -Inf   38749.93355 UtilizzoDelleM2[D]
+                                          12.00000        .                +Inf          +Inf          +Inf
+
+    57 UtilizzoDelleM1[2,A]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    58 UtilizzoDelleM1[2,B]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    59 UtilizzoDelleM1[2,C]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    60 UtilizzoDelleM1[2,D]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 UtilizzoDelleM1[3,A]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    62 UtilizzoDelleM1[3,B]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    63 UtilizzoDelleM1[3,C]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    64 UtilizzoDelleM1[3,D]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    65 UtilizzoDelleM1[4,A]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    66 UtilizzoDelleM1[4,B]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    67 UtilizzoDelleM1[4,C]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    68 UtilizzoDelleM1[4,D]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    69 UtilizzoDelleM2[A]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    70 UtilizzoDelleM2[B]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 UtilizzoDelleM2[C]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    72 UtilizzoDelleM2[D]
+                    BS        .             .               -Inf         .               -Inf   38749.93355
+                                            .             .              .               +Inf   38749.93355
+
+    73 capTot[1]    NU   60000.00000        .               -Inf    46378.50000          -Inf   39624.04051 MagazzinoProdotti[1,Q]
+                                           -.06417   60000.00000    69940.50000        .06417   38112.04051 Produzione[2,Q]
+
+    74 capTot[2]    NU   60000.00000        .               -Inf    46627.00000          -Inf   39697.89305 MagazzinoProdotti[2,Z]
+                                           -.07089   60000.00000    66535.00000        .07089   38286.69305 Produzione[3,Z]
+
+    75 capTot[3]    BS   40652.50000   19347.50000          -Inf    44374.96835        .        38749.93355 Produzione[4,Z]
+                                            .        60000.00000    38815.00000        .        38749.93355 MagazzinoProdotti[3,W]
+
+    76 capTot[4]    BS        .        60000.00000          -Inf    19347.50000       -.15556   38749.93355 MagazzinoMateriePrime[4,D]
+                                            .        60000.00000         .               +Inf   38749.93355
+
+    77 z            BS   38749.93355  -38749.93355          -Inf    38779.46647      -1.00000        .      MagazzinoProdotti[2,K]
+                                            .               +Inf    38749.93355          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 MagazzinoProdotti[1,X]
+                    BS     231.00000        .             .           398.16250     -35.10458   30640.77652 MagazzinoProdotti[4,X]
+                                            .               +Inf       21.72632        .85187   38946.71591 Produzione[2,X]
+
+     2 MagazzinoProdotti[2,X]
+                    BS     154.00000        .             .           321.16250     -35.10458   33343.82886 MagazzinoProdotti[4,X]
+                                            .               +Inf       16.42105       2.98478   39209.59014 Produzione[3,X]
+
+     3 MagazzinoProdotti[1,Y]
+                    BS      84.00000        .             .           232.58889     -38.50515   35515.50113 MagazzinoProdotti[4,Y]
+                                            .               +Inf      -28.00000       1.06150   38839.09933 Produzione[2,Y]
+
+     4 MagazzinoProdotti[2,Y]
+                    BS      56.00000        .             .           204.58889     -38.50515   36593.64527 MagazzinoProdotti[4,Y]
+                                            .               +Inf       28.00000       2.71783   38902.13184 Produzione[4,Y]
+
+     5 MagazzinoProdotti[1,Z]
+                    NL        .             .             .          -125.82911       -.46952   38690.85443 Produzione[2,Q]
+                                            .46952          +Inf      172.42405          +Inf   38830.88987 MagazzinoProdotti[1,Q]
+
+     6 MagazzinoProdotti[2,Z]
+                    BS     169.27848        .             .           252.00000       -.27219   38703.85722 Produzione[3,Q]
+                                            .               +Inf      115.00633        .63429   38857.30448 MagazzinoProdotti[2,W]
+
+     7 MagazzinoProdotti[1,W]
+                    NL        .             .             .           -49.00000      -1.36497   38683.04986 Produzione[1,W]
+                                           1.36497          +Inf       49.00000          +Inf   38816.81724 Produzione[2,W]
+
+     8 MagazzinoProdotti[2,W]
+                    NL        .             .             .           -49.00000       -.70253   38715.50950 Produzione[2,W]
+                                            .70253          +Inf       49.00000          +Inf   38784.35761 Produzione[3,W]
+
+     9 MagazzinoProdotti[1,K]
+                    NL        .             .             .           -21.00000      -1.60027   38716.32794 Produzione[1,K]
+                                           1.60027          +Inf       21.00000          +Inf   38783.53917 Produzione[2,K]
+
+    10 MagazzinoProdotti[2,K]
+                    NL        .             .             .           -21.00000       -.70316   38735.16710 Produzione[2,K]
+                                            .70316          +Inf       42.00000          +Inf   38779.46647 Produzione[3,K]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 MagazzinoProdotti[1,Q]
+                    BS     145.68449        .             .           252.00000      -1.19231   38576.23281 Acquisti[2,B]
+                                            .               +Inf      -84.00000        .55570   38830.88987 MagazzinoProdotti[1,Z]
+
+    12 MagazzinoProdotti[2,Q]
+                    BS     168.00000        .             .           301.73000     -30.45572   33633.37261 MagazzinoProdotti[4,Q]
+                                            .               +Inf       98.10695        .32215   38804.05507 Produzione[3,Q]
+
+    13 MagazzinoProdotti[3,X]
+                    BS      77.00000        .             .           244.16250     -35.10458   36046.88121 MagazzinoProdotti[4,X]
+                                            .               +Inf      -60.57895       2.98478   38979.76185 Produzione[4,X]
+
+    14 MagazzinoProdotti[3,Y]
+                    BS      28.00000        .             .           176.58889     -38.50515   37671.78941 MagazzinoProdotti[4,Y]
+                                            .               +Inf      -28.00000       2.71783   38826.03269 Produzione[4,Y]
+
+    15 MagazzinoProdotti[3,Z]
+                    BS     126.00000        .             .           310.26190     -35.91149   34225.08617 MagazzinoProdotti[4,Z]
+                                            .               +Inf       43.27848        .        38749.93355 Produzione[4,Z]
+
+    16 MagazzinoProdotti[3,W]
+                    NL        .             .             .           -49.00000        .        38749.93355 Produzione[3,W]
+                                            .               +Inf       49.00000          +Inf   38749.93355 MagazzinoMateriePrime[3,B]
+
+    17 MagazzinoProdotti[3,K]
+                    BS      21.00000        .             .           175.78000     -45.27872   37799.08048 MagazzinoProdotti[4,K]
+                                            .               +Inf      -21.00000        .        38749.93355 Produzione[4,K]
+
+    18 MagazzinoProdotti[3,Q]
+                    BS      84.00000        .             .           217.73000     -30.45572   36191.65308 MagazzinoProdotti[4,Q]
+                                            .               +Inf       14.10695        .32215   38776.99431 Produzione[4,Q]
+
+    19 MagazzinoProdotti[4,X]
+                    NL        .             .             .           -77.00000     -35.10458   36046.88121 MagazzinoProdotti[3,X]
+                                          35.10458          +Inf      167.16250          +Inf   44618.10223 MagazzinoProdotti[2,Z]
+
+    20 MagazzinoProdotti[4,Y]
+                    NL        .             .             .           -28.00000     -38.50515   37671.78941 MagazzinoProdotti[3,Y]
+                                          38.50515          +Inf      148.58889          +Inf   44471.37070 MagazzinoProdotti[2,Z]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 MagazzinoProdotti[4,Z]
+                    NL        .             .             .           -62.23810     -35.91149   36514.87100 Produzione[3,Z]
+                                          35.91149          +Inf      184.26190          +Inf   45367.05258 capTot[3]
+
+    22 MagazzinoProdotti[4,W]
+                    NL        .             .             .           -49.00000     -37.38936   36917.85497 MagazzinoMateriePrime[3,B]
+                                          37.38936          +Inf      122.84127          +Inf   43342.88989 capTot[3]
+
+    23 MagazzinoProdotti[4,K]
+                    NL        .             .             .           -21.00000     -45.27872   37799.08048 MagazzinoProdotti[3,K]
+                                          45.27872          +Inf      154.78000          +Inf   45758.17352 capTot[3]
+
+    24 MagazzinoProdotti[4,Q]
+                    NL        .             .             .           -65.35000     -30.45572   36759.65226 Produzione[3,Z]
+                                          30.45572          +Inf      133.73000          +Inf   42822.77698 MagazzinoProdotti[2,Z]
+
+    25 Produzione[1,X]
+                    BS     308.00000        .             .           475.16250     -35.10458   27937.72417 MagazzinoProdotti[4,X]
+                                            .               +Inf       98.72632        .85187   39012.31003 Produzione[2,X]
+
+    26 Produzione[1,Y]
+                    BS     112.00000        .             .           260.58889     -38.50515   34437.35699 MagazzinoProdotti[4,Y]
+                                            .               +Inf       28.00000       1.06150   38868.82125 Produzione[2,Y]
+
+    27 Produzione[1,Z]
+                    BS     126.00000        .             .           298.42405       -.46952   38690.77420 MagazzinoProdotti[1,Z]
+                                            .               +Inf      126.00000          +Inf          +Inf
+
+    28 Produzione[1,W]
+                    BS      49.00000        .             .            98.00000      -1.36497   38683.04986 MagazzinoProdotti[1,W]
+                                            .               +Inf       49.00000          +Inf          +Inf
+
+    29 Produzione[1,K]
+                    BS      21.00000        .             .            42.00000      -1.60027   38716.32794 MagazzinoProdotti[1,K]
+                                            .               +Inf       21.00000          +Inf          +Inf
+
+    30 Produzione[1,Q]
+                    BS     229.68449        .             .           336.00000      -1.19231   38476.07897 Acquisti[2,B]
+                                            .               +Inf       84.00000        .55570   38877.56835 MagazzinoProdotti[1,Z]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  12
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Produzione[2,X]
+                    NL        .             .             .          -226.96667       -.85187   38556.58708 Acquisti[2,C]
+                                            .85187          +Inf      209.27368          +Inf   38928.20787 Produzione[2,Q]
+
+    32 Produzione[2,Y]
+                    NL        .             .             .          -229.46078      -1.06150   38506.36155 Utilizzo[2,B]
+                                           1.06150          +Inf       84.00000          +Inf   38839.09933 MagazzinoProdotti[1,Y]
+
+    33 Produzione[2,Z]
+                    BS     295.27848        .             .           378.00000       -.27219   38669.56096 Produzione[3,Q]
+                                            .               +Inf      122.85443        .46952   38888.57233 MagazzinoProdotti[1,Z]
+
+    34 Produzione[2,W]
+                    BS      49.00000        .             .            98.00000       -.70253   38715.50950 MagazzinoProdotti[2,W]
+                                            .               +Inf     -106.67429       1.36497   38816.81724 MagazzinoProdotti[1,W]
+
+    35 Produzione[2,K]
+                    BS      21.00000        .             .            63.00000       -.70316   38735.16710 MagazzinoProdotti[2,K]
+                                            .               +Inf     -165.19103       1.60027   38783.53917 MagazzinoProdotti[1,K]
+
+    36 Produzione[2,Q]
+                    BS     106.31551        .             .           252.00000       -.55570   38690.85443 MagazzinoProdotti[1,Z]
+                                            .               +Inf       36.42246        .32215   38784.18330 Produzione[3,Q]
+
+    37 Produzione[3,X]
+                    NL        .             .             .          -162.98416      -2.98478   38263.46119 Utilizzo[3,C]
+                                           2.98478          +Inf      137.57895          +Inf   39160.57686 Produzione[3,Z]
+
+    38 Produzione[3,Y]
+                    NL        .             .             .          -163.90625      -2.71783   38304.46481 Utilizzo[3,B]
+                                           2.71783          +Inf       56.00000          +Inf   38902.13184 MagazzinoProdotti[2,Y]
+
+    39 Produzione[3,Z]
+                    BS      82.72152        .             .           136.99367       -.63429   38697.46448 MagazzinoProdotti[2,W]
+                                            .               +Inf      -35.87500        .        38749.93355 Produzione[4,Z]
+
+    40 Produzione[3,W]
+                    BS      49.00000        .             .            98.00000        .        38749.93355 MagazzinoProdotti[3,W]
+                                            .               +Inf     -103.83429        .70253   38784.35761 MagazzinoProdotti[2,W]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  13
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 Produzione[3,K]
+                    BS      42.00000        .             .           196.78000     -45.27872   36848.22740 MagazzinoProdotti[4,K]
+                                            .               +Inf       21.00000        .        38749.93355 Produzione[4,K]
+
+    42 Produzione[3,Q]
+                    NL        .             .             .          -143.02674       -.32215   38703.85722 MagazzinoProdotti[2,Z]
+                                            .32215          +Inf       69.89305          +Inf   38772.44973 Produzione[3,Z]
+
+    43 Produzione[4,X]
+                    NL        .             .             .           -30.62500      -2.98478   38658.52457 MagazzinoMateriePrime[3,C]
+                                           2.98478          +Inf       77.00000          +Inf   38979.76185 MagazzinoProdotti[3,X]
+
+    44 Produzione[4,Y]
+                    NL        .             .             .           -30.62500      -2.71783   38666.70012 MagazzinoMateriePrime[3,B]
+                                           2.71783          +Inf       28.00000          +Inf   38826.03269 MagazzinoProdotti[3,Y]
+
+    45 Produzione[4,Z]
+                    NL        .             .             .           -30.62500        .        38749.93355 MagazzinoMateriePrime[3,A]
+                                            .               +Inf       82.72152          +Inf   38749.93355 Produzione[3,Z]
+
+    46 Produzione[4,W]
+                    BS      49.00000        .             .           171.84127     -37.38936   36917.85497 MagazzinoProdotti[4,W]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    47 Produzione[4,K]
+                    NL        .             .             .           -24.50000        .        38749.93355 MagazzinoMateriePrime[3,B]
+                                            .               +Inf       21.00000          +Inf   38749.93355 MagazzinoProdotti[3,K]
+
+    48 Produzione[4,Q]
+                    NL        .             .             .           -24.50000       -.32215   38742.04083 MagazzinoMateriePrime[3,A]
+                                            .32215          +Inf       69.89305          +Inf   38772.44973 Produzione[3,Z]
+
+    49 MagazzinoMateriePrime[1,A]
+                    NL        .             .             .           -82.83750      -1.70053   38609.06551 Produzione[2,Q]
+                                           1.70053          +Inf      113.51250          +Inf   38942.96551 MagazzinoProdotti[1,Q]
+
+    50 MagazzinoMateriePrime[2,A]
+                    NL        .             .             .           -54.45833      -2.50633   38613.44305 Produzione[3,Z]
+                                           2.50633          +Inf      111.44167          +Inf   39029.24305 MagazzinoProdotti[2,Z]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  14
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 MagazzinoMateriePrime[1,B]
+                    BS     149.16578        .             .           181.05882      -2.79577   38332.89966 Produzione[2,Y]
+                                            .               +Inf       67.38462       1.55000   38981.14051 Acquisti[2,B]
+
+    52 MagazzinoMateriePrime[2,B]
+                    BS      62.04430        .             .            95.90000      -8.25000   38238.06805 MagazzinoMateriePrime[2,D]
+                                            .               +Inf       48.99465       1.72542   38856.98627 Produzione[3,Q]
+
+    53 MagazzinoMateriePrime[1,C]
+                    NL        .             .             .           -49.70250      -8.83422   38310.85051 Produzione[2,Q]
+                                           8.83422          +Inf       68.10750          +Inf   39351.61051 MagazzinoProdotti[1,Q]
+
+    54 MagazzinoMateriePrime[2,C]
+                    NL        .             .             .           -32.67500      -7.17722   38515.41805 Produzione[3,Z]
+                                           7.17722          +Inf       66.86500          +Inf   39229.83805 MagazzinoProdotti[2,Z]
+
+    55 MagazzinoMateriePrime[1,D]
+                    NL        .             .             .           -55.22500      -4.55080   38498.61551 Produzione[2,Q]
+                                           4.55080          +Inf       75.67500          +Inf   39094.31551 MagazzinoProdotti[1,Q]
+
+    56 MagazzinoMateriePrime[2,D]
+                    NL        .             .             .           -36.30556      -3.75949   38613.44305 Produzione[3,Z]
+                                           3.75949          +Inf       74.29444          +Inf   39029.24305 MagazzinoProdotti[2,Z]
+
+    57 MagazzinoMateriePrime[3,A]
+                    BS      12.25000        .             .            45.33861        .        38749.93355 Produzione[4,Z]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    58 MagazzinoMateriePrime[3,B]
+                    BS      12.25000        .             .            22.75000        .        38749.93355 Produzione[4,K]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    59 MagazzinoMateriePrime[3,C]
+                    BS      12.25000        .             .            20.65000        .        38749.93355 Produzione[4,K]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    60 MagazzinoMateriePrime[3,D]
+                    BS      12.25000        .             .            28.79430        .        38749.93355 Produzione[4,Z]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  15
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 MagazzinoMateriePrime[4,A]
+                    NL        .             .             .           -12.25000     -30.00000   38382.43355 MagazzinoMateriePrime[3,A]
+                                          30.00000          +Inf      161.22917          +Inf   43586.80855 capTot[3]
+
+    62 MagazzinoMateriePrime[4,B]
+                    NL        .             .             .           -12.25000     -57.55744   38044.85497 MagazzinoMateriePrime[3,B]
+                                          57.55744          +Inf      102.86923          +Inf   44670.82271 MagazzinoProdotti[2,Z]
+
+    63 MagazzinoMateriePrime[4,C]
+                    NL        .             .             .           -12.25000     -34.00000   38333.43355 MagazzinoMateriePrime[3,C]
+                                          34.00000          +Inf       96.73750          +Inf   42039.00855 capTot[3]
+
+    64 MagazzinoMateriePrime[4,D]
+                    NL        .             .             .           -12.25000     -28.00000   38406.93355 MagazzinoMateriePrime[3,D]
+                                          28.00000          +Inf      107.48611          +Inf   41759.54467 capTot[3]
+
+    65 Acquisti[2,A]
+                    BS     184.56915      24.00000        .           257.41139      19.27222   37877.33165 MagazzinoMateriePrime[1,D]
+                                            .               +Inf      131.41139      26.38462   39190.05998 Acquisti[2,B]
+
+    66 Acquisti[2,B]
+                    NL        .           50.00000        .          -104.78077      48.34225   38576.23281 MagazzinoProdotti[1,Q]
+                                           1.65775          +Inf       76.46538          +Inf   38876.69435 Produzione[2,Q]
+
+    67 Acquisti[2,C]
+                    BS      85.02147      27.00000        .            98.07112      25.27458   38603.23549 Produzione[3,Q]
+                                            .               +Inf       57.82089      29.97627   39002.98051 MagazzinoProdotti[1,Z]
+
+    68 Acquisti[2,D]
+                    BS     114.88190      19.00000        .           173.15570      15.68750   38369.38726 MagazzinoMateriePrime[1,A]
+                                            .               +Inf      103.46898      20.97287   38976.58040 Produzione[3,Q]
+
+    69 Acquisti[3,A]
+                    BS      59.68861      30.00000        .            70.34810      27.22943   38584.56188 MagazzinoProdotti[2,K]
+                                            .               +Inf       15.95833      36.38710   39131.17047 MagazzinoMateriePrime[2,A]
+
+    70 Acquisti[3,B]
+                    NL        .           65.00000        .          -102.86923      57.55744   37984.32271 MagazzinoProdotti[2,Z]
+                                           7.44256          +Inf       46.68095          +Inf   39097.35954 MagazzinoMateriePrime[2,B]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  16
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 Acquisti[3,C]
+                    BS      57.84430      34.00000        .            91.70000      25.75000   38272.71805 MagazzinoMateriePrime[2,D]
+                                            .               +Inf       44.79465      35.72542   38849.73949 Produzione[3,Q]
+
+    72 Acquisti[3,D]
+                    BS      43.14430      28.00000        .            54.55722      26.02713   38664.81553 Produzione[3,Q]
+                                            .               +Inf        2.70556      34.90698   39047.93026 MagazzinoMateriePrime[2,D]
+
+    73 Acquisti[4,A]
+                    NL        .           41.00000        .          -161.22917      30.00000   36976.41272 capTot[3]
+                                          11.00000          +Inf       12.25000          +Inf   38884.68355 MagazzinoMateriePrime[3,A]
+
+    74 Acquisti[4,B]
+                    NL        .           80.00000        .          -102.86923      57.55744   36441.28425 MagazzinoProdotti[2,Z]
+                                          22.44256          +Inf       12.25000          +Inf   39024.85497 MagazzinoMateriePrime[3,B]
+
+    75 Acquisti[4,C]
+                    NL        .           44.00000        .           -96.73750      34.00000   37782.55855 capTot[3]
+                                          10.00000          +Inf       12.25000          +Inf   38872.43355 MagazzinoMateriePrime[3,C]
+
+    76 Acquisti[4,D]
+                    NL        .           39.00000        .          -107.48611      28.00000   37567.58633 capTot[3]
+                                          11.00000          +Inf       12.25000          +Inf   38884.68355 MagazzinoMateriePrime[3,D]
+
+    77 Acquisti[1,A]
+                    BS     252.74225      18.00000        .           305.90000      15.61538   38147.24051 Acquisti[2,B]
+                                            .               +Inf      179.90000      22.72778   39944.84273 MagazzinoMateriePrime[1,D]
+
+    78 Acquisti[1,B]
+                    BS     330.40000      40.00000        .           433.26923     -17.55744   19732.95675 MagazzinoMateriePrime[4,B]
+                                            .               +Inf      253.93462      41.65775   39297.65548 Acquisti[2,B]
+
+    79 Acquisti[1,C]
+                    BS     197.33422      23.00000        .           224.53481      20.02373   38162.61339 MagazzinoProdotti[1,Z]
+                                            .               +Inf      118.94053      25.27409   39198.68933 Produzione[2,X]
+
+    80 Acquisti[1,D]
+                    BS     214.37380      12.00000        .           256.90000       9.01923   38110.93474 Acquisti[2,B]
+                                            .               +Inf      156.10000      15.31250   39460.04676 MagazzinoMateriePrime[1,A]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  17
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    81 Utilizzo[1,A]
+                    BS     252.74225        .             .           305.90000      -2.38462   38147.24051 Acquisti[2,B]
+                                            .               +Inf      179.90000       2.65000   39419.70051 MagazzinoMateriePrime[1,A]
+
+    82 Utilizzo[1,B]
+                    BS     181.23422        .             .           208.43481      -2.97627   38210.53135 MagazzinoProdotti[1,Z]
+                                            .               +Inf      149.34118       2.79577   39256.62360 Produzione[2,Y]
+
+    83 Utilizzo[1,C]
+                    BS     197.33422        .             .           224.53481      -2.97627   38162.61339 MagazzinoProdotti[1,Z]
+                                            .               +Inf      118.94053       2.27409   39198.68933 Produzione[2,X]
+
+    84 Utilizzo[1,D]
+                    BS     214.37380        .             .           256.90000      -2.98077   38110.93474 Acquisti[2,B]
+                                            .               +Inf      156.10000       3.31250   39460.04676 MagazzinoMateriePrime[1,A]
+
+    85 Utilizzo[2,A]
+                    BS     184.56915        .             .           257.41139      -2.65000   38260.82532 MagazzinoMateriePrime[1,A]
+                                            .               +Inf      131.41139       2.38462   39190.05998 Acquisti[2,B]
+
+    86 Utilizzo[2,B]
+                    BS      87.12147        .             .           100.17112      -1.72542   38599.61210 Produzione[3,Q]
+                                            .               +Inf       59.92089       2.97627   39009.23068 MagazzinoProdotti[1,Z]
+
+    87 Utilizzo[2,C]
+                    BS      85.02147        .             .            98.07112      -1.72542   38603.23549 Produzione[3,Q]
+                                            .               +Inf       57.82089       2.97627   39002.98051 MagazzinoProdotti[1,Z]
+
+    88 Utilizzo[2,D]
+                    BS     114.88190        .             .           173.15570      -3.31250   38369.38726 MagazzinoMateriePrime[1,A]
+                                            .               +Inf      103.46898       1.97287   38976.58040 Produzione[3,Q]
+
+    89 Utilizzo[3,A]
+                    BS      47.43861        .             .            59.68861        .        38749.93355 MagazzinoProdotti[3,W]
+                                            .               +Inf       14.35000        .        38749.93355 Produzione[4,Z]
+
+    90 Utilizzo[3,B]
+                    BS      49.79430        .             .            62.04430        .        38749.93355 MagazzinoProdotti[3,W]
+                                            .               +Inf       39.29430        .        38749.93355 Produzione[4,K]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page  18
+
+Problem:    stretti
+Objective:  z = 38749.93355 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    91 Utilizzo[3,C]
+                    BS      45.59430        .             .            57.84430        .        38749.93355 MagazzinoProdotti[3,W]
+                                            .               +Inf       37.19430        .        38749.93355 Produzione[4,K]
+
+    92 Utilizzo[3,D]
+                    BS      30.89430        .             .            43.14430        .        38749.93355 MagazzinoProdotti[3,W]
+                                            .               +Inf       14.35000        .        38749.93355 Produzione[4,Z]
+
+    93 Utilizzo[4,A]
+                    BS      12.25000        .             .            45.33861        .        38749.93355 Produzione[4,Z]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    94 Utilizzo[4,B]
+                    BS      12.25000        .             .            22.75000        .        38749.93355 Produzione[4,K]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    95 Utilizzo[4,C]
+                    BS      12.25000        .             .            20.65000        .        38749.93355 Produzione[4,K]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+    96 Utilizzo[4,D]
+                    BS      12.25000        .             .            28.79430        .        38749.93355 Produzione[4,Z]
+                                            .               +Inf         .             .        38749.93355 MagazzinoProdotti[3,W]
+
+End of report

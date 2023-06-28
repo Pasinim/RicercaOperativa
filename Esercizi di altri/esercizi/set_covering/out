@@ -1,0 +1,90 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model set.mod --ranges sens.out
+Reading model section from set.mod...
+Reading data section from set.mod...
+54 lines were read
+Generating assegnamento...
+Generating z...
+Model has been successfully generated
+GLPK Integer Optimizer 5.0
+6 rows, 10 columns, 30 non-zeros
+10 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+5 rows, 10 columns, 20 non-zeros
+10 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 5
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+5 rows, 10 columns, 20 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.000e+00 (5)
+      2: obj =   1.071000000e+03 inf =   0.000e+00 (0)
+*     7: obj =   8.530000000e+02 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
+Gomory's cuts enabled
+MIR cuts enabled
+Cover cuts enabled
+Number of 0-1 knapsack inequalities = 4
+Clique cuts enabled
+Constructing conflict graph...
+Conflict graph has 0 + 2 = 2 vertices
++     7: mip =     not found yet >=              -inf        (1; 0)
++     7: >>>>>   8.530000000e+02 >=   8.530000000e+02   0.0% (1; 0)
++     7: mip =   8.530000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.2 Mb (172542 bytes)
+Writing MIP solution to '/dev/stdout'...
+Problem:    set
+Rows:       6
+Columns:    10 (10 integer, 10 binary)
+Non-zeros:  30
+Status:     INTEGER OPTIMAL
+Objective:  z = 853 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 assegnamento[1]
+                                   3             1               
+     2 assegnamento[2]
+                                   1             1               
+     3 assegnamento[3]
+                                   1             1               
+     4 assegnamento[4]
+                                   1             1               
+     5 assegnamento[5]
+                                   1             1               
+     6 z                         853                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              1             0             1 
+     2 x[2]         *              0             0             1 
+     3 x[3]         *              0             0             1 
+     4 x[4]         *              0             0             1 
+     5 x[5]         *              1             0             1 
+     6 x[6]         *              0             0             1 
+     7 x[7]         *              1             0             1 
+     8 x[8]         *              0             0             1 
+     9 x[9]         *              0             0             1 
+    10 x[10]        *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
+Cannot produce sensitivity analysis report for interior-point or MIP solution

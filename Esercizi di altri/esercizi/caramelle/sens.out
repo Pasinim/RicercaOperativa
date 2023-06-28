@@ -1,0 +1,77 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    caramelle
+Objective:  z = 867.7680699 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Consumi[Fruttosio]
+                    BS       8.75743        .24257          -Inf        8.75534      -1.91040     851.03787 Consumi[Saccarosio]
+                                            .            9.00000        9.85780      17.60176    1021.91419 Consumi[Estratti_di_erbe]
+
+     2 Consumi[Saccarosio]
+                    NU       5.00000        .               -Inf        4.99853      -2.71644     867.76408 Consumi[Coloranti]
+                                           2.71644       5.00000        5.17060          +Inf     868.23148 Consumi[Fruttosio]
+
+     3 Consumi[Glucosio]
+                    NU      20.00000        .               -Inf       13.97603     -16.58989     767.83105 x[Dolce]
+                                          16.58989      20.00000       20.00171          +Inf     867.79644 Consumi[Coloranti]
+
+     4 Consumi[Destrosio]
+                    NU      18.00000        .               -Inf       17.99787      -2.52846     867.76268 Consumi[Coloranti]
+                                           2.52846      18.00000       28.53877          +Inf     894.41494 x[Sfizio]
+
+     5 Consumi[Estratti_di_erbe]
+                    NU      20.00000        .               -Inf       18.32013      -2.54170     863.49835 Consumi[Fruttosio]
+                                           2.54170      20.00000       20.00716          +Inf     867.78626 Consumi[Coloranti]
+
+     6 Consumi[Estratti_di_frutta]
+                    NU      17.00000        .               -Inf       16.99691     -13.49748     867.72640 Consumi[Coloranti]
+                                          13.49748      17.00000       18.39071          +Inf     886.53916 Consumi[Fruttosio]
+
+     7 Consumi[Coloranti]
+                    BS      18.92470        .00030          -Inf       17.26272      -9.93776     679.69886 Consumi[Conservanti]
+                                            .           18.92500       18.93605      13.38028    1120.98592 Consumi[Saccarosio]
+
+     8 Consumi[Conservanti]
+                    NU      12.50000        .               -Inf       11.44979     -15.72677     851.25172 Consumi[Fruttosio]
+                                          15.72677      12.50000       12.50019          +Inf     867.77103 Consumi[Coloranti]
+
+     9 Consumi[Aromatizzanti]
+                    BS       9.98626        .01374          -Inf        9.08253     -18.27580     685.26121 Consumi[Conservanti]
+                                            .           10.00000        9.98662      11.04651     978.08140 Consumi[Saccarosio]
+
+    10 z            BS     867.76807    -867.76807          -Inf      851.25172      -1.00000        .      Consumi[Conservanti]
+                                            .               +Inf      867.76807          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    caramelle
+Objective:  z = 867.7680699 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Dolce]     BS       2.79428       5.00000        .             2.78638       4.49528     866.35773 Consumi[Saccarosio]
+                                            .               +Inf        5.66713      10.74913     883.83275 Consumi[Conservanti]
+
+     2 x[Delizia]   NL        .            4.00000        .             -.52490          -Inf     869.29155 Consumi[Fruttosio]
+                                          -2.90244          +Inf         .01272       6.90244     867.73114 Consumi[Coloranti]
+
+     3 x[Bacetto]   BS      56.14297       8.00000        .            37.64840       2.59641     564.39462 Consumi[Glucosio]
+                                            .               +Inf       56.14671       9.06476     927.54670 Consumi[Saccarosio]
+
+     4 x[Golosa]    BS      16.47180       5.00000        .            16.46516       4.18875     854.40537 Consumi[Destrosio]
+                                            .               +Inf       30.13699      12.31326     988.23063 Consumi[Glucosio]
+
+     5 x[Sfizio]    BS      23.75060       6.00000        .            18.51485       5.18451     848.39959 Consumi[Estratti_di_erbe]
+                                            .               +Inf       23.75540       7.12195     894.41494 Consumi[Destrosio]
+
+     6 x[Slurp]     BS      13.41700       7.50000        .            13.40752       3.10366     808.78234 Consumi[Estratti_di_frutta]
+                                            .               +Inf       17.22772       8.62045     882.80112 Consumi[Estratti_di_erbe]
+
+     7 x[Sweety]    BS      17.59174       4.50000        .            11.93948       1.57792     816.36364 Consumi[Conservanti]
+                                            .               +Inf       17.59272       8.55213     939.05213 Consumi[Saccarosio]
+
+End of report

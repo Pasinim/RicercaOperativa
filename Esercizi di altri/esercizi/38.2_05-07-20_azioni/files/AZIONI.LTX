@@ -1,0 +1,31 @@
+! Esercizio Azioni, TeRO_38, 20 Luglio 2005;
+
+! Variabili: x(j) = investimento in azioni di tipo j=A..C [Euro];
+!            y(j) = n. di azioni acquistate di tipo j=A..C;
+
+! Funzione obiettivo 1: max rendimento in caso positivo [Euro];
+max 0.05 xA + 0.08 xB + 0.12 xC
+
+! Funzione obiettivo 2: max rendimento in caso negativo [Euro];
+! max 0.01 xA + 0.00 xB - 0.05 xC;
+! La funzione obiettivo viene trasformata in vincolo;
+
+st
+
+! Vincolo sul budget [Euro];
+Budget) xA + xB + xC <= 80000
+
+! Relazione tra investimento e numero di azioni acquistate [Euro];
+AzioniA) 50 yA - xA = 0
+AzioniB) 75 yB - xB = 0
+AzioniC) 90 yC - xC = 0
+
+! Limiti alle proporzioni sul numero di azioni;
+MaxA) yB + yC - yA >= 0
+MaxB) yC + yA - yB >= 0
+MaxC) yA + yB - yC >= 0
+
+! Vincolo derivato dalla funzione obiettivo 2 [Euro];
+Vincolo) 0.01 xA + 0.00 xB - 0.05 xC >= -5000
+
+end

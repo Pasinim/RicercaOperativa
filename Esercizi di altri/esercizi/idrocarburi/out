@@ -1,0 +1,141 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model idrocarburi.mod
+Reading model section from idrocarburi.mod...
+Reading data section from idrocarburi.mod...
+79 lines were read
+Generating Tot_b...
+Generating Tot_s...
+Generating Consumi...
+Generating Frazione_minima...
+Generating Frazione_massima...
+Generating z...
+Model has been successfully generated
+GLPK Simplex Optimizer 5.0
+36 rows, 19 columns, 88 non-zeros
+Preprocessing...
+21 rows, 15 columns, 55 non-zeros
+Scaling...
+ A: min|aij| =  1.000e-01  max|aij| =  1.000e+00  ratio =  1.000e+01
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 21
+*     0: obj =  -0.000000000e+00 inf =   0.000e+00 (9)
+*    15: obj =   7.166666667e+03 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.1 Mb (151213 bytes)
+Writing basic solution to '/dev/stdout'...
+Problem:    idrocarburi
+Rows:       36
+Columns:    19
+Non-zeros:  88
+Status:     OPTIMAL
+Objective:  z = 7166.666667 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Tot_b[Super] NS             0            -0             =       4.16667 
+     2 Tot_b[Normale]
+                    NS             0            -0             =       4.16667 
+     3 Tot_b[Verde] NS             0            -0             =       5.04902 
+     4 Tot_s[A]     NS             0            -0             =            -3 
+     5 Tot_s[B]     NS             0            -0             =            -6 
+     6 Tot_s[C]     NS             0            -0             =            -4 
+     7 Tot_s[D]     NS             0            -0             =            -5 
+     8 Consumi[A]   NU          3000                        3000       1.16667 
+     9 Consumi[B]   NU          2000                        2000           1.5 
+    10 Consumi[C]   NU          4000                        4000      0.166667 
+    11 Consumi[D]   B              0                        1000 
+    12 Frazione_minima[A,Super]
+                    B           1100            -0               
+    13 Frazione_minima[A,Normale]
+                    B           1900            -0               
+    14 Frazione_minima[A,Verde]
+                    B              0            -0               
+    15 Frazione_minima[B,Super]
+                    NL             0            -0                    -3.33333 
+    16 Frazione_minima[B,Normale]
+                    NL             0            -0                    -3.33333 
+    17 Frazione_minima[B,Verde]
+                    B              0            -0               
+    18 Frazione_minima[C,Super]
+                    B           1100            -0               
+    19 Frazione_minima[C,Normale]
+                    B           2900            -0               
+    20 Frazione_minima[C,Verde]
+                    B              0            -0               
+    21 Frazione_minima[D,Super]
+                    B              0            -0               
+    22 Frazione_minima[D,Normale]
+                    B              0            -0               
+    23 Frazione_minima[D,Verde]
+                    B              0            -0               
+    24 Frazione_massima[A,Super]
+                    NU             0                          -0         < eps
+    25 Frazione_massima[A,Normale]
+                    B       -766.667                          -0 
+    26 Frazione_massima[A,Verde]
+                    NU             0                          -0      0.882353 
+    27 Frazione_massima[B,Super]
+                    B          -2200                          -0 
+    28 Frazione_massima[B,Normale]
+                    B          -4800                          -0 
+    29 Frazione_massima[B,Verde]
+                    B              0                          -0 
+    30 Frazione_massima[C,Super]
+                    B       -733.333                          -0 
+    31 Frazione_massima[C,Normale]
+                    B       -2433.33                          -0 
+    32 Frazione_massima[C,Verde]
+                    NU             0                          -0      0.882353 
+    33 Frazione_massima[D,Super]
+                    B       -3666.67                          -0 
+    34 Frazione_massima[D,Normale]
+                    B       -5333.33                          -0 
+    35 Frazione_massima[D,Verde]
+                    NU             0                          -0     0.0490196 
+    36 z            B        7166.67                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A,Super]   B           1100             0               
+     2 x[B,Super]   B        1466.67             0               
+     3 x[C,Super]   B           1100             0               
+     4 x[D,Super]   NL             0             0                   -0.833333 
+     5 x[A,Normale] B           1900             0               
+     6 x[B,Normale] B        533.333             0               
+     7 x[C,Normale] B           2900             0               
+     8 x[D,Normale] NL             0             0                   -0.833333 
+     9 x[A,Verde]   B              0             0               
+    10 x[B,Verde]   NL             0             0                    -2.45098 
+    11 x[C,Verde]   B              0             0               
+    12 x[D,Verde]   B              0             0               
+    13 totb[Super]  B        3666.67                             
+    14 totb[Normale]
+                    B        5333.33                             
+    15 totb[Verde]  B              0                             
+    16 tots[A]      B           3000                             
+    17 tots[B]      B           2000                             
+    18 tots[C]      B           4000                             
+    19 tots[D]      B              0                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 9.09e-13 on row 8
+        max.rel.err = 1.52e-16 on row 8
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.78e-15 on column 6
+        max.rel.err = 1.11e-16 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 8.88e-16 on row 24
+        max.rel.err = 8.88e-16 on row 24
+        High quality
+
+End of output

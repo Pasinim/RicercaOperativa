@@ -1,0 +1,61 @@
+! Esercizio Merendine, TeRO n.29, 1 Aprile 2004
+!
+! Variabili: x(j) j=1..5, quantità di prodotto (confez. piccole) [Kg/g]
+!            y(j) j=1..5, quantità di prodotto (confez. grandi)  [Kg/g]
+!            Variabili continue non-negative
+
+!Funzione obiettivo: massimizzazione ricavi [Euro/g]
+max 8 x1 + 6 x2 + 12 x3 + 14 x4 + 10 x5 
+  + 8 y1 + 6 y2 + 12 y3 + 14 y4 + 10 y5
+
+st
+
+! Vincoli tecnologici sulla produzione [Kg/g]
+zucchero) 0.25 x1 + 0.15 x2 + 0.10 x3 + 0.20 x4 + 0.30 x5
+        + 0.25 y1 + 0.15 y2 + 0.10 y3 + 0.20 y4 + 0.30 y5 + slackz = 300
+marmella) 0.40 x1 + 0.30 x2 + 0.00 x3 + 0.10 x4 + 0.10 x5 
+        + 0.40 y1 + 0.30 y2 + 0.00 y3 + 0.10 y4 + 0.10 y5 + slackm = 320 
+cioccola) 0.10 x1 + 0.00 x2 + 0.15 x3 + 0.40 x4 + 0.30 x5 
+        + 0.10 y1 + 0.00 y2 + 0.15 y3 + 0.40 y4 + 0.30 y5 + slackc = 240
+
+! Vincoli sul rapporto tra i biscotti normali e speciali [Kg/g]
+Bisc_max) x2 + y2 - 0.25 x1 - 0.25 y1 <= 0
+Bisc_min) x2 + y2 - 0.10 x1 - 0.10 y1 >= 0
+
+! Vincolo sugli slack [Kg/g]
+Slackz) slackz <= 30
+Slackm) slackm <= 32
+Slackc) slackc <= 24
+
+! Vincolo su confezioni grandi e piccole [Kg/g]
+max_pic1) 0.4 x1 - 0.6 y1 <= 0
+min_pic1) 0.6 x1 - 0.4 y1 >= 0
+max_pic2) 0.4 x2 - 0.6 y2 <= 0
+min_pic2) 0.6 x2 - 0.4 y2 >= 0
+max_pic3) 0.4 x3 - 0.6 y3 <= 0
+min_pic3) 0.6 x3 - 0.4 y3 >= 0
+max_pic4) 0.4 x4 - 0.6 y4 <= 0
+min_pic4) 0.6 x4 - 0.4 y4 >= 0
+max_pic5) 0.4 x5 - 0.6 y5 <= 0
+min_pic5) 0.6 x5 - 0.4 y5 >= 0
+
+! Vincolo su produzione minima [Kg/g]
+min1) + 0.9 x1 + 0.9 y1 - 0.1 x2 - 0.1 y2 - 0.1 x3 - 0.1 y3 - 0.1 x4 - 0.1 y4 - 0.1 x5 - 0.1 y5 >= 0 
+min2) - 0.1 x1 - 0.1 y1 + 0.9 x2 + 0.9 y2 - 0.1 x3 - 0.1 y3 - 0.1 x4 - 0.1 y4 - 0.1 x5 - 0.1 y5 >= 0 
+min3) - 0.1 x1 - 0.1 y1 - 0.1 x2 - 0.1 y2 + 0.9 x3 + 0.9 y3 - 0.1 x4 - 0.1 y4 - 0.1 x5 - 0.1 y5 >= 0 
+min4) - 0.1 x1 - 0.1 y1 - 0.1 x2 - 0.1 y2 - 0.1 x3 - 0.1 y3 + 0.9 x4 + 0.9 y4 - 0.1 x5 - 0.1 y5 >= 0 
+min5) - 0.1 x1 - 0.1 y1 - 0.1 x2 - 0.1 y2 - 0.1 x3 - 0.1 y3 - 0.1 x4 - 0.1 y4 + 0.9 x5 + 0.9 y5 >= 0 
+
+! Produzione attuale [Kg/g]
+!x1 = 250
+!x2 =  60 
+!x3 = 180
+!x4 =  60
+!x5 =  70
+!y1 = 350
+!y2 =  90 
+!y3 = 250
+!y4 =  90
+!y5=   90
+
+end

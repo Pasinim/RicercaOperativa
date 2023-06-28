@@ -1,0 +1,119 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    farmaci
+Objective:  z = -0.5760882353 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 lowerBound[a]
+                    NL       3.55000        .            3.55000        3.25571          -Inf        .37327 lowerBound[b]
+                                          -3.22598          +Inf        3.56876       3.22598       -.63660 lowerBound[f]
+
+     2 lowerBound[b]
+                    BS     157.50000    -257.50000    -100.00000     -132.14286       -.00457      -1.29647 upperBound[e]
+                                            .               +Inf      173.91304        .00369        .00459 lowerBound[a]
+
+     3 lowerBound[c]
+                    BS       1.01147       -.56147        .45000         .99137      -4.88450      -5.51661 upperBound[g]
+                                            .               +Inf        1.05291        .55269       -.01705 limiteSomministrazione[B]
+
+     4 lowerBound[d]
+                    BS   -1047.91176    -752.08824   -1800.00000    -1070.14246       -.00103        .50340 limiteSomministrazione[B]
+                                            .               +Inf    -1044.82632        .03182     -33.92403 upperBound[g]
+
+     5 lowerBound[e]
+                    BS     -14.40000      -4.00000     -18.40000      -17.83333       -.34304       4.36368 upperBound[e]
+                                            .               +Inf      -14.40000          +Inf          -Inf
+
+     6 lowerBound[f]
+                    BS      -6.55588       -.44412      -7.00000       -7.26986       -.05156       -.23804 limiteSomministrazione[B]
+                                            .               +Inf       -3.62745        .40218      -3.21276 upperBound[e]
+
+     7 lowerBound[g]
+                    BS      24.00000     -80.00000     -56.00000       23.68211       -.30887      -7.98903 upperBound[g]
+                                            .               +Inf       24.00000          +Inf          +Inf
+
+     8 upperBound[a]
+                    BS       3.55000       8.00000          -Inf        3.55000          -Inf          -Inf
+                                            .           11.55000        3.56876       3.22598      10.87614 lowerBound[a]
+
+     9 upperBound[b]
+                    BS     157.50000    1542.50000          -Inf     -100.00000       -.00457      -1.29647 upperBound[e]
+                                            .         1700.00000      173.91304        .00369        .00459 lowerBound[a]
+
+    10 upperBound[c]
+                    BS       1.01147        .23853          -Inf         .99137      -4.88450      -5.51661 upperBound[g]
+                                            .            1.25000        1.05291        .55269       -.01705 limiteSomministrazione[B]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    farmaci
+Objective:  z = -0.5760882353 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 upperBound[d]
+                    BS   -1047.91176     597.91176          -Inf    -1070.14246       -.00103        .50340 limiteSomministrazione[B]
+                                            .         -450.00000    -1044.82632        .03182     -33.92403 upperBound[g]
+
+    12 upperBound[e]
+                    NU     -14.40000        .               -Inf      -17.83333       -.34304      -1.75386 lowerBound[b]
+                                            .34304     -14.40000      -13.87931          +Inf       -.39747 lowerBound[f]
+
+    13 upperBound[f]
+                    BS      -6.55588      12.55588          -Inf       -7.00000       -.05156       -.23804 limiteSomministrazione[B]
+                                            .            6.00000       -3.62745        .40218      -3.21276 upperBound[e]
+
+    14 upperBound[g]
+                    NU      24.00000        .               -Inf       23.68211       -.30887       -.67428 lowerBound[f]
+                                            .30887      24.00000       27.77209          +Inf        .58901 upperBound[c]
+
+    15 limiteSomministrazione[A]
+                    BS       -.54412       2.54412          -Inf        -.56894      -2.43741        .75015 lowerBound[a]
+                                            .            2.00000        -.52179       1.02556      -1.13411 limiteSomministrazione[B]
+
+    16 limiteSomministrazione[B]
+                    NU       3.50000        .               -Inf        3.41564       -.27147       -.59899 lowerBound[f]
+                                            .27147       3.50000        4.64311          +Inf       -.26577 lowerBound[c]
+
+    17 limiteSomministrazione[C]
+                    NU        .50000        .               -Inf         .48325      -4.60564       -.65323 lowerBound[f]
+                                           4.60564        .50000         .78219          +Inf        .72358 lowerBound[b]
+
+    18 limiteSomministrazione[D]
+                    BS        .20882        .29118          -Inf         .10784     -11.66333      -3.01167 upperBound[e]
+                                            .             .50000         .38994        .12644       -.54968 limiteSomministrazione[B]
+
+    19 limiteSomministrazione[E]
+                    BS       6.60147        .89853          -Inf        6.53368      -1.44851     -10.13836 upperBound[g]
+                                            .            7.50000        6.74413        .16052        .48359 limiteSomministrazione[B]
+
+    20 z            BS      -5.72609       5.72609          -Inf       -5.74899      -1.00000       5.15000 limiteSomministrazione[B]
+                                            .               +Inf       -5.72609          +Inf          -Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    farmaci
+Objective:  z = -0.5760882353 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A]         BS       -.54412      -3.81500          -Inf        -.56894      -6.25241        .75015 lowerBound[a]
+                                            .               +Inf        -.52179      -2.78944      -1.13411 limiteSomministrazione[B]
+
+     2 x[B]         BS       3.50000      -4.05167          -Inf        3.41564      -4.32314      -1.52624 limiteSomministrazione[B]
+                                            .               +Inf        3.50000          +Inf          +Inf
+
+     3 x[C]         BS        .50000       1.38667          -Inf         .48325      -3.21897      -2.87891 limiteSomministrazione[C]
+                                            .               +Inf         .50000          +Inf          +Inf
+
+     4 x[D]         BS        .20882      -2.27833          -Inf         .10784     -13.94167      -3.01167 upperBound[e]
+                                            .               +Inf         .38994      -2.15189       -.54968 limiteSomministrazione[B]
+
+     5 x[E]         BS       6.60147        .93333          -Inf        6.53368       -.51517     -10.13836 upperBound[g]
+                                            .               +Inf        6.74413       1.09386        .48359 limiteSomministrazione[B]
+
+End of report

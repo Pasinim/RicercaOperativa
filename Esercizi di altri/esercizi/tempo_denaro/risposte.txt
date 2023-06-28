@@ -1,0 +1,6 @@
+1. 1 e 3, lo vediamo dalla x ottima
+2. la variabile fuori base è il secondo motociclo, il costo ridotto della variabile è (lo vedo con  display x.rc)
+    il prezzo di x2 deve aumentare di 428
+3. bisogna vedere se il vincolo sui consumi è attivo o no , per i pezzi di tipo 1 e 3 non si creano giacenze, invece
+    per il pezzo 2 c'è uno scarto di 0.9
+4. 

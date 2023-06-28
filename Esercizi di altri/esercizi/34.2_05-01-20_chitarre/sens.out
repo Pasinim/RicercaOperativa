@@ -1,0 +1,46 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    chitarre
+Objective:  z = 12786.66667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 NumeroMinimo NL     100.00000        .          100.00000     -154.28571          -Inf   16685.71429 Produzione[Falegnameria]
+                                         -15.33333          +Inf           +Inf      15.33333          -Inf
+
+     2 Produzione[Falegnameria]
+                    BS     162.66667     237.33333          -Inf           -Inf     -16.42857   10114.28571 NumeroMinimo
+                                            .          400.00000      162.66667          +Inf          +Inf
+
+     3 Produzione[Elettrotecnica]
+                    NU     200.00000        .               -Inf           -Inf     -24.00000          -Inf
+                                          24.00000     200.00000      397.77778          +Inf   17533.33333 Produzione[Falegnameria]
+
+     4 Produzione[Liuteria]
+                    NU     120.00000        .               -Inf           -Inf     -79.33333          -Inf
+                                          79.33333     120.00000     1900.00000          +Inf  154000.00000 Produzione[Falegnameria]
+
+     5 z            BS   12786.66667  -12786.66667          -Inf           -Inf      -1.00000        .      Produzione[Liuteria]
+                                            .               +Inf    12786.66667          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    chitarre
+Objective:  z = 12786.66667 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[De_Paoli]  BS       6.66667     350.00000          -Inf           -Inf     304.00000   12480.00000 NumeroMinimo
+                                            .               +Inf        6.66667          +Inf          +Inf
+
+     2 x[LittleDiablo]
+                    BS      18.66667     160.00000          -Inf           -Inf     131.25000   12250.00000 NumeroMinimo
+                                            .               +Inf           +Inf    1350.00000   35000.00000 Produzione[Liuteria]
+
+     3 x[Stradivarius]
+                    BS      74.66667     100.00000          -Inf       74.66667          -Inf          -Inf
+                                            .               +Inf           +Inf     108.21429   13400.00000 NumeroMinimo
+
+End of report

@@ -1,0 +1,147 @@
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 lowerBound[B,a]
+                    NL        .             .             .         -1808.51064          -Inf    2882.97872 upperBound[B,p]
+                                           -.02745          +Inf     1545.45455        .02745    2790.90909 lowerBound[B,p]
+
+     2 lowerBound[B,v]
+                    NL        .             .             .         -1328.12500          -Inf    2914.06250 upperBound[B,p]
+                                           -.06078          +Inf     2236.84211        .06078    2697.36842 lowerBound[B,p]
+
+     3 lowerBound[B,p]
+                    BS    1666.66667   -1666.66667        .         -1440.67797       -.02545    2790.90909 lowerBound[B,a]
+                                            .               +Inf     1666.66667        .23846    3230.76923 lowerBound[T,v]
+
+     4 lowerBound[S,a]
+                    NL        .             .             .              .               -Inf    2833.33333 upperBound[S,v]
+                                           -.02222          +Inf         .             .02222    2833.33333 lowerBound[S,v]
+
+     5 lowerBound[S,v]
+                    BS        .             .             .         -2500.00000       -.03333    2833.33333 lowerBound[S,a]
+                                            .               +Inf         .             .06078    2833.33333 upperBound[S,p]
+
+     6 lowerBound[S,p]
+                    BS        .             .             .              .            -.06078    2833.33333 upperBound[S,p]
+                                            .               +Inf         .             .03333    2833.33333 lowerBound[S,a]
+
+     7 lowerBound[T,a]
+                    NL        .             .             .         -4250.00000          -Inf    2950.00000 limiteMateriali[p]
+                                           -.02745          +Inf         .             .02745    2833.33333 lowerBound[T,p]
+
+     8 lowerBound[T,v]
+                    NL        .             .             .         -4250.00000          -Inf    3091.66667 limiteMateriali[p]
+                                           -.06078          +Inf         .             .06078    2833.33333 lowerBound[T,p]
+
+     9 lowerBound[T,p]
+                    BS        .             .             .         -3400.00000       -.02745    2833.33333 lowerBound[T,a]
+                                            .               +Inf         .               +Inf    2833.33333
+
+    10 upperBound[B,a]
+                    BS   -3333.33333    3333.33333          -Inf    -3333.33333       -.11923    3230.76923 lowerBound[T,v]
+                                            .             .         -1545.45455        .02373    2754.23729 lowerBound[B,a]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 upperBound[B,v]
+                    BS   -1666.66667    1666.66667          -Inf    -1666.66667       -.23846    3230.76923 lowerBound[T,v]
+                                            .             .         -1666.66667        .05000    2750.00000 lowerBound[S,a]
+
+    12 upperBound[B,p]
+                    BS   -1666.66667    1666.66667          -Inf    -3090.90909       -.02979    2882.97872 lowerBound[B,a]
+                                            .             .         -1666.66667        .05000    2750.00000 lowerBound[S,a]
+
+    13 upperBound[S,a]
+                    NU        .             .               -Inf   -15000.00000       -.05556    2000.00000 upperBound[B,p]
+                                            .05556        .              .               +Inf    2833.33333 lowerBound[S,p]
+
+    14 upperBound[S,v]
+                    BS        .             .               -Inf         .            -.01667    2833.33333 lowerBound[S,a]
+                                            .             .              .             .06078    2833.33333 upperBound[S,p]
+
+    15 upperBound[S,p]
+                    NU        .             .               -Inf         .            -.06078    2833.33333 lowerBound[S,p]
+                                            .06078        .              .               +Inf    2833.33333 lowerBound[S,v]
+
+    16 upperBound[T,a]
+                    BS   -3333.33333    3333.33333          -Inf    -3333.33333       -.20000    3500.00000 lowerBound[S,a]
+                                            .             .         -3333.33333        .02800    2740.00000 lowerBound[T,a]
+
+    17 upperBound[T,v]
+                    BS  -20000.00000   20000.00000          -Inf   -20000.00000       -.03333    3500.00000 lowerBound[S,a]
+                                            .             .        -20000.00000        .02109    2411.56463 lowerBound[T,v]
+
+    18 upperBound[T,p]
+                    BS  -13333.33333   13333.33333          -Inf   -13333.33333       -.02545    3172.72727 lowerBound[T,a]
+                                            .             .        -13333.33333        .04844    2187.50000 upperBound[S,p]
+
+    19 limiteMateriali[a]
+                    NU     700.00000        .               -Inf      487.50000      -2.74510    2250.00000 upperBound[B,v]
+                                           2.74510     700.00000      983.33333          +Inf    3611.11111 limiteMateriali[p]
+
+    20 limiteMateriali[v]
+                    NU     150.00000        .               -Inf       43.75000      -6.07843    2187.50000 upperBound[T,a]
+                                           6.07843     150.00000      215.38462          +Inf    3230.76923 upperBound[B,v]
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 limiteMateriali[p]
+                    BS     150.00000      50.00000          -Inf      150.00000      -2.33333    2483.33333 lowerBound[T,a]
+                                            .          200.00000      150.00000          +Inf          +Inf
+
+    22 z            BS    2833.33333   -2833.33333          -Inf     2833.33333      -1.00000        .      lowerBound[T,v]
+                                            .               +Inf     2833.33333          +Inf          +Inf
+
+GLPK 5.0  - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[B,a]       BS     266.66667       2.50000          -Inf      266.66667       2.18750    2750.00000 lowerBound[S,a]
+                                            .               +Inf      266.66667       3.99038    3230.76923 lowerBound[T,v]
+
+     2 x[B,v]       BS      16.66667       2.50000          -Inf       16.66667      -2.50000    2750.00000 lowerBound[S,a]
+                                            .               +Inf       44.73684       7.34375    2914.06250 lowerBound[B,v]
+
+     3 x[B,p]       BS      50.00000       2.50000          -Inf       50.00000        .83333    2750.00000 lowerBound[S,a]
+                                            .               +Inf       50.00000      10.44872    3230.76923 lowerBound[T,v]
+
+     4 x[S,a]       BS        .            2.00000          -Inf         .               -Inf    2833.33333
+                                            .               +Inf         .            2.39216    2833.33333 lowerBound[S,a]
+
+     5 x[S,v]       BS        .            2.00000          -Inf         .               -Inf    2833.33333
+                                            .               +Inf      150.00000       7.55556    2833.33333 upperBound[S,a]
+
+     6 x[S,p]       BS        .            2.00000          -Inf         .           -4.07843    2833.33333 upperBound[S,p]
+                                            .               +Inf         .            4.22222    2833.33333 lowerBound[S,a]
+
+     7 x[T,a]       BS     433.33333       3.00000          -Inf      433.33333       1.50962    2187.50000 lowerBound[T,v]
+                                            .               +Inf      433.33333       4.53846    3500.00000 lowerBound[S,a]
+
+     8 x[T,v]       BS     133.33333       3.00000          -Inf      133.33333      -1.84375    2187.50000 upperBound[S,p]
+                                            .               +Inf      133.33333       8.00000    3500.00000 lowerBound[S,a]
+
+     9 x[T,p]       BS     100.00000       3.00000          -Inf      100.00000        .08333    2541.66667 lowerBound[T,a]
+                                            .               +Inf      100.00000       9.66667    3500.00000 lowerBound[S,a]
+
+End of report

@@ -1,0 +1,210 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model cifre.mod --ranges sens.out
+Reading model section from cifre.mod...
+Reading data section from cifre.mod...
+cifre.mod:55: warning: final NL missing before end of file
+55 lines were read
+Generating TutteDiverse...
+Generating Assign...
+Generating Permuti...
+Generating Permuti2...
+Generating Permuti3...
+Generating Permuti4...
+Generating Somma...
+Generating speciali...
+Model has been successfully generated
+GLPK Integer Optimizer 5.0
+51 rows, 72 columns, 232 non-zeros
+72 integer variables, all of which are binary
+Preprocessing...
+49 rows, 68 columns, 220 non-zeros
+68 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  8.000e+03  ratio =  8.000e+03
+GM: min|aij| =  1.057e-01  max|aij| =  9.457e+00  ratio =  8.944e+01
+EQ: min|aij| =  1.118e-02  max|aij| =  1.000e+00  ratio =  8.944e+01
+2N: min|aij| =  7.812e-03  max|aij| =  1.000e+00  ratio =  1.280e+02
+Constructing initial basis...
+Size of triangular part is 48
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+49 rows, 68 columns, 220 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.066e+01 (7)
+      8: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
+Gomory's cuts enabled
+MIR cuts enabled
+Cover cuts enabled
+Number of 0-1 knapsack inequalities = 8
+Clique cuts enabled
+Constructing conflict graph...
+Conflict graph has 68 + 68 = 136 vertices
++     8: mip =     not found yet >=              -inf        (1; 0)
+Cuts on level 0: gmi = 1; mir = 1; clq = 1;
+Cuts on level 5: gmi = 2; mir = 1; clq = 1;
++   110: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (5; 19)
++   110: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 29)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.4 Mb (425284 bytes)
+Writing MIP solution to '/dev/stdout'...
+Problem:    cifre
+Rows:       51
+Columns:    72 (72 integer, 72 binary)
+Non-zeros:  232
+Status:     INTEGER OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 TutteDiverse[1]
+                                   0                           1 
+     2 TutteDiverse[2]
+                                   1                           1 
+     3 TutteDiverse[3]
+                                   0                           1 
+     4 TutteDiverse[4]
+                                   0                           1 
+     5 TutteDiverse[5]
+                                   1                           1 
+     6 TutteDiverse[6]
+                                   0                           1 
+     7 TutteDiverse[7]
+                                   1                           1 
+     8 TutteDiverse[8]
+                                   1                           1 
+     9 TutteDiverse[9]
+                                   0                           1 
+    10 Assign[0]                   1             1             = 
+    11 Assign[1]                   1             1             = 
+    12 Assign[2]                   1             1             = 
+    13 Assign[3]                   1             1             = 
+    14 Permuti[1]                  0            -0             = 
+    15 Permuti[2]                  0            -0             = 
+    16 Permuti[3]                  0            -0             = 
+    17 Permuti[4]                  0            -0             = 
+    18 Permuti[5]                  0            -0             = 
+    19 Permuti[6]                  0            -0             = 
+    20 Permuti[7]                  0            -0             = 
+    21 Permuti[8]                  0            -0             = 
+    22 Permuti[9]                  0            -0             = 
+    23 Permuti2[1]                 0            -0             = 
+    24 Permuti2[2]                 0            -0             = 
+    25 Permuti2[3]                 0            -0             = 
+    26 Permuti2[4]                 0            -0             = 
+    27 Permuti2[5]                 0            -0             = 
+    28 Permuti2[6]                 0            -0             = 
+    29 Permuti2[7]                 0            -0             = 
+    30 Permuti2[8]                 0            -0             = 
+    31 Permuti2[9]                 0            -0             = 
+    32 Permuti3[1]                 0            -0             = 
+    33 Permuti3[2]                 0            -0             = 
+    34 Permuti3[3]                 0            -0             = 
+    35 Permuti3[4]                 0            -0             = 
+    36 Permuti3[5]                 0            -0             = 
+    37 Permuti3[6]                 0            -0             = 
+    38 Permuti3[7]                 0            -0             = 
+    39 Permuti3[8]                 0            -0             = 
+    40 Permuti3[9]                 0            -0             = 
+    41 Permuti4[1]                 0            -0             = 
+    42 Permuti4[2]                 0            -0             = 
+    43 Permuti4[3]                 0            -0             = 
+    44 Permuti4[4]                 0            -0             = 
+    45 Permuti4[5]                 0            -0             = 
+    46 Permuti4[6]                 0            -0             = 
+    47 Permuti4[7]                 0            -0             = 
+    48 Permuti4[8]                 0            -0             = 
+    49 Permuti4[9]                 0            -0             = 
+    50 Somma                    8612          8612             = 
+    51 speciali                    2             2             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x1[0,1]      *              0             0             1 
+     2 x1[1,1]      *              0             0             1 
+     3 x1[2,1]      *              0             0             1 
+     4 x1[3,1]      *              0             0             1 
+     5 x1[0,2]      *              0             0             1 
+     6 x1[1,2]      *              0             0             1 
+     7 x1[2,2]      *              0             0             1 
+     8 x1[3,2]      *              1             0             1 
+     9 x1[0,3]      *              0             0             1 
+    10 x1[1,3]      *              0             0             1 
+    11 x1[2,3]      *              0             0             1 
+    12 x1[3,3]      *              0             0             1 
+    13 x1[0,4]      *              0             0             1 
+    14 x1[1,4]      *              0             0             1 
+    15 x1[2,4]      *              0             0             1 
+    16 x1[3,4]      *              0             0             1 
+    17 x1[0,5]      *              1             0             1 
+    18 x1[1,5]      *              0             0             1 
+    19 x1[2,5]      *              0             0             1 
+    20 x1[3,5]      *              0             0             1 
+    21 x1[0,6]      *              0             0             1 
+    22 x1[1,6]      *              0             0             1 
+    23 x1[2,6]      *              0             0             1 
+    24 x1[3,6]      *              0             0             1 
+    25 x1[0,7]      *              0             0             1 
+    26 x1[1,7]      *              0             0             1 
+    27 x1[2,7]      *              1             0             1 
+    28 x1[3,7]      *              0             0             1 
+    29 x1[0,8]      *              0             0             1 
+    30 x1[1,8]      *              1             0             1 
+    31 x1[2,8]      *              0             0             1 
+    32 x1[3,8]      *              0             0             1 
+    33 x1[0,9]      *              0             0             1 
+    34 x1[1,9]      *              0             0             1 
+    35 x1[2,9]      *              0             0             1 
+    36 x1[3,9]      *              0             0             1 
+    37 x2[1,1]      *              0             0             1 
+    38 x2[1,2]      *              1             0             1 
+    39 x2[1,3]      *              0             0             1 
+    40 x2[1,4]      *              0             0             1 
+    41 x2[1,5]      *              0             0             1 
+    42 x2[1,6]      *              0             0             1 
+    43 x2[1,7]      *              0             0             1 
+    44 x2[1,8]      *              0             0             1 
+    45 x2[1,9]      *              0             0             1 
+    46 x2[0,1]      *              0             0             1 
+    47 x2[0,2]      *              0             0             1 
+    48 x2[0,3]      *              0             0             1 
+    49 x2[0,4]      *              0             0             1 
+    50 x2[0,5]      *              0             0             1 
+    51 x2[0,6]      *              0             0             1 
+    52 x2[0,7]      *              1             0             1 
+    53 x2[0,8]      *              0             0             1 
+    54 x2[0,9]      *              0             0             1 
+    55 x2[2,1]      *              0             0             1 
+    56 x2[2,2]      *              0             0             1 
+    57 x2[2,3]      *              0             0             1 
+    58 x2[2,4]      *              0             0             1 
+    59 x2[2,5]      *              0             0             1 
+    60 x2[2,6]      *              0             0             1 
+    61 x2[2,7]      *              0             0             1 
+    62 x2[2,8]      *              1             0             1 
+    63 x2[2,9]      *              0             0             1 
+    64 x2[3,1]      *              0             0             1 
+    65 x2[3,2]      *              0             0             1 
+    66 x2[3,3]      *              0             0             1 
+    67 x2[3,4]      *              0             0             1 
+    68 x2[3,5]      *              1             0             1 
+    69 x2[3,6]      *              0             0             1 
+    70 x2[3,7]      *              0             0             1 
+    71 x2[3,8]      *              0             0             1 
+    72 x2[3,9]      *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
+Cannot produce sensitivity analysis report for interior-point or MIP solution

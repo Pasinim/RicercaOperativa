@@ -1,0 +1,154 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ -o /dev/stdout --cuts --glp --primal --model localizzazione.mod --ranges
+ sens.out
+Reading model section from localizzazione.mod...
+Reading data section from localizzazione.mod...
+73 lines were read
+Generating soddisfacimento_richiesta...
+Generating capacity...
+Generating z...
+Model has been successfully generated
+GLPK Integer Optimizer 5.0
+16 rows, 55 columns, 160 non-zeros
+5 integer variables, all of which are binary
+Preprocessing...
+15 rows, 55 columns, 105 non-zeros
+5 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.750e+02  ratio =  1.750e+02
+GM: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+EQ: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+2N: min|aij| =  6.836e-01  max|aij| =  1.211e+00  ratio =  1.771e+00
+Constructing initial basis...
+Size of triangular part is 15
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+15 rows, 55 columns, 105 non-zeros
+      0: obj =   1.288700000e+04 inf =   3.580e+02 (1)
+     15: obj =   1.570160000e+04 inf =   0.000e+00 (0)
+*    35: obj =   7.072651774e+03 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
+Gomory's cuts enabled
+MIR cuts enabled
+Cover cuts enabled
+No 0-1 knapsack inequalities detected
+Clique cuts enabled
+Constructing conflict graph...
+No conflicts found
++    35: mip =     not found yet >=              -inf        (1; 0)
+Cuts on level 0: gmi = 8; mir = 8;
++    51: >>>>>   7.157000000e+03 >=   7.157000000e+03   0.0% (1; 0)
++    51: mip =   7.157000000e+03 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.2 Mb (234521 bytes)
+Writing MIP solution to '/dev/stdout'...
+Problem:    localizzazione
+Rows:       16
+Columns:    55 (5 integer, 5 binary)
+Non-zeros:  160
+Status:     INTEGER OPTIMAL
+Objective:  z = 7157 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 soddisfacimento_richiesta[1]
+                                  35            35             = 
+     2 soddisfacimento_richiesta[2]
+                                  28            28             = 
+     3 soddisfacimento_richiesta[3]
+                                  49            49             = 
+     4 soddisfacimento_richiesta[4]
+                                  37            37             = 
+     5 soddisfacimento_richiesta[5]
+                                  40            40             = 
+     6 soddisfacimento_richiesta[6]
+                                  26            26             = 
+     7 soddisfacimento_richiesta[7]
+                                  31            31             = 
+     8 soddisfacimento_richiesta[8]
+                                  48            48             = 
+     9 soddisfacimento_richiesta[9]
+                                  28            28             = 
+    10 soddisfacimento_richiesta[10]
+                                  36            36             = 
+    11 capacity[1]               -99                          -0 
+    12 capacity[2]               -69                          -0 
+    13 capacity[3]               -45                          -0 
+    14 capacity[4]               -57                          -0 
+    15 capacity[5]               -30                          -0 
+    16 z                        7157                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[1]         *              1             0             1 
+     2 y[2]         *              1             0             1 
+     3 y[3]         *              1             0             1 
+     4 y[4]         *              1             0             1 
+     5 y[5]         *              1             0             1 
+     6 x[1,1]                      0             0               
+     7 x[2,1]                      0             0               
+     8 x[3,1]                      0             0               
+     9 x[4,1]                     35             0               
+    10 x[5,1]                      0             0               
+    11 x[1,2]                     28             0               
+    12 x[2,2]                      0             0               
+    13 x[3,2]                      0             0               
+    14 x[4,2]                      0             0               
+    15 x[5,2]                      0             0               
+    16 x[1,3]                      0             0               
+    17 x[2,3]                      0             0               
+    18 x[3,3]                      0             0               
+    19 x[4,3]                      0             0               
+    20 x[5,3]                     49             0               
+    21 x[1,4]                      0             0               
+    22 x[2,4]                      0             0               
+    23 x[3,4]                     37             0               
+    24 x[4,4]                      0             0               
+    25 x[5,4]                      0             0               
+    26 x[1,5]                      0             0               
+    27 x[2,5]                      0             0               
+    28 x[3,5]                      0             0               
+    29 x[4,5]                      0             0               
+    30 x[5,5]                     40             0               
+    31 x[1,6]                      0             0               
+    32 x[2,6]                     26             0               
+    33 x[3,6]                      0             0               
+    34 x[4,6]                      0             0               
+    35 x[5,6]                      0             0               
+    36 x[1,7]                      0             0               
+    37 x[2,7]                     31             0               
+    38 x[3,7]                      0             0               
+    39 x[4,7]                      0             0               
+    40 x[5,7]                      0             0               
+    41 x[1,8]                     48             0               
+    42 x[2,8]                      0             0               
+    43 x[3,8]                      0             0               
+    44 x[4,8]                      0             0               
+    45 x[5,8]                      0             0               
+    46 x[1,9]                      0             0               
+    47 x[2,9]                      0             0               
+    48 x[3,9]                     28             0               
+    49 x[4,9]                      0             0               
+    50 x[5,9]                      0             0               
+    51 x[1,10]                     0             0               
+    52 x[2,10]                     0             0               
+    53 x[3,10]                     0             0               
+    54 x[4,10]                     0             0               
+    55 x[5,10]                    36             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 7.11e-15 on row 5
+        max.rel.err = 1.73e-16 on row 5
+        High quality
+
+End of output
+Cannot produce sensitivity analysis report for interior-point or MIP solution

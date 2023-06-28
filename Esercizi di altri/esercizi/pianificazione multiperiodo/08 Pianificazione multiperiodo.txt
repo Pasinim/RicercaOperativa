@@ -1,0 +1,7 @@
+Mese		Domanda		Cap. produtt.	Prezzo		Costo unit. stoccaggio
+		[ton]		[ton]		[€/ton]		[€/ton]
+Giugno		200		400		34		2000
+Luglio		300		500		36		3000
+Agosto		500		300		32		2000
+Settembre	400		500		38		3000
+
