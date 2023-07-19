@@ -12,3 +12,5 @@ In `Tools` è possibile flaggare l'opzione `Generate PL analysis` per visualizza
 In [Investimenti]() è possibile vedere una matrice a 3.
 
 Esercizi PLI: `.\Esercizi di altri\Modelli + Esami [Ricop]\Esercizi Modelli\PLI Esercizi`
+
+- Domande orale + Testi Esercizi: `C:\Users\Marco\Desktop\RO-git\RicercaOperativa\Esercizi di altri\Modelli + Esami [Ricop]`
