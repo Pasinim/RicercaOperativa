@@ -1,0 +1,87 @@
+ Problem:    PLI_PenalizedSack
+Rows:       32
+Columns:    31 (30 integer, 30 binary)
+Non-zeros:  121
+Status:     INTEGER OPTIMAL
+Objective:  z = 907 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 def_maxP[1]                59            -0               
+     2 def_maxP[2]                34            -0               
+     3 def_maxP[3]                93            -0               
+     4 def_maxP[4]                59            -0               
+     5 def_maxP[5]                53            -0               
+     6 def_maxP[6]                64            -0               
+     7 def_maxP[7]                 9            -0               
+     8 def_maxP[8]                93            -0               
+     9 def_maxP[9]                93            -0               
+    10 def_maxP[10]               45            -0               
+    11 def_maxP[11]               40            -0               
+    12 def_maxP[12]                8            -0               
+    13 def_maxP[13]               56            -0               
+    14 def_maxP[14]               93            -0               
+    15 def_maxP[15]                8            -0               
+    16 def_maxP[16]               56            -0               
+    17 def_maxP[17]                3            -0               
+    18 def_maxP[18]               36            -0               
+    19 def_maxP[19]               31            -0               
+    20 def_maxP[20]               59            -0               
+    21 def_maxP[21]               18            -0               
+    22 def_maxP[22]                5            -0               
+    23 def_maxP[23]               93            -0               
+    24 def_maxP[24]               18            -0               
+    25 def_maxP[25]                0            -0               
+    26 def_maxP[26]               93            -0               
+    27 def_maxP[27]               54            -0               
+    28 def_maxP[28]               35            -0               
+    29 def_maxP[29]               56            -0               
+    30 def_maxP[30]               87            -0               
+    31 maxVol                    992                        1000 
+    32 z                         907                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              1             0             1 
+     2 x[2]         *              1             0             1 
+     3 x[3]         *              0             0             1 
+     4 x[4]         *              1             0             1 
+     5 x[5]         *              1             0             1 
+     6 x[6]         *              1             0             1 
+     7 x[7]         *              1             0             1 
+     8 x[8]         *              0             0             1 
+     9 x[9]         *              0             0             1 
+    10 x[10]        *              1             0             1 
+    11 x[11]        *              1             0             1 
+    12 x[12]        *              1             0             1 
+    13 x[13]        *              1             0             1 
+    14 x[14]        *              0             0             1 
+    15 x[15]        *              1             0             1 
+    16 x[16]        *              1             0             1 
+    17 x[17]        *              1             0             1 
+    18 x[18]        *              1             0             1 
+    19 x[19]        *              1             0             1 
+    20 x[20]        *              1             0             1 
+    21 x[21]        *              1             0             1 
+    22 x[22]        *              1             0             1 
+    23 x[23]        *              0             0             1 
+    24 x[24]        *              1             0             1 
+    25 x[25]        *              1             0             1 
+    26 x[26]        *              0             0             1 
+    27 x[27]        *              1             0             1 
+    28 x[28]        *              1             0             1 
+    29 x[29]        *              1             0             1 
+    30 x[30]        *              1             0             1 
+    31 maxP                       93             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

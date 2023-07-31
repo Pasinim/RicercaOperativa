@@ -1,0 +1,57 @@
+Problem:    8
+Rows:       12
+Columns:    8
+Non-zeros:  29
+Status:     OPTIMAL
+Objective:  spesa = 649600 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 def_y[2]     NS           300           300             =            36 
+     2 def_y[3]     NS           500           500             =          3036 
+     3 def_y[4]     NS           400           400             =         -3000 
+     4 domanda_giugno
+                    NS           200           200             =            34 
+     5 domanda[2]   B            500           300               
+     6 domanda[3]   B            500           500               
+     7 domanda[4]   NL           400           400                        3038 
+     8 produzione[1]
+                    B            200                         400 
+     9 produzione[2]
+                    B            500                         500 
+    10 produzione[3]
+                    NU           300                         300         -3004 
+    11 produzione[4]
+                    B            400                         500 
+    12 spesa        B         649600                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 y[1]         NL             0             0                        1998 
+     2 y[2]         B            200             0               
+     3 y[3]         NL             0             0                        4998 
+     4 y[4]         B              0             0               
+     5 x[2]         B            500             0               
+     6 x[3]         B            300             0               
+     7 x[4]         B            400             0               
+     8 x[1]         B            200             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

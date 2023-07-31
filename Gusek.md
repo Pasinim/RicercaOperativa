@@ -37,8 +37,10 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
    param g { u in U, d in D} = min(gud[u,d], gdu[u,d]);
    ```
 
-4. Definisco una variabile ausiliaria z:
+4. Quando ho una variabile di assegnamento per solamente due elementi utilizzo 0 se viene assegnato all'elemento 1, 1 altrimenti
+
+5. Distanza tra due punti:
    
-   ```
+   `param d {i in N, j in M} := sqrt( (x1[i]-x2[j])^2+(y1[i]-y2[j])^2 );`
    
-   ```
+   

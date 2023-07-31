@@ -29,7 +29,8 @@ subject to Assignment {i in N}:
    sum {j in M} x[i,j] = 1;
 
 #OBIETTIVO
-#Minimizzare i costi complessivi: i costi di funzionamento dei siti selezionati + costi di trasporto del legname
+#Minimizzare i costi complessivi: i costi di funzionamento dei siti selezionati
+ + costi di trasporto del legname
 minimize z: sum {j in M} c[j] * y[j] + 
             sum {i in N, j in M} coeff * d[i,j] * q[i] * x[i,j];
 

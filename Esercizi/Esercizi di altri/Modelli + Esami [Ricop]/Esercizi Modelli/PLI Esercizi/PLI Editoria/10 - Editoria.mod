@@ -75,3 +75,11 @@ param urgenza :=
 12        0;
 
 end;
+
+
+Pazienti nella sala 1: 1, 7, 8
+Pazienti nella sala 2: 2, 3, 4, 9
+Pazienti nella sala 3: 5, 6, 10
+
+
+20 alpinisti devono formare 4 squadre da 4. set S 
