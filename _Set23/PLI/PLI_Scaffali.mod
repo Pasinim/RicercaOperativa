@@ -19,7 +19,7 @@ subj to maxLungh {s in S}:
 #	sum {l in L} x[l, s]*h[l] <= y[s];
 
 subj to hScaffale { s in S}:
-	y[s] >= sum {l in L} x[l,s] * h[l];
+	y[s] <= sum {l in L} x[l,s] * h[l];
 
 minimize z:
 	sum {s in S} y[s];

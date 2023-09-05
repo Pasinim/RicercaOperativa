@@ -1,0 +1,84 @@
+Problem:    detersivi
+Rows:       22
+Columns:    9
+Non-zeros:  72
+Status:     OPTIMAL
+Objective:  z = 2833.333333 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 lowerBound[B,a]
+                    NL             0            -0                   -0.027451 
+     2 lowerBound[B,v]
+                    NL             0            -0                  -0.0607843 
+     3 lowerBound[B,p]
+                    B        1666.67            -0               
+     4 lowerBound[S,a]
+                    NL             0            -0                  -0.0222222 
+     5 lowerBound[S,v]
+                    B              0            -0               
+     6 lowerBound[S,p]
+                    B              0            -0               
+     7 lowerBound[T,a]
+                    NL             0            -0                   -0.027451 
+     8 lowerBound[T,v]
+                    NL             0            -0                  -0.0607843 
+     9 lowerBound[T,p]
+                    B              0            -0               
+    10 upperBound[B,a]
+                    B       -3333.33                          -0 
+    11 upperBound[B,v]
+                    B       -1666.67                          -0 
+    12 upperBound[B,p]
+                    B       -1666.67                          -0 
+    13 upperBound[S,a]
+                    NU             0                          -0     0.0555556 
+    14 upperBound[S,v]
+                    B              0                          -0 
+    15 upperBound[S,p]
+                    NU             0                          -0     0.0607843 
+    16 upperBound[T,a]
+                    B       -3333.33                          -0 
+    17 upperBound[T,v]
+                    B         -20000                          -0 
+    18 upperBound[T,p]
+                    B       -13333.3                          -0 
+    19 limiteMateriali[a]
+                    NU           700                         700        2.7451 
+    20 limiteMateriali[v]
+                    NU           150                         150       6.07843 
+    21 limiteMateriali[p]
+                    B            150                         200 
+    22 z            B        2833.33                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[B,a]       B        266.667                             
+     2 x[B,v]       B        16.6667                             
+     3 x[B,p]       B             50                             
+     4 x[S,a]       B              0                             
+     5 x[S,v]       B              0                             
+     6 x[S,p]       B              0                             
+     7 x[T,a]       B        433.333                             
+     8 x[T,v]       B        133.333                             
+     9 x[T,p]       B            100                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 9.09e-013 on row 3
+        max.rel.err = 1.01e-016 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.78e-015 on column 6
+        max.rel.err = 1.23e-016 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,93 @@
+Problem:    Caramelle
+Rows:       19
+Columns:    16
+Non-zeros:  81
+Status:     OPTIMAL
+Objective:  z = 862.5537041 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 disponibilitaIngredienti[Fruttosio]
+                    B        8.83401                           9 
+     2 disponibilitaIngredienti[Saccarosio]
+                    NU             5                           5       4.73399 
+     3 disponibilitaIngredienti[Glucosio]
+                    NU            20                          20       14.8591 
+     4 disponibilitaIngredienti[Destrosio]
+                    NU            18                          18       3.91822 
+     5 disponibilitaIngredienti[Estrattidierbe]
+                    NU            20                          20       2.12809 
+     6 disponibilitaIngredienti[Estrattidifrutta]
+                    NU            17                          17       14.4563 
+     7 disponibilitaIngredienti[Coloranti]
+                    NU          18.4                        18.4       9.93776 
+     8 disponibilitaIngredienti[Conservanti]
+                    B        12.1684                        12.5 
+     9 disponibilitaIngredienti[Aromatizzanti]
+                    B        9.70094                          10 
+    10 vincoloProdottiIngredienti[Fruttosio]
+                    NU             0                          -0         < eps
+    11 vincoloProdottiIngredienti[Saccarosio]
+                    NU             0                          -0       4.73399 
+    12 vincoloProdottiIngredienti[Glucosio]
+                    NU             0                          -0       14.8591 
+    13 vincoloProdottiIngredienti[Destrosio]
+                    NU             0                          -0       3.91822 
+    14 vincoloProdottiIngredienti[Estrattidierbe]
+                    NU             0                          -0       2.12809 
+    15 vincoloProdottiIngredienti[Estrattidifrutta]
+                    NU             0                          -0       14.4563 
+    16 vincoloProdottiIngredienti[Coloranti]
+                    NU             0                          -0       9.93776 
+    17 vincoloProdottiIngredienti[Conservanti]
+                    NU             0                          -0         < eps
+    18 vincoloProdottiIngredienti[Aromatizzanti]
+                    NU             0                          -0         < eps
+    19 z            B        862.554                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 cP[Dolce]    B        3.70126             0               
+     2 cP[Delizia]  NL             0             0                    -3.13508 
+     3 cP[Bacetto]  B        56.0145             0               
+     4 cP[Golosa]   B        16.5782             0               
+     5 cP[Sfizio]   B         23.739             0               
+     6 cP[Slurp]    B        13.2632             0               
+     7 cP[Sweety]   B        15.8073             0               
+     8 cI[Fruttosio]
+                    B        8.83401             0               
+     9 cI[Saccarosio]
+                    B              5             0               
+    10 cI[Glucosio] B             20             0               
+    11 cI[Destrosio]
+                    B             18             0               
+    12 cI[Estrattidierbe]
+                    B             20             0               
+    13 cI[Estrattidifrutta]
+                    B             17             0               
+    14 cI[Coloranti]
+                    B           18.4             0               
+    15 cI[Conservanti]
+                    B        12.1684             0               
+    16 cI[Aromatizzanti]
+                    B        9.70094             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 7.11e-015 on row 12
+        max.rel.err = 1.73e-016 on row 12
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 5.05e-031 on column 8
+        max.rel.err = 5.05e-031 on column 8
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

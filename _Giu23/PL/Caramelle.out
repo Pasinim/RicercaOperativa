@@ -1,0 +1,94 @@
+Problem:    Caramelle
+Rows:       19
+Columns:    16
+Non-zeros:  90
+Status:     OPTIMAL
+Objective:  z = 310.802 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 def_y[Fruttosio]
+                    NU             0                          -0             4 
+     2 def_y[Saccarosio]
+                    NU             0                          -0             2 
+     3 def_y[Glucosio]
+                    NU             0                          -0         12.12 
+     4 def_y[Destrosio]
+                    NU             0                          -0           3.5 
+     5 def_y[Estratti_erbe]
+                    NU             0                          -0             8 
+     6 def_y[Estratti_frutta]
+                    NU             0                          -0         14.41 
+     7 def_y[Coloranti]
+                    NU             0                          -0          2.73 
+     8 def_y[Conservanti]
+                    NU             0                          -0             5 
+     9 def_y[Aromatizzanti]
+                    NU             0                          -0             6 
+    10 dispIngredienti[Fruttosio]
+                    B          8.342                           9 
+    11 dispIngredienti[Saccarosio]
+                    B           3.59                           5 
+    12 dispIngredienti[Glucosio]
+                    NU            20                          20         11.12 
+    13 dispIngredienti[Destrosio]
+                    B         14.244                          18 
+    14 dispIngredienti[Estratti_erbe]
+                    B          9.492                          20 
+    15 dispIngredienti[Estratti_frutta]
+                    NU            17                          17          4.41 
+    16 dispIngredienti[Coloranti]
+                    NU          18.4                        18.4          0.73 
+    17 dispIngredienti[Conservanti]
+                    B         11.932                        12.5 
+    18 dispIngredienti[Aromatizzanti]
+                    B            9.2                          10 
+    19 z            B        310.802                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Dolce]     NL             0             0                      -0.675 
+     2 x[Delizia]   NL             0             0                     -2.4765 
+     3 x[Bacetto]   B          57.56             0               
+     4 x[Golosa]    NL             0             0                     -1.1845 
+     5 x[Sfizio]    NL             0             0                     -1.6975 
+     6 x[Slurp]     B          37.48             0               
+     7 x[Sweety]    B          17.16             0               
+     8 consumi[Fruttosio]
+                    B          8.342             0               
+     9 consumi[Saccarosio]
+                    B           3.59             0               
+    10 consumi[Glucosio]
+                    B             20             0               
+    11 consumi[Destrosio]
+                    B         14.244             0               
+    12 consumi[Estratti_erbe]
+                    B          9.492             0               
+    13 consumi[Estratti_frutta]
+                    B             17             0               
+    14 consumi[Coloranti]
+                    B           18.4             0               
+    15 consumi[Conservanti]
+                    B         11.932             0               
+    16 consumi[Aromatizzanti]
+                    B            9.2             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.14e-013 on row 19
+        max.rel.err = 9.40e-017 on row 7
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.78e-015 on column 6
+        max.rel.err = 1.11e-016 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

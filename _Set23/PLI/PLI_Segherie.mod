@@ -13,13 +13,18 @@ param costiManutenzione{S}; #[l/gg]
 param capacita{S}; #[quintali/gg]
 param costiTrasporto := 10000; #prezzo al km [l/km]
 
+param d {i in N, j in M} := sqrt( (x1[i]-x2[j])^2+(y1[i]-y2[j])^2 );
+
+
 var y{S} binary;
 var x{V, S} binary; #indica se la segheria è aperta oppur eno
 
 subj to copertura {v in V}:
 	sum {s in S} x[v,s] * x_raccolta[v] * y_raccolta[v] >= 1;
 
-
+# occorre minimizzare i relativi costi di trasporto, che sono proporzionali alle quantità trasportate e alle distanze percorse 
+minimize z:
+	sum {} x[s] * costiManutenzione[s] + sum 
 data;
 param : x_segherie y_segherie costiManutenzione capacita:=
 1 0.25 0.20	3000  190

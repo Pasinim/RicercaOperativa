@@ -42,5 +42,3 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
 5. Distanza tra due punti:
    
    `param d {i in N, j in M} := sqrt( (x1[i]-x2[j])^2+(y1[i]-y2[j])^2 );`
-   
-   

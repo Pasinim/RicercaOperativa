@@ -1,0 +1,36 @@
+Problem:    Zaino2
+Rows:       2
+Columns:    10 (10 integer, 10 binary)
+Non-zeros:  20
+Status:     INTEGER OPTIMAL
+Objective:  z = 106 (MAXimum)
+
+------ ------------    ------------- ------------- -------------
+   No.   Row name        Activity     Lower bound   Upper bound
+     1 max_cap                   100                         100 
+     2 z                         106                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              1             0             1 
+     2 x[2]         *              1             0             1 
+     3 x[3]         *              1             0             1 
+     4 x[4]         *              0             0             1 
+     5 x[5]         *              0             0             1 
+     6 x[6]         *              0             0             1 
+     7 x[7]         *              0             0             1 
+     8 x[8]         *              0             0             1 
+     9 x[9]         *              0             0             1 
+    10 x[10]        *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
