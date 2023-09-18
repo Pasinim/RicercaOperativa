@@ -1,0 +1,48 @@
+Problem:    Budget
+Rows:       8
+Columns:    5
+Non-zeros:  25
+Status:     OPTIMAL
+Objective:  z = 24.4 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 minimo       B            800           100               
+     2 massimo      NU           800                         800        0.0305 
+     3 def_USA      NS             0            -0             =            -1 
+     4 def_ASIA     NS             0            -0             =            -1 
+     5 investimentiDivisi[0]
+                    B              0                          -0 
+     6 investimentiDivisi[1]
+                    NU             0                          -0        0.0005 
+     7 investimentiDivisi[2]
+                    B           -800                          -0 
+     8 z            B           24.4                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 budget[0]    B            400             0               
+     2 budget[1]    B            400             0               
+     3 budget[2]    NL             0             0                      -0.004 
+     4 profittoUSA  B             10             0               
+     5 profittoASIA B           14.4             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

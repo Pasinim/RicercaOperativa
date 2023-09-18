@@ -1,0 +1,571 @@
+Problem:    PLI_LinearOrdering
+Rows:       253
+Columns:    42 (42 integer, 42 binary)
+Non-zeros:  756
+Status:     INTEGER OPTIMAL
+Objective:  z = 662 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 orientamentoGrafo[1,2]
+                                   1             1             = 
+     2 orientamentoGrafo[1,3]
+                                   1             1             = 
+     3 orientamentoGrafo[1,4]
+                                   1             1             = 
+     4 orientamentoGrafo[1,5]
+                                   1             1             = 
+     5 orientamentoGrafo[1,6]
+                                   1             1             = 
+     6 orientamentoGrafo[1,7]
+                                   1             1             = 
+     7 orientamentoGrafo[2,1]
+                                   1             1             = 
+     8 orientamentoGrafo[2,3]
+                                   1             1             = 
+     9 orientamentoGrafo[2,4]
+                                   1             1             = 
+    10 orientamentoGrafo[2,5]
+                                   1             1             = 
+    11 orientamentoGrafo[2,6]
+                                   1             1             = 
+    12 orientamentoGrafo[2,7]
+                                   1             1             = 
+    13 orientamentoGrafo[3,1]
+                                   1             1             = 
+    14 orientamentoGrafo[3,2]
+                                   1             1             = 
+    15 orientamentoGrafo[3,4]
+                                   1             1             = 
+    16 orientamentoGrafo[3,5]
+                                   1             1             = 
+    17 orientamentoGrafo[3,6]
+                                   1             1             = 
+    18 orientamentoGrafo[3,7]
+                                   1             1             = 
+    19 orientamentoGrafo[4,1]
+                                   1             1             = 
+    20 orientamentoGrafo[4,2]
+                                   1             1             = 
+    21 orientamentoGrafo[4,3]
+                                   1             1             = 
+    22 orientamentoGrafo[4,5]
+                                   1             1             = 
+    23 orientamentoGrafo[4,6]
+                                   1             1             = 
+    24 orientamentoGrafo[4,7]
+                                   1             1             = 
+    25 orientamentoGrafo[5,1]
+                                   1             1             = 
+    26 orientamentoGrafo[5,2]
+                                   1             1             = 
+    27 orientamentoGrafo[5,3]
+                                   1             1             = 
+    28 orientamentoGrafo[5,4]
+                                   1             1             = 
+    29 orientamentoGrafo[5,6]
+                                   1             1             = 
+    30 orientamentoGrafo[5,7]
+                                   1             1             = 
+    31 orientamentoGrafo[6,1]
+                                   1             1             = 
+    32 orientamentoGrafo[6,2]
+                                   1             1             = 
+    33 orientamentoGrafo[6,3]
+                                   1             1             = 
+    34 orientamentoGrafo[6,4]
+                                   1             1             = 
+    35 orientamentoGrafo[6,5]
+                                   1             1             = 
+    36 orientamentoGrafo[6,7]
+                                   1             1             = 
+    37 orientamentoGrafo[7,1]
+                                   1             1             = 
+    38 orientamentoGrafo[7,2]
+                                   1             1             = 
+    39 orientamentoGrafo[7,3]
+                                   1             1             = 
+    40 orientamentoGrafo[7,4]
+                                   1             1             = 
+    41 orientamentoGrafo[7,5]
+                                   1             1             = 
+    42 orientamentoGrafo[7,6]
+                                   1             1             = 
+    43 noCicli[1,2,3]
+                                   2                           2 
+    44 noCicli[1,2,4]
+                                   1                           2 
+    45 noCicli[1,2,5]
+                                   1                           2 
+    46 noCicli[1,2,6]
+                                   1                           2 
+    47 noCicli[1,2,7]
+                                   1                           2 
+    48 noCicli[1,3,2]
+                                   1                           2 
+    49 noCicli[1,3,4]
+                                   1                           2 
+    50 noCicli[1,3,5]
+                                   1                           2 
+    51 noCicli[1,3,6]
+                                   1                           2 
+    52 noCicli[1,3,7]
+                                   1                           2 
+    53 noCicli[1,4,2]
+                                   2                           2 
+    54 noCicli[1,4,3]
+                                   2                           2 
+    55 noCicli[1,4,5]
+                                   2                           2 
+    56 noCicli[1,4,6]
+                                   2                           2 
+    57 noCicli[1,4,7]
+                                   1                           2 
+    58 noCicli[1,5,2]
+                                   2                           2 
+    59 noCicli[1,5,3]
+                                   2                           2 
+    60 noCicli[1,5,4]
+                                   1                           2 
+    61 noCicli[1,5,6]
+                                   2                           2 
+    62 noCicli[1,5,7]
+                                   1                           2 
+    63 noCicli[1,6,2]
+                                   2                           2 
+    64 noCicli[1,6,3]
+                                   2                           2 
+    65 noCicli[1,6,4]
+                                   1                           2 
+    66 noCicli[1,6,5]
+                                   1                           2 
+    67 noCicli[1,6,7]
+                                   1                           2 
+    68 noCicli[1,7,2]
+                                   2                           2 
+    69 noCicli[1,7,3]
+                                   2                           2 
+    70 noCicli[1,7,4]
+                                   2                           2 
+    71 noCicli[1,7,5]
+                                   2                           2 
+    72 noCicli[1,7,6]
+                                   2                           2 
+    73 noCicli[2,1,3]
+                                   1                           2 
+    74 noCicli[2,1,4]
+                                   2                           2 
+    75 noCicli[2,1,5]
+                                   2                           2 
+    76 noCicli[2,1,6]
+                                   2                           2 
+    77 noCicli[2,1,7]
+                                   2                           2 
+    78 noCicli[2,3,1]
+                                   2                           2 
+    79 noCicli[2,3,4]
+                                   2                           2 
+    80 noCicli[2,3,5]
+                                   2                           2 
+    81 noCicli[2,3,6]
+                                   2                           2 
+    82 noCicli[2,3,7]
+                                   2                           2 
+    83 noCicli[2,4,1]
+                                   1                           2 
+    84 noCicli[2,4,3]
+                                   1                           2 
+    85 noCicli[2,4,5]
+                                   2                           2 
+    86 noCicli[2,4,6]
+                                   2                           2 
+    87 noCicli[2,4,7]
+                                   1                           2 
+    88 noCicli[2,5,1]
+                                   1                           2 
+    89 noCicli[2,5,3]
+                                   1                           2 
+    90 noCicli[2,5,4]
+                                   1                           2 
+    91 noCicli[2,5,6]
+                                   2                           2 
+    92 noCicli[2,5,7]
+                                   1                           2 
+    93 noCicli[2,6,1]
+                                   1                           2 
+    94 noCicli[2,6,3]
+                                   1                           2 
+    95 noCicli[2,6,4]
+                                   1                           2 
+    96 noCicli[2,6,5]
+                                   1                           2 
+    97 noCicli[2,6,7]
+                                   1                           2 
+    98 noCicli[2,7,1]
+                                   1                           2 
+    99 noCicli[2,7,3]
+                                   1                           2 
+   100 noCicli[2,7,4]
+                                   2                           2 
+   101 noCicli[2,7,5]
+                                   2                           2 
+   102 noCicli[2,7,6]
+                                   2                           2 
+   103 noCicli[3,1,2]
+                                   2                           2 
+   104 noCicli[3,1,4]
+                                   2                           2 
+   105 noCicli[3,1,5]
+                                   2                           2 
+   106 noCicli[3,1,6]
+                                   2                           2 
+   107 noCicli[3,1,7]
+                                   2                           2 
+   108 noCicli[3,2,1]
+                                   1                           2 
+   109 noCicli[3,2,4]
+                                   1                           2 
+   110 noCicli[3,2,5]
+                                   1                           2 
+   111 noCicli[3,2,6]
+                                   1                           2 
+   112 noCicli[3,2,7]
+                                   1                           2 
+   113 noCicli[3,4,1]
+                                   1                           2 
+   114 noCicli[3,4,2]
+                                   2                           2 
+   115 noCicli[3,4,5]
+                                   2                           2 
+   116 noCicli[3,4,6]
+                                   2                           2 
+   117 noCicli[3,4,7]
+                                   1                           2 
+   118 noCicli[3,5,1]
+                                   1                           2 
+   119 noCicli[3,5,2]
+                                   2                           2 
+   120 noCicli[3,5,4]
+                                   1                           2 
+   121 noCicli[3,5,6]
+                                   2                           2 
+   122 noCicli[3,5,7]
+                                   1                           2 
+   123 noCicli[3,6,1]
+                                   1                           2 
+   124 noCicli[3,6,2]
+                                   2                           2 
+   125 noCicli[3,6,4]
+                                   1                           2 
+   126 noCicli[3,6,5]
+                                   1                           2 
+   127 noCicli[3,6,7]
+                                   1                           2 
+   128 noCicli[3,7,1]
+                                   1                           2 
+   129 noCicli[3,7,2]
+                                   2                           2 
+   130 noCicli[3,7,4]
+                                   2                           2 
+   131 noCicli[3,7,5]
+                                   2                           2 
+   132 noCicli[3,7,6]
+                                   2                           2 
+   133 noCicli[4,1,2]
+                                   1                           2 
+   134 noCicli[4,1,3]
+                                   1                           2 
+   135 noCicli[4,1,5]
+                                   1                           2 
+   136 noCicli[4,1,6]
+                                   1                           2 
+   137 noCicli[4,1,7]
+                                   2                           2 
+   138 noCicli[4,2,1]
+                                   2                           2 
+   139 noCicli[4,2,3]
+                                   2                           2 
+   140 noCicli[4,2,5]
+                                   1                           2 
+   141 noCicli[4,2,6]
+                                   1                           2 
+   142 noCicli[4,2,7]
+                                   2                           2 
+   143 noCicli[4,3,1]
+                                   2                           2 
+   144 noCicli[4,3,2]
+                                   1                           2 
+   145 noCicli[4,3,5]
+                                   1                           2 
+   146 noCicli[4,3,6]
+                                   1                           2 
+   147 noCicli[4,3,7]
+                                   2                           2 
+   148 noCicli[4,5,1]
+                                   2                           2 
+   149 noCicli[4,5,2]
+                                   2                           2 
+   150 noCicli[4,5,3]
+                                   2                           2 
+   151 noCicli[4,5,6]
+                                   2                           2 
+   152 noCicli[4,5,7]
+                                   2                           2 
+   153 noCicli[4,6,1]
+                                   2                           2 
+   154 noCicli[4,6,2]
+                                   2                           2 
+   155 noCicli[4,6,3]
+                                   2                           2 
+   156 noCicli[4,6,5]
+                                   1                           2 
+   157 noCicli[4,6,7]
+                                   2                           2 
+   158 noCicli[4,7,1]
+                                   1                           2 
+   159 noCicli[4,7,2]
+                                   1                           2 
+   160 noCicli[4,7,3]
+                                   1                           2 
+   161 noCicli[4,7,5]
+                                   1                           2 
+   162 noCicli[4,7,6]
+                                   1                           2 
+   163 noCicli[5,1,2]
+                                   1                           2 
+   164 noCicli[5,1,3]
+                                   1                           2 
+   165 noCicli[5,1,4]
+                                   2                           2 
+   166 noCicli[5,1,6]
+                                   1                           2 
+   167 noCicli[5,1,7]
+                                   2                           2 
+   168 noCicli[5,2,1]
+                                   2                           2 
+   169 noCicli[5,2,3]
+                                   2                           2 
+   170 noCicli[5,2,4]
+                                   2                           2 
+   171 noCicli[5,2,6]
+                                   1                           2 
+   172 noCicli[5,2,7]
+                                   2                           2 
+   173 noCicli[5,3,1]
+                                   2                           2 
+   174 noCicli[5,3,2]
+                                   1                           2 
+   175 noCicli[5,3,4]
+                                   2                           2 
+   176 noCicli[5,3,6]
+                                   1                           2 
+   177 noCicli[5,3,7]
+                                   2                           2 
+   178 noCicli[5,4,1]
+                                   1                           2 
+   179 noCicli[5,4,2]
+                                   1                           2 
+   180 noCicli[5,4,3]
+                                   1                           2 
+   181 noCicli[5,4,6]
+                                   1                           2 
+   182 noCicli[5,4,7]
+                                   1                           2 
+   183 noCicli[5,6,1]
+                                   2                           2 
+   184 noCicli[5,6,2]
+                                   2                           2 
+   185 noCicli[5,6,3]
+                                   2                           2 
+   186 noCicli[5,6,4]
+                                   2                           2 
+   187 noCicli[5,6,7]
+                                   2                           2 
+   188 noCicli[5,7,1]
+                                   1                           2 
+   189 noCicli[5,7,2]
+                                   1                           2 
+   190 noCicli[5,7,3]
+                                   1                           2 
+   191 noCicli[5,7,4]
+                                   2                           2 
+   192 noCicli[5,7,6]
+                                   1                           2 
+   193 noCicli[6,1,2]
+                                   1                           2 
+   194 noCicli[6,1,3]
+                                   1                           2 
+   195 noCicli[6,1,4]
+                                   2                           2 
+   196 noCicli[6,1,5]
+                                   2                           2 
+   197 noCicli[6,1,7]
+                                   2                           2 
+   198 noCicli[6,2,1]
+                                   2                           2 
+   199 noCicli[6,2,3]
+                                   2                           2 
+   200 noCicli[6,2,4]
+                                   2                           2 
+   201 noCicli[6,2,5]
+                                   2                           2 
+   202 noCicli[6,2,7]
+                                   2                           2 
+   203 noCicli[6,3,1]
+                                   2                           2 
+   204 noCicli[6,3,2]
+                                   1                           2 
+   205 noCicli[6,3,4]
+                                   2                           2 
+   206 noCicli[6,3,5]
+                                   2                           2 
+   207 noCicli[6,3,7]
+                                   2                           2 
+   208 noCicli[6,4,1]
+                                   1                           2 
+   209 noCicli[6,4,2]
+                                   1                           2 
+   210 noCicli[6,4,3]
+                                   1                           2 
+   211 noCicli[6,4,5]
+                                   2                           2 
+   212 noCicli[6,4,7]
+                                   1                           2 
+   213 noCicli[6,5,1]
+                                   1                           2 
+   214 noCicli[6,5,2]
+                                   1                           2 
+   215 noCicli[6,5,3]
+                                   1                           2 
+   216 noCicli[6,5,4]
+                                   1                           2 
+   217 noCicli[6,5,7]
+                                   1                           2 
+   218 noCicli[6,7,1]
+                                   1                           2 
+   219 noCicli[6,7,2]
+                                   1                           2 
+   220 noCicli[6,7,3]
+                                   1                           2 
+   221 noCicli[6,7,4]
+                                   2                           2 
+   222 noCicli[6,7,5]
+                                   2                           2 
+   223 noCicli[7,1,2]
+                                   1                           2 
+   224 noCicli[7,1,3]
+                                   1                           2 
+   225 noCicli[7,1,4]
+                                   1                           2 
+   226 noCicli[7,1,5]
+                                   1                           2 
+   227 noCicli[7,1,6]
+                                   1                           2 
+   228 noCicli[7,2,1]
+                                   2                           2 
+   229 noCicli[7,2,3]
+                                   2                           2 
+   230 noCicli[7,2,4]
+                                   1                           2 
+   231 noCicli[7,2,5]
+                                   1                           2 
+   232 noCicli[7,2,6]
+                                   1                           2 
+   233 noCicli[7,3,1]
+                                   2                           2 
+   234 noCicli[7,3,2]
+                                   1                           2 
+   235 noCicli[7,3,4]
+                                   1                           2 
+   236 noCicli[7,3,5]
+                                   1                           2 
+   237 noCicli[7,3,6]
+                                   1                           2 
+   238 noCicli[7,4,1]
+                                   2                           2 
+   239 noCicli[7,4,2]
+                                   2                           2 
+   240 noCicli[7,4,3]
+                                   2                           2 
+   241 noCicli[7,4,5]
+                                   2                           2 
+   242 noCicli[7,4,6]
+                                   2                           2 
+   243 noCicli[7,5,1]
+                                   2                           2 
+   244 noCicli[7,5,2]
+                                   2                           2 
+   245 noCicli[7,5,3]
+                                   2                           2 
+   246 noCicli[7,5,4]
+                                   1                           2 
+   247 noCicli[7,5,6]
+                                   2                           2 
+   248 noCicli[7,6,1]
+                                   2                           2 
+   249 noCicli[7,6,2]
+                                   2                           2 
+   250 noCicli[7,6,3]
+                                   2                           2 
+   251 noCicli[7,6,4]
+                                   1                           2 
+   252 noCicli[7,6,5]
+                                   1                           2 
+   253 z                         662                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2,1]       *              0             0             1 
+     2 x[1,2]       *              1             0             1 
+     3 x[3,1]       *              1             0             1 
+     4 x[1,3]       *              0             0             1 
+     5 x[4,1]       *              0             0             1 
+     6 x[1,4]       *              1             0             1 
+     7 x[5,1]       *              0             0             1 
+     8 x[1,5]       *              1             0             1 
+     9 x[6,1]       *              0             0             1 
+    10 x[1,6]       *              1             0             1 
+    11 x[7,1]       *              0             0             1 
+    12 x[1,7]       *              1             0             1 
+    13 x[3,2]       *              1             0             1 
+    14 x[2,3]       *              0             0             1 
+    15 x[4,2]       *              1             0             1 
+    16 x[2,4]       *              0             0             1 
+    17 x[5,2]       *              1             0             1 
+    18 x[2,5]       *              0             0             1 
+    19 x[6,2]       *              1             0             1 
+    20 x[2,6]       *              0             0             1 
+    21 x[7,2]       *              1             0             1 
+    22 x[2,7]       *              0             0             1 
+    23 x[4,3]       *              0             0             1 
+    24 x[3,4]       *              1             0             1 
+    25 x[5,3]       *              0             0             1 
+    26 x[3,5]       *              1             0             1 
+    27 x[6,3]       *              0             0             1 
+    28 x[3,6]       *              1             0             1 
+    29 x[7,3]       *              0             0             1 
+    30 x[3,7]       *              1             0             1 
+    31 x[5,4]       *              0             0             1 
+    32 x[4,5]       *              1             0             1 
+    33 x[6,4]       *              0             0             1 
+    34 x[4,6]       *              1             0             1 
+    35 x[7,4]       *              1             0             1 
+    36 x[4,7]       *              0             0             1 
+    37 x[6,5]       *              0             0             1 
+    38 x[5,6]       *              1             0             1 
+    39 x[7,5]       *              1             0             1 
+    40 x[5,7]       *              0             0             1 
+    41 x[7,6]       *              1             0             1 
+    42 x[6,7]       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

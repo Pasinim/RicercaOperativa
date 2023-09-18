@@ -1,0 +1,59 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Budget
+Objective:  z = 24.4 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 minimo       BS     800.00000    -700.00000     100.00000         .            -.03050        .      massimo
+                                            .               +Inf      800.00000          +Inf          +Inf
+
+     2 massimo      NU     800.00000        .               -Inf      100.00000       -.03050       3.05000 minimo
+                                            .03050     800.00000           +Inf          +Inf          +Inf
+
+     3 def_USA      NS        .             .             .                -Inf          -Inf          +Inf
+                                          -1.00000        .            10.00000          +Inf      14.40000 profittoUSA
+
+     4 def_ASIA     NS        .             .             .                -Inf          -Inf          +Inf
+                                          -1.00000        .            14.40000          +Inf      10.00000 profittoASIA
+
+     5 investimentiDivisi[0]
+                    BS        .             .               -Inf     -800.00000       -.00200      24.40000 budget[2]
+                                            .             .           800.00000        .00050      24.40000 investimentiDivisi[1]
+
+     6 investimentiDivisi[1]
+                    NU        .             .               -Inf         .            -.00050      24.40000 investimentiDivisi[0]
+                                            .00050        .           800.00000          +Inf      24.80000 budget[0]
+
+     7 investimentiDivisi[2]
+                    BS    -800.00000     800.00000          -Inf     -800.00000          -Inf          +Inf
+                                            .             .              .             .00200      22.80000 budget[2]
+
+     8 z            BS      24.40000     -24.40000          -Inf       22.80000      -1.00000        .      budget[2]
+                                            .               +Inf       24.40000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Budget
+Objective:  z = 24.4 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 budget[0]    BS     400.00000        .             .              .            -.00400      22.80000 budget[2]
+                                            .               +Inf      400.00000        .00100      24.80000 investimentiDivisi[1]
+
+     2 budget[1]    BS     400.00000        .             .           400.00000       -.00100      24.00000 investimentiDivisi[1]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+     3 budget[2]    NL        .             .             .              .               -Inf      24.40000 investimentiDivisi[0]
+                                           -.00400          +Inf      400.00000        .00400      22.80000 investimentiDivisi[2]
+
+     4 profittoUSA  BS      10.00000       1.00000        .            10.00000        .80000      22.40000 investimentiDivisi[1]
+                                            .               +Inf       13.20000       1.50000      29.40000 budget[2]
+
+     5 profittoASIA BS      14.40000       1.00000        .             9.60000        .66667      19.60000 budget[2]
+                                            .               +Inf       14.40000       1.25000      28.00000 investimentiDivisi[1]
+
+End of report

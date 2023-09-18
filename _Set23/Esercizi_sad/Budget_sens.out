@@ -1,0 +1,52 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Budget
+Objective:  z = 11760 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 investimentoMinimo
+                    BS  800000.00000 -700000.00000  100000.00000         .            -.01470        .      investimentoMassimo
+                                            .               +Inf   800000.00000          +Inf          +Inf
+
+     2 investimentoMassimo
+                    NU  800000.00000        .               -Inf   100000.00000       -.01470    1470.00000 investimentoMinimo
+                                            .01470  800000.00000           +Inf          +Inf          +Inf
+
+     3 investimentiDivisi[0]
+                    BS -440000.00000  440000.00000          -Inf  -440000.00000          -Inf          +Inf
+                                            .             .              .             .00127   11200.00000 investimentiDivisi[1]
+
+     4 investimentiDivisi[1]
+                    NU        .             .               -Inf  -800000.00000       -.00070   11200.00000 investimentiDivisi[0]
+                                            .00070        .        654545.45455          +Inf   12218.18182 x[0]
+
+     5 investimentiDivisi[2]
+                    BS -360000.00000  360000.00000          -Inf  -360000.00000          -Inf          +Inf
+                                            .             .              .             .00156   11200.00000 investimentiDivisi[1]
+
+     6 guadagnoAsia NS        .             .             .         -3600.00000          -Inf   13200.00000 investimentiDivisi[2]
+                                           -.40000        .          4400.00000          +Inf   10000.00000 investimentiDivisi[0]
+
+     7 z            BS   11760.00000  -11760.00000          -Inf     1470.00000      -1.00000        .      investimentoMassimo
+                                            .               +Inf    11760.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Budget
+Objective:  z = 11760 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[0]         BS  180000.00000        .01000        .         22500.00000       -.05533        .      investimentoMassimo
+                                            .               +Inf   400000.00000        .01255   12218.18182 investimentiDivisi[1]
+
+     2 x[1]         BS  400000.00000        .01500        .              .             .01360   11200.00000 investimentiDivisi[1]
+                                            .               +Inf   400000.00000          +Inf          +Inf
+
+     3 x[2]         BS  220000.00000        .01800        .         27500.00000       -.03545        .      investimentoMassimo
+                                            .               +Inf   400000.00000        .02111   12444.44444 investimentiDivisi[1]
+
+End of report

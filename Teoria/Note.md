@@ -205,7 +205,7 @@ condizione necessaria e sufficiente per l'ottimalità di due soluzioni ammissibi
 
 Le condizioni di scarto primale e duale sono: $\begin{cases}\textcolor{red}{\overline{y}}^T\textcolor{green}{(b-A\overline{x})} = 0 \\ \textcolor{green}{(A^T\overline{y} - c)} \textcolor{red}{\overline{x}} = 0\end{cases}$
 
-cioè il prodotto tra un vettore di variabili (in rosso) e un altro vettore (quello tra parentesi, in verde ) di corrispondenti variabili di surplus.
+cioè il prodotto tra un vettore di variabili (in rosso) e un altro vettore (quello tra parentesi, in verde ) di corrispondenti variabili di surplus.    
 
 Ciò significa che le variabili del duale per le variabili di slack del corrispondenti vincoli del primale devono dare come prodotto zero,  e viceversa.    
 
@@ -510,4 +510,4 @@ Nel line search le direzioni più scelte sono:
 
 - Metodo di Newton: la direzione dipende dal gradiente ma anche dai termini di secondo grado
 
-- Metodo del gradiente coniugato: dipende dal gradiente ma anche da quale era la direzione nella iterazione precedente (come se mantenesse una certa inerzia)
+- Metodo del gradiente coniugato: dipende dal gradiente ma anche da quale era la direzione nella iterazione precedente (come se mantenesse una certa inerzia)<mark></mark>

@@ -1,0 +1,41 @@
+Problem:    Azioni
+Rows:       4
+Columns:    5
+Non-zeros:  13
+Status:     OPTIMAL
+Objective:  z = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 recessione   NS             0            -0             =         < eps
+     2 crescita     NS             0            -0             =         < eps
+     3 liquidita    B              0                       80000 
+     4 z            B              0                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A]         NL             0             0                           4 
+     2 x[B]         NL             0             0                           8 
+     3 x[C]         NL             0             0                          17 
+     4 deltaC       B              0             0               
+     5 deltaR       B              0             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

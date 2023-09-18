@@ -3,7 +3,6 @@ param nS := 5; #segherie
 set S := 1..nS; 
 set V := 1..nV; #Punti di raccolta
 param l := 100; #lato del quadrato[km]
-set E within V cross V;
 param x_raccolta{V}; #coordinate[x]  dei punti di raccolta
 param y_raccolta{V}; #coordinate[y]  dei punti di raccolta
 param x_segherie{S}; #coordinate[x]  segherie
@@ -13,7 +12,7 @@ param costiManutenzione{S}; #[l/gg]
 param capacita{S}; #[quintali/gg]
 param costiTrasporto := 10000; #prezzo al km [l/km]
 
-param d {i in N, j in M} := sqrt( (x1[i]-x2[j])^2+(y1[i]-y2[j])^2 );
+param d {s in S, v in V} := sqrt( (x_segherie[s]-x_raccolta[v])^2+(y_segherie[s]-y_raccolta[v])^2 );
 
 
 var y{S} binary;
