@@ -1,6 +1,6 @@
 Qui si trova una lista di esercizi che ho trovato difficili e particolari, che vengono risolti in un modo caratteristico.
 
-1. `[PacchiPostali.mod](https://github.com/Pasinim/RicercaOperativa/blob/main/_Gen24/PLI/PacchiPostali.mod)` : È necessario utilizzare un `set` all'interno di un `set`. In particolare ci sono 2 tipi di *Packagin*g e per ogni tipo sono disponibili solamente due imballi:
+1. [PacchiPostali.mod](https://github.com/Pasinim/RicercaOperativa/blob/main/_Gen24/PLI/PacchiPostali.mod) : È necessario utilizzare un `set` all'interno di un `set`. In particolare ci sono 2 tipi di *Packagin*g e per ogni tipo sono disponibili solamente due imballi:
    
    ```mathml
    set T := 1..nT; # Insieme dei pacchi
