@@ -1,0 +1,51 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Pesce
+Objective:  profitto = 42.1875 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 limite_tempo NU      45.00000        .               -Inf         .            -.93750        .      x[2]
+                                            .93750      45.00000       53.33333          +Inf      50.00000 limite_cella
+
+     2 limite_cella BS   42187.50000    7812.50000          -Inf         .            -.00100        .      limite_tempo
+                                            .        50000.00000    56250.00000        .00300     168.75000 x[3]
+
+     3 limite_acquisto[1]
+                    BS        .           40.00000          -Inf         .               -Inf      42.18750
+                                            .           40.00000        4.09091        .31250      42.18750 x[1]
+
+     4 limite_acquisto[2]
+                    BS       5.62500      54.37500          -Inf         .            -.22727      40.90909 x[1]
+                                            .           60.00000        5.62500          +Inf          +Inf
+
+     5 limite_acquisto[3]
+                    BS        .           60.00000          -Inf         .               -Inf      42.18750
+                                            .           60.00000        2.50000       9.37500      42.18750 x[3]
+
+     6 limite_acquisto2
+                    BS      11.25000     108.75000          -Inf         .           -3.75000        .      limite_tempo
+                                            .          120.00000       12.27273       1.25000      56.25000 x[1]
+
+     7 profitto     BS      42.18750     -42.18750          -Inf       18.75000      -1.00000        .      x[3]
+                                            .               +Inf       42.18750          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Pesce
+Objective:  profitto = 42.1875 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         NL        .           10.00000        .           -25.00000          -Inf      50.00000 limite_cella
+                                           -.31250          +Inf        4.09091      10.31250      40.90909 x[2]
+
+     2 x[2]         BS       5.62500       7.50000        .           -49.37500       7.27273      40.90909 x[1]
+                                            .               +Inf        5.62500          +Inf          +Inf
+
+     3 x[3]         NL        .             .             .           -43.50000          -Inf     450.00000 limite_acquisto[2]
+                                          -9.37500          +Inf        2.50000       9.37500      18.75000 limite_cella
+
+End of report

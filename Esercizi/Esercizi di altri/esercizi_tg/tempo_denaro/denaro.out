@@ -1,0 +1,35 @@
+Problem:    denaro
+Rows:       6
+Columns:    5 (3 integer, 0 binary)
+Non-zeros:  19
+Status:     INTEGER OPTIMAL
+Objective:  z = 1200 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Consumi[1]                 66                          91 
+     2 Consumi[2]                 32                          40 
+     3 Consumi[3]                 57                          59 
+     4 Manodopera                  0                          -0 
+     5 Def1                        0            -0             = 
+     6 z                        1200                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              0             0               
+     2 x[2]         *              2             0               
+     3 x[3]         *              3             0               
+     4 f1                       6200                             
+     5 f2                          5                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

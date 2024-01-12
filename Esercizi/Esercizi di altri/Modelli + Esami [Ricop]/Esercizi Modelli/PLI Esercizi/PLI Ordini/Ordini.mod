@@ -5,8 +5,6 @@ param nO;						# Numero ordini
 set O := 1..nO;					# Insieme degli ordini
 param p {O};					# Processing time di ogni ordine (tempo di lavorazione)
 param d {O};					# Due date di ogni ordine (scadenza)
-
-
 #VARIABILI
 var x {O,O} binary;				# Matrice di precedenze: x(i,j)=1 sse "i" precede "j"
 var c {O};						# Tempo di completamento di ogni ordine (Completion time)
@@ -35,7 +33,7 @@ subject to Tardiness {i in O}:
 	t[i] >= c[i] - d[i];
 
 #OBIETTIVO
-# a) minimizzare il ritardo complessivo (cioe’ la somma di tutti gli eventuali ritardi rispetto alle scadenze richieste)
+# a) minimizzare il ritardo complessivo (cioeï¿½ la somma di tutti gli eventuali ritardi rispetto alle scadenze richieste)
 # si chiamano somma tardiness (tempo di completamento - la due date)
 minimize z1: sum {i in O} t[i];
 

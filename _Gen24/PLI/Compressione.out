@@ -1,0 +1,116 @@
+Problem:    Compressione
+Rows:       12
+Columns:    48 (48 integer, 48 binary)
+Non-zeros:  120
+Status:     INTEGER OPTIMAL
+Objective:  z = 4 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 z                           4                             
+     2 capTot[1]                -620          -700               
+     3 capTot[2]                -680          -700               
+     4 capTot[3]                -685          -700               
+     5 assegnamento[1]
+                                   1             1             = 
+     6 assegnamento[2]
+                                   1             1             = 
+     7 assegnamento[3]
+                                   1             1             = 
+     8 assegnamento[4]
+                                   1             1             = 
+     9 assegnamento[5]
+                                   1             1             = 
+    10 assegnamento[6]
+                                   1             1             = 
+    11 assegnamento[7]
+                                   1             1             = 
+    12 assegnamento[8]
+                                   1             1             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 ass[1,1]     *              0             0             1 
+     2 ass[2,1]     *              0             0             1 
+     3 ass[3,1]     *              0             0             1 
+     4 ass[4,1]     *              1             0             1 
+     5 ass[5,1]     *              0             0             1 
+     6 ass[6,1]     *              0             0             1 
+     7 ass[7,1]     *              0             0             1 
+     8 ass[8,1]     *              1             0             1 
+     9 ass[1,2]     *              0             0             1 
+    10 ass[2,2]     *              0             0             1 
+    11 ass[3,2]     *              0             0             1 
+    12 ass[4,2]     *              0             0             1 
+    13 ass[5,2]     *              0             0             1 
+    14 ass[6,2]     *              0             0             1 
+    15 ass[7,2]     *              1             0             1 
+    16 ass[8,2]     *              0             0             1 
+    17 ass[1,3]     *              1             0             1 
+    18 ass[2,3]     *              0             0             1 
+    19 ass[3,3]     *              0             0             1 
+    20 ass[4,3]     *              0             0             1 
+    21 ass[5,3]     *              0             0             1 
+    22 ass[6,3]     *              0             0             1 
+    23 ass[7,3]     *              0             0             1 
+    24 ass[8,3]     *              0             0             1 
+    25 assCompresso[1,1]
+                    *              0             0             1 
+    26 assCompresso[1,2]
+                    *              0             0             1 
+    27 assCompresso[1,3]
+                    *              0             0             1 
+    28 assCompresso[2,1]
+                    *              0             0             1 
+    29 assCompresso[2,2]
+                    *              1             0             1 
+    30 assCompresso[2,3]
+                    *              0             0             1 
+    31 assCompresso[3,1]
+                    *              0             0             1 
+    32 assCompresso[3,2]
+                    *              0             0             1 
+    33 assCompresso[3,3]
+                    *              1             0             1 
+    34 assCompresso[4,1]
+                    *              0             0             1 
+    35 assCompresso[4,2]
+                    *              0             0             1 
+    36 assCompresso[4,3]
+                    *              0             0             1 
+    37 assCompresso[5,1]
+                    *              1             0             1 
+    38 assCompresso[5,2]
+                    *              0             0             1 
+    39 assCompresso[5,3]
+                    *              0             0             1 
+    40 assCompresso[6,1]
+                    *              0             0             1 
+    41 assCompresso[6,2]
+                    *              1             0             1 
+    42 assCompresso[6,3]
+                    *              0             0             1 
+    43 assCompresso[7,1]
+                    *              0             0             1 
+    44 assCompresso[7,2]
+                    *              0             0             1 
+    45 assCompresso[7,3]
+                    *              0             0             1 
+    46 assCompresso[8,1]
+                    *              0             0             1 
+    47 assCompresso[8,2]
+                    *              0             0             1 
+    48 assCompresso[8,3]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

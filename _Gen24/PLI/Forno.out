@@ -1,0 +1,71 @@
+Problem:    Forno
+Rows:       18
+Columns:    4
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  z = 57.875 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 limiteProdotti[1,2]
+                    B       -6.66667                          -0 
+     2 limiteProdotti[1,3]
+                    B             -1                          -0 
+     3 limiteProdotti[1,4]
+                    B      -0.833333                          -0 
+     4 limiteProdotti[2,1]
+                    B       -4.16667                          -0 
+     5 limiteProdotti[2,3]
+                    B      -0.166667                          -0 
+     6 limiteProdotti[2,4]
+                    NU             0                          -0       2.07143 
+     7 limiteProdotti[3,1]
+                    B             -7                          -0 
+     8 limiteProdotti[3,2]
+                    B       -8.66667                          -0 
+     9 limiteProdotti[3,4]
+                    B       -2.83333                          -0 
+    10 limiteProdotti[4,1]
+                    B       -7.08333                          -0 
+    11 limiteProdotti[4,2]
+                    B          -8.75                          -0 
+    12 limiteProdotti[4,3]
+                    B       -3.08333                          -0 
+    13 produzioneMin[1]
+                    NL             5             5                   -0.714286 
+    14 produzioneMin[2]
+                    B        5.83333             2               
+    15 produzioneMin[3]
+                    NL             3             3                    -5.23214 
+    16 produzioneMin[4]
+                    B        2.91667             2               
+    17 spazioTempoLimite
+                    NU            24                          24       3.21429 
+    18 z            B         57.875                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B              5             0               
+     2 x[2]         B        5.83333             0               
+     3 x[3]         B              3             0               
+     4 x[4]         B        2.91667             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

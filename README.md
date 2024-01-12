@@ -14,7 +14,10 @@ In [Investimenti]() è possibile vedere una matrice a 3.
 Esercizi PLI: `.\Esercizi di altri\Modelli + Esami [Ricop]\Esercizi Modelli\PLI Esercizi`
 
 - Domande orale + Testi Esercizi: `C:\Users\Marco\Desktop\RO-git\RicercaOperativa\Esercizi di altri\Modelli + Esami [Ricop]`
-  
+
+### AMPLIDE
+
+Prima di compilare è necessario selezionare un solver, quello di default è minos `option solver minos`, altrimenti si può utilizzare `snopt` o altri. Per compilare eseguire il comando `solve;` 
 
 ___
 

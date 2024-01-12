@@ -1,0 +1,141 @@
+Problem:    Condotte
+Rows:       41
+Columns:    27
+Non-zeros:  155
+Status:     UNDEFINED
+Objective:  z = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fabbisogno[1]
+                    B              0           410             = 
+     2 fabbisogno[2]
+                    B              0           200             = 
+     3 fabbisogno[3]
+                    B              0           400             = 
+     4 fabbisogno[4]
+                    B              0           315             = 
+     5 fabbisogno[5]
+                    B              0           300             = 
+     6 limiteOfferta[1]
+                    B              0                         340 
+     7 limiteOfferta[2]
+                    B              0                         290 
+     8 limiteOfferta[3]
+                    B              0                         310 
+     9 limiteOfferta[4]
+                    B              0                         325 
+    10 limiteOfferta[5]
+                    B              0                         360 
+    11 capacitaMassima[1,1]
+                    B              0                          -0 
+    12 capacitaMassima[1,2]
+                    B              0                          -0 
+    13 capacitaMassima[1,3]
+                    B              0                          -0 
+    14 capacitaMassima[1,4]
+                    B              0                          -0 
+    15 capacitaMassima[1,5]
+                    B              0                          -0 
+    16 capacitaMassima[2,1]
+                    B              0                          -0 
+    17 capacitaMassima[2,2]
+                    B              0                          -0 
+    18 capacitaMassima[2,3]
+                    B              0                          -0 
+    19 capacitaMassima[2,4]
+                    B              0                          -0 
+    20 capacitaMassima[2,5]
+                    B              0                          -0 
+    21 capacitaMassima[3,1]
+                    B              0                          -0 
+    22 capacitaMassima[3,2]
+                    B              0                          -0 
+    23 capacitaMassima[3,3]
+                    B              0                          -0 
+    24 capacitaMassima[3,4]
+                    B              0                          -0 
+    25 capacitaMassima[3,5]
+                    B              0                          -0 
+    26 capacitaMassima[4,1]
+                    B              0                          -0 
+    27 capacitaMassima[4,2]
+                    B              0                          -0 
+    28 capacitaMassima[4,3]
+                    B              0                          -0 
+    29 capacitaMassima[4,4]
+                    B              0                          -0 
+    30 capacitaMassima[4,5]
+                    B              0                          -0 
+    31 capacitaMassima[5,1]
+                    B              0                          -0 
+    32 capacitaMassima[5,2]
+                    B              0                          -0 
+    33 capacitaMassima[5,3]
+                    B              0                          -0 
+    34 capacitaMassima[5,4]
+                    B              0                          -0 
+    35 capacitaMassima[5,5]
+                    B              0                          -0 
+    36 prezzoUnitario[1]
+                    B              0            -0             = 
+    37 prezzoUnitario[2]
+                    B              0            -0             = 
+    38 prezzoUnitario[3]
+                    B              0            -0             = 
+    39 prezzoUnitario[4]
+                    B              0            -0             = 
+    40 prezzoUnitario[5]
+                    B              0            -0             = 
+    41 z            B              0                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       NL             0             0                       < eps
+     2 x[2,1]       NL             0             0                       < eps
+     3 x[3,1]       NL             0             0                       < eps
+     4 x[4,1]       NL             0             0                       < eps
+     5 x[5,1]       NL             0             0                       < eps
+     6 x[1,2]       NL             0             0                       < eps
+     7 x[2,2]       NL             0             0                       < eps
+     8 x[3,2]       NL             0             0                       < eps
+     9 x[4,2]       NL             0             0                       < eps
+    10 x[5,2]       NL             0             0                       < eps
+    11 x[1,3]       NL             0             0                       < eps
+    12 x[2,3]       NL             0             0                       < eps
+    13 x[3,3]       NL             0             0                       < eps
+    14 x[4,3]       NL             0             0                       < eps
+    15 x[5,3]       NL             0             0                       < eps
+    16 x[1,4]       NL             0             0                       < eps
+    17 x[2,4]       NL             0             0                       < eps
+    18 x[3,4]       NL             0             0                       < eps
+    19 x[4,4]       NL             0             0                       < eps
+    20 x[5,4]       NL             0             0                       < eps
+    21 x[1,5]       NL             0             0                       < eps
+    22 x[2,5]       NL             0             0                       < eps
+    23 x[3,5]       NL             0             0                       < eps
+    24 x[4,5]       NL             0             0                       < eps
+    25 x[5,5]       NL             0             0                       < eps
+    26 capMax       NL             0             0                       < eps
+    27 prezzoCondotte
+                    NL             0             0                       < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 4.10e+002 on row 1
+        max.rel.err = 9.98e-001 on row 1
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 3.10e+001 on column 16
+        max.rel.err = 9.69e-001 on column 16
+        DUAL SOLUTION IS WRONG
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

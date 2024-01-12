@@ -1,0 +1,133 @@
+Problem:    Frequenze
+Rows:       44
+Columns:    22 (22 integer, 22 binary)
+Non-zeros:  108
+Status:     INTEGER OPTIMAL
+Objective:  z = 8 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 interferenze[1,2]
+                                   1                           1 
+     2 interferenze[1,3]
+                                   1                           1 
+     3 interferenze[2,3]
+                                   0                           1 
+     4 interferenze[2,4]
+                                   1                           1 
+     5 interferenze[3,4]
+                                   1                           1 
+     6 interferenze[3,5]
+                                   0                           1 
+     7 interferenze[4,5]
+                                   1                           1 
+     8 interferenze[4,6]
+                                   1                           1 
+     9 interferenze[5,6]
+                                   0                           1 
+    10 interferenze[5,7]
+                                   1                           1 
+    11 interferenze[6,7]
+                                   1                           1 
+    12 interferenze[6,8]
+                                   0                           1 
+    13 interferenze[7,8]
+                                   1                           1 
+    14 interferenze[7,9]
+                                   1                           1 
+    15 interferenze[8,9]
+                                   0                           1 
+    16 interferenze[8,10]
+                                   1                           1 
+    17 interferenze[9,10]
+                                   1                           1 
+    18 interferenze[10,11]
+                                   1                           1 
+    19 interferenze[11,12]
+                                   1                           1 
+    20 interferenze[11,13]
+                                   0                           1 
+    21 interferenze[12,13]
+                                   1                           1 
+    22 interferenze[12,14]
+                                   1                           1 
+    23 interferenze[13,14]
+                                   0                           1 
+    24 interferenze[13,15]
+                                   1                           1 
+    25 interferenze[14,15]
+                                   1                           1 
+    26 interferenze[14,16]
+                                   0                           1 
+    27 interferenze[15,16]
+                                   1                           1 
+    28 interferenze[15,17]
+                                   1                           1 
+    29 interferenze[16,17]
+                                   0                           1 
+    30 interferenze[16,18]
+                                   0                           1 
+    31 interferenze[16,19]
+                                   1                           1 
+    32 interferenze[16,20]
+                                   0                           1 
+    33 interferenze[17,18]
+                                   0                           1 
+    34 interferenze[17,19]
+                                   1                           1 
+    35 interferenze[17,20]
+                                   0                           1 
+    36 interferenze[18,19]
+                                   1                           1 
+    37 interferenze[18,20]
+                                   0                           1 
+    38 interferenze[18,21]
+                                   0                           1 
+    39 interferenze[19,20]
+                                   1                           1 
+    40 interferenze[19,21]
+                                   1                           1 
+    41 interferenze[20,21]
+                                   0                           1 
+    42 interferenze[20,22]
+                                   1                           1 
+    43 interferenze[21,22]
+                                   1                           1 
+    44 z                           8                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2]         *              0             0             1 
+     2 x[1]         *              1             0             1 
+     3 x[3]         *              0             0             1 
+     4 x[4]         *              1             0             1 
+     5 x[5]         *              0             0             1 
+     6 x[6]         *              0             0             1 
+     7 x[7]         *              1             0             1 
+     8 x[8]         *              0             0             1 
+     9 x[9]         *              0             0             1 
+    10 x[10]        *              1             0             1 
+    11 x[11]        *              0             0             1 
+    12 x[12]        *              1             0             1 
+    13 x[13]        *              0             0             1 
+    14 x[14]        *              0             0             1 
+    15 x[15]        *              1             0             1 
+    16 x[16]        *              0             0             1 
+    17 x[17]        *              0             0             1 
+    18 x[18]        *              0             0             1 
+    19 x[19]        *              1             0             1 
+    20 x[20]        *              0             0             1 
+    21 x[21]        *              0             0             1 
+    22 x[22]        *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

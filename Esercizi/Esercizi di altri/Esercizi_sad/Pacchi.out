@@ -1,0 +1,129 @@
+Problem:    Pacchi
+Rows:       30
+Columns:    48 (48 integer, 48 binary)
+Non-zeros:  240
+Status:     INTEGER OPTIMAL
+Objective:  z = 25000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 volumeMinimo[1,1]
+                                  44            -0               
+     2 volumeMinimo[1,2]
+                                   0            -0               
+     3 volumeMinimo[2,1]
+                                  67            -0               
+     4 volumeMinimo[2,2]
+                                   0            -0               
+     5 volumeMassimo[1,1]
+                                -106                          -0 
+     6 volumeMassimo[1,2]
+                                   0                          -0 
+     7 volumeMassimo[2,1]
+                                -813                          -0 
+     8 volumeMassimo[2,2]
+                                   0                          -0 
+     9 pesoMinimo[1,1]
+                                1350            -0               
+    10 pesoMinimo[1,2]
+                                   0            -0               
+    11 pesoMinimo[2,1]
+                                2965            -0               
+    12 pesoMinimo[2,2]
+                                   0            -0               
+    13 pesoMassimo[1,1]
+                                -150                          -0 
+    14 pesoMassimo[1,2]
+                                   0                          -0 
+    15 pesoMassimo[2,1]
+                                 -35                          -0 
+    16 pesoMassimo[2,2]
+                                   0                          -0 
+    17 impaccoTutto[1]
+                                   1             1             = 
+    18 impaccoTutto[2]
+                                   1             1             = 
+    19 impaccoTutto[3]
+                                   1             1             = 
+    20 impaccoTutto[4]
+                                   1             1             = 
+    21 impaccoTutto[5]
+                                   1             1             = 
+    22 impaccoTutto[6]
+                                   1             1             = 
+    23 impaccoTutto[7]
+                                   1             1             = 
+    24 impaccoTutto[8]
+                                   1             1             = 
+    25 impaccoTutto[9]
+                                   1             1             = 
+    26 impaccoTutto[10]
+                                   1             1             = 
+    27 impaccoTutto[11]
+                                   1             1             = 
+    28 SBC[1,2]                   -1                          -0 
+    29 SBC[2,2]                   -1                          -0 
+    30 z                       25000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[1,1]       *              1             0             1 
+     2 y[1,2]       *              0             0             1 
+     3 y[2,1]       *              1             0             1 
+     4 y[2,2]       *              0             0             1 
+     5 x[1,1,1]     *              0             0             1 
+     6 x[2,1,1]     *              0             0             1 
+     7 x[3,1,1]     *              0             0             1 
+     8 x[4,1,1]     *              0             0             1 
+     9 x[5,1,1]     *              1             0             1 
+    10 x[6,1,1]     *              0             0             1 
+    11 x[7,1,1]     *              0             0             1 
+    12 x[8,1,1]     *              0             0             1 
+    13 x[9,1,1]     *              1             0             1 
+    14 x[10,1,1]    *              1             0             1 
+    15 x[11,1,1]    *              0             0             1 
+    16 x[1,1,2]     *              0             0             1 
+    17 x[2,1,2]     *              0             0             1 
+    18 x[3,1,2]     *              0             0             1 
+    19 x[4,1,2]     *              0             0             1 
+    20 x[5,1,2]     *              0             0             1 
+    21 x[6,1,2]     *              0             0             1 
+    22 x[7,1,2]     *              0             0             1 
+    23 x[8,1,2]     *              0             0             1 
+    24 x[9,1,2]     *              0             0             1 
+    25 x[10,1,2]    *              0             0             1 
+    26 x[11,1,2]    *              0             0             1 
+    27 x[1,2,1]     *              1             0             1 
+    28 x[2,2,1]     *              1             0             1 
+    29 x[3,2,1]     *              1             0             1 
+    30 x[4,2,1]     *              1             0             1 
+    31 x[5,2,1]     *              0             0             1 
+    32 x[6,2,1]     *              1             0             1 
+    33 x[7,2,1]     *              1             0             1 
+    34 x[8,2,1]     *              1             0             1 
+    35 x[9,2,1]     *              0             0             1 
+    36 x[10,2,1]    *              0             0             1 
+    37 x[11,2,1]    *              1             0             1 
+    38 x[1,2,2]     *              0             0             1 
+    39 x[2,2,2]     *              0             0             1 
+    40 x[3,2,2]     *              0             0             1 
+    41 x[4,2,2]     *              0             0             1 
+    42 x[5,2,2]     *              0             0             1 
+    43 x[6,2,2]     *              0             0             1 
+    44 x[7,2,2]     *              0             0             1 
+    45 x[8,2,2]     *              0             0             1 
+    46 x[9,2,2]     *              0             0             1 
+    47 x[10,2,2]    *              0             0             1 
+    48 x[11,2,2]    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

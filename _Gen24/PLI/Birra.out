@@ -1,0 +1,570 @@
+Problem:    Birra
+Rows:       126
+Columns:    296 (200 integer, 8 binary)
+Non-zeros:  688
+Status:     INTEGER OPTIMAL
+Objective:  z1 = 14063 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 soddisfareDomanda[A]
+                                  80            80             = 
+     2 soddisfareDomanda[B]
+                                  70            70             = 
+     3 soddisfareDomanda[C]
+                                  60            60             = 
+     4 soddisfareDomanda[D]
+                                  70            70             = 
+     5 soddisfareDomanda[E]
+                                  80            80             = 
+     6 soddisfareDomanda[F]
+                                  40            40             = 
+     7 soddisfareDomanda[G]
+                                  60            60             = 
+     8 soddisfareDomanda[H]
+                                  70            70             = 
+     9 soddisfareDomanda[J]
+                                 150           150             = 
+    10 soddisfareDomanda[K]
+                                  40            40             = 
+    11 soddisfareDomanda[L]
+                                  30            30             = 
+    12 soddisfareDomanda[M]
+                                  50            50             = 
+    13 produzione[A]
+                                  80                         300 
+    14 produzione[B]
+                                  70                         200 
+    15 produzione[C]
+                                  60                         200 
+    16 produzione[D]
+                                 150                         300 
+    17 produzione[F]
+                                  40                         200 
+    18 produzione[G]
+                                  60                         200 
+    19 produzione[J]
+                                 260                         300 
+    20 produzione[M]
+                                  80                         300 
+    21 utilizzoSito[A]
+                                -220                          -0 
+    22 utilizzoSito[B]
+                                -130                          -0 
+    23 utilizzoSito[C]
+                                -140                          -0 
+    24 utilizzoSito[D]
+                                -150                          -0 
+    25 utilizzoSito[F]
+                                -160                          -0 
+    26 utilizzoSito[G]
+                                -140                          -0 
+    27 utilizzoSito[J]
+                                 -40                          -0 
+    28 utilizzoSito[M]
+                                -220                          -0 
+    29 z1                      14063                             
+    30 capacita_mezzo[A,A]
+                                   0                          -0 
+    31 capacita_mezzo[A,B]
+                                   0                          -0 
+    32 capacita_mezzo[A,C]
+                                   0                          -0 
+    33 capacita_mezzo[A,D]
+                                   0                          -0 
+    34 capacita_mezzo[A,E]
+                                   0                          -0 
+    35 capacita_mezzo[A,F]
+                                   0                          -0 
+    36 capacita_mezzo[A,G]
+                                   0                          -0 
+    37 capacita_mezzo[A,H]
+                                   0                          -0 
+    38 capacita_mezzo[A,J]
+                                   0                          -0 
+    39 capacita_mezzo[A,K]
+                                   0                          -0 
+    40 capacita_mezzo[A,L]
+                                   0                          -0 
+    41 capacita_mezzo[A,M]
+                                   0                          -0 
+    42 capacita_mezzo[B,A]
+                                   0                          -0 
+    43 capacita_mezzo[B,B]
+                                 -10                          -0 
+    44 capacita_mezzo[B,C]
+                                   0                          -0 
+    45 capacita_mezzo[B,D]
+                                   0                          -0 
+    46 capacita_mezzo[B,E]
+                                   0                          -0 
+    47 capacita_mezzo[B,F]
+                                   0                          -0 
+    48 capacita_mezzo[B,G]
+                                   0                          -0 
+    49 capacita_mezzo[B,H]
+                                   0                          -0 
+    50 capacita_mezzo[B,J]
+                                   0                          -0 
+    51 capacita_mezzo[B,K]
+                                   0                          -0 
+    52 capacita_mezzo[B,L]
+                                   0                          -0 
+    53 capacita_mezzo[B,M]
+                                   0                          -0 
+    54 capacita_mezzo[C,A]
+                                   0                          -0 
+    55 capacita_mezzo[C,B]
+                                   0                          -0 
+    56 capacita_mezzo[C,C]
+                                   0                          -0 
+    57 capacita_mezzo[C,D]
+                                   0                          -0 
+    58 capacita_mezzo[C,E]
+                                   0                          -0 
+    59 capacita_mezzo[C,F]
+                                   0                          -0 
+    60 capacita_mezzo[C,G]
+                                   0                          -0 
+    61 capacita_mezzo[C,H]
+                                   0                          -0 
+    62 capacita_mezzo[C,J]
+                                   0                          -0 
+    63 capacita_mezzo[C,K]
+                                   0                          -0 
+    64 capacita_mezzo[C,L]
+                                   0                          -0 
+    65 capacita_mezzo[C,M]
+                                   0                          -0 
+    66 capacita_mezzo[D,A]
+                                   0                          -0 
+    67 capacita_mezzo[D,B]
+                                   0                          -0 
+    68 capacita_mezzo[D,C]
+                                   0                          -0 
+    69 capacita_mezzo[D,D]
+                                 -10                          -0 
+    70 capacita_mezzo[D,E]
+                                   0                          -0 
+    71 capacita_mezzo[D,F]
+                                   0                          -0 
+    72 capacita_mezzo[D,G]
+                                   0                          -0 
+    73 capacita_mezzo[D,H]
+                                   0                          -0 
+    74 capacita_mezzo[D,J]
+                                   0                          -0 
+    75 capacita_mezzo[D,K]
+                                   0                          -0 
+    76 capacita_mezzo[D,L]
+                                   0                          -0 
+    77 capacita_mezzo[D,M]
+                                   0                          -0 
+    78 capacita_mezzo[F,A]
+                                   0                          -0 
+    79 capacita_mezzo[F,B]
+                                   0                          -0 
+    80 capacita_mezzo[F,C]
+                                   0                          -0 
+    81 capacita_mezzo[F,D]
+                                   0                          -0 
+    82 capacita_mezzo[F,E]
+                                   0                          -0 
+    83 capacita_mezzo[F,F]
+                                   0                          -0 
+    84 capacita_mezzo[F,G]
+                                   0                          -0 
+    85 capacita_mezzo[F,H]
+                                   0                          -0 
+    86 capacita_mezzo[F,J]
+                                   0                          -0 
+    87 capacita_mezzo[F,K]
+                                   0                          -0 
+    88 capacita_mezzo[F,L]
+                                   0                          -0 
+    89 capacita_mezzo[F,M]
+                                   0                          -0 
+    90 capacita_mezzo[G,A]
+                                   0                          -0 
+    91 capacita_mezzo[G,B]
+                                   0                          -0 
+    92 capacita_mezzo[G,C]
+                                   0                          -0 
+    93 capacita_mezzo[G,D]
+                                   0                          -0 
+    94 capacita_mezzo[G,E]
+                                   0                          -0 
+    95 capacita_mezzo[G,F]
+                                   0                          -0 
+    96 capacita_mezzo[G,G]
+                                   0                          -0 
+    97 capacita_mezzo[G,H]
+                                   0                          -0 
+    98 capacita_mezzo[G,J]
+                                   0                          -0 
+    99 capacita_mezzo[G,K]
+                                   0                          -0 
+   100 capacita_mezzo[G,L]
+                                   0                          -0 
+   101 capacita_mezzo[G,M]
+                                   0                          -0 
+   102 capacita_mezzo[J,A]
+                                   0                          -0 
+   103 capacita_mezzo[J,B]
+                                   0                          -0 
+   104 capacita_mezzo[J,C]
+                                   0                          -0 
+   105 capacita_mezzo[J,D]
+                                   0                          -0 
+   106 capacita_mezzo[J,E]
+                                   0                          -0 
+   107 capacita_mezzo[J,F]
+                                   0                          -0 
+   108 capacita_mezzo[J,G]
+                                   0                          -0 
+   109 capacita_mezzo[J,H]
+                                 -10                          -0 
+   110 capacita_mezzo[J,J]
+                                 -10                          -0 
+   111 capacita_mezzo[J,K]
+                                   0                          -0 
+   112 capacita_mezzo[J,L]
+                                   0                          -0 
+   113 capacita_mezzo[J,M]
+                                   0                          -0 
+   114 capacita_mezzo[M,A]
+                                   0                          -0 
+   115 capacita_mezzo[M,B]
+                                   0                          -0 
+   116 capacita_mezzo[M,C]
+                                   0                          -0 
+   117 capacita_mezzo[M,D]
+                                   0                          -0 
+   118 capacita_mezzo[M,E]
+                                   0                          -0 
+   119 capacita_mezzo[M,F]
+                                   0                          -0 
+   120 capacita_mezzo[M,G]
+                                   0                          -0 
+   121 capacita_mezzo[M,H]
+                                   0                          -0 
+   122 capacita_mezzo[M,J]
+                                   0                          -0 
+   123 capacita_mezzo[M,K]
+                                   0                          -0 
+   124 capacita_mezzo[M,L]
+                                 -10                          -0 
+   125 capacita_mezzo[M,M]
+                                 -10                          -0 
+   126 z                           8                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[A,A]                     80             0               
+     2 x[B,A]                      0             0               
+     3 x[C,A]                      0             0               
+     4 x[D,A]                      0             0               
+     5 x[F,A]                      0             0               
+     6 x[G,A]                      0             0               
+     7 x[J,A]                      0             0               
+     8 x[M,A]                      0             0               
+     9 x[A,B]                      0             0               
+    10 x[B,B]                     70             0               
+    11 x[C,B]                      0             0               
+    12 x[D,B]                      0             0               
+    13 x[F,B]                      0             0               
+    14 x[G,B]                      0             0               
+    15 x[J,B]                      0             0               
+    16 x[M,B]                      0             0               
+    17 x[A,C]                      0             0               
+    18 x[B,C]                      0             0               
+    19 x[C,C]                     60             0               
+    20 x[D,C]                      0             0               
+    21 x[F,C]                      0             0               
+    22 x[G,C]                      0             0               
+    23 x[J,C]                      0             0               
+    24 x[M,C]                      0             0               
+    25 x[A,D]                      0             0               
+    26 x[B,D]                      0             0               
+    27 x[C,D]                      0             0               
+    28 x[D,D]                     70             0               
+    29 x[F,D]                      0             0               
+    30 x[G,D]                      0             0               
+    31 x[J,D]                      0             0               
+    32 x[M,D]                      0             0               
+    33 x[A,E]                      0             0               
+    34 x[B,E]                      0             0               
+    35 x[C,E]                      0             0               
+    36 x[D,E]                     80             0               
+    37 x[F,E]                      0             0               
+    38 x[G,E]                      0             0               
+    39 x[J,E]                      0             0               
+    40 x[M,E]                      0             0               
+    41 x[A,F]                      0             0               
+    42 x[B,F]                      0             0               
+    43 x[C,F]                      0             0               
+    44 x[D,F]                      0             0               
+    45 x[F,F]                     40             0               
+    46 x[G,F]                      0             0               
+    47 x[J,F]                      0             0               
+    48 x[M,F]                      0             0               
+    49 x[A,G]                      0             0               
+    50 x[B,G]                      0             0               
+    51 x[C,G]                      0             0               
+    52 x[D,G]                      0             0               
+    53 x[F,G]                      0             0               
+    54 x[G,G]                     60             0               
+    55 x[J,G]                      0             0               
+    56 x[M,G]                      0             0               
+    57 x[A,H]                      0             0               
+    58 x[B,H]                      0             0               
+    59 x[C,H]                      0             0               
+    60 x[D,H]                      0             0               
+    61 x[F,H]                      0             0               
+    62 x[G,H]                      0             0               
+    63 x[J,H]                     70             0               
+    64 x[M,H]                      0             0               
+    65 x[A,J]                      0             0               
+    66 x[B,J]                      0             0               
+    67 x[C,J]                      0             0               
+    68 x[D,J]                      0             0               
+    69 x[F,J]                      0             0               
+    70 x[G,J]                      0             0               
+    71 x[J,J]                    150             0               
+    72 x[M,J]                      0             0               
+    73 x[A,K]                      0             0               
+    74 x[B,K]                      0             0               
+    75 x[C,K]                      0             0               
+    76 x[D,K]                      0             0               
+    77 x[F,K]                      0             0               
+    78 x[G,K]                      0             0               
+    79 x[J,K]                     40             0               
+    80 x[M,K]                      0             0               
+    81 x[A,L]                      0             0               
+    82 x[B,L]                      0             0               
+    83 x[C,L]                      0             0               
+    84 x[D,L]                      0             0               
+    85 x[F,L]                      0             0               
+    86 x[G,L]                      0             0               
+    87 x[J,L]                      0             0               
+    88 x[M,L]                     30             0               
+    89 x[A,M]                      0             0               
+    90 x[B,M]                      0             0               
+    91 x[C,M]                      0             0               
+    92 x[D,M]                      0             0               
+    93 x[F,M]                      0             0               
+    94 x[G,M]                      0             0               
+    95 x[J,M]                      0             0               
+    96 x[M,M]                     50             0               
+    97 y[A,A,1]     *              0                             
+    98 y[A,A,2]     *              4                             
+    99 y[A,B,1]     *              0                             
+   100 y[A,B,2]     *              0                             
+   101 y[A,C,1]     *              0                             
+   102 y[A,C,2]     *              0                             
+   103 y[A,D,1]     *              0                             
+   104 y[A,D,2]     *              0                             
+   105 y[A,E,1]     *              0                             
+   106 y[A,E,2]     *              0                             
+   107 y[A,F,1]     *              0                             
+   108 y[A,F,2]     *              0                             
+   109 y[A,G,1]     *              0                             
+   110 y[A,G,2]     *              0                             
+   111 y[A,H,1]     *              0                             
+   112 y[A,H,2]     *              0                             
+   113 y[A,J,1]     *              0                             
+   114 y[A,J,2]     *              0                             
+   115 y[A,K,1]     *              0                             
+   116 y[A,K,2]     *              0                             
+   117 y[A,L,1]     *              0                             
+   118 y[A,L,2]     *              0                             
+   119 y[A,M,1]     *              0                             
+   120 y[A,M,2]     *              0                             
+   121 y[B,A,1]     *              0                             
+   122 y[B,A,2]     *              0                             
+   123 y[B,B,1]     *              0                             
+   124 y[B,B,2]     *              4                             
+   125 y[B,C,1]     *              0                             
+   126 y[B,C,2]     *              0                             
+   127 y[B,D,1]     *              0                             
+   128 y[B,D,2]     *              0                             
+   129 y[B,E,1]     *              0                             
+   130 y[B,E,2]     *              0                             
+   131 y[B,F,1]     *              0                             
+   132 y[B,F,2]     *              0                             
+   133 y[B,G,1]     *              0                             
+   134 y[B,G,2]     *              0                             
+   135 y[B,H,1]     *              0                             
+   136 y[B,H,2]     *              0                             
+   137 y[B,J,1]     *              0                             
+   138 y[B,J,2]     *              0                             
+   139 y[B,K,1]     *              0                             
+   140 y[B,K,2]     *              0                             
+   141 y[B,L,1]     *              0                             
+   142 y[B,L,2]     *              0                             
+   143 y[B,M,1]     *              0                             
+   144 y[B,M,2]     *              0                             
+   145 y[C,A,1]     *              0                             
+   146 y[C,A,2]     *              0                             
+   147 y[C,B,1]     *              0                             
+   148 y[C,B,2]     *              0                             
+   149 y[C,C,1]     *              0                             
+   150 y[C,C,2]     *              3                             
+   151 y[C,D,1]     *              0                             
+   152 y[C,D,2]     *              0                             
+   153 y[C,E,1]     *              0                             
+   154 y[C,E,2]     *              0                             
+   155 y[C,F,1]     *              0                             
+   156 y[C,F,2]     *              0                             
+   157 y[C,G,1]     *              0                             
+   158 y[C,G,2]     *              0                             
+   159 y[C,H,1]     *              0                             
+   160 y[C,H,2]     *              0                             
+   161 y[C,J,1]     *              0                             
+   162 y[C,J,2]     *              0                             
+   163 y[C,K,1]     *              0                             
+   164 y[C,K,2]     *              0                             
+   165 y[C,L,1]     *              0                             
+   166 y[C,L,2]     *              0                             
+   167 y[C,M,1]     *              0                             
+   168 y[C,M,2]     *              0                             
+   169 y[D,A,1]     *              0                             
+   170 y[D,A,2]     *              0                             
+   171 y[D,B,1]     *              0                             
+   172 y[D,B,2]     *              0                             
+   173 y[D,C,1]     *              0                             
+   174 y[D,C,2]     *              0                             
+   175 y[D,D,1]     *              0                             
+   176 y[D,D,2]     *              4                             
+   177 y[D,E,1]     *              0                             
+   178 y[D,E,2]     *              4                             
+   179 y[D,F,1]     *              0                             
+   180 y[D,F,2]     *              0                             
+   181 y[D,G,1]     *              0                             
+   182 y[D,G,2]     *              0                             
+   183 y[D,H,1]     *              0                             
+   184 y[D,H,2]     *              0                             
+   185 y[D,J,1]     *              0                             
+   186 y[D,J,2]     *              0                             
+   187 y[D,K,1]     *              0                             
+   188 y[D,K,2]     *              0                             
+   189 y[D,L,1]     *              0                             
+   190 y[D,L,2]     *              0                             
+   191 y[D,M,1]     *              0                             
+   192 y[D,M,2]     *              0                             
+   193 y[F,A,1]     *              0                             
+   194 y[F,A,2]     *              0                             
+   195 y[F,B,1]     *              0                             
+   196 y[F,B,2]     *              0                             
+   197 y[F,C,1]     *              0                             
+   198 y[F,C,2]     *              0                             
+   199 y[F,D,1]     *              0                             
+   200 y[F,D,2]     *              0                             
+   201 y[F,E,1]     *              0                             
+   202 y[F,E,2]     *              0                             
+   203 y[F,F,1]     *              0                             
+   204 y[F,F,2]     *              2                             
+   205 y[F,G,1]     *              0                             
+   206 y[F,G,2]     *              0                             
+   207 y[F,H,1]     *              0                             
+   208 y[F,H,2]     *              0                             
+   209 y[F,J,1]     *              0                             
+   210 y[F,J,2]     *              0                             
+   211 y[F,K,1]     *              0                             
+   212 y[F,K,2]     *              0                             
+   213 y[F,L,1]     *              0                             
+   214 y[F,L,2]     *              0                             
+   215 y[F,M,1]     *              0                             
+   216 y[F,M,2]     *              0                             
+   217 y[G,A,1]     *              0                             
+   218 y[G,A,2]     *              0                             
+   219 y[G,B,1]     *              0                             
+   220 y[G,B,2]     *              0                             
+   221 y[G,C,1]     *              0                             
+   222 y[G,C,2]     *              0                             
+   223 y[G,D,1]     *              0                             
+   224 y[G,D,2]     *              0                             
+   225 y[G,E,1]     *              0                             
+   226 y[G,E,2]     *              0                             
+   227 y[G,F,1]     *              0                             
+   228 y[G,F,2]     *              0                             
+   229 y[G,G,1]     *              0                             
+   230 y[G,G,2]     *              3                             
+   231 y[G,H,1]     *              0                             
+   232 y[G,H,2]     *              0                             
+   233 y[G,J,1]     *              0                             
+   234 y[G,J,2]     *              0                             
+   235 y[G,K,1]     *              0                             
+   236 y[G,K,2]     *              0                             
+   237 y[G,L,1]     *              0                             
+   238 y[G,L,2]     *              0                             
+   239 y[G,M,1]     *              0                             
+   240 y[G,M,2]     *              0                             
+   241 y[J,A,1]     *              0                             
+   242 y[J,A,2]     *              0                             
+   243 y[J,B,1]     *              0                             
+   244 y[J,B,2]     *              0                             
+   245 y[J,C,1]     *              0                             
+   246 y[J,C,2]     *              0                             
+   247 y[J,D,1]     *              0                             
+   248 y[J,D,2]     *              0                             
+   249 y[J,E,1]     *              0                             
+   250 y[J,E,2]     *              0                             
+   251 y[J,F,1]     *              0                             
+   252 y[J,F,2]     *              0                             
+   253 y[J,G,1]     *              0                             
+   254 y[J,G,2]     *              0                             
+   255 y[J,H,1]     *              0                             
+   256 y[J,H,2]     *              4                             
+   257 y[J,J,1]     *              0                             
+   258 y[J,J,2]     *              8                             
+   259 y[J,K,1]     *              0                             
+   260 y[J,K,2]     *              2                             
+   261 y[J,L,1]     *              0                             
+   262 y[J,L,2]     *              0                             
+   263 y[J,M,1]     *              0                             
+   264 y[J,M,2]     *              0                             
+   265 y[M,A,1]     *              0                             
+   266 y[M,A,2]     *              0                             
+   267 y[M,B,1]     *              0                             
+   268 y[M,B,2]     *              0                             
+   269 y[M,C,1]     *              0                             
+   270 y[M,C,2]     *              0                             
+   271 y[M,D,1]     *              0                             
+   272 y[M,D,2]     *              0                             
+   273 y[M,E,1]     *              0                             
+   274 y[M,E,2]     *              0                             
+   275 y[M,F,1]     *              0                             
+   276 y[M,F,2]     *              0                             
+   277 y[M,G,1]     *              0                             
+   278 y[M,G,2]     *              0                             
+   279 y[M,H,1]     *              0                             
+   280 y[M,H,2]     *              0                             
+   281 y[M,J,1]     *              0                             
+   282 y[M,J,2]     *              0                             
+   283 y[M,K,1]     *              0                             
+   284 y[M,K,2]     *              0                             
+   285 y[M,L,1]     *              0                             
+   286 y[M,L,2]     *              2                             
+   287 y[M,M,1]     *              0                             
+   288 y[M,M,2]     *              3                             
+   289 w[A]         *              1             0             1 
+   290 w[B]         *              1             0             1 
+   291 w[C]         *              1             0             1 
+   292 w[D]         *              1             0             1 
+   293 w[F]         *              1             0             1 
+   294 w[G]         *              1             0             1 
+   295 w[J]         *              1             0             1 
+   296 w[M]         *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
