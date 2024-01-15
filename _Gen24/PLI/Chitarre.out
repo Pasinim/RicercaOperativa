@@ -1,0 +1,43 @@
+Problem:    Chitarre
+Rows:       5
+Columns:    3
+Non-zeros:  15
+Status:     OPTIMAL
+Objective:  z = 10270 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 domanda      NL           100           100                        -9.5 
+     2 oreLavorative[1]
+                    B        162.667                         400 
+     3 oreLavorative[2]
+                    NU           200                         200          16.5 
+     4 oreLavorative[3]
+                    NU           120                         120            66 
+     5 z            B          10270                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[D]         B        6.66667             0               
+     2 x[L]         B        18.6667             0               
+     3 x[S]         B        74.6667             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.84e-014 on column 2
+        max.rel.err = 1.07e-016 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

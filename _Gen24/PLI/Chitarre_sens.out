@@ -1,0 +1,44 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Chitarre
+Objective:  z = 10270 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 domanda      NL     100.00000        .          100.00000       60.00000          -Inf   10650.00000 x[S]
+                                          -9.50000          +Inf      120.00000       9.50000   10080.00000 x[D]
+
+     2 oreLavorative[1]
+                    BS     162.66667     237.33333          -Inf      144.00000     -10.17857    8614.28571 domanda
+                                            .          400.00000      162.66667          +Inf          +Inf
+
+     3 oreLavorative[2]
+                    NU     200.00000        .               -Inf      153.33333     -16.50000    9500.00000 x[L]
+                                          16.50000     200.00000      386.66667          +Inf   13350.00000 x[S]
+
+     4 oreLavorative[3]
+                    NU     120.00000        .               -Inf      100.00000     -66.00000    8950.00000 x[D]
+                                          66.00000     120.00000      400.00000          +Inf   28750.00000 x[S]
+
+     5 z            BS   10270.00000  -10270.00000          -Inf     8950.00000      -1.00000        .      oreLavorative[3]
+                                            .               +Inf    10270.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Chitarre
+Objective:  z = 10270 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[D]         BS       6.66667     287.50000        .            -5.00000     259.00000   10080.00000 domanda
+                                            .               +Inf        6.66667          +Inf          +Inf
+
+     2 x[L]         BS      18.66667     122.50000        .             8.00000     104.68750    9937.50000 domanda
+                                            .               +Inf       20.00000    1112.50000   28750.00000 oreLavorative[3]
+
+     3 x[S]         BS      74.66667      81.25000        .            74.66667          -Inf          -Inf
+                                            .               +Inf      112.00000      86.33929   10650.00000 domanda
+
+End of report
