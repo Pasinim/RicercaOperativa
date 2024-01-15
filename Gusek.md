@@ -42,3 +42,11 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
 5. Distanza tra due punti:
    
    `param d {i in N, j in M} := sqrt( (x1[i]-x2[j])^2+(y1[i]-y2[j])^2 );`
+
+6. Quando devo ottimizzare una funzione minmax (esercizio TurnazionePersonale):
+   
+   1. Prima definisco una variabile ausiliaria `z`, corrispondente al massimo di una serie di variabili: $z \geq \sum_t \sum_gx[g,t,o] \cdot d[g,t] \ \ \  \forall o \in O$
+   
+   2. Minimizzo il massimo (cioè z): `minimize z1: z;`
+
+7. 
