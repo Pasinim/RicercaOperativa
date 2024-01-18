@@ -43,6 +43,10 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
 ```
 
 2. [Chitarre](https://github.com/Pasinim/RicercaOperativa/blob/main/TDE/pl/34.2_05-01-20_chitarre/soluzione.pdf): Fornisce un esempio sull'analisi post ottimale in GUSEK
+3. Potatura: identificazione della regione paretiana e altro esempio sull'analisi post-ottimale
+4. [Sentinelle](https://github.com/Pasinim/RicercaOperativa/blob/main/_Gen24/PLI/Sentinelle.mod): Esempio di un grafo.
+   
+   > Si tratta di un problema di Minimum Dominating Set sul grafo della città. La soluzione è il sottinsieme S di minima cardinalità di vertici del grafo tale che ogni vertice del grafo o appartiene ad S o è adiacente ad almeno un vertice appartenente ad S. Tali sottinsiemi si dicono "dominating sets"
 
 ____
 
