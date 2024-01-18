@@ -1,0 +1,90 @@
+Problem:    Detersivi
+Rows:       25
+Columns:    12
+Non-zeros:  60
+Status:     OPTIMAL
+Objective:  z = 2833.333333 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 totale[B]    NS             0            -0             =         < eps
+     2 totale[S]    NS             0            -0             =      -2.35294 
+     3 totale[T]    NS             0            -0             =         < eps
+     4 limiteMin[a,B]
+                    NL             0            -0                     -2.7451 
+     5 limiteMin[a,S]
+                    B              0            -0               
+     6 limiteMin[a,T]
+                    NL             0            -0                     -2.7451 
+     7 limiteMin[v,B]
+                    NL             0            -0                    -6.07843 
+     8 limiteMin[v,S]
+                    B              0            -0               
+     9 limiteMin[v,T]
+                    NL             0            -0                    -6.07843 
+    10 limiteMin[p,B]
+                    B        16.6667            -0               
+    11 limiteMin[p,S]
+                    B              0            -0               
+    12 limiteMin[p,T]
+                    B              0            -0               
+    13 limiteMax[a,B]
+                    B       -33.3333                          -0 
+    14 limiteMax[a,S]
+                    B              0                          -0 
+    15 limiteMax[a,T]
+                    B       -33.3333                          -0 
+    16 limiteMax[v,B]
+                    B       -16.6667                          -0 
+    17 limiteMax[v,S]
+                    B              0                          -0 
+    18 limiteMax[v,T]
+                    B           -200                          -0 
+    19 limiteMax[p,B]
+                    B       -16.6667                          -0 
+    20 limiteMax[p,S]
+                    NU             0                          -0       2.35294 
+    21 limiteMax[p,T]
+                    B       -133.333                          -0 
+    22 disponibilita[a]
+                    NU           700                         700        2.7451 
+    23 disponibilita[v]
+                    NU           150                         150       6.07843 
+    24 disponibilita[p]
+                    B            150                         200 
+    25 z            B        2833.33                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[B]         B        333.333             0               
+     2 x[S]         B              0             0               
+     3 x[T]         B        666.667             0               
+     4 y[B,a]       B        266.667             0               
+     5 y[B,v]       B        16.6667             0               
+     6 y[B,p]       B             50             0               
+     7 y[S,a]       NL             0             0                   -0.392157 
+     8 y[S,v]       NL             0             0                    -3.72549 
+     9 y[S,p]       B              0             0               
+    10 y[T,a]       B        433.333             0               
+    11 y[T,v]       B        133.333             0               
+    12 y[T,p]       B            100             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.14e-013 on row 1
+        max.rel.err = 2.13e-016 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 1.14e-013 on row 12
+        max.rel.err = 1.14e-013 on row 12
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-016 on column 5
+        max.rel.err = 6.75e-017 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,173 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 totale[B]    NS        .             .             .           -16.66667          -Inf    2833.33333 limiteMin[p,B]
+                                            .             .            16.66667          +Inf    2833.33333 limiteMax[p,B]
+
+     2 totale[S]    NS        .             .             .              .               -Inf    2833.33333 limiteMin[a,S]
+                                          -2.35294        .              .               +Inf    2833.33333 x[S]
+
+     3 totale[T]    NS        .             .             .              .               -Inf    2833.33333 limiteMin[p,T]
+                                            .             .            50.00000          +Inf    2833.33333 disponibilita[p]
+
+     4 limiteMin[a,B]
+                    NL        .             .             .           -18.08511          -Inf    2882.97872 limiteMax[p,B]
+                                          -2.74510          +Inf       15.45455       2.74510    2790.90909 limiteMin[p,B]
+
+     5 limiteMin[a,S]
+                    BS        .             .             .              .           -4.52381    2833.33333 y[S,v]
+                                            .               +Inf         .            2.22222    2833.33333 y[S,a]
+
+     6 limiteMin[a,T]
+                    NL        .             .             .           -42.50000          -Inf    2950.00000 disponibilita[p]
+                                          -2.74510          +Inf         .            2.74510    2833.33333 limiteMin[p,T]
+
+     7 limiteMin[v,B]
+                    NL        .             .             .           -13.28125          -Inf    2914.06250 limiteMax[p,B]
+                                          -6.07843          +Inf       22.36842       6.07843    2697.36842 limiteMax[v,B]
+
+     8 limiteMin[v,S]
+                    BS        .             .             .           -25.00000      -3.33333    2833.33333 y[S,a]
+                                            .               +Inf         .            4.22222    2833.33333 y[S,v]
+
+     9 limiteMin[v,T]
+                    NL        .             .             .           -42.50000          -Inf    3091.66667 disponibilita[p]
+                                          -6.07843          +Inf         .            6.07843    2833.33333 limiteMin[p,T]
+
+    10 limiteMin[p,B]
+                    BS      16.66667     -16.66667        .           -14.40678      -2.54545    2790.90909 limiteMin[a,B]
+                                            .               +Inf       16.66667      14.61538    3076.92308 y[S,v]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 limiteMin[p,S]
+                    BS        .             .             .              .           -2.10526    2833.33333 limiteMax[p,S]
+                                            .               +Inf         .            3.33333    2833.33333 y[S,a]
+
+    12 limiteMin[p,T]
+                    BS        .             .             .           -34.00000      -2.74510    2833.33333 limiteMin[a,T]
+                                            .               +Inf         .               +Inf    2833.33333
+
+    13 limiteMax[a,B]
+                    BS     -33.33333      33.33333          -Inf      -33.33333      -7.30769    3076.92308 y[S,v]
+                                            .             .           -15.45455       2.37288    2754.23729 limiteMin[a,B]
+
+    14 limiteMax[a,S]
+                    BS        .             .               -Inf         .           -3.72549    2833.33333 y[S,v]
+                                            .             .              .            2.35294    2833.33333 limiteMax[p,S]
+
+    15 limiteMax[a,T]
+                    BS     -33.33333      33.33333          -Inf      -33.33333     -20.00000    3500.00000 y[S,a]
+                                            .             .           -33.33333       2.80000    2740.00000 limiteMin[a,T]
+
+    16 limiteMax[v,B]
+                    BS     -16.66667      16.66667          -Inf      -16.66667     -14.61538    3076.92308 y[S,v]
+                                            .             .           -16.66667       5.00000    2750.00000 y[S,a]
+
+    17 limiteMax[v,S]
+                    BS        .             .               -Inf         .           -1.66667    2833.33333 y[S,a]
+                                            .             .              .            4.87179    2833.33333 y[S,v]
+
+    18 limiteMax[v,T]
+                    BS    -200.00000     200.00000          -Inf     -200.00000      -3.33333    3500.00000 y[S,a]
+                                            .             .          -200.00000       1.97917    2437.50000 y[S,v]
+
+    19 limiteMax[p,B]
+                    BS     -16.66667      16.66667          -Inf      -30.90909      -2.97872    2882.97872 limiteMin[a,B]
+                                            .             .           -16.66667       5.00000    2750.00000 y[S,a]
+
+    20 limiteMax[p,S]
+                    NU        .             .               -Inf         .           -2.35294    2833.33333 x[S]
+                                           2.35294        .              .               +Inf    2833.33333 limiteMin[a,S]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 limiteMax[p,T]
+                    BS    -133.33333     133.33333          -Inf     -133.33333      -2.54545    3172.72727 limiteMin[a,T]
+                                            .             .          -133.33333       2.96875    2437.50000 y[S,v]
+
+    22 disponibilita[a]
+                    NU     700.00000        .               -Inf      487.50000      -2.74510    2250.00000 limiteMax[p,B]
+                                           2.74510     700.00000      983.33333          +Inf    3611.11111 disponibilita[p]
+
+    23 disponibilita[v]
+                    NU     150.00000        .               -Inf       43.75000      -6.07843    2187.50000 y[T,p]
+                                           6.07843     150.00000      215.38462          +Inf    3230.76923 limiteMax[p,B]
+
+    24 disponibilita[p]
+                    BS     150.00000      50.00000          -Inf      150.00000      -2.00000    2533.33333 limiteMax[p,S]
+                                            .          200.00000      150.00000          +Inf          +Inf
+
+    25 z            BS    2833.33333   -2833.33333          -Inf     2790.90909      -1.00000        .      limiteMin[a,B]
+                                            .               +Inf     2833.33333          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    Detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[B]         BS     333.33333       2.50000        .           333.33333       2.25000    2750.00000 y[S,a]
+                                            .               +Inf      333.33333       3.23077    3076.92308 y[S,v]
+
+     2 x[S]         BS        .            2.00000        .              .             .         2833.33333 limiteMax[p,S]
+                                            .               +Inf         .            2.33333    2833.33333 y[S,a]
+
+     3 x[T]         BS     666.66667       3.00000        .           666.66667       2.40625    2437.50000 y[S,v]
+                                            .               +Inf      666.66667       4.00000    3500.00000 y[S,a]
+
+     4 y[B,a]       BS     266.66667        .             .           266.66667       -.31250    2750.00000 y[S,a]
+                                            .               +Inf      266.66667        .91346    3076.92308 y[S,v]
+
+     5 y[B,v]       BS      16.66667        .             .            16.66667      -5.00000    2750.00000 y[S,a]
+                                            .               +Inf       44.73684       4.84375    2914.06250 limiteMin[v,B]
+
+     6 y[B,p]       BS      50.00000        .             .            50.00000      -1.66667    2750.00000 y[S,a]
+                                            .               +Inf       50.00000       4.87179    3076.92308 y[S,v]
+
+     7 y[S,a]       NL        .             .             .              .               -Inf    2833.33333 x[S]
+                                           -.39216          +Inf         .             .39216    2833.33333 limiteMin[v,S]
+
+     8 y[S,v]       NL        .             .             .              .               -Inf    2833.33333 x[S]
+                                          -3.72549          +Inf         .            3.72549    2833.33333 limiteMin[a,S]
+
+     9 y[S,p]       BS        .             .             .              .           -2.00000    2833.33333 limiteMax[p,S]
+                                            .               +Inf         .            2.22222    2833.33333 y[S,a]
+
+    10 y[T,a]       BS     433.33333        .             .           433.33333       -.91346    2437.50000 y[S,v]
+                                            .               +Inf      433.33333       1.53846    3500.00000 y[S,a]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    Detersivi
+Objective:  z = 2833.333333 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 y[T,v]       BS     133.33333        .             .           133.33333      -2.96875    2437.50000 y[S,v]
+                                            .               +Inf      133.33333       5.00000    3500.00000 y[S,a]
+
+    12 y[T,p]       BS     100.00000        .             .           100.00000      -2.91667    2541.66667 limiteMin[a,T]
+                                            .               +Inf      100.00000       6.66667    3500.00000 y[S,a]
+
+End of report
