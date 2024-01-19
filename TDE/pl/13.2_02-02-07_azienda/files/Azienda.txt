@@ -1,7 +1,7 @@
 L'azienda produce i seguenti dolci p1...p8 nei due stabilimenti A e B.
 La produzione attuale è espressa in migliaia di confezioni alla settimana.
 
-Prodotto          p1   p2   p3   p4   p4   p5   p5   p6   p7   p8
+Prodotto          1   2   3   4   4   5   5  6   7   8
 Stabilimento       A    A    A    A    B    A    B    B    B    B
 Produz. attuale    3   10    3    6   10    3    5    2    1    4
 
@@ -9,7 +9,7 @@ Produz. attuale    3   10    3    6   10    3    5    2    1    4
 Per la produzione di ogni dolce vengono impiegate le seguenti quantità di materie prime
 (in grammi di materia prima per ogni dolce).
 
-Prodotto   p1   p2   p3   p4   p5   p6   p7   p8
+Prodotto   1	2	3	4	5	6	7	8
 Mat.pr.
   a        21   32   45   30   21   40   42   37
   b         5    4    8   10   12   15   13   12
@@ -36,14 +36,14 @@ Mat.pr.  Quantità (Kg/settimana)
 I prezzi di vendita dei prodotti sono i seguenti.
 
 Prodotto  Prezzo (Euro/dolce)
-  p1       2.10
-  p2       2.10
-  p3       2.50
-  p4       2.30
-  p5       1.80
-  p6       2.40
-  p7       3.15
-  p8       2.60
+  1       2.10
+  2       2.10
+  3       2.50
+  4       2.30
+  5       1.80
+  6       2.40
+  7       3.15
+  8       2.60
 
 
 I costi di trasporto delle materie prime sono i seguenti.

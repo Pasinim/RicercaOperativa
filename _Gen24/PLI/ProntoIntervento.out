@@ -1,0 +1,182 @@
+Problem:    ProntoIntervento
+Rows:       55
+Columns:    61 (60 integer, 60 binary)
+Non-zeros:  230
+Status:     INTEGER UNDEFINED
+Objective:  z1 = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Vincolo1[1,1]
+                                   0            -0             = 
+     2 Vincolo1[1,2]
+                                   0            -0             = 
+     3 Vincolo1[1,3]
+                                   0            -0             = 
+     4 Vincolo1[1,4]
+                                   0            -0             = 
+     5 Vincolo1[1,5]
+                                   0            -0             = 
+     6 Vincolo1[1,6]
+                                   0            -0             = 
+     7 Vincolo1[2,1]
+                                   0            -0             = 
+     8 Vincolo1[2,2]
+                                   0            -0             = 
+     9 Vincolo1[2,3]
+                                   0            -0             = 
+    10 Vincolo1[2,4]
+                                   0            -0             = 
+    11 Vincolo1[2,5]
+                                   0            -0             = 
+    12 Vincolo1[2,6]
+                                   0            -0             = 
+    13 Vincolo1[3,1]
+                                   0            -0             = 
+    14 Vincolo1[3,2]
+                                   0            -0             = 
+    15 Vincolo1[3,3]
+                                   0            -0             = 
+    16 Vincolo1[3,4]
+                                   0            -0             = 
+    17 Vincolo1[3,5]
+                                   0            -0             = 
+    18 Vincolo1[3,6]
+                                   0            -0             = 
+    19 Vincolo1[4,1]
+                                   0            -0             = 
+    20 Vincolo1[4,2]
+                                   0            -0             = 
+    21 Vincolo1[4,3]
+                                   0            -0             = 
+    22 Vincolo1[4,4]
+                                   0            -0             = 
+    23 Vincolo1[4,5]
+                                   0            -0             = 
+    24 Vincolo1[4,6]
+                                   0            -0             = 
+    25 Vincolo1[5,1]
+                                   0            -0             = 
+    26 Vincolo1[5,2]
+                                   0            -0             = 
+    27 Vincolo1[5,3]
+                                   0            -0             = 
+    28 Vincolo1[5,4]
+                                   0            -0             = 
+    29 Vincolo1[5,5]
+                                   0            -0             = 
+    30 Vincolo1[5,6]
+                                   0            -0             = 
+    31 Vincolo1[6,1]
+                                   0            -0             = 
+    32 Vincolo1[6,2]
+                                   0            -0             = 
+    33 Vincolo1[6,3]
+                                   0            -0             = 
+    34 Vincolo1[6,4]
+                                   0            -0             = 
+    35 Vincolo1[6,5]
+                                   0            -0             = 
+    36 Vincolo1[6,6]
+                                   0            -0             = 
+    37 Vincolo1[7,1]
+                                   0            -0             = 
+    38 Vincolo1[7,2]
+                                   0            -0             = 
+    39 Vincolo1[7,3]
+                                   0            -0             = 
+    40 Vincolo1[7,4]
+                                   0            -0             = 
+    41 Vincolo1[7,5]
+                                   0            -0             = 
+    42 Vincolo1[7,6]
+                                   0            -0             = 
+    43 Vincolo2[1]                 0             3             = 
+    44 Vincolo2[2]                 0             3             = 
+    45 Vincolo2[3]                 0             3             = 
+    46 Vincolo2[4]                 0             3             = 
+    47 Vincolo2[5]                 0             3             = 
+    48 Vincolo2[6]                 0             3             = 
+    49 def_z[1]                    0            -0               
+    50 def_z[2]                    0            -0               
+    51 def_z[3]                    0            -0               
+    52 def_z[4]                    0            -0               
+    53 def_z[5]                    0            -0               
+    54 def_z[6]                    0            -0               
+    55 z1                          0                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[2,1]       *              0             0             1 
+     3 x[3,1]       *              0             0             1 
+     4 x[1,2]       *              0             0             1 
+     5 x[2,2]       *              0             0             1 
+     6 x[3,2]       *              0             0             1 
+     7 x[1,3]       *              0             0             1 
+     8 x[2,3]       *              0             0             1 
+     9 x[3,3]       *              0             0             1 
+    10 x[1,4]       *              0             0             1 
+    11 x[2,4]       *              0             0             1 
+    12 x[3,4]       *              0             0             1 
+    13 x[1,5]       *              0             0             1 
+    14 x[2,5]       *              0             0             1 
+    15 x[3,5]       *              0             0             1 
+    16 x[1,6]       *              0             0             1 
+    17 x[2,6]       *              0             0             1 
+    18 x[3,6]       *              0             0             1 
+    19 y[1,1]       *              0             0             1 
+    20 y[1,2]       *              0             0             1 
+    21 y[1,3]       *              0             0             1 
+    22 y[1,4]       *              0             0             1 
+    23 y[1,5]       *              0             0             1 
+    24 y[1,6]       *              0             0             1 
+    25 y[2,1]       *              0             0             1 
+    26 y[2,2]       *              0             0             1 
+    27 y[2,3]       *              0             0             1 
+    28 y[2,4]       *              0             0             1 
+    29 y[2,5]       *              0             0             1 
+    30 y[2,6]       *              0             0             1 
+    31 y[3,1]       *              0             0             1 
+    32 y[3,2]       *              0             0             1 
+    33 y[3,3]       *              0             0             1 
+    34 y[3,4]       *              0             0             1 
+    35 y[3,5]       *              0             0             1 
+    36 y[3,6]       *              0             0             1 
+    37 y[4,1]       *              0             0             1 
+    38 y[4,2]       *              0             0             1 
+    39 y[4,3]       *              0             0             1 
+    40 y[4,4]       *              0             0             1 
+    41 y[4,5]       *              0             0             1 
+    42 y[4,6]       *              0             0             1 
+    43 y[5,1]       *              0             0             1 
+    44 y[5,2]       *              0             0             1 
+    45 y[5,3]       *              0             0             1 
+    46 y[5,4]       *              0             0             1 
+    47 y[5,5]       *              0             0             1 
+    48 y[5,6]       *              0             0             1 
+    49 y[6,1]       *              0             0             1 
+    50 y[6,2]       *              0             0             1 
+    51 y[6,3]       *              0             0             1 
+    52 y[6,4]       *              0             0             1 
+    53 y[6,5]       *              0             0             1 
+    54 y[6,6]       *              0             0             1 
+    55 y[7,1]       *              0             0             1 
+    56 y[7,2]       *              0             0             1 
+    57 y[7,3]       *              0             0             1 
+    58 y[7,4]       *              0             0             1 
+    59 y[7,5]       *              0             0             1 
+    60 y[7,6]       *              0             0             1 
+    61 z                           0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 3.00e+000 on row 43
+        max.rel.err = 7.50e-001 on row 43
+        SOLUTION IS INFEASIBLE
+
+End of output
