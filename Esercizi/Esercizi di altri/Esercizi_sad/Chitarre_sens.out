@@ -1,0 +1,45 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Chitarre
+Objective:  z = 14542.85714 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 chitarreProdotte
+                    BS     102.85714      -2.85714     100.00000       60.00000     -26.66667   11800.00000 tempoUsato1
+                                            .               +Inf      120.00000       8.33333   15400.00000 cP[3]
+
+     2 tempoUsato1  NU     400.00000        .               -Inf      386.66667      -5.71429   14466.66667 chitarreProdotte
+                                           5.71429     400.00000      480.00000          +Inf   15000.00000 cP[1]
+
+     3 tempoUsato2  NU     200.00000        .               -Inf           -Inf     -15.00000          -Inf
+                                          15.00000     200.00000      400.00000          +Inf   17542.85714 nA
+
+     4 tempoUsato3  NU     120.00000        .               -Inf      100.00000     -77.14286   13000.00000 cP[1]
+                                          77.14286     120.00000      800.00000          +Inf   67000.00000 cP[2]
+
+     5 z            BS   14542.85714  -14542.85714          -Inf           -Inf      -1.00000        .      tempoUsato2
+                                            .               +Inf    14542.85714          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Chitarre
+Objective:  z = 14542.85714 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 cP[1]        BS       5.71429     350.00000        .          -140.00000     325.00000   14400.00000 cP[3]
+                                            .               +Inf        6.66667     430.00000   15000.00000 tempoUsato1
+
+     2 cP[2]        BS      97.14286     160.00000        .            93.33333     140.00000   12600.00000 tempoUsato1
+                                            .               +Inf      100.00000     700.00000   67000.00000 tempoUsato3
+
+     3 cP[3]        NL        .          100.00000        .            -4.44444          -Inf   14566.66667 chitarreProdotte
+                                          -5.35714          +Inf       26.66667     105.35714   14400.00000 cP[1]
+
+     4 nA           BS       5.00000    -600.00000        .             4.66667    -828.57143   13400.00000 tempoUsato1
+                                            .               +Inf        5.33333    -171.42857   16685.71429 cP[3]
+
+End of report

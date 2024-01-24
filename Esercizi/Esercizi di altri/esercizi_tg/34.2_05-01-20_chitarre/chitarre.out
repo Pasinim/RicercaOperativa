@@ -1,0 +1,45 @@
+Problem:    chitarre
+Rows:       5
+Columns:    3
+Non-zeros:  15
+Status:     OPTIMAL
+Objective:  z = 12786.66667 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 NumeroMinimo NL           100           100                    -15.3333 
+     2 Produzione[Falegnameria]
+                    B        162.667                         400 
+     3 Produzione[Elettrotecnica]
+                    NU           200                         200            24 
+     4 Produzione[Liuteria]
+                    NU           120                         120       79.3333 
+     5 z            B        12786.7                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[De_Paoli]  B        6.66667                             
+     2 x[LittleDiablo]
+                    B        18.6667                             
+     3 x[Stradivarius]
+                    B        74.6667                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.42e-014 on column 3
+        max.rel.err = 6.13e-017 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
