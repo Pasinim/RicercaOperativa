@@ -49,4 +49,11 @@ Nel file generato in output il numero delle colonna è: *numero di vincoli + obi
    
    2. Minimizzo il massimo (cioè z): `minimize z1: z;`
 
-7. 
+7. Quando definisco una variabile ausiliaria devo sempre imporre un vincolo $\geq$, se metto solo = si rompe:
+   
+   ```go-mod
+   s.t. def_ingTot {i in I}:
+       ingTot[i] >= sum{b in B} x[b] * perc[i,b];
+   ```
+
+8. Se ho una tabella con delle percentuali faccio prima a dividere per 100 direttamente nella tabella anzichè dividere nei vincoli

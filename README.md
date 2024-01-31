@@ -52,6 +52,8 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
 
 5. ProntoIntervento.mod tratta il *P-center location problem*.
 
+6. Rete.mod è un problema che opera su un grafo
+
 ____
 
 Gli esercizi qui: `C:\Users\Marco\Desktop\RO-git\RicercaOperativa\Esercizi\Esercizi di altri\Modelli + Esami [Ricop]` hanno anche della documentazione. È inclusa la seguente lista di esercizi presenti nelle videolezioni raggruppati per tipologia:

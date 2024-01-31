@@ -1,0 +1,183 @@
+Problem:    Comizi
+Rows:       54
+Columns:    53 (50 integer, 50 binary)
+Non-zeros:  278
+Status:     INTEGER OPTIMAL
+Objective:  z = 2980 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 def_tempoFisso
+                                   0            -0             = 
+     2 def_tempoComizio
+                                   0            -0             = 
+     3 def_tempoStrada[1]
+                                 300            -0               
+     4 def_tempoStrada[2]
+                                 300            -0               
+     5 def_tempoStrada[3]
+                                 300            -0               
+     6 def_tempoStrada[4]
+                                 269            -0               
+     7 def_tempoStrada[5]
+                                 254            -0               
+     8 def_tempoStrada[6]
+                                 300            -0               
+     9 def_tempoStrada[7]
+                                 228            -0               
+    10 def_tempoStrada[8]
+                                 300            -0               
+    11 def_tempoStrada[9]
+                                 300            -0               
+    12 def_tempoStrada[10]
+                                 173            -0               
+    13 def_tempoStrada[11]
+                                 300            -0               
+    14 def_tempoStrada[12]
+                                 300            -0               
+    15 def_tempoStrada[13]
+                                 134            -0               
+    16 def_tempoStrada[14]
+                                 300            -0               
+    17 def_tempoStrada[15]
+                                 300            -0               
+    18 def_tempoStrada[16]
+                                 300            -0               
+    19 def_tempoStrada[17]
+                                 300            -0               
+    20 def_tempoStrada[18]
+                                  82            -0               
+    21 def_tempoStrada[19]
+                                 300            -0               
+    22 def_tempoStrada[20]
+                                 300            -0               
+    23 def_tempoStrada[21]
+                                 300            -0               
+    24 def_tempoStrada[22]
+                                 300            -0               
+    25 def_tempoStrada[23]
+                                 300            -0               
+    26 def_tempoStrada[24]
+                                   8            -0               
+    27 def_tempoStrada[25]
+                                   2            -0               
+    28 tempoTotale                16                          16 
+    29 assegnamentoComizio[1]
+                                   0                           1 
+    30 assegnamentoComizio[2]
+                                   0                           1 
+    31 assegnamentoComizio[3]
+                                   0                           1 
+    32 assegnamentoComizio[4]
+                                   1                           1 
+    33 assegnamentoComizio[5]
+                                   1                           1 
+    34 assegnamentoComizio[6]
+                                   0                           1 
+    35 assegnamentoComizio[7]
+                                   1                           1 
+    36 assegnamentoComizio[8]
+                                   0                           1 
+    37 assegnamentoComizio[9]
+                                   0                           1 
+    38 assegnamentoComizio[10]
+                                   1                           1 
+    39 assegnamentoComizio[11]
+                                   0                           1 
+    40 assegnamentoComizio[12]
+                                   0                           1 
+    41 assegnamentoComizio[13]
+                                   1                           1 
+    42 assegnamentoComizio[14]
+                                   0                           1 
+    43 assegnamentoComizio[15]
+                                   0                           1 
+    44 assegnamentoComizio[16]
+                                   0                           1 
+    45 assegnamentoComizio[17]
+                                   0                           1 
+    46 assegnamentoComizio[18]
+                                   1                           1 
+    47 assegnamentoComizio[19]
+                                   0                           1 
+    48 assegnamentoComizio[20]
+                                   0                           1 
+    49 assegnamentoComizio[21]
+                                   0                           1 
+    50 assegnamentoComizio[22]
+                                   0                           1 
+    51 assegnamentoComizio[23]
+                                   0                           1 
+    52 assegnamentoComizio[24]
+                                   1                           1 
+    53 assegnamentoComizio[25]
+                                   1                           1 
+    54 z                        2980                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[1,2]       *              0             0             1 
+     3 x[2,1]       *              0             0             1 
+     4 x[2,2]       *              0             0             1 
+     5 x[3,1]       *              0             0             1 
+     6 x[3,2]       *              0             0             1 
+     7 x[4,1]       *              1             0             1 
+     8 x[4,2]       *              0             0             1 
+     9 x[5,1]       *              1             0             1 
+    10 x[5,2]       *              0             0             1 
+    11 x[6,1]       *              0             0             1 
+    12 x[6,2]       *              0             0             1 
+    13 x[7,1]       *              1             0             1 
+    14 x[7,2]       *              0             0             1 
+    15 x[8,1]       *              0             0             1 
+    16 x[8,2]       *              0             0             1 
+    17 x[9,1]       *              0             0             1 
+    18 x[9,2]       *              0             0             1 
+    19 x[10,1]      *              1             0             1 
+    20 x[10,2]      *              0             0             1 
+    21 x[11,1]      *              0             0             1 
+    22 x[11,2]      *              0             0             1 
+    23 x[12,1]      *              0             0             1 
+    24 x[12,2]      *              0             0             1 
+    25 x[13,1]      *              1             0             1 
+    26 x[13,2]      *              0             0             1 
+    27 x[14,1]      *              0             0             1 
+    28 x[14,2]      *              0             0             1 
+    29 x[15,1]      *              0             0             1 
+    30 x[15,2]      *              0             0             1 
+    31 x[16,1]      *              0             0             1 
+    32 x[16,2]      *              0             0             1 
+    33 x[17,1]      *              0             0             1 
+    34 x[17,2]      *              0             0             1 
+    35 x[18,1]      *              0             0             1 
+    36 x[18,2]      *              1             0             1 
+    37 x[19,1]      *              0             0             1 
+    38 x[19,2]      *              0             0             1 
+    39 x[20,1]      *              0             0             1 
+    40 x[20,2]      *              0             0             1 
+    41 x[21,1]      *              0             0             1 
+    42 x[21,2]      *              0             0             1 
+    43 x[22,1]      *              0             0             1 
+    44 x[22,2]      *              0             0             1 
+    45 x[23,1]      *              0             0             1 
+    46 x[23,2]      *              0             0             1 
+    47 x[24,1]      *              0             0             1 
+    48 x[24,2]      *              1             0             1 
+    49 x[25,1]      *              1             0             1 
+    50 x[25,2]      *              0             0             1 
+    51 tempoFisso                  4             0               
+    52 tempoComizio                9             0               
+    53 tempoStrada                 3             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 5.33e-015 on row 2
+        max.rel.err = 5.33e-015 on row 2
+        High quality
+
+End of output

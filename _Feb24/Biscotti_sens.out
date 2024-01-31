@@ -1,0 +1,189 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Biscotti
+Objective:  profitto = 3025 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 def_ingTot[Farina]
+                    NL        .             .             .          -135.00000          -Inf    3025.00000 ingredienti[Farina]
+                                            .               +Inf    38745.00000        .         3025.00000 ingredienti[Nocciole]
+
+     2 def_ingTot[Uova]
+                    NL        .             .             .           -45.00000          -Inf    3025.00000 ingredienti[Uova]
+                                            .               +Inf     9686.25000        .         3025.00000 ingredienti[Nocciole]
+
+     3 def_ingTot[Zucchero]
+                    NL        .             .             .          -115.00000          -Inf    3025.00000 ingredienti[Zucchero]
+                                            .               +Inf    38745.00000        .         3025.00000 ingredienti[Nocciole]
+
+     4 def_ingTot[Burro]
+                    NL        .             .             .           -10.00000          -Inf    3025.00000 ingredienti[Burro]
+                                            .               +Inf    19372.50000        .         3025.00000 ingredienti[Nocciole]
+
+     5 def_ingTot[Latte]
+                    NL        .             .             .           -85.00000          -Inf    3025.00000 ingredienti[Latte]
+                                            .               +Inf    12915.00000        .         3025.00000 ingredienti[Nocciole]
+
+     6 def_ingTot[Additivi]
+                    NL        .             .             .          -120.00000          -Inf    3025.00000 ingredienti[Additivi]
+                                            .               +Inf    19372.50000        .         3025.00000 ingredienti[Nocciole]
+
+     7 def_ingTot[Nocciole]
+                    BS    3894.50000   -3894.50000        .            20.00000        .         3025.00000 def_ingTot[Uova]
+                                            .               +Inf     3959.50000       6.73077   29237.98077 quantitaMassima[Svegliallegra]
+
+     8 def_ingTot[Acqua]
+                    NL        .             .             .          -679.00000          -Inf    3025.00000 ingredienti[Acqua]
+                                            .               +Inf           +Inf        .         3025.00000
+
+     9 ingredienti[Farina]
+                    BS     585.00000    -135.00000     450.00000      485.00000      -4.00000     685.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf    39330.00000        .         3025.00000 def_ingTot[Farina]
+
+    10 ingredienti[Uova]
+                    BS     245.00000     -45.00000     200.00000      225.00000      -7.50000    1187.50000 quantitaMassima[ProntiVia]
+                                            .               +Inf     9931.25000        .         3025.00000 def_ingTot[Uova]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Biscotti
+Objective:  profitto = 3025 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 ingredienti[Zucchero]
+                    BS     435.00000    -115.00000     320.00000      410.00000      -5.00000     850.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf    39180.00000        .         3025.00000 def_ingTot[Zucchero]
+
+    12 ingredienti[Burro]
+                    BS     150.00000     -10.00000     140.00000      107.50000     -12.50000    1150.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf    19522.50000        .         3025.00000 def_ingTot[Burro]
+
+    13 ingredienti[Latte]
+                    BS     405.00000     -85.00000     320.00000      325.00000      -5.00000    1000.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf    13320.00000        .         3025.00000 def_ingTot[Latte]
+
+    14 ingredienti[Additivi]
+                    BS     220.00000    -120.00000     100.00000      140.00000      -5.00000    1925.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf    19592.50000        .         3025.00000 def_ingTot[Additivi]
+
+    15 ingredienti[Nocciole]
+                    BS    3924.50000   -3874.50000      50.00000       30.00000        .         3025.00000 def_ingTot[Uova]
+                                            .               +Inf     3942.00000       7.14286   31057.14286 quantitaMassima[AlbaRadiosa]
+
+    16 ingredienti[Acqua]
+                    BS     680.00000    -679.00000       1.00000      630.00000      -2.50000    1325.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf           +Inf        .         3025.00000 def_ingTot[Acqua]
+
+    17 quantitaMinima[Svegliallegra]
+                    BS     300.00000    -250.00000      50.00000         .           -1.75000    2500.00000 quantitaMassima[Svegliallegra]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+    18 quantitaMinima[FrollinoDelMattino]
+                    BS     500.00000    -400.00000     100.00000       75.00000      -1.00000    2525.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf      500.00000          +Inf          +Inf
+
+    19 quantitaMinima[AlbaRadiosa]
+                    BS    1000.00000    -500.00000     500.00000      900.00000      -1.25000    1775.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf     1000.00000          +Inf          +Inf
+
+    20 quantitaMinima[ProntiVia]
+                    BS     500.00000    -200.00000     300.00000      400.00000      -1.50000    2275.00000 quantitaMassima[ProntiVia]
+                                            .               +Inf      500.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Biscotti
+Objective:  profitto = 3025 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 quantitaMassima[Svegliallegra]
+                    NU     300.00000        .               -Inf       50.00000      -1.75000    2587.50000 quantitaMinima[Svegliallegra]
+                                           1.75000     300.00000    15278.84615          +Inf   29237.98077 def_ingTot[Nocciole]
+
+    22 quantitaMassima[FrollinoDelMattino]
+                    NU     500.00000        .               -Inf      100.00000      -1.00000    2625.00000 quantitaMinima[FrollinoDelMattino]
+                                           1.00000     500.00000    28175.00000          +Inf   30700.00000 ingredienti[Nocciole]
+
+    23 quantitaMassima[AlbaRadiosa]
+                    NU    1000.00000        .               -Inf      900.00000      -1.25000    2900.00000 ingredienti[Burro]
+                                           1.25000    1000.00000    23140.00000          +Inf   30700.00000 ingredienti[Nocciole]
+
+    24 quantitaMassima[ProntiVia]
+                    NU     500.00000        .               -Inf      400.00000      -1.50000    2875.00000 ingredienti[Burro]
+                                           1.50000     500.00000    19400.00000          +Inf   31375.00000 ingredienti[Nocciole]
+
+    25 budg         NU   21600.00000        .               -Inf     2227.50000        .         3025.00000 ingredienti[Nocciole]
+                                            .        21600.00000           +Inf          +Inf    3025.00000
+
+    26 profitto     BS    3025.00000   -3025.00000          -Inf     2587.50000      -1.00000        .      quantitaMassima[Svegliallegra]
+                                            .               +Inf     3025.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    Biscotti
+Objective:  profitto = 3025 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Svegliallegra]
+                    BS     300.00000       1.75000        .            50.00000        .         2500.00000 quantitaMassima[Svegliallegra]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+     2 x[FrollinoDelMattino]
+                    BS     500.00000       1.00000        .           100.00000        .         2525.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf      500.00000          +Inf          +Inf
+
+     3 x[AlbaRadiosa]
+                    BS    1000.00000       1.25000        .           900.00000        .         1775.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf     1000.00000          +Inf          +Inf
+
+     4 x[ProntiVia] BS     500.00000       1.50000        .           400.00000        .         2275.00000 quantitaMassima[ProntiVia]
+                                            .               +Inf      500.00000          +Inf          +Inf
+
+     5 ingTot[Farina]
+                    BS     585.00000        .             .           485.00000      -4.00000     685.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf    39330.00000        .         3025.00000 def_ingTot[Farina]
+
+     6 ingTot[Uova] BS     245.00000        .             .           225.00000      -7.50000    1187.50000 quantitaMassima[ProntiVia]
+                                            .               +Inf     9931.25000        .         3025.00000 def_ingTot[Uova]
+
+     7 ingTot[Zucchero]
+                    BS     435.00000        .             .           410.00000      -5.00000     850.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf    39180.00000        .         3025.00000 def_ingTot[Zucchero]
+
+     8 ingTot[Burro]
+                    BS     150.00000        .             .           140.00000     -12.50000    1150.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf    19522.50000        .         3025.00000 def_ingTot[Burro]
+
+     9 ingTot[Latte]
+                    BS     405.00000        .             .           325.00000      -5.00000    1000.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf    13320.00000        .         3025.00000 def_ingTot[Latte]
+
+    10 ingTot[Additivi]
+                    BS     220.00000        .             .           140.00000      -5.00000    1925.00000 quantitaMassima[FrollinoDelMattino]
+                                            .               +Inf    19592.50000        .         3025.00000 def_ingTot[Additivi]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    Biscotti
+Objective:  profitto = 3025 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 ingTot[Nocciole]
+                    BS    3924.50000        .             .            50.00000        .         3025.00000 def_ingTot[Uova]
+                                            .               +Inf     3942.00000       7.14286   31057.14286 quantitaMassima[AlbaRadiosa]
+
+    12 ingTot[Acqua]
+                    BS     680.00000        .             .           630.00000      -2.50000    1325.00000 quantitaMassima[AlbaRadiosa]
+                                            .               +Inf           +Inf        .         3025.00000 def_ingTot[Acqua]
+
+End of report

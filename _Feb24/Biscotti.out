@@ -1,0 +1,104 @@
+Problem:    Biscotti
+Rows:       26
+Columns:    12
+Non-zeros:  60
+Status:     OPTIMAL
+Objective:  profitto = 3025 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 def_ingTot[Farina]
+                    NL             0            -0                       < eps
+     2 def_ingTot[Uova]
+                    NL             0            -0                       < eps
+     3 def_ingTot[Zucchero]
+                    NL             0            -0                       < eps
+     4 def_ingTot[Burro]
+                    NL             0            -0                       < eps
+     5 def_ingTot[Latte]
+                    NL             0            -0                       < eps
+     6 def_ingTot[Additivi]
+                    NL             0            -0                       < eps
+     7 def_ingTot[Nocciole]
+                    B         3894.5            -0               
+     8 def_ingTot[Acqua]
+                    NL             0            -0                       < eps
+     9 ingredienti[Farina]
+                    B            585           450               
+    10 ingredienti[Uova]
+                    B            245           200               
+    11 ingredienti[Zucchero]
+                    B            435           320               
+    12 ingredienti[Burro]
+                    B            150           140               
+    13 ingredienti[Latte]
+                    B            405           320               
+    14 ingredienti[Additivi]
+                    B            220           100               
+    15 ingredienti[Nocciole]
+                    B         3924.5            50               
+    16 ingredienti[Acqua]
+                    B            680             1               
+    17 quantitaMinima[Svegliallegra]
+                    B            300            50               
+    18 quantitaMinima[FrollinoDelMattino]
+                    B            500           100               
+    19 quantitaMinima[AlbaRadiosa]
+                    B           1000           500               
+    20 quantitaMinima[ProntiVia]
+                    B            500           300               
+    21 quantitaMassima[Svegliallegra]
+                    NU           300                         300          1.75 
+    22 quantitaMassima[FrollinoDelMattino]
+                    NU           500                         500             1 
+    23 quantitaMassima[AlbaRadiosa]
+                    NU          1000                        1000          1.25 
+    24 quantitaMassima[ProntiVia]
+                    NU           500                         500           1.5 
+    25 budg         NU         21600                       21600         < eps
+    26 profitto     B           3025                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Svegliallegra]
+                    B            300             0               
+     2 x[FrollinoDelMattino]
+                    B            500             0               
+     3 x[AlbaRadiosa]
+                    B           1000             0               
+     4 x[ProntiVia] B            500             0               
+     5 ingTot[Farina]
+                    B            585             0               
+     6 ingTot[Uova] B            245             0               
+     7 ingTot[Zucchero]
+                    B            435             0               
+     8 ingTot[Burro]
+                    B            150             0               
+     9 ingTot[Latte]
+                    B            405             0               
+    10 ingTot[Additivi]
+                    B            220             0               
+    11 ingTot[Nocciole]
+                    B         3924.5             0               
+    12 ingTot[Acqua]
+                    B            680             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
