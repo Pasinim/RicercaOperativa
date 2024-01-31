@@ -52,7 +52,7 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
 
 5. ProntoIntervento.mod tratta il *P-center location problem*.
 
-6. Rete.mod è un problema che opera su un grafo
+6. [Rete.mod](https://github.com/Pasinim/RicercaOperativa/blob/main/_Feb24/Rete2.mod) è un problema che opera su un grafo
 
 ____
 
