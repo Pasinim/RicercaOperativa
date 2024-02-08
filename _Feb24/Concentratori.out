@@ -1,0 +1,62 @@
+Problem:    Concentratori
+Rows:       17
+Columns:    18 (6 integer, 6 binary)
+Non-zeros:  54
+Status:     INTEGER OPTIMAL
+Objective:  z[1] = 1100 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 numeroConcentratori
+                                   2                           2 
+     2 capConc[1,1]                0                          -0 
+     3 capConc[1,2]                0                          -0 
+     4 capConc[1,3]             -450                          -0 
+     5 capConc[1,4]                0                          -0 
+     6 capConc[1,5]             -550                          -0 
+     7 capConc[1,6]                0                          -0 
+     8 capConc[2,1]                0                          -0 
+     9 capConc[2,2]                0                          -0 
+    10 capConc[2,3]             -550                          -0 
+    11 capConc[2,4]                0                          -0 
+    12 capConc[2,5]             -350                          -0 
+    13 capConc[2,6]                0                          -0 
+    14 unicoConcentratorePerStazione[1]
+                                   1             1             = 
+    15 unicoConcentratorePerStazione[2]
+                                   1             1             = 
+    16 z[1]                     1100                             
+    17 z[2]                     6800                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[1]         *              0             0             1 
+     2 y[2]         *              0             0             1 
+     3 y[3]         *              1             0             1 
+     4 y[4]         *              0             0             1 
+     5 y[5]         *              1             0             1 
+     6 y[6]         *              0             0             1 
+     7 x[1,1]                      0             0               
+     8 x[2,1]                      0             0               
+     9 x[3,1]                      1             0               
+    10 x[4,1]                      0             0               
+    11 x[5,1]                      0             0               
+    12 x[6,1]                      0             0               
+    13 x[1,2]                      0             0               
+    14 x[2,2]                      0             0               
+    15 x[3,2]                      0             0               
+    16 x[4,2]                      0             0               
+    17 x[5,2]                      1             0               
+    18 x[6,2]                      0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

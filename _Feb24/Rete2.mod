@@ -9,8 +9,8 @@ param capacita {tipi};				#vettore delle capacitá dei vari link [Gb/s]
 param costo {tipi};					#vettore dei costi di utilizzo dei vari link al kilomentro[euro/km]
 
 #variabili
-var x {i in nodi, j in nodi,tipi: (i,j) in archi} binary;	#vettore delle tipologie di link per ogni arco [binario]
 var y {i in nodi, j in nodi: (i,j) in archi} >=0;			#vettore del traffico passante per i link [Gb/s]
+var x {i in nodi, j in nodi,tipi: (i,j) in archi} binary;	#vettore delle tipologie di link per ogni arco [binario]
 #var w {i in nodi, j in nodi: (i,j) in archi} binary; 		#vettore dei link utilizzati [binario]
 
 #vincoli

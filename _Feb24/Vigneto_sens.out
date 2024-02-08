@@ -1,0 +1,312 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 def_x[Silvaner]
+                    NS        .             .             .          -1.92e+006          -Inf     2.42e+007 limiteVitigno[Silvaner,Pinot]
+                                            .             .        966666.66667          +Inf     2.42e+007 limiteVitigno[Riesling,Silvaner]
+
+     2 def_x[Riesling]
+                    NS        .             .             .         -1.365e+006          -Inf     2.42e+007 limiteVitigno[Riesling,Pinot]
+                                            .             .        825000.00000          +Inf     2.42e+007 limiteVitigno[Silvaner,Riesling]
+
+     3 def_x[Pinot] NS        .             .             .          -2.05e+006          -Inf     2.42e+007 limiteVitigno[Pinot,Mueller]
+                                            .             .        505555.55556          +Inf     2.42e+007 limiteVitigno[Riesling,Pinot]
+
+     4 def_x[Mueller]
+                    NS        .             .             .          -1.48e+006          -Inf     2.42e+007 limiteVitigno[Mueller,Pinot]
+                                            .             .        444444.44444          +Inf     2.42e+007 limiteVitigno[Riesling,Mueller]
+
+     5 def_x[Merlot]
+                    NS        .             .             .          -2.49e+006          -Inf     2.42e+007 limiteVitigno[Merlot,Pinot]
+                                            .             .        877777.77778          +Inf     2.42e+007 limiteVitigno[Riesling,Merlot]
+
+     6 minimo[Silvaner]
+                    BS      1.5e+006    -1.35e+006  150000.00000   533333.33333      -4.50000    1.745e+007 massimo[Silvaner]
+                                            .               +Inf       1.5e+006          +Inf          +Inf
+
+     7 minimo[Riesling]
+                    BS      1.2e+006       -1e+006  200000.00000   375000.00000      -5.00000     1.82e+007 massimo[Riesling]
+                                            .               +Inf       1.2e+006          +Inf          +Inf
+
+     8 minimo[Pinot]
+                    BS  950000.00000 -850000.00000  100000.00000   444444.44444      -4.00000     2.04e+007 massimo[Pinot]
+                                            .               +Inf   950000.00000          +Inf          +Inf
+
+     9 minimo[Mueller]
+                    BS  800000.00000 -650000.00000  150000.00000   375000.00000      -3.00000     2.18e+007 massimo[Mueller]
+                                            .               +Inf   800000.00000          +Inf          +Inf
+
+    10 minimo[Merlot]
+                    BS      1.5e+006     -1.4e+006  100000.00000   622222.22222      -3.50000    1.895e+007 massimo[Merlot]
+                                            .               +Inf       1.5e+006          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 massimo[Silvaner]
+                    NU      1.5e+006        .               -Inf   533333.33333      -4.50000    1.985e+007 limiteVitigno[Riesling,Silvaner]
+                                           4.50000      1.5e+006       3.2e+006          +Inf    3.185e+007 limiteVino[Silvaner,Mueller]
+
+    12 massimo[Riesling]
+                    NU      1.2e+006        .               -Inf   375000.00000      -5.00000   2.0075e+007 limiteVitigno[Silvaner,Riesling]
+                                           5.00000      1.2e+006     2.565e+006          +Inf   3.1025e+007 limiteVitigno[Riesling,Pinot]
+
+    13 massimo[Pinot]
+                    NU  950000.00000        .               -Inf   444444.44444      -4.00000  2.21778e+007 limiteVitigno[Riesling,Pinot]
+                                           4.00000  950000.00000         3e+006          +Inf     3.24e+007 limiteVitigno[Pinot,Mueller]
+
+    14 massimo[Mueller]
+                    NU  800000.00000        .               -Inf   375000.00000      -3.00000   2.2925e+007 limiteVino[Silvaner,Mueller]
+                                           3.00000  800000.00000      2.28e+006          +Inf    2.864e+007 limiteVitigno[Mueller,Pinot]
+
+    15 massimo[Merlot]
+                    NU      1.5e+006        .               -Inf   622222.22222      -3.50000  2.11278e+007 limiteVitigno[Riesling,Merlot]
+                                           3.50000      1.5e+006       3.2e+006          +Inf    3.015e+007 limiteVino[Merlot,Mueller]
+
+    16 areaMassima  BS     560.47619     439.52381          -Inf      507.35119  -24000.00000  1.07486e+007 massimo[Mueller]
+                                            .         1000.00000      560.47619          +Inf          +Inf
+
+    17 limiteVitigno[Silvaner,Riesling]
+                    BS    -275.00000     275.00000          -Inf     -355.55556  -54000.00000    3.905e+007 massimo[Silvaner]
+                                            .             .              .        15000.00000   2.0075e+007 massimo[Riesling]
+
+    18 limiteVitigno[Silvaner,Pinot]
+                    BS    -160.00000     160.00000          -Inf     -240.55556  -54000.00000    3.284e+007 massimo[Silvaner]
+                                            .             .            -8.33333   13333.33333  2.20667e+007 massimo[Pinot]
+
+    19 limiteVitigno[Silvaner,Mueller]
+                    BS    -175.00000     175.00000          -Inf     -255.55556  -54000.00000    3.365e+007 massimo[Silvaner]
+                                            .             .           -15.62500    8000.00000     2.28e+007 massimo[Mueller]
+
+    20 limiteVitigno[Silvaner,Merlot]
+                    BS    -196.42857     196.42857          -Inf     -276.98413  -54000.00000  3.48071e+007 massimo[Silvaner]
+                                            .             .            -8.33333   16333.33333  2.09917e+007 massimo[Merlot]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 limiteVitigno[Riesling,Silvaner]
+                    BS    -241.66667     241.66667          -Inf     -333.33333  -45000.00000   3.5075e+007 massimo[Riesling]
+                                            .             .            26.19048   18000.00000    1.985e+007 massimo[Silvaner]
+
+    22 limiteVitigno[Riesling,Pinot]
+                    BS    -151.66667     151.66667          -Inf     -243.33333  -45000.00000   3.1025e+007 massimo[Riesling]
+                                            .             .             8.33333   13333.33333  2.21778e+007 massimo[Pinot]
+
+    23 limiteVitigno[Riesling,Mueller]
+                    BS    -166.66667     166.66667          -Inf     -258.33333  -45000.00000     3.17e+007 massimo[Riesling]
+                                            .             .            -7.29167    8000.00000  2.28667e+007 massimo[Mueller]
+
+    24 limiteVitigno[Riesling,Merlot]
+                    BS    -188.09524     188.09524          -Inf     -279.76190  -45000.00000  3.26643e+007 massimo[Riesling]
+                                            .             .             8.33333   16333.33333  2.11278e+007 massimo[Merlot]
+
+    25 limiteVitigno[Pinot,Silvaner]
+                    BS    -280.00000     280.00000          -Inf     -330.55556  -40000.00000     3.54e+007 massimo[Pinot]
+                                            .             .           -38.33333   18000.00000    1.916e+007 massimo[Silvaner]
+
+    26 limiteVitigno[Pinot,Riesling]
+                    BS    -305.00000     305.00000          -Inf     -355.55556  -40000.00000     3.64e+007 massimo[Pinot]
+                                            .             .           -30.00000   15000.00000   1.9625e+007 massimo[Riesling]
+
+    27 limiteVitigno[Pinot,Mueller]
+                    BS    -205.00000     205.00000          -Inf     -255.55556  -40000.00000     3.24e+007 massimo[Pinot]
+                                            .             .           -45.62500    8000.00000    2.256e+007 massimo[Mueller]
+
+    28 limiteVitigno[Pinot,Merlot]
+                    BS    -226.42857     226.42857          -Inf     -276.98413  -40000.00000  3.32571e+007 massimo[Pinot]
+                                            .             .           -38.33333   16333.33333  2.05017e+007 massimo[Merlot]
+
+    29 limiteVitigno[Mueller,Silvaner]
+                    BS    -275.00000     275.00000          -Inf     -328.12500  -24000.00000     3.08e+007 massimo[Mueller]
+                                            .             .           -33.33333   18000.00000    1.925e+007 massimo[Silvaner]
+
+    30 limiteVitigno[Mueller,Riesling]
+                    BS    -300.00000     300.00000          -Inf     -353.12500  -24000.00000     3.14e+007 massimo[Mueller]
+                                            .             .           -25.00000   15000.00000     1.97e+007 massimo[Riesling]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 limiteVitigno[Mueller,Pinot]
+                    BS    -185.00000     185.00000          -Inf     -238.12500  -24000.00000    2.864e+007 massimo[Mueller]
+                                            .             .           -33.33333   13333.33333  2.17333e+007 massimo[Pinot]
+
+    32 limiteVitigno[Mueller,Merlot]
+                    BS    -221.42857     221.42857          -Inf     -274.55357  -24000.00000  2.95143e+007 massimo[Mueller]
+                                            .             .           -33.33333   16333.33333  2.05833e+007 massimo[Merlot]
+
+    33 limiteVitigno[Merlot,Silvaner]
+                    BS    -267.85714     267.85714          -Inf     -330.55556  -49000.00000   3.7325e+007 massimo[Merlot]
+                                            .             .           -26.19048   18000.00000  1.93786e+007 massimo[Silvaner]
+
+    34 limiteVitigno[Merlot,Riesling]
+                    BS    -292.85714     292.85714          -Inf     -355.55556  -49000.00000    3.855e+007 massimo[Merlot]
+                                            .             .           -17.85714   15000.00000  1.98071e+007 massimo[Riesling]
+
+    35 limiteVitigno[Merlot,Pinot]
+                    BS    -177.85714     177.85714          -Inf     -240.55556  -49000.00000   3.2915e+007 massimo[Merlot]
+                                            .             .           -26.19048   13333.33333  2.18286e+007 massimo[Pinot]
+
+    36 limiteVitigno[Merlot,Mueller]
+                    BS    -192.85714     192.85714          -Inf     -255.55556  -49000.00000    3.365e+007 massimo[Merlot]
+                                            .             .           -33.48214    8000.00000  2.26571e+007 massimo[Mueller]
+
+    37 limiteVino[Silvaner,Riesling]
+                    BS     -3.3e+006      3.3e+006          -Inf  -4.26667e+006      -4.50000    3.905e+007 massimo[Silvaner]
+                                            .             .              .            1.25000   2.0075e+007 massimo[Riesling]
+
+    38 limiteVino[Silvaner,Pinot]
+                    BS     -2.3e+006      2.3e+006          -Inf  -3.26667e+006      -4.50000    3.455e+007 massimo[Silvaner]
+                                            .             .       -277777.77778       1.00000     2.19e+007 massimo[Pinot]
+
+    39 limiteVino[Silvaner,Mueller]
+                    BS     -1.7e+006      1.7e+006          -Inf  -2.66667e+006      -4.50000    3.185e+007 massimo[Silvaner]
+                                            .             .              .             .75000   2.2925e+007 massimo[Mueller]
+
+    40 limiteVino[Silvaner,Merlot]
+                    BS     -4.5e+006      4.5e+006          -Inf  -5.46667e+006      -4.50000    4.445e+007 massimo[Silvaner]
+                                            .             .       -988888.88889        .87500  2.02625e+007 massimo[Merlot]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 limiteVino[Riesling,Silvaner]
+                    BS     -4.8e+006      4.8e+006          -Inf    -5.625e+006      -5.00000     4.82e+007 massimo[Riesling]
+                                            .             .       -933333.33333       1.12500     1.88e+007 massimo[Silvaner]
+
+    42 limiteVino[Riesling,Pinot]
+                    BS     -2.6e+006      2.6e+006          -Inf    -3.425e+006      -5.00000     3.72e+007 massimo[Riesling]
+                                            .             .       -577777.77778       1.00000     2.16e+007 massimo[Pinot]
+
+    43 limiteVino[Riesling,Mueller]
+                    BS       -2e+006        2e+006          -Inf    -2.825e+006      -5.00000     3.42e+007 massimo[Riesling]
+                                            .             .       -300000.00000        .75000     2.27e+007 massimo[Mueller]
+
+    44 limiteVino[Riesling,Merlot]
+                    BS     -4.8e+006      4.8e+006          -Inf    -5.625e+006      -5.00000     4.82e+007 massimo[Riesling]
+                                            .             .       -1.28889e+006        .87500        2e+007 massimo[Merlot]
+
+    45 limiteVino[Pinot,Silvaner]
+                    BS    -5.05e+006     5.05e+006          -Inf  -5.55556e+006      -4.00000     4.44e+007 massimo[Pinot]
+                                            .             .       -1.18333e+006       1.12500  1.85188e+007 massimo[Silvaner]
+
+    46 limiteVino[Pinot,Riesling]
+                    BS    -3.85e+006     3.85e+006          -Inf  -4.35556e+006      -4.00000     3.96e+007 massimo[Pinot]
+                                            .             .       -550000.00000       1.25000  1.93875e+007 massimo[Riesling]
+
+    47 limiteVino[Pinot,Mueller]
+                    BS    -2.25e+006     2.25e+006          -Inf  -2.75556e+006      -4.00000     3.32e+007 massimo[Pinot]
+                                            .             .       -550000.00000        .75000  2.25125e+007 massimo[Mueller]
+
+    48 limiteVino[Pinot,Merlot]
+                    BS    -5.05e+006     5.05e+006          -Inf  -5.55556e+006      -4.00000     4.44e+007 massimo[Pinot]
+                                            .             .       -1.53889e+006        .87500  1.97813e+007 massimo[Merlot]
+
+    49 limiteVino[Mueller,Silvaner]
+                    BS     -5.2e+006      5.2e+006          -Inf    -5.625e+006      -3.00000     3.98e+007 massimo[Mueller]
+                                            .             .       -1.33333e+006       1.12500    1.835e+007 massimo[Silvaner]
+
+    50 limiteVino[Mueller,Riesling]
+                    BS       -4e+006        4e+006          -Inf    -4.425e+006      -3.00000     3.62e+007 massimo[Mueller]
+                                            .             .       -700000.00000       1.25000     1.92e+007 massimo[Riesling]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 limiteVino[Mueller,Pinot]
+                    BS       -3e+006        3e+006          -Inf    -3.425e+006      -3.00000     3.32e+007 massimo[Mueller]
+                                            .             .       -977777.77778       1.00000     2.12e+007 massimo[Pinot]
+
+    52 limiteVino[Mueller,Merlot]
+                    BS     -5.2e+006      5.2e+006          -Inf    -5.625e+006      -3.00000     3.98e+007 massimo[Mueller]
+                                            .             .       -1.68889e+006        .87500    1.965e+007 massimo[Merlot]
+
+    53 limiteVino[Merlot,Silvaner]
+                    BS     -4.5e+006      4.5e+006          -Inf  -5.37778e+006      -3.50000    3.995e+007 massimo[Merlot]
+                                            .             .       -633333.33333       1.12500  1.91375e+007 massimo[Silvaner]
+
+    54 limiteVino[Merlot,Riesling]
+                    BS     -3.3e+006      3.3e+006          -Inf  -4.17778e+006      -3.50000    3.575e+007 massimo[Merlot]
+                                            .             .              .            1.25000   2.0075e+007 massimo[Riesling]
+
+    55 limiteVino[Merlot,Pinot]
+                    BS     -2.3e+006      2.3e+006          -Inf  -3.17778e+006      -3.50000    3.225e+007 massimo[Merlot]
+                                            .             .       -277777.77778       1.00000     2.19e+007 massimo[Pinot]
+
+    56 limiteVino[Merlot,Mueller]
+                    BS     -1.7e+006      1.7e+006          -Inf  -2.57778e+006      -3.50000    3.015e+007 massimo[Merlot]
+                                            .             .              .             .75000   2.2925e+007 massimo[Mueller]
+
+    57 z            BS     2.42e+007    -2.42e+007          -Inf    2.0075e+007      -1.00000        .      massimo[Riesling]
+                                            .               +Inf      2.42e+007          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    Vigneto
+Objective:  z = 24200000 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Silvaner]  BS      1.5e+006       4.50000        .        533333.33333        .         1.745e+007 massimo[Silvaner]
+                                            .               +Inf       1.5e+006          +Inf          +Inf
+
+     2 x[Riesling]  BS      1.2e+006       5.00000        .        375000.00000        .          1.82e+007 massimo[Riesling]
+                                            .               +Inf       1.2e+006          +Inf          +Inf
+
+     3 x[Pinot]     BS  950000.00000       4.00000        .        444444.44444        .          2.04e+007 massimo[Pinot]
+                                            .               +Inf   950000.00000          +Inf          +Inf
+
+     4 x[Mueller]   BS  800000.00000       3.00000        .        375000.00000        .          2.18e+007 massimo[Mueller]
+                                            .               +Inf   800000.00000          +Inf          +Inf
+
+     5 x[Merlot]    BS      1.5e+006       3.50000        .        622222.22222        .         1.895e+007 massimo[Merlot]
+                                            .               +Inf       1.5e+006          +Inf          +Inf
+
+     6 y[Silvaner]  BS     125.00000        .             .            44.44444  -54000.00000    1.745e+007 massimo[Silvaner]
+                                            .               +Inf      125.00000          +Inf          +Inf
+
+     7 y[Riesling]  BS     133.33333        .             .            41.66667  -45000.00000     1.82e+007 massimo[Riesling]
+                                            .               +Inf      133.33333          +Inf          +Inf
+
+     8 y[Pinot]     BS      95.00000        .             .            44.44444  -40000.00000     2.04e+007 massimo[Pinot]
+                                            .               +Inf       95.00000          +Inf          +Inf
+
+     9 y[Mueller]   BS     100.00000        .             .            46.87500  -24000.00000     2.18e+007 massimo[Mueller]
+                                            .               +Inf      100.00000          +Inf          +Inf
+
+    10 y[Merlot]    BS     107.14286        .             .            44.44444  -49000.00000    1.895e+007 massimo[Merlot]
+                                            .               +Inf      107.14286          +Inf          +Inf
+
+End of report
