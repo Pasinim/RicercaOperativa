@@ -42,7 +42,7 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
     sum {o in O} x[o,t,k] *v[o] >= vMin[t] * y[t,k]; #solo se il paccho è utilizzato
 ```
 
-2. [Chitarre](https://github.com/Pasinim/RicercaOperativa/blob/main/TDE/pl/34.2_05-01-20_chitarre/soluzione.pdf): Fornisce un esempio sull'analisi post ottimale in GUSEK
+2. [Chitarre](https://github.com/Pasinim/RicercaOperativa/blob/main/TDE/pl/34.2_05-01-20_chitarre/soluzione.pdf): Fornisce un esempio sull'analisi post ottimale in GUSEK + [esercizio Swappa](http://www.swappa.it/wiki/Uni/RO-Es2) + [Vigneti]([Swappa :: Ricerca Operativa - PL - Vigneto - 27.06.06](http://www.swappa.it/wiki/Uni/RO-PL-27giu2006))
 
 3. Potatura: identificazione della regione paretiana e altro esempio sull'analisi post-ottimale
 
@@ -53,6 +53,8 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
 5. ProntoIntervento.mod tratta il *P-center location problem*.
 
 6. [Rete.mod](https://github.com/Pasinim/RicercaOperativa/blob/main/_Feb24/Rete2.mod) è un problema che opera su un grafo
+
+7. [CamminoMinimo.mod](https://github.com/Pasinim/RicercaOperativa/blob/main/_Feb24/CamminoGrafo.mod): Altro TDE con un problema basato sui grafi
 
 ____
 
