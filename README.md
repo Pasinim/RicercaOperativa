@@ -56,6 +56,11 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
 
 7. [CamminoMinimo.mod](https://github.com/Pasinim/RicercaOperativa/blob/main/_Feb24/CamminoGrafo.mod): Altro TDE con un problema basato sui grafi
 
+8. Negli esercizi con delle [rette](https://github.com/Pasinim/RicercaOperativa/blob/main/_Feb24/Triangolo.mod) bisogna sempre mettere una condizione di normalizzazione, senza quella alcune rette non verrebbero considerate:
+   `subject to normalizzazione{t in T}: aT[t]^2 + bT[t]^2 = 1;`, dove aT e bT sono i coefficienti della retta
+
+
+
 ____
 
 Gli esercizi qui: `C:\Users\Marco\Desktop\RO-git\RicercaOperativa\Esercizi\Esercizi di altri\Modelli + Esami [Ricop]` hanno anche della documentazione. È inclusa la seguente lista di esercizi presenti nelle videolezioni raggruppati per tipologia:
