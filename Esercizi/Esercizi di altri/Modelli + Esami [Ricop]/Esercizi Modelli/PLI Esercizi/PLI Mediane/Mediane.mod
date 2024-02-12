@@ -1,58 +1,66 @@
-#ESERCIZIO 90.1 PLI - Mediane
+# Esercizio Birra, versione 1
 
-#DATI
+# DATI
+set O;				# Insieme di origini (siti produttivi)
+set D;				# Insieme di destinazioni (punti vendita)
+param t {O,D};		# Distanza [km]
+param p {O};		# Costo unitario di produzione [€/u]
+param o {O};		# Capacità produttiva [u/g]
+param d {D};		# Domanda [u/g]
+param c;			# Coefficiente di costo di trasporto [€/(km*u)
 
-param nM := 2;		# Numero dei magazzini
-param nC := 10;		# Numero di città da servire
-set C := 1..nC;		# Insieme delle città
-set M within C;		# Insieme dei possibili magazzini
-param d {M, C};		# Distanza tra due cittò [km]
-param a {M};		# Costo di attivazione per ogni cittò
-param b;			# Budget a disposizione
+# VARIABILI
+var x {O,D} >= 0;	# Quantità trasportate [u/g]
 
-#VARIABILI
-var x{M} binary;	# La variabile vale 1 se la cittò ospita un magazzino, 0 altrimenti
-var dmax;			# Distanza massima tra magazzino e città
+# VINCOLI
+# Massima produzione in ogni origine [u/g]
+s.t. Offerta {i in O}: sum {j in D} x[i,j] <= o[i];
+# Soddisfacimento della domanda [u/g]
+s.t. Domanda {j in D}: sum {i in O} x[i,j] >= d[j];
 
-#VINCOLI
+# OBIETTIVO
+# Minimizzare costi complessivi di produzione e trasporto [€/g]
+minimize z1: sum{i in O, j in D} (c * t[i,j] + p[i]) * x[i,j];
 
-#limite di budget
-
-#numero di magazzini richiesti
-subj to Magazzini: sum{m in M} x[m]=nM;
-
-#definizione distanza massima
-subj to MaxDist{i in M, j in C: i<j}: dmax >= d[i,j] * x[i];
-
-
-#OBIETTIVO
-#minimizzare la distanza massima tra un magazzino e una città
-minimize z: dmax;
-
-##########################
+###############################
 data;
+set O := A B C D F G J M;
+set D := A B C D E F G H J K L M;
 
-set M:=	1	2	3	4	5	6	7;
+param t: 	A		B		C		D		E		F		G		H		J		K		L		M	 :=
+A			0		565		401		529		505		295		720		550		817		891		539		855	
+B			565		0		210		474		309		799		665		760		936		1008	979		1420
+C			401		210		0		309		289		635		500		674		771		949		838		1255
+D			529		474		309		0		114		375		194		377		465		643		579		1012
+F			295		799		635		375		431		0		411		259		394		599		293		634	
+G			720		665		500		194		271		411		0		281		861		450		570		681	
+J			817		936		771		465		553		394		861		117		0		220		378		593	
+M			855		1420	1255	1012	956		634		681		527		593		705		285		0	;
 
-param d:	1	2	3	4	5	6	7	8	9	 10:=
-1			0	565	401	529	295	720	550	817	891	 539
-2			565	0	210	474	799	665	760	936 1008 979
-3			401	210	0	309	635	500	674	771	949	 838
-4			529	474	309	0	375	194	377	465	643	 579
-5			295	799	635	375	0	411	259	394	599	 293
-6			720	665	500	194	411	0	281	861	450	 570
-7			817	936	771	465	394	861	117	0	220	 378;
+param:	p	o :=
+A		10	300
+B		15	200
+C		18	200
+D		20	300
+F		12	200
+G		16	200
+J		16	300
+M		10	300;
 
-param a:=
-1    40 
-2    50
-3  	 40
-4    40
-5    40
-6    40
-7    60 ;
+param d :=
+A		80
+B		70
+C		60
+D		70
+E		80
+F		40
+G		60
+H		70
+J		150
+K		40
+L		30
+M		50;
 
-param b:= 100;
-
+param c := 0.05;
 
 end;

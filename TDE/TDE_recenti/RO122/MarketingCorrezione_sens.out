@@ -1,0 +1,102 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    MarketingCorrezione
+Objective:  z = 1737270.642 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 coefficienteTech[1]
+                    BS   35680.73394    1319.26606          -Inf    34272.00000     -11.90476   1.3125e+006 coefficienteTech[3]
+                                            .        37000.00000    36206.89655      33.80682  2.94352e+006 intervalli[2,2]
+
+     2 coefficienteTech[2]
+                    BS   31653.21101     346.78899          -Inf    30060.00000     -10.52632  1.40408e+006 coefficienteTech[3]
+                                            .        32000.00000    32522.72727      51.29310  3.36086e+006 intervalli[2,2]
+
+     3 coefficienteTech[3]
+                    NU   40000.00000        .               -Inf    38172.00000      -9.17431   1.7205e+006 x[3,4]
+                                           9.17431   40000.00000    40397.89474          +Inf  1.74092e+006 coefficienteTech[2]
+
+     4 coefficienteTech[4]
+                    NU   47000.00000        .               -Inf    41946.15385     -23.39450  1.61904e+006 x[1,3]
+                                          23.39450   47000.00000    49538.88889          +Inf  1.79667e+006 x[3,4]
+
+     5 intervalli[1,1]
+                    NL    -200.00000        .         -200.00000     -802.75229          -Inf  1.88796e+006 x[1,3]
+                                        -250.00000          +Inf         .          250.00000  1.68727e+006 x[1,1]
+
+     6 intervalli[1,2]
+                    NL    -300.00000        .         -300.00000     -902.75229          -Inf  1.82768e+006 x[1,3]
+                                        -150.00000          +Inf         .          150.00000  1.69227e+006 x[1,2]
+
+     7 intervalli[2,1]
+                    NL    -150.00000        .         -150.00000     -512.69841          -Inf   1.8148e+006 x[3,4]
+                                        -213.76147          +Inf      -41.37931     213.76147  1.71405e+006 coefficienteTech[2]
+
+     8 intervalli[2,2]
+                    NL    -450.00000        .         -450.00000     -812.69841          -Inf  1.79667e+006 x[3,4]
+                                        -163.76147          +Inf     -341.37931     163.76147  1.71948e+006 coefficienteTech[2]
+
+     9 intervalli[3,1]
+                    NL     -50.00000        .          -50.00000     -469.26606          -Inf  1.86305e+006 x[3,4]
+                                        -300.00000          +Inf         .          300.00000  1.72227e+006 x[3,1]
+
+    10 intervalli[3,2]
+                    NL    -100.00000        .         -100.00000     -519.26606          -Inf  1.84209e+006 x[3,4]
+                                        -250.00000          +Inf         .          250.00000  1.71227e+006 x[3,2]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    MarketingCorrezione
+Objective:  z = 1737270.642 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 intervalli[3,3]
+                    NL    -150.00000        .         -150.00000     -569.26606          -Inf  1.82112e+006 x[3,4]
+                                        -200.00000          +Inf         .          200.00000  1.70727e+006 x[3,3]
+
+    12 z            BS  1.73727e+006 -1.73727e+006          -Inf   1.69227e+006      -1.00000        .      intervalli[1,2]
+                                            .               +Inf   1.73727e+006          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    MarketingCorrezione
+Objective:  z = 1737270.642 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1,1]       BS     200.00000    1000.00000        .                -Inf     750.00000  1.68727e+006 intervalli[1,1]
+                                            .               +Inf      200.00000          +Inf          +Inf
+
+     2 x[1,2]       BS     300.00000     900.00000        .                -Inf     750.00000  1.69227e+006 intervalli[1,2]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+     3 x[1,3]       BS     602.75229     750.00000        .          -900.00000     553.84615  1.61904e+006 coefficienteTech[4]
+                                            .               +Inf      804.00000     833.33333   1.7875e+006 coefficienteTech[3]
+
+     4 x[2,1]       BS     150.00000     800.00000        .            41.37931     586.23853  1.70521e+006 intervalli[2,1]
+                                            .               +Inf      150.00000          +Inf          +Inf
+
+     5 x[2,2]       BS     450.00000     750.00000        .           341.37931     586.23853  1.66358e+006 intervalli[2,2]
+                                            .               +Inf      450.00000          +Inf          +Inf
+
+     6 x[2,3]       NL        .          500.00000        .          -108.62069          -Inf  1.74664e+006 coefficienteTech[2]
+                                         -86.23853          +Inf      362.69841     586.23853  1.70599e+006 x[3,4]
+
+     7 x[3,1]       BS      50.00000     700.00000        .                -Inf     400.00000  1.72227e+006 intervalli[3,1]
+                                            .               +Inf       50.00000          +Inf          +Inf
+
+     8 x[3,2]       BS     100.00000     650.00000        .                -Inf     400.00000  1.71227e+006 intervalli[3,2]
+                                            .               +Inf      100.00000          +Inf          +Inf
+
+     9 x[3,3]       BS     150.00000     600.00000        .                -Inf     400.00000  1.70727e+006 intervalli[3,3]
+                                            .               +Inf      150.00000          +Inf          +Inf
+
+    10 x[3,4]       BS     419.26606     400.00000        .                -Inf     360.00000   1.7205e+006 coefficienteTech[3]
+                                            .               +Inf      544.82759     541.66667  1.79667e+006 intervalli[2,2]
+
+End of report

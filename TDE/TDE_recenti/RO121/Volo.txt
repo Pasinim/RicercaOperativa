@@ -1,0 +1,22 @@
+Posizione aeroporti (coordinate Cartesiane)
+Partenza: ( 5,20)
+Arrivo  : (25, 8)
+
+N. stati da sorvolare: 3
+
+Stato	Costo unitario di sorvolo
+   1		1.5
+   2		0.8
+   3		1.4
+
+Confini   Punti di discontinuità
+   1      (0,14) (8,14) (15,19) (17,23) (17,30)
+   2      (10,0) (30,20)
+
+-----------------------------------------
+
+Versione semplificata
+
+Confini   Punti di discontinuità
+   1      ( 1,9) (22,24)
+   2      (10,0) (30,20)

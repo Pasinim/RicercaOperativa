@@ -1,0 +1,74 @@
+I jobs sono 9, le macchine sono 3.
+
+================
+
+Tabella 1: costi di assegnamento e penalità
+
+		Macchine			
+	Costo	1	2	3	Penalità
+Jobs	1	24	42	23	10
+	2	30	45	23	10
+	3	33	54	16	10
+	4	37	45	18	10
+	5	34	47	22	15
+	6	31	42	25	15
+	7	30	41	19	15
+	8	28	47	15	15
+	9	25	50	20	20
+
+================
+
+Tabella 2: tempi di lavorazione
+
+		Macchine		
+	Tempo	1	2	3
+Jobs	1	100	95	107
+	2	111	108	115
+	3	98	96	103
+	4	132	128	133
+	5	120	118	119
+	6	115	117	114
+	7	142	145	140
+	8	123	125	120
+	9	90	95	88
+
+================
+
+Tabella 3: disponibilità delle macchine
+
+				Macchine		
+				1	2	3
+Tempo disponibile (caso 1):	380	360	350	(undersubscribed)
+Tempo disponibile (caso 2):	360	330	320	(oversubscribed)
+
+================
+
+Tabella 4: compatibilità tra jobs e macchine (0=incompatibili)
+
+		Macchine		
+	Jobs	1	2	3
+	1	1	0	1
+	2	1	0	1
+	3	1	1	1
+	4	1	1	0
+	5	1	1	0
+	6	1	1	1
+	7	1	1	1
+	8	0	1	1
+	9	0	1	1
+
+================
+
+Tabella 5: compatibilità tra jobs (0=incompatibili)
+
+		1	2	3	4	5	6	7	8	9
+	1	1	0	1	1	1	1	1	1	1
+	2	0	1	1	1	1	1	1	1	1
+	3	1	1	1	0	1	1	1	1	1
+	4	1	1	0	1	1	1	1	1	1
+	5	1	1	1	1	1	0	1	1	1
+	6	1	1	1	1	0	1	1	1	1
+	7	1	1	1	1	1	1	1	0	0
+	8	1	1	1	1	1	1	0	1	0
+	9	1	1	1	1	1	1	0	0	1
+

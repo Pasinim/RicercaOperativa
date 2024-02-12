@@ -1,0 +1,74 @@
+Problem:    Spirale
+Rows:       20
+Columns:    2
+Non-zeros:  30
+Status:     UNDEFINED
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 def_spirale[1]
+                    B              0        -0.122             = 
+     2 def_spirale[2]
+                    B              0        -0.255             = 
+     3 def_spirale[3]
+                    B              0         -0.58             = 
+     4 def_spirale[4]
+                    B              0         -0.66             = 
+     5 def_spirale[5]
+                    B              0        -1.372             = 
+     6 def_spirale[6]
+                    B              0        -1.302             = 
+     7 def_spirale[7]
+                    B              0        -1.769             = 
+     8 def_spirale[8]
+                    B              0        -2.384             = 
+     9 def_spirale[9]
+                    B              0        -2.787             = 
+    10 def_spirale[10]
+                    B              0        -3.051             = 
+    11 lunghezzaSpirale[1]
+                    B              0                           2 
+    12 lunghezzaSpirale[2]
+                    B              0                           2 
+    13 lunghezzaSpirale[3]
+                    B              0                           2 
+    14 lunghezzaSpirale[4]
+                    B              0                           2 
+    15 lunghezzaSpirale[5]
+                    B              0                           2 
+    16 lunghezzaSpirale[6]
+                    B              0                           2 
+    17 lunghezzaSpirale[7]
+                    B              0                           2 
+    18 lunghezzaSpirale[8]
+                    B              0                           2 
+    19 lunghezzaSpirale[9]
+                    B              0                           2 
+    20 lunghezzaSpirale[10]
+                    B              0                           2 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 a            NL             0             0                       < eps
+     2 b            NF             0                                     < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 3.05e+000 on row 10
+        max.rel.err = 7.53e-001 on row 10
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,47 @@
+I prodotti sono 3 (P1, P2, P3), le materie prime sono 2 (M1, M2), i componenti sono 2 (C1, C2).
+
+----------------------
+
+Le quantità di materie prime disponbili sono le seguenti:
+
+Materia prima    unità
+   M1            37000
+   M2            32000
+
+----------------------
+
+Le quantità di componenti disponibili sono le seguenti:
+
+Componenti    unità
+   C1         40000
+   C2         47000
+
+----------------------
+
+I consumi unitari sono i seguenti:
+
+      P1    P2    P3
+M1    18    12    12
+M2    15    12    11
+C1    18    18    13
+C2    25    18    12;
+
+----------------------
+
+I prezzi di vendita dei prodotti sono stimati come segue:
+
+P1)
+unità da   0 a 200: prezzo = 1000
+unità da 200 a 500: prezzo =  900
+unità oltre le 500: prezzo =  750
+
+P2)
+unità da   0 a 150: prezzo = 800
+unità da 150 a 600: prezzo = 750
+unità oltre le 600: prezzo = 500
+
+P3)
+unità da   0 a  50: prezzo =  700
+unità da  50 a 150: prezzo =  650
+unità da 150 a 300: prezzo =  600
+unità oltre le 300: prezzo =  400

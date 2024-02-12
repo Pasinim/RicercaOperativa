@@ -1,0 +1,65 @@
+Problem:    MarketingCorrezione
+Rows:       12
+Columns:    10
+Non-zeros:  57
+Status:     OPTIMAL
+Objective:  z = 1737270.642 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 coefficienteTech[1]
+                    B        35680.7                       37000 
+     2 coefficienteTech[2]
+                    B        31653.2                       32000 
+     3 coefficienteTech[3]
+                    NU         40000                       40000       9.17431 
+     4 coefficienteTech[4]
+                    NU         47000                       47000       23.3945 
+     5 intervalli[1,1]
+                    NL          -200          -200                        -250 
+     6 intervalli[1,2]
+                    NL          -300          -300                        -150 
+     7 intervalli[2,1]
+                    NL          -150          -150                    -213.761 
+     8 intervalli[2,2]
+                    NL          -450          -450                    -163.761 
+     9 intervalli[3,1]
+                    NL           -50           -50                        -300 
+    10 intervalli[3,2]
+                    NL          -100          -100                        -250 
+    11 intervalli[3,3]
+                    NL          -150          -150                        -200 
+    12 z            B   1.73727e+006                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       B            200             0               
+     2 x[1,2]       B            300             0               
+     3 x[1,3]       B        602.752             0               
+     4 x[2,1]       B            150             0               
+     5 x[2,2]       B            450             0               
+     6 x[2,3]       NL             0             0                    -86.2385 
+     7 x[3,1]       B             50             0               
+     8 x[3,2]       B            100             0               
+     9 x[3,3]       B            150             0               
+    10 x[3,4]       B        419.266             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.46e-011 on row 4
+        max.rel.err = 1.55e-016 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.14e-013 on column 3
+        max.rel.err = 7.57e-017 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

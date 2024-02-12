@@ -1,0 +1,6 @@
+NB: Non sapendo come definire i prezzi a seconda delle quantità prodotte ho inserito un prezzo costante per ogni prodotto indipendentemente dalle unità prodotte.
+Un'idea per introdurre il prezzo variabile potrebbe essere quella di introdurre una variabile binaria y{P, I} che indica in quale fascia di prezzo collocare ogni prodotto, dove I indica l'insieme del range di prezzo a seconda delle unità prodotte. La difficoltà che ho riscontrato è stata definire proprio questa tabella e poi trovare un modo per "mappare" il numero di unità prodotte per farle ricardere nel range di prezzo corretto. Una volta trovato questo vincolo basta moltiplicare il numero di unità prodotte per il range corretto.
+
+Di seguito la risposta al quesito ma con prezzi costanti.
+Il problema viene formulato utilizzando variabili discrete e si tratta di un problema di programmazione lineare. La soluzione trovata è ottima e unica. Le risorse scarse scarse sono M2, C1, C2, per le quali l'azienda sarebbe disposta a pagare qualsiasi prezzo per acquistarne altre.
+

@@ -1,0 +1,44 @@
+Problem:    Marketing
+Rows:       5
+Columns:    3
+Non-zeros:  15
+Status:     OPTIMAL
+Objective:  z = 1884051.724 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 disponibilitaMaterie[M1]
+                    B        36206.9                       37000 
+     2 disponibilitaMaterie[M2]
+                    NU         32000                       32000       28.8793 
+     3 disponibilitaComponenti[C1]
+                    NU         40000                       40000       13.3621 
+     4 disponibilitaComponenti[C2]
+                    NU         47000                       47000       9.05172 
+     5 z            B   1.88405e+006                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[P1]        B        1120.69             0               
+     2 x[P2]        B        491.379             0               
+     3 x[P3]        B        844.828             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 7.28e-012 on row 4
+        max.rel.err = 7.74e-017 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

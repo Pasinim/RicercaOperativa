@@ -1,0 +1,45 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Marketing
+Objective:  z = 1884051.724 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 disponibilitaMaterie[M1]
+                    BS   36206.89655     793.10345          -Inf    32666.66667     -19.03409  1.19489e+006 disponibilitaMaterie[M2]
+                                            .        37000.00000    37200.00000      24.21875  2.76094e+006 disponibilitaComponenti[C1]
+
+     2 disponibilitaMaterie[M2]
+                    NU   32000.00000        .               -Inf    29666.66667     -28.87931  1.81667e+006 x[P3]
+                                          28.87931   32000.00000    32522.72727          +Inf  1.89915e+006 disponibilitaMaterie[M1]
+
+     3 disponibilitaComponenti[C1]
+                    NU   40000.00000        .               -Inf    38562.50000     -13.36207  1.86484e+006 disponibilitaMaterie[M1]
+                                          13.36207   40000.00000    47222.22222          +Inf  1.98056e+006 x[P1]
+
+     4 disponibilitaComponenti[C2]
+                    NU   47000.00000        .               -Inf    37714.28571      -9.05172      1.8e+006 x[P1]
+                                           9.05172   47000.00000    50833.33333          +Inf  1.91875e+006 disponibilitaMaterie[M1]
+
+     5 z            BS  1.88405e+006 -1.88405e+006          -Inf       1.8e+006      -1.00000        .      disponibilitaComponenti[C2]
+                                            .               +Inf   1.88405e+006          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Marketing
+Objective:  z = 1884051.724 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[P1]        BS    1120.68966     900.00000        .                -Inf     825.00000      1.8e+006 disponibilitaComponenti[C2]
+                                            .               +Inf     1343.75000     986.11111  1.98056e+006 disponibilitaComponenti[C1]
+
+     2 x[P2]        BS     491.37931     750.00000        .            98.95833     701.05263     1.86e+006 disponibilitaComponenti[C1]
+                                            .               +Inf     1222.22222     842.20183  1.92936e+006 disponibilitaMaterie[M2]
+
+     3 x[P3]        BS     844.82759     600.00000        .         -7000.00000     520.23810  1.81667e+006 disponibilitaMaterie[M2]
+                                            .               +Inf     2285.71429     658.33333  1.93333e+006 disponibilitaComponenti[C2]
+
+End of report
