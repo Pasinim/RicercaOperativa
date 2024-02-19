@@ -1,5 +1,0 @@
-Quantità di merce (M1, M2) disponibili da ogni origine (s1, s2):
-     M1   M2
-s1    6    5
-s2    4    7
-

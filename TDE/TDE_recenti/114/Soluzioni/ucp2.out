@@ -1,0 +1,229 @@
+Problem:    ucp2
+Rows:       71
+Columns:    63
+Non-zeros:  165
+Status:     UNDEFINED
+Objective:  costo_totale = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 costo_totale B              0                             
+     2 Prod_min[1,1]
+                    B              0            10               
+     3 Prod_min[1,2]
+                    B              0            10               
+     4 Prod_min[1,3]
+                    B              0            10               
+     5 Prod_min[1,4]
+                    B              0            10               
+     6 Prod_min[1,5]
+                    B              0            10               
+     7 Prod_min[1,6]
+                    B              0            10               
+     8 Prod_min[1,7]
+                    B              0            10               
+     9 Prod_min[2,1]
+                    B              0            20               
+    10 Prod_min[2,2]
+                    B              0            -0               
+    11 Prod_min[2,3]
+                    B              0            20               
+    12 Prod_min[2,4]
+                    B              0            20               
+    13 Prod_min[2,5]
+                    B              0            20               
+    14 Prod_min[2,6]
+                    B              0            20               
+    15 Prod_min[2,7]
+                    B              0            -0               
+    16 Prod_min[3,1]
+                    B              0            -0               
+    17 Prod_min[3,2]
+                    B              0            -0               
+    18 Prod_min[3,3]
+                    B              0            -0               
+    19 Prod_min[3,4]
+                    B              0            -0               
+    20 Prod_min[3,5]
+                    B              0            -0               
+    21 Prod_min[3,6]
+                    B              0            -0               
+    22 Prod_min[3,7]
+                    B              0            -0               
+    23 Prod_max[1,1]
+                    B              0                          90 
+    24 Prod_max[1,2]
+                    B              0                          90 
+    25 Prod_max[1,3]
+                    B              0                          90 
+    26 Prod_max[1,4]
+                    B              0                          90 
+    27 Prod_max[1,5]
+                    B              0                          90 
+    28 Prod_max[1,6]
+                    B              0                          90 
+    29 Prod_max[1,7]
+                    B              0                          90 
+    30 Prod_max[2,1]
+                    B              0                         100 
+    31 Prod_max[2,2]
+                    B              0                          -0 
+    32 Prod_max[2,3]
+                    B              0                         100 
+    33 Prod_max[2,4]
+                    B              0                         100 
+    34 Prod_max[2,5]
+                    B              0                         100 
+    35 Prod_max[2,6]
+                    B              0                         100 
+    36 Prod_max[2,7]
+                    B              0                          -0 
+    37 Prod_max[3,1]
+                    B              0                          -0 
+    38 Prod_max[3,2]
+                    B              0                          -0 
+    39 Prod_max[3,3]
+                    B              0                          -0 
+    40 Prod_max[3,4]
+                    B              0                          -0 
+    41 Prod_max[3,5]
+                    B              0                          -0 
+    42 Prod_max[3,6]
+                    B              0                          -0 
+    43 Prod_max[3,7]
+                    B              0                          -0 
+    44 Flow_conserv[1,2]
+                    B              0          -200             = 
+    45 Flow_conserv[1,3]
+                    B              0          -200             = 
+    46 Flow_conserv[1,4]
+                    B              0          -200             = 
+    47 Flow_conserv[1,5]
+                    B              0          -200             = 
+    48 Flow_conserv[1,6]
+                    B              0          -200             = 
+    49 Flow_conserv[1,7]
+                    B              0          -200             = 
+    50 Flow_conserv[2,2]
+                    B              0          -400             = 
+    51 Flow_conserv[2,3]
+                    B              0          -400             = 
+    52 Flow_conserv[2,4]
+                    B              0          -400             = 
+    53 Flow_conserv[2,5]
+                    B              0          -400             = 
+    54 Flow_conserv[2,6]
+                    B              0          -400             = 
+    55 Flow_conserv[2,7]
+                    B              0          -400             = 
+    56 Flow_conserv[3,2]
+                    B              0          -100             = 
+    57 Flow_conserv[3,3]
+                    B              0          -100             = 
+    58 Flow_conserv[3,4]
+                    B              0          -100             = 
+    59 Flow_conserv[3,5]
+                    B              0          -100             = 
+    60 Flow_conserv[3,6]
+                    B              0          -100             = 
+    61 Flow_conserv[3,7]
+                    B              0          -100             = 
+    62 Flow_conserv0[1]
+                    B              0          -700             = 
+    63 Flow_conserv0[2]
+                    B              0         -1900             = 
+    64 Flow_conserv0[3]
+                    B              0          -200             = 
+    65 Demand[1]    B              0           200             = 
+    66 Demand[2]    B              0           180             = 
+    67 Demand[3]    B              0           150             = 
+    68 Demand[5]    B              0           250             = 
+    69 Demand[6]    B              0           250             = 
+    70 Demand[7]    B              0           180             = 
+    71 Demand4      B              0          29.9             = 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       NL             0             0                       < eps
+     2 x[1,2]       NL             0             0                       < eps
+     3 x[1,3]       NL             0             0                       < eps
+     4 x[1,4]       NL             0             0                       < eps
+     5 x[1,5]       NL             0             0                       < eps
+     6 x[1,6]       NL             0             0                       < eps
+     7 x[1,7]       NL             0             0                       < eps
+     8 x[2,1]       NL             0             0                       < eps
+     9 x[2,2]       NL             0             0                       < eps
+    10 x[2,3]       NL             0             0                       < eps
+    11 x[2,4]       NL             0             0                       < eps
+    12 x[2,5]       NL             0             0                       < eps
+    13 x[2,6]       NL             0             0                       < eps
+    14 x[2,7]       NL             0             0                       < eps
+    15 x[3,1]       NL             0             0                       < eps
+    16 x[3,2]       NL             0             0                       < eps
+    17 x[3,3]       NL             0             0                       < eps
+    18 x[3,4]       NL             0             0                       < eps
+    19 x[3,5]       NL             0             0                       < eps
+    20 x[3,6]       NL             0             0                       < eps
+    21 x[3,7]       NL             0             0                       < eps
+    22 z[1,2]       NL             0             0                       < eps
+    23 z[1,3]       NL             0             0                       < eps
+    24 z[1,4]       NL             0             0                       < eps
+    25 z[1,5]       NL             0             0                       < eps
+    26 z[1,6]       NL             0             0                       < eps
+    27 z[1,7]       NL             0             0                       < eps
+    28 z[2,2]       NL             0             0                       < eps
+    29 z[2,3]       NL             0             0                       < eps
+    30 z[2,4]       NL             0             0                       < eps
+    31 z[2,5]       NL             0             0                       < eps
+    32 z[2,6]       NL             0             0                       < eps
+    33 z[2,7]       NL             0             0                       < eps
+    34 z[3,2]       NL             0             0                       < eps
+    35 z[3,3]       NL             0             0                       < eps
+    36 z[3,4]       NL             0             0                       < eps
+    37 z[3,5]       NL             0             0                       < eps
+    38 z[3,6]       NL             0             0                       < eps
+    39 z[3,7]       NL             0             0                       < eps
+    40 z[1,1]       NL             0             0                       < eps
+    41 z[2,1]       NL             0             0                       < eps
+    42 z[3,1]       NL             0             0                       < eps
+    43 liv[1,1]     NL             0             0           600         < eps
+    44 liv[1,2]     NL             0             0           600         < eps
+    45 liv[1,3]     NL             0             0           600         < eps
+    46 liv[1,4]     NL             0             0           600         < eps
+    47 liv[1,5]     NL             0             0           600         < eps
+    48 liv[1,6]     NL             0             0           600         < eps
+    49 liv[1,7]     NL             0             0           600         < eps
+    50 liv[2,1]     NL             0             0          2000         < eps
+    51 liv[2,2]     NL             0             0          2000         < eps
+    52 liv[2,3]     NL             0             0          2000         < eps
+    53 liv[2,4]     NL             0             0          2000         < eps
+    54 liv[2,5]     NL             0             0          2000         < eps
+    55 liv[2,6]     NL             0             0          2000         < eps
+    56 liv[2,7]     NL             0             0          2000         < eps
+    57 liv[3,1]     NL             0             0           300         < eps
+    58 liv[3,2]     NL             0             0           300         < eps
+    59 liv[3,3]     NL             0             0           300         < eps
+    60 liv[3,4]     NL             0             0           300         < eps
+    61 liv[3,5]     NL             0             0           300         < eps
+    62 liv[3,6]     NL             0             0           300         < eps
+    63 liv[3,7]     NL             0             0           300         < eps
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.90e+03 on row 63
+        max.rel.err = 9.99e-01 on row 63
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 5.00e+00 on column 15
+        max.rel.err = 8.33e-01 on column 15
+        DUAL SOLUTION IS WRONG
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

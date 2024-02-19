@@ -1,0 +1,127 @@
+Problem:    Noncrossing
+Rows:       34
+Columns:    36 (36 integer, 36 binary)
+Non-zeros:  159
+Status:     INTEGER OPTIMAL
+Objective:  utilita = 45 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 univocitaSensori[1]
+                                   1                           1 
+     2 univocitaSensori[2]
+                                   1                           1 
+     3 univocitaSensori[3]
+                                   1                           1 
+     4 univocitaSensori[4]
+                                   1                           1 
+     5 univocitaSensori[5]
+                                   1                           1 
+     6 univocitaSensori[6]
+                                   1                           1 
+     7 univocitaAttuatori[1]
+                                   1                           1 
+     8 univocitaAttuatori[2]
+                                   1                           1 
+     9 univocitaAttuatori[3]
+                                   1                           1 
+    10 univocitaAttuatori[4]
+                                   1                           1 
+    11 univocitaAttuatori[5]
+                                   1                           1 
+    12 univocitaAttuatori[6]
+                                   1                           1 
+    13 assegnamentoSensori[1]
+                                   1             1             = 
+    14 assegnamentoSensori[2]
+                                   1             1             = 
+    15 assegnamentoSensori[3]
+                                   1             1             = 
+    16 assegnamentoSensori[4]
+                                   1             1             = 
+    17 assegnamentoSensori[5]
+                                   1             1             = 
+    18 assegnamentoSensori[6]
+                                   1             1             = 
+    19 SequenceConstraint[2,1]
+                                   0            -0             = 
+    20 SequenceConstraint[3,1]
+                                   0            -0             = 
+    21 SequenceConstraint[3,2]
+                                   0            -0             = 
+    22 SequenceConstraint[4,1]
+                                   0            -0             = 
+    23 SequenceConstraint[4,2]
+                                   0            -0             = 
+    24 SequenceConstraint[4,3]
+                                   0            -0             = 
+    25 SequenceConstraint[5,1]
+                                   0            -0             = 
+    26 SequenceConstraint[5,2]
+                                   0            -0             = 
+    27 SequenceConstraint[5,3]
+                                   0            -0             = 
+    28 SequenceConstraint[5,4]
+                                   0            -0             = 
+    29 SequenceConstraint[6,1]
+                                   0            -0             = 
+    30 SequenceConstraint[6,2]
+                                   0            -0             = 
+    31 SequenceConstraint[6,3]
+                                   0            -0             = 
+    32 SequenceConstraint[6,4]
+                                   0            -0             = 
+    33 SequenceConstraint[6,5]
+                                   0            -0             = 
+    34 utilita                    45                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[1,1]       *              1             0             1 
+     2 y[1,2]       *              0             0             1 
+     3 y[1,3]       *              0             0             1 
+     4 y[1,4]       *              0             0             1 
+     5 y[1,5]       *              0             0             1 
+     6 y[1,6]       *              0             0             1 
+     7 y[2,1]       *              0             0             1 
+     8 y[2,2]       *              1             0             1 
+     9 y[2,3]       *              0             0             1 
+    10 y[2,4]       *              0             0             1 
+    11 y[2,5]       *              0             0             1 
+    12 y[2,6]       *              0             0             1 
+    13 y[3,1]       *              0             0             1 
+    14 y[3,2]       *              0             0             1 
+    15 y[3,3]       *              1             0             1 
+    16 y[3,4]       *              0             0             1 
+    17 y[3,5]       *              0             0             1 
+    18 y[3,6]       *              0             0             1 
+    19 y[4,1]       *              0             0             1 
+    20 y[4,2]       *              0             0             1 
+    21 y[4,3]       *              0             0             1 
+    22 y[4,4]       *              1             0             1 
+    23 y[4,5]       *              0             0             1 
+    24 y[4,6]       *              0             0             1 
+    25 y[5,1]       *              0             0             1 
+    26 y[5,2]       *              0             0             1 
+    27 y[5,3]       *              0             0             1 
+    28 y[5,4]       *              0             0             1 
+    29 y[5,5]       *              1             0             1 
+    30 y[5,6]       *              0             0             1 
+    31 y[6,1]       *              0             0             1 
+    32 y[6,2]       *              0             0             1 
+    33 y[6,3]       *              0             0             1 
+    34 y[6,4]       *              0             0             1 
+    35 y[6,5]       *              0             0             1 
+    36 y[6,6]       *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

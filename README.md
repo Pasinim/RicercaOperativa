@@ -59,7 +59,7 @@ s.t. volumeMinimo {t in T,  k in P[t]}:
 8. Negli esercizi con delle [rette](https://github.com/Pasinim/RicercaOperativa/blob/main/_Feb24/Triangolo.mod) bisogna sempre mettere una condizione di normalizzazione, senza quella alcune rette non verrebbero considerate:
    `subject to normalizzazione{t in T}: aT[t]^2 + bT[t]^2 = 1;`, dove aT e bT sono i coefficienti della retta
 
-
+9. In marketing sono presenti dei dati particolari, definiti come intervalli di ogni prodotto
 
 ____
 

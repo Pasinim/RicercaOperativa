@@ -1,0 +1,8 @@
+Assumendo che la retta r abbia equazione x=0 con la spiaggia sul lato x<0 e il mare sul lato x>0,
+esprimendo tutte le cooordinate in metri,
+il bagnino si trova in posizione (-10,0),
+il recinto delle tartarughe ha centro in (-6,5) e raggio 3,
+i gonfiabili sono in posizione (12,12) e hanno raggio 5,
+il bagnante in difficoltà è in posizione (20,17).
+La velocità con cui il bagnino corre è 24 km/h; quella con cui nuota è 6 km/h.
+Il bagnino valuta che sia meglio tenere il recinto alla propria destra.
