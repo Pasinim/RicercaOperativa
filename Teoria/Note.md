@@ -14,13 +14,13 @@ Problemi di esistenza $\xrightarrow{trovare}$ soluzione ammissibile *(tutti i vi
 
 Problemi di ottimizzazione $\xrightarrow{trovare}$ soluzione ottima *(massimizzare/minimizzare la funzione obiettivo)*
 
-Quando l'obiettivo e i vincoli sono rappresentati da funzioni lineari delle variabili il problema è di **programmazione lineare.**
+Quando l'obiettivo e i vincoli sono rappresentati da funzioni lineari (*funzione definita mediante un polinomio di grado 1 il cui grafico coincide con una retta*) delle variabili il problema è di **programmazione lineare.**
 
 Quando le variabili sono vincolate da alcuni valori il problema è di **ottimizzazione discreta**.
 
 ## 2. Programmazione lineare
 
-### S.t = subj to. f.o = funzione obiettivo
+### S.t = subj to.
 
 In un problema di programmazione lineare:
 
@@ -30,7 +30,9 @@ In un problema di programmazione lineare:
 
 3. la funzione obiettivo è una funzione lineare delle variabili
 
-I problemi nella forma **"alle diseguaglianze"** permettono di interpretare geometricamente il problema. Per passare dalla forma generale alla forma alle diseguaglianze è necessario eliminare dal modello i vincoli di uguaglianza e le variabili libere.
+I problemi nella forma **"alle diseguaglianze"** permettono di interpretare geometricamente il problema. Per passare dalla forma generale alla forma alle diseguaglianze è <mark>necessario eliminare dal modello i vincoli di uguaglianza e le variabili libere.</mark>
+
+Per eliminare i vincoli di uguaglianza si procede per sostituzione mentre le variabili libere verngono eliminate sostituendole con la differenza tra due variabili non negative.
 
 Nella f.o. (funzione obiettivo) i termini costanti possono essere trascurati e i vincoli ridondanti eliminati. Tutte le disequazioni devono essere coerenti in segno e opposte all'obiettivo:
 
@@ -41,7 +43,7 @@ Nella f.o. (funzione obiettivo) i termini costanti possono essere trascurati e i
 <mark>Soluzione</mark> = assegnamento di valori alle variabili, che corrisponde ad un punto in uno spazio continuo  $n$ dimensioni, dove $n$ sono le variabili nel modello.
 
 Vincolo di uguaglianza $ax = b \rightarrow$ **iperpiano**
-Vincolo di disuguaglianza $ax \leq b \rightarrow$ **iperpiano**
+Vincolo di disuguaglianza $ax \leq b \rightarrow$ **semispazio**
 
 Il sistema dei vincoli (nel modello delle diseguaglianze) corrisponde all'intersezione dei corrispondenti semispazi, questa intersezione corrisponde ad un [poliedro](https://imgur.com/a/Yu6hfl7). Se:
 
@@ -69,6 +71,8 @@ Mettendo in forma standard un problema alle diseguaglianze con $m$ vincoli e $n$
 Tutti i vertici del poliedro sono soluzioni di base ma non viceversa: possono esserci soluzioni non ammissibili, cioè quando $x_B \ngeq 0$.    
 
 ##### Forma canonica
+
+> La forma canonica è una rappresentazione standard o convenzionale di un problema di ottimizzazione che semplifica l'analisi e la risoluzione del problema. Serve a rendere più uniformi e standardizzati i problemi di ottimizzazione, consentendo agli algoritmi di risoluzione di essere più efficienti e di applicare tecniche di ottimizzazione specifiche.
 
 Problema PL è in forma canonica se e solo se:
 
@@ -130,7 +134,7 @@ Come funziona l' algoritmo del simplesso?
 
 3. Per ogni altra riga del tableau è necessario calcolare la nuova riga mediante na differenza: $\text{vecchia riga} - (\text{coefficiente nella colonna pivot})\cdot\text{riga \textcolor{red}{(nuova)} pivot}$
 
-4. Si itera finchè non si raggiunge la condizione ottimale, ovvero quando sulla riga 0 non ci sono costi ridotti negativi.
+4. <mark>Si itera finchè non si raggiunge la condizione ottimale, ovvero quando sulla riga 0 non ci sono costi ridotti negativii</mark>
 
 > Se non esistono candidati pivot positivi su una colonna con costo ridotto negativo il problema è illimitato
 
@@ -205,7 +209,7 @@ condizione necessaria e sufficiente per l'ottimalità di due soluzioni ammissibi
 
 Le condizioni di scarto primale e duale sono: $\begin{cases}\textcolor{red}{\overline{y}}^T\textcolor{green}{(b-A\overline{x})} = 0 \\ \textcolor{green}{(A^T\overline{y} - c)} \textcolor{red}{\overline{x}} = 0\end{cases}$
 
-cioè il prodotto tra un vettore di variabili (in rosso) e un altro vettore (quello tra parentesi, in verde ) di corrispondenti variabili di surplus.    
+cioè il prodotto tra un vettore di variabili (in rosso) e un altro vettore (quello tra parentesi, in verde ) di corrispondenti variabili di surplus è uguale a zero.    
 
 Ciò significa che le variabili del duale per le variabili di slack del corrispondenti vincoli del primale devono dare come prodotto zero,  e viceversa.    
 
