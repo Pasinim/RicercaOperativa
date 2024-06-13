@@ -34,14 +34,14 @@ subject to Urgenza {a in A}:
 #Obiettivo n.1: rinviare il minimo numero di articoli
 # dovrei contare il numero di non-assegnamenti, minimizzare quelli rinviati e' come dire massimizzare quelli assegnati
 # se ne assegniamo il piu' possibili, ne rinviamo il meno possibili
-maximize z1: sum {a in A, f in F} x[a,f];
+#maximize z1: sum {a in A, f in F} x[a,f];
 
 #Obiettivo n.2: equilibrare i fascicoli
 #minimizzare la differenza tra il minimo ed il massimo numero di pagine di pubblicità nei fascicoli
 minimize z2: U - L;
 subject to MaxMin {f in F}: L <= sum {a in A} p[a] * x[a,f];
 subject to MinMax {f in F}: U >= sum {a in A} p[a] * x[a,f];
-subject to NonPeggioramento: sum {a in A, f in F} x[a,f] >= ??;		# <<Valore ottimo di z1>>
+#subject to NonPeggioramento: sum {a in A, f in F} x[a,f] >= ??;		# <<Valore ottimo di z1>>
 
 ######################################
 data;
@@ -49,6 +49,36 @@ data;
 param nA := 12;
 param nF := 3;
 param nP := 44;
+
+    1   2   3   4
+A   0   1   0   0
+B   0   0   1   0
+C   0   1   0   0
+D   0   1   0   0
+E   1   0   0   0
+F   0   1   0   0
+G   0   0   0   1
+H   1   0   0   0
+I   0   0   1   0
+J   0   0   0   1
+K   0   0   0   1
+L   1   0   1   0
+
+
+      1   2   3
+1     1   0   0
+2     1   0   0
+3     0   0   0
+4     1   0   0
+5     1   0   0
+6     0   1   0
+7     0   1   0
+8     0   1   0
+9     0   0   1
+10    0   1   0
+11    0   0   1
+12    0   0   1
+
 
 param:     p         u:=
 1          5         2

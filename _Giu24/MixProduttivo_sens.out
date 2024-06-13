@@ -1,0 +1,38 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    MixProduttivo
+Objective:  guadagno = 420 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 limiteProduzione[1]
+                    NU    6000.00000        .               -Inf           -Inf       -.07000          -Inf
+                                            .07000    6000.00000     8000.00000          +Inf     560.00000 limiteProduzione[3]
+
+     2 limiteProduzione[2]
+                    BS    2000.00000    2000.00000          -Inf           -Inf        .          420.00000 x[1]
+                                            .         4000.00000     4666.66667        .          420.00000 x[1]
+
+     3 limiteProduzione[3]
+                    BS    6000.00000    2000.00000          -Inf           -Inf        .          420.00000 x[1]
+                                            .         8000.00000     7500.00000        .          420.00000 x[1]
+
+     4 guadagno     BS     420.00000    -420.00000          -Inf           -Inf      -1.00000        .      limiteProduzione[1]
+                                            .               +Inf      420.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    MixProduttivo
+Objective:  guadagno = 420 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         NF        .             .01400          -Inf           -Inf        .01400     420.00000
+                                            .               +Inf    15000.00000        .01400     420.00000 limiteProduzione[2]
+
+     2 x[2]         BS   20000.00000        .02100          -Inf    10000.00000        .02100     420.00000 x[1]
+                                            .               +Inf           +Inf        .02100     420.00000 x[1]
+
+End of report

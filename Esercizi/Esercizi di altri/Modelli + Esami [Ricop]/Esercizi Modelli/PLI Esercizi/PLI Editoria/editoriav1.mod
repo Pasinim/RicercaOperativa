@@ -35,13 +35,13 @@ subject to Urgenza {a in A}:
 #Obiettivo n.1: rinviare il minimo numero di articoli
 # dovrei contare il numero di non-assegnamenti, minimizzare quelli rinviati e' come dire massimizzare quelli assegnati
 # se ne assegniamo il piu' possibili, ne rinviamo il meno possibili
-maximize z1: sum {a in A, f in F} x[a,f];
+#maximize z1: sum {a in A, f in F} x[a,f];
 
 #Obiettivo n.2: equilibrare i fascicoli
 #minimizzare la differenza tra il minimo ed il massimo numero di pagine di pubblicità nei fascicoli
-#minimize z2: U - L;
-#subject to MaxMin {f in F}: L <= sum {a in A} p[a] * x[a,f];
-#subject to MinMax {f in F}: U >= sum {a in A} p[a] * x[a,f];
+minimize z2: U - L;
+subject to MaxMin {f in F}: L <= sum {a in A} p[a] * x[a,f];
+subject to MinMax {f in F}: U >= sum {a in A} p[a] * x[a,f];
 #subject to NonPeggioramento: sum {a in A, f in F} x[a,f] >= ??;		# <<Valore ottimo di z1>>
 
 ######################################

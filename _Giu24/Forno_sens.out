@@ -1,0 +1,110 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Forno
+Objective:  guadagno = 57.95 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 produzioneMinima[Pane]
+                    NL       5.00000        .            5.00000        4.65000          -Inf      58.12500 tg
+                                           -.50000          +Inf        6.00000        .50000      57.45000 produzioneDoppia[Pane,Focacce]
+
+     2 produzioneMinima[Biscotti]
+                    BS       6.00000      -4.00000       2.00000        5.83333       -.45000      55.25000 produzioneDoppia[Biscotti,Focacce]
+                                            .               +Inf       10.00000       1.92500      69.50000 produzioneMinima[Focacce]
+
+     3 produzioneMinima[Focacce]
+                    NL       3.00000        .            3.00000        2.94574          -Inf      58.15891 tg
+                                          -3.85000          +Inf        5.00000       3.85000      50.25000 produzioneDoppia[Biscotti,Pane]
+
+     4 produzioneMinima[Paste]
+                    BS       3.00000      -1.00000       2.00000        2.91667       -.90000      55.25000 produzioneDoppia[Biscotti,Focacce]
+                                            .               +Inf        6.00000       3.50000      68.45000 produzioneDoppia[Biscotti,Paste]
+
+     5 spazioTotale NU      24.00000        .               -Inf           -Inf      -3.00000          -Inf
+                                           3.00000      24.00000       24.35000          +Inf      59.00000 tg
+
+     6 produzioneDoppia[Pane,Biscotti]
+                    BS      -7.00000       7.00000          -Inf      -15.00000       -.96250      64.68750 produzioneMinima[Focacce]
+                                            .             .            -6.66667        .22500      56.37500 produzioneDoppia[Biscotti,Focacce]
+
+     7 produzioneDoppia[Pane,Focacce]
+                    BS      -1.00000       1.00000          -Inf       -5.00000      -1.92500      59.87500 produzioneMinima[Focacce]
+                                            .             .              .             .50000      57.45000 produzioneMinima[Pane]
+
+     8 produzioneDoppia[Pane,Paste]
+                    BS      -1.00000       1.00000          -Inf       -7.00000      -1.75000      59.70000 produzioneDoppia[Biscotti,Paste]
+                                            .             .             -.83333        .45000      57.50000 produzioneDoppia[Biscotti,Focacce]
+
+     9 produzioneDoppia[Biscotti,Pane]
+                    BS      -4.00000       4.00000          -Inf       -6.00000       -.25000      58.95000 produzioneMinima[Pane]
+                                            .             .            10.00000       1.92500      50.25000 produzioneMinima[Focacce]
+
+    10 produzioneDoppia[Biscotti,Focacce]
+                    NU        .             .               -Inf        -.16667       -.45000      57.87500 tg
+                                            .45000        .             4.00000          +Inf      59.75000 produzioneDoppia[Biscotti,Pane]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Forno
+Objective:  guadagno = 57.95 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 produzioneDoppia[Biscotti,Paste]
+                    NU        .             .               -Inf       -6.00000      -1.75000      47.45000 produzioneDoppia[Paste,Focacce]
+                                           1.75000        .              .23333          +Inf      58.35833 tg
+
+    12 produzioneDoppia[Focacce,Pane]
+                    BS      -7.00000       7.00000          -Inf       -9.00000       -.25000      59.70000 produzioneMinima[Pane]
+                                            .             .            -5.00000       3.85000      31.00000 produzioneMinima[Focacce]
+
+    13 produzioneDoppia[Focacce,Biscotti]
+                    BS      -9.00000       9.00000          -Inf      -15.00000      -1.28333      69.50000 produzioneMinima[Focacce]
+                                            .             .            -8.66667        .22500      55.92500 produzioneDoppia[Biscotti,Focacce]
+
+    14 produzioneDoppia[Focacce,Paste]
+                    BS      -3.00000       3.00000          -Inf       -9.00000      -1.75000      63.20000 produzioneDoppia[Biscotti,Paste]
+                                            .             .            -2.83333        .45000      56.60000 produzioneDoppia[Biscotti,Focacce]
+
+    15 produzioneDoppia[Paste,Pane]
+                    BS      -7.00000       7.00000          -Inf       -9.00000       -.25000      59.70000 produzioneMinima[Pane]
+                                            .             .            -4.00000       3.50000      33.45000 produzioneDoppia[Biscotti,Paste]
+
+    16 produzioneDoppia[Paste,Biscotti]
+                    BS      -9.00000       9.00000          -Inf      -15.00000      -1.28333      69.50000 produzioneMinima[Focacce]
+                                            .             .            -8.75000        .30000      55.25000 produzioneDoppia[Biscotti,Focacce]
+
+    17 produzioneDoppia[Paste,Focacce]
+                    BS      -3.00000       3.00000          -Inf       -3.08333       -.90000      60.65000 produzioneDoppia[Biscotti,Focacce]
+                                            .             .             4.00000       3.50000      47.45000 produzioneDoppia[Biscotti,Paste]
+
+    18 guadagno     BS      57.95000     -57.95000          -Inf       57.87500      -1.00000        .      produzioneDoppia[Biscotti,Focacce]
+                                            .               +Inf       57.95000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Forno
+Objective:  guadagno = 57.95 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Pane]      BS       5.00000       2.50000        .             5.00000          -Inf          -Inf
+                                            .               +Inf        6.00000       3.00000      60.45000 produzioneMinima[Pane]
+
+     2 x[Biscotti]  BS       6.00000       4.00000        .             5.83333       3.55000      55.25000 produzioneDoppia[Biscotti,Focacce]
+                                            .               +Inf       10.00000       5.92500      69.50000 produzioneMinima[Focacce]
+
+     3 x[Focacce]   BS       3.00000       2.00000        .             3.00000          -Inf          -Inf
+                                            .               +Inf        5.00000       5.85000      69.50000 produzioneMinima[Focacce]
+
+     4 x[Paste]     BS       3.00000       5.50000        .             2.91667       4.60000      55.25000 produzioneDoppia[Biscotti,Focacce]
+                                            .               +Inf        6.00000       9.00000      68.45000 produzioneDoppia[Biscotti,Paste]
+
+     5 tg           BS        .08750     -12.00000        .             -.43750     -12.85714      57.87500 produzioneDoppia[Biscotti,Focacce]
+                                            .               +Inf         .33750     -10.00000      58.12500 produzioneMinima[Pane]
+
+End of report

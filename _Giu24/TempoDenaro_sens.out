@@ -1,0 +1,56 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    TempoDenaro
+Objective:  profitto = 7848 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 disponibilita[A]
+                    NU      91.00000        .               -Inf       59.00000     -24.00000    7080.00000 x[3]
+                                          24.00000      91.00000       91.77778          +Inf    7866.66667 x[1]
+
+     2 disponibilita[B]
+                    BS      39.10000        .90000          -Inf       29.50000     -80.00000    4720.00000 disponibilita[A]
+                                            .           40.00000       39.12745    1070.00000   49685.00000 x[2]
+
+     3 disponibilita[C]
+                    NU      59.00000        .               -Inf       58.50000     -96.00000    7800.00000 x[1]
+                                          96.00000      59.00000       63.50000          +Inf    8280.00000 disponibilita[B]
+
+     4 manodopera   NU        .             .               -Inf    -1293.46000        .         7848.00000 Parametric
+                                            .             .                +Inf          +Inf    7848.00000
+
+     5 Def1         NS        .             .             .                -Inf          -Inf          -Inf
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+     6 profitto     BS    7848.00000   -7848.00000          -Inf     7818.62745      -1.00000        .      x[2]
+                                            .               +Inf     7848.00000          +Inf          +Inf
+
+     7 Parametric   BS       6.54000    1293.46000          -Inf        6.50980    -972.72727    1486.36364 x[2]
+                                            .         1300.00000           +Inf        .         7848.00000 manodopera
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    TempoDenaro
+Objective:  profitto = 7848 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS        .14000        .             .            -4.45000    -209.80392    7818.62745 x[2]
+                                            .               +Inf        5.90000     133.33333    7866.66667 disponibilita[A]
+
+     2 x[2]         NL        .             .             .           -10.66667          -Inf   12413.33333 x[3]
+                                        -428.00000          +Inf         .06863     428.00000    7818.62745 x[1]
+
+     3 x[3]         BS       6.40000        .             .                -Inf    -120.00000    7080.00000 disponibilita[A]
+                                            .               +Inf        6.50000     480.00000   10920.00000 disponibilita[C]
+
+     4 f1           BS    7848.00000       1.00000          -Inf     7818.62745        .             .      x[2]
+                                            .               +Inf     7848.00000          +Inf          +Inf
+
+     5 f2           BS       6.54000        .               -Inf        6.50980    -972.72727    1486.36364 x[2]
+                                            .               +Inf     1300.00000        .         7848.00000 manodopera
+
+End of report

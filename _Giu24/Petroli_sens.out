@@ -1,0 +1,66 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Petroli
+Objective:  profitto_con_leggi = 101928.5714 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 utilizzoMP[Alfa]
+                    NS        .             .             .           -50.00000          -Inf  100000.00000 x[D]
+                                          38.57143        .           533.33333          +Inf  122500.00000 x[C]
+
+     2 utilizzoMP[Beta]
+                    NS        .             .             .          -400.00000          -Inf   94500.00000 x[C]
+                                          18.57143        .            50.00000          +Inf  102857.14286 x[D]
+
+     3 utilizzoMP[Gamma]
+                    NS        .             .             .          -478.57143          -Inf  101928.57143 limiteMensile[Gamma]
+                                            .             .          1521.42857          +Inf  101928.57143 y[Gamma]
+
+     4 limiteMensile[Alfa]
+                    NU    1800.00000        .               -Inf     1750.00000     -38.57143  100000.00000 x[D]
+                                          38.57143    1800.00000     2333.33333          +Inf  122500.00000 x[C]
+
+     5 limiteMensile[Beta]
+                    NU    1750.00000        .               -Inf     1350.00000     -18.57143   94500.00000 x[C]
+                                          18.57143    1750.00000     1800.00000          +Inf  102857.14286 x[D]
+
+     6 limiteMensile[Gamma]
+                    BS    1521.42857     478.57143          -Inf     1350.00000     -43.33333   36000.00000 limiteMensile[Beta]
+                                            .         2000.00000     2283.33333       8.00000  114100.00000 x[A]
+
+     7 profitto_con_leggi
+                    BS  101928.57143 -101928.57143          -Inf   100000.00000      -1.00000        .      limiteMensile[Alfa]
+                                            .               +Inf   101928.57143          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Petroli
+Objective:  profitto_con_leggi = 101928.5714 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A]         NL        .           16.00000        .        -10650.00000          -Inf  114100.00000 y[Gamma]
+                                          -1.14286          +Inf     3350.00000      17.14286   98100.00000 limiteMensile[Gamma]
+
+     2 x[B]         NL        .           18.00000        .          -500.00000          -Inf  102428.57143 x[D]
+                                          -1.00000          +Inf     2285.71429      19.00000   99642.85714 x[C]
+
+     3 x[C]         BS    4571.42857      20.00000        .                -Inf      19.50000   99642.85714 x[B]
+                                            .               +Inf     5000.00000      24.50000  122500.00000 limiteMensile[Alfa]
+
+     4 x[D]         BS     500.00000      21.00000        .        -17500.00000      17.14286  100000.00000 limiteMensile[Alfa]
+                                            .               +Inf     2785.71429      22.00000  102428.57143 x[B]
+
+     5 y[Alfa]      BS    1800.00000        .             .          1750.00000     -38.57143   32500.00000 limiteMensile[Alfa]
+                                            .               +Inf     1800.00000          +Inf          +Inf
+
+     6 y[Beta]      BS    1750.00000        .             .          1350.00000     -18.57143   69428.57143 limiteMensile[Beta]
+                                            .               +Inf     1750.00000          +Inf          +Inf
+
+     7 y[Gamma]     BS    1521.42857        .             .          1350.00000     -43.33333   36000.00000 limiteMensile[Beta]
+                                            .               +Inf     2000.00000       8.00000  114100.00000 x[A]
+
+End of report

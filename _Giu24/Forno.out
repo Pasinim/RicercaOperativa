@@ -1,0 +1,71 @@
+Problem:    Forno
+Rows:       18
+Columns:    5
+Non-zeros:  38
+Status:     OPTIMAL
+Objective:  guadagno = 57.95 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 produzioneMinima[Pane]
+                    NL             5             5                        -0.5 
+     2 produzioneMinima[Biscotti]
+                    B              6             2               
+     3 produzioneMinima[Focacce]
+                    NL             3             3                       -3.85 
+     4 produzioneMinima[Paste]
+                    B              3             2               
+     5 spazioTotale NU            24                          24             3 
+     6 produzioneDoppia[Pane,Biscotti]
+                    B             -7                          -0 
+     7 produzioneDoppia[Pane,Focacce]
+                    B             -1                          -0 
+     8 produzioneDoppia[Pane,Paste]
+                    B             -1                          -0 
+     9 produzioneDoppia[Biscotti,Pane]
+                    B             -4                          -0 
+    10 produzioneDoppia[Biscotti,Focacce]
+                    NU             0                          -0          0.45 
+    11 produzioneDoppia[Biscotti,Paste]
+                    NU             0                          -0          1.75 
+    12 produzioneDoppia[Focacce,Pane]
+                    B             -7                          -0 
+    13 produzioneDoppia[Focacce,Biscotti]
+                    B             -9                          -0 
+    14 produzioneDoppia[Focacce,Paste]
+                    B             -3                          -0 
+    15 produzioneDoppia[Paste,Pane]
+                    B             -7                          -0 
+    16 produzioneDoppia[Paste,Biscotti]
+                    B             -9                          -0 
+    17 produzioneDoppia[Paste,Focacce]
+                    B             -3                          -0 
+    18 guadagno     B          57.95                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Pane]      B              5             0               
+     2 x[Biscotti]  B              6             0               
+     3 x[Focacce]   B              3             0               
+     4 x[Paste]     B              3             0               
+     5 tg           B         0.0875             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

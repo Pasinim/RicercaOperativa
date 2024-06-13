@@ -1,0 +1,44 @@
+Problem:    Cloud
+Rows:       6
+Columns:    2
+Non-zeros:  9
+Status:     OPTIMAL
+Objective:  z = 0.64 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 linearizzazione[1]
+                    B  -2.43516e+006                       0.128 
+     2 linearizzazione[2]
+                    B  -1.99808e+006                       0.192 
+     3 linearizzazione[3]
+                    B        -861671                       0.312 
+     4 linearizzazione[4]
+                    NU          0.64                        0.64             1 
+     5 z            B           0.64                             
+     6 Parametric   NU          1561                        1561         < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 costo        B           0.64                             
+     2 q            B           1561                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

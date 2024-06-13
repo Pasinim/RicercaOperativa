@@ -1,0 +1,544 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 conservazioneFlusso[1,A]
+                    NS        .             .             .           -60.00000          -Inf   83000.00000 x[1,4,C]
+                                         -15.00000        .            40.00000          +Inf   81500.00000 capacitaArchi[0,1]
+
+     2 conservazioneFlusso[1,B]
+                    NS        .             .             .              .               -Inf   82100.00000 x[0,1,B]
+                                            .             .            40.00000          +Inf   82100.00000 capacitaArchi[0,1]
+
+     3 conservazioneFlusso[1,C]
+                    NS        .             .             .          -460.00000          -Inf   82100.00000 x[0,1,C]
+                                            .             .            40.00000          +Inf   82100.00000 capacitaArchi[0,1]
+
+     4 conservazioneFlusso[2,A]
+                    NS        .             .             .           -34.00000          -Inf   83120.00000 x[0,2,B]
+                                         -30.00000        .            46.00000          +Inf   80720.00000 x[4,8,A]
+
+     5 conservazioneFlusso[2,B]
+                    NS        .             .             .           -34.00000          -Inf   82100.00000 x[0,2,B]
+                                            .             .            96.00000          +Inf   82100.00000 capacitaArchi[0,2]
+
+     6 conservazioneFlusso[2,C]
+                    NS        .             .             .           -34.00000          -Inf   82610.00000 x[0,2,B]
+                                         -15.00000        .            96.00000          +Inf   80660.00000 capacitaArchi[0,2]
+
+     7 conservazioneFlusso[3,A]
+                    NS        .             .             .              .               -Inf   82100.00000 x[1,3,A]
+                                         -80.00000        .            46.00000          +Inf   78420.00000 x[4,8,A]
+
+     8 conservazioneFlusso[3,B]
+                    NS        .             .             .              .               -Inf   82100.00000 x[0,1,B]
+                                         -65.00000        .            98.00000          +Inf   75730.00000 x[3,7,C]
+
+     9 conservazioneFlusso[3,C]
+                    NS        .             .             .           -10.00000          -Inf   82750.00000 x[5,7,A]
+                                         -65.00000        .            98.00000          +Inf   75730.00000 x[3,7,C]
+
+    10 conservazioneFlusso[4,A]
+                    NS        .             .             .           -10.00000          -Inf   82900.00000 x[5,7,A]
+                                         -80.00000        .            18.00000          +Inf   80660.00000 capacitaArchi[3,6]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 conservazioneFlusso[4,B]
+                    NS        .             .             .           -10.00000          -Inf   82600.00000 x[5,7,A]
+                                         -50.00000        .            18.00000          +Inf   81200.00000 capacitaArchi[3,6]
+
+    12 conservazioneFlusso[4,C]
+                    NS        .             .             .           -10.00000          -Inf   82750.00000 x[5,7,A]
+                                         -65.00000        .            18.00000          +Inf   80930.00000 capacitaArchi[3,6]
+
+    13 conservazioneFlusso[5,A]
+                    NS        .             .             .           -38.00000          -Inf   85140.00000 capacitaArchi[8,9]
+                                         -80.00000        .           118.00000          +Inf   72660.00000 x[5,8,A]
+
+    14 conservazioneFlusso[5,B]
+                    NS        .             .             .              .               -Inf   82100.00000 x[2,5,B]
+                                         -50.00000        .            34.00000          +Inf   80400.00000 x[2,4,B]
+
+    15 conservazioneFlusso[5,C]
+                    NS        .             .             .              .               -Inf   82100.00000 x[2,5,C]
+                                         -65.00000        .           100.00000          +Inf   75600.00000 x[2,4,C]
+
+    16 conservazioneFlusso[6,A]
+                    NS        .             .             .           -10.00000          -Inf   82900.00000 x[5,7,A]
+                                         -80.00000        .            18.00000          +Inf   80660.00000 capacitaArchi[3,6]
+
+    17 conservazioneFlusso[6,B]
+                    NS        .             .             .           -10.00000          -Inf   82600.00000 x[5,7,A]
+                                         -50.00000        .              .               +Inf   82100.00000 x[6,9,B]
+
+    18 conservazioneFlusso[6,C]
+                    NS        .             .             .           -10.00000          -Inf   82750.00000 x[5,7,A]
+                                         -65.00000        .            18.00000          +Inf   80930.00000 capacitaArchi[3,6]
+
+    19 conservazioneFlusso[7,A]
+                    NS        .             .             .           -10.00000          -Inf   82900.00000 x[5,7,A]
+                                         -80.00000        .           118.00000          +Inf   72660.00000 x[5,8,A]
+
+    20 conservazioneFlusso[7,B]
+                    NS        .             .             .           -10.00000          -Inf   82600.00000 x[5,7,A]
+                                         -50.00000        .              .               +Inf   82100.00000 x[7,9,B]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 conservazioneFlusso[7,C]
+                    NS        .             .             .           -10.00000          -Inf   82750.00000 x[5,7,A]
+                                         -65.00000        .            98.00000          +Inf   75730.00000 x[7,9,C]
+
+    22 conservazioneFlusso[8,A]
+                    NS        .             .             .           -38.00000          -Inf   85140.00000 capacitaArchi[8,9]
+                                         -80.00000        .           164.00000          +Inf   68980.00000 x[8,9,A]
+
+    23 conservazioneFlusso[8,B]
+                    NS        .             .             .           -38.00000          -Inf   84000.00000 capacitaArchi[8,9]
+                                         -50.00000        .            34.00000          +Inf   80400.00000 x[8,9,B]
+
+    24 conservazioneFlusso[8,C]
+                    NS        .             .             .           -38.00000          -Inf   84570.00000 capacitaArchi[8,9]
+                                         -65.00000        .           160.00000          +Inf   71700.00000 x[8,9,C]
+
+    25 capacitaArchi[0,1]
+                    BS    -760.00000     -40.00000    -800.00000     -760.00000          -Inf          +Inf
+                                            .               +Inf     -662.00000      65.00000   32700.00000 capacitaArchi[1,3]
+
+    26 capacitaArchi[0,2]
+                    BS    -384.00000     -96.00000    -480.00000     -384.00000          -Inf          +Inf
+                                            .               +Inf     -366.00000      50.00000   62900.00000 capacitaArchi[2,4]
+
+    27 capacitaArchi[1,3]
+                    NL    -400.00000        .         -400.00000     -410.00000          -Inf   82750.00000 x[5,7,A]
+                                         -65.00000          +Inf     -302.00000      65.00000   75730.00000 x[3,7,C]
+
+    28 capacitaArchi[1,4]
+                    NL    -360.00000        .         -360.00000     -370.00000          -Inf   82750.00000 x[5,7,A]
+                                         -65.00000          +Inf     -342.00000      65.00000   80930.00000 capacitaArchi[3,6]
+
+    29 capacitaArchi[2,4]
+                    NL    -256.00000        .         -256.00000     -266.00000          -Inf   82600.00000 x[5,7,A]
+                                         -50.00000          +Inf     -238.00000      50.00000   81200.00000 capacitaArchi[3,6]
+
+    30 capacitaArchi[2,5]
+                    NL    -128.00000        .         -128.00000     -166.00000          -Inf   84000.00000 capacitaArchi[8,9]
+                                         -50.00000          +Inf      -94.00000      50.00000   80400.00000 x[0,2,B]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 capacitaArchi[3,6]
+                    BS    -302.00000     -18.00000    -320.00000     -336.00000     -50.00000   97200.00000 capacitaArchi[2,4]
+                                            .               +Inf     -246.00000        .        82100.00000 capacitaArchi[4,7]
+
+    32 capacitaArchi[3,7]
+                    BS     -98.00000    -286.00000    -384.00000     -154.00000        .        82100.00000 capacitaArchi[4,7]
+                                            .               +Inf      -80.00000      50.00000   77200.00000 capacitaArchi[2,4]
+
+    33 capacitaArchi[4,6]
+                    BS    -184.00000     -56.00000    -240.00000     -376.00000        .        82100.00000 capacitaArchi[4,7]
+                                            .               +Inf     -166.00000      50.00000   72900.00000 capacitaArchi[2,4]
+
+    34 capacitaArchi[4,7]
+                    NL    -192.00000        .         -192.00000     -210.00000          -Inf   82100.00000 capacitaArchi[3,6]
+                                            .               +Inf     -136.00000        .        82100.00000 capacitaArchi[4,6]
+
+    35 capacitaArchi[4,8]
+                    NL    -240.00000        .         -240.00000     -258.00000          -Inf   82100.00000 capacitaArchi[3,6]
+                                            .               +Inf     -230.00000        .        82100.00000 x[5,7,A]
+
+    36 capacitaArchi[5,7]
+                    BS     -10.00000    -710.00000    -720.00000      -28.00000     -50.00000   82600.00000 capacitaArchi[2,4]
+                                            .               +Inf         .             .        82100.00000 capacitaArchi[4,8]
+
+    37 capacitaArchi[5,8]
+                    BS    -118.00000    -282.00000    -400.00000     -128.00000        .        82100.00000 capacitaArchi[4,8]
+                                            .               +Inf     -100.00000      50.00000   76200.00000 capacitaArchi[2,4]
+
+    38 capacitaArchi[6,9]
+                    NL    -486.00000        .         -486.00000     -504.00000          -Inf   82100.00000 capacitaArchi[3,6]
+                                            .               +Inf     -476.00000        .        82100.00000 x[5,7,A]
+
+    39 capacitaArchi[7,9]
+                    NL    -300.00000        .         -300.00000     -418.00000          -Inf   82100.00000 x[5,8,A]
+                                            .               +Inf     -290.00000        .        82100.00000 x[5,7,A]
+
+    40 capacitaArchi[8,9]
+                    BS    -358.00000     -38.00000    -396.00000     -368.00000        .        82100.00000 capacitaArchi[6,9]
+                                            .               +Inf     -340.00000      50.00000   64200.00000 capacitaArchi[2,4]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 capacitaNodi[0,A]
+                    BS        .         1000.00000          -Inf         .               -Inf   82100.00000
+                                            .         1000.00000         .               +Inf   82100.00000
+
+    42 capacitaNodi[0,B]
+                    BS        .         1000.00000          -Inf         .               -Inf   82100.00000
+                                            .         1000.00000         .               +Inf   82100.00000
+
+    43 capacitaNodi[0,C]
+                    BS        .         1000.00000          -Inf         .               -Inf   82100.00000
+                                            .         1000.00000         .               +Inf   82100.00000
+
+    44 capacitaNodi[1,A]
+                    NU     300.00000        .               -Inf      254.00000     -15.00000   81410.00000 x[4,8,A]
+                                          15.00000     300.00000      360.00000          +Inf   83000.00000 x[1,4,C]
+
+    45 capacitaNodi[1,B]
+                    BS        .         1800.00000          -Inf         .               -Inf   82100.00000
+                                            .         1800.00000       60.00000      15.00000   82100.00000 x[1,4,B]
+
+    46 capacitaNodi[1,C]
+                    BS     460.00000     940.00000          -Inf      400.00000     -15.00000   75200.00000 x[1,4,B]
+                                            .         1400.00000      506.00000      15.00000   89000.00000 capacitaNodi[1,A]
+
+    47 capacitaNodi[2,A]
+                    NU     250.00000        .               -Inf      204.00000     -30.00000   80720.00000 x[4,8,A]
+                                          30.00000     250.00000      284.00000          +Inf   83120.00000 x[0,2,B]
+
+    48 capacitaNodi[2,B]
+                    BS      34.00000     866.00000          -Inf       16.00000     -50.00000   80400.00000 capacitaArchi[2,4]
+                                            .          900.00000      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    49 capacitaNodi[2,C]
+                    NU     100.00000        .               -Inf         .          -15.00000   80600.00000 x[0,2,C]
+                                          15.00000     100.00000      134.00000          +Inf   82610.00000 x[0,2,B]
+
+    50 capacitaNodi[3,A]
+                    BS        .          900.00000          -Inf         .               -Inf   82100.00000
+                                            .          900.00000       46.00000        .        82100.00000 x[3,6,A]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 capacitaNodi[3,B]
+                    BS        .          650.00000          -Inf         .               -Inf   82100.00000
+                                            .          650.00000      302.00000      15.00000   82100.00000 x[3,6,B]
+
+    52 capacitaNodi[3,C]
+                    BS     400.00000    1000.00000          -Inf      354.00000        .        82100.00000 x[3,6,A]
+                                            .         1400.00000      400.00000          +Inf          +Inf
+
+    53 capacitaNodi[4,A]
+                    BS     422.00000    1578.00000          -Inf      376.00000        .        82100.00000 x[3,6,A]
+                                            .         2000.00000      432.00000        .        82100.00000 x[5,7,B]
+
+    54 capacitaNodi[4,B]
+                    BS      34.00000    1466.00000          -Inf       24.00000        .        82100.00000 x[5,7,B]
+                                            .         1500.00000      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    55 capacitaNodi[4,C]
+                    BS     160.00000    1840.00000          -Inf      150.00000        .        82100.00000 x[5,7,C]
+                                            .         2000.00000      206.00000        .        82100.00000 x[3,6,A]
+
+    56 capacitaNodi[5,A]
+                    BS     128.00000     872.00000          -Inf      118.00000        .        82100.00000 x[5,7,B]
+                                            .         1000.00000      128.00000          +Inf          +Inf
+
+    57 capacitaNodi[5,B]
+                    BS        .         1000.00000          -Inf         .               -Inf   82100.00000
+                                            .         1000.00000       10.00000        .        82100.00000 x[5,7,B]
+
+    58 capacitaNodi[5,C]
+                    BS        .         1000.00000          -Inf         .               -Inf   82100.00000
+                                            .         1000.00000       10.00000        .        82100.00000 x[5,7,C]
+
+    59 capacitaNodi[6,A]
+                    BS     184.00000    1016.00000          -Inf      150.00000        .        82100.00000 x[4,6,B]
+                                            .         1200.00000      240.00000        .        82100.00000 capacitaArchi[4,7]
+
+    60 capacitaNodi[6,B]
+                    BS        .         1200.00000          -Inf         .               -Inf   82100.00000
+                                            .         1200.00000       34.00000        .        82100.00000 x[4,6,B]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 capacitaNodi[6,C]
+                    BS     302.00000    1098.00000          -Inf      246.00000        .        82100.00000 capacitaArchi[4,7]
+                                            .         1400.00000      438.00000        .        82100.00000 x[4,6,C]
+
+    62 capacitaNodi[7,A]
+                    BS     202.00000     398.00000          -Inf      146.00000        .        82100.00000 capacitaArchi[4,7]
+                                            .          600.00000      248.00000        .        82100.00000 x[3,7,A]
+
+    63 capacitaNodi[7,B]
+                    BS        .          700.00000          -Inf         .               -Inf   82100.00000
+                                            .          700.00000       34.00000        .        82100.00000 x[4,7,B]
+
+    64 capacitaNodi[7,C]
+                    BS      98.00000     852.00000          -Inf       52.00000        .        82100.00000 x[3,7,A]
+                                            .          950.00000      154.00000        .        82100.00000 capacitaArchi[4,7]
+
+    65 capacitaNodi[8,A]
+                    BS     164.00000     136.00000          -Inf      118.00000        .        82100.00000 x[3,6,A]
+                                            .          300.00000      174.00000        .        82100.00000 capacitaArchi[6,9]
+
+    66 capacitaNodi[8,B]
+                    BS      34.00000    1666.00000          -Inf         .             .        82100.00000 x[4,6,B]
+                                            .         1700.00000      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    67 capacitaNodi[8,C]
+                    BS     160.00000    1740.00000          -Inf       24.00000        .        82100.00000 x[4,6,C]
+                                            .         1900.00000      206.00000        .        82100.00000 x[3,6,A]
+
+    68 capacitaNodi[9,A]
+                    BS     550.00000     450.00000          -Inf      504.00000     -15.00000   73850.00000 capacitaNodi[1,A]
+                                            .         1000.00000      550.00000          +Inf          +Inf
+
+    69 capacitaNodi[9,B]
+                    BS      34.00000     966.00000          -Inf       16.00000     -50.00000   80400.00000 capacitaArchi[2,4]
+                                            .         1000.00000      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    70 capacitaNodi[9,C]
+                    BS     560.00000     440.00000          -Inf      460.00000     -15.00000   73700.00000 capacitaNodi[2,C]
+                                            .         1000.00000      606.00000      15.00000   90500.00000 capacitaNodi[1,A]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 limiteStazioneOrigine[A]
+                    BS     550.00000     450.00000          -Inf      504.00000     -15.00000   73850.00000 capacitaNodi[1,A]
+                                            .         1000.00000      550.00000          +Inf          +Inf
+
+    72 limiteStazioneOrigine[B]
+                    BS      34.00000     966.00000          -Inf       16.00000     -50.00000   80400.00000 capacitaArchi[2,4]
+                                            .         1000.00000      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    73 limiteStazioneOrigine[C]
+                    BS     560.00000     440.00000          -Inf      460.00000     -15.00000   73700.00000 capacitaNodi[2,C]
+                                            .         1000.00000      606.00000      15.00000   90500.00000 capacitaNodi[1,A]
+
+    74 z            BS   82100.00000  -82100.00000          -Inf    75730.00000      -1.00000        .      capacitaArchi[1,3]
+                                            .               +Inf    82100.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[0,1,A]     BS     300.00000        .             .           254.00000     -15.00000   77600.00000 capacitaNodi[1,A]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+     2 x[1,3,A]     BS        .             .             .              .               -Inf   82100.00000
+                                            .               +Inf       46.00000        .        82100.00000 x[3,6,A]
+
+     3 x[1,4,A]     BS     300.00000        .             .           254.00000        .        82100.00000 x[3,6,A]
+                                            .               +Inf      300.00000          +Inf          +Inf
+
+     4 x[0,1,B]     BS        .             .             .              .               -Inf   82100.00000
+                                            .               +Inf       60.00000      15.00000   82100.00000 x[1,4,B]
+
+     5 x[1,3,B]     BS        .             .             .              .               -Inf   82100.00000
+                                            .               +Inf      302.00000      15.00000   82100.00000 x[3,6,B]
+
+     6 x[1,4,B]     NL        .             .             .              .               -Inf   82100.00000 x[0,1,B]
+                                         -15.00000          +Inf       60.00000      15.00000   81200.00000 x[1,4,C]
+
+     7 x[0,1,C]     BS     460.00000        .             .           400.00000     -15.00000   75200.00000 x[1,4,B]
+                                            .               +Inf      506.00000      15.00000   89000.00000 capacitaNodi[1,A]
+
+     8 x[1,3,C]     BS     400.00000        .             .           354.00000        .        82100.00000 x[3,6,A]
+                                            .               +Inf      400.00000          +Inf          +Inf
+
+     9 x[1,4,C]     BS      60.00000        .             .          -100.00000     -15.00000   81200.00000 x[1,4,B]
+                                            .               +Inf      106.00000        .        82100.00000 x[3,6,A]
+
+    10 x[0,2,A]     BS     250.00000        .             .           204.00000     -30.00000   74600.00000 capacitaNodi[2,A]
+                                            .               +Inf      250.00000          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 x[2,4,A]     BS     122.00000        .             .            76.00000     -30.00000   78440.00000 capacitaNodi[2,A]
+                                            .               +Inf      132.00000        .        82100.00000 x[5,7,B]
+
+    12 x[2,5,A]     BS     128.00000        .             .           118.00000        .        82100.00000 x[5,7,B]
+                                            .               +Inf      128.00000          +Inf          +Inf
+
+    13 x[0,2,B]     BS      34.00000        .             .            16.00000     -50.00000   80400.00000 capacitaArchi[2,4]
+                                            .               +Inf      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    14 x[2,4,B]     BS      34.00000        .             .            24.00000        .        82100.00000 x[5,7,B]
+                                            .               +Inf      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+    15 x[2,5,B]     BS        .             .             .              .               -Inf   82100.00000
+                                            .               +Inf       10.00000        .        82100.00000 x[5,7,B]
+
+    16 x[0,2,C]     BS     100.00000        .             .              .          -15.00000   80600.00000 capacitaNodi[2,C]
+                                            .               +Inf      100.00000          +Inf          +Inf
+
+    17 x[2,4,C]     BS     100.00000        .             .            90.00000        .        82100.00000 x[5,7,C]
+                                            .               +Inf      100.00000          +Inf          +Inf
+
+    18 x[2,5,C]     BS        .             .             .              .               -Inf   82100.00000
+                                            .               +Inf       10.00000        .        82100.00000 x[5,7,C]
+
+    19 x[3,6,A]     NL        .             .             .              .               -Inf   82100.00000 x[1,3,A]
+                                            .               +Inf       46.00000        .        82100.00000 x[4,8,A]
+
+    20 x[3,7,A]     NL        .             .             .              .               -Inf   82100.00000 x[1,3,A]
+                                            .               +Inf       46.00000        .        82100.00000 x[4,8,A]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 x[3,6,B]     NL        .             .             .              .               -Inf   82100.00000 x[0,1,B]
+                                         -15.00000          +Inf      302.00000      15.00000   77570.00000 x[3,6,C]
+
+    22 x[3,7,B]     NL        .             .             .              .               -Inf   82100.00000 x[0,1,B]
+                                         -15.00000          +Inf       98.00000      15.00000   80630.00000 x[3,7,C]
+
+    23 x[3,6,C]     BS     302.00000        .             .           246.00000        .        82100.00000 capacitaArchi[4,7]
+                                            .               +Inf      320.00000      50.00000   97200.00000 capacitaArchi[2,4]
+
+    24 x[3,7,C]     BS      98.00000        .             .            52.00000        .        82100.00000 x[3,7,A]
+                                            .               +Inf      154.00000        .        82100.00000 capacitaArchi[4,7]
+
+    25 x[4,6,A]     BS     184.00000        .             .           150.00000        .        82100.00000 x[4,6,B]
+                                            .               +Inf      240.00000        .        82100.00000 capacitaArchi[4,7]
+
+    26 x[4,7,A]     BS     192.00000        .             .           136.00000        .        82100.00000 capacitaArchi[4,7]
+                                            .               +Inf      192.00000          +Inf          +Inf
+
+    27 x[4,8,A]     BS      46.00000        .             .            36.00000        .        82100.00000 capacitaArchi[4,8]
+                                            .               +Inf       80.00000        .        82100.00000 x[4,6,B]
+
+    28 x[4,6,B]     NL        .             .             .              .               -Inf   82100.00000 x[6,9,B]
+                                            .               +Inf       34.00000        .        82100.00000 x[4,8,B]
+
+    29 x[4,7,B]     NL        .             .             .              .               -Inf   82100.00000 x[7,9,B]
+                                            .               +Inf       34.00000        .        82100.00000 x[4,8,B]
+
+    30 x[4,8,B]     BS      34.00000        .             .              .             .        82100.00000 x[4,6,B]
+                                            .               +Inf      134.00000      15.00000   82610.00000 capacitaNodi[2,C]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  12
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 x[4,6,C]     NL        .             .             .           -46.00000          -Inf   82100.00000 x[4,8,A]
+                                            .               +Inf      136.00000        .        82100.00000 capacitaNodi[8,A]
+
+    32 x[4,7,C]     NL        .             .             .           -46.00000          -Inf   82100.00000 x[4,8,A]
+                                            .               +Inf      136.00000        .        82100.00000 capacitaNodi[8,A]
+
+    33 x[4,8,C]     BS     160.00000        .             .            24.00000        .        82100.00000 x[4,6,C]
+                                            .               +Inf      206.00000        .        82100.00000 x[3,6,A]
+
+    34 x[5,7,A]     BS      10.00000        .             .           -36.00000        .        82100.00000 capacitaArchi[4,8]
+                                            .               +Inf       28.00000      50.00000   82600.00000 capacitaArchi[2,4]
+
+    35 x[5,8,A]     BS     118.00000        .             .            84.00000        .        82100.00000 x[5,8,B]
+                                            .               +Inf      128.00000        .        82100.00000 capacitaArchi[4,8]
+
+    36 x[5,7,B]     NL        .             .             .              .               -Inf   82100.00000 x[2,5,B]
+                                            .               +Inf       10.00000        .        82100.00000 x[5,7,A]
+
+    37 x[5,8,B]     NL        .             .             .              .               -Inf   82100.00000 x[2,5,B]
+                                            .               +Inf       34.00000        .        82100.00000 x[2,4,B]
+
+    38 x[5,7,C]     NL        .             .             .              .               -Inf   82100.00000 x[2,5,C]
+                                            .               +Inf       10.00000        .        82100.00000 x[5,7,A]
+
+    39 x[5,8,C]     NL        .             .             .              .               -Inf   82100.00000 x[2,5,C]
+                                            .               +Inf      100.00000        .        82100.00000 x[2,4,C]
+
+    40 x[6,9,A]     BS     184.00000      80.00000        .           150.00000      80.00000   82100.00000 x[4,6,B]
+                                            .               +Inf      240.00000      80.00000   82100.00000 capacitaArchi[4,7]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page  13
+
+Problem:    Ferrovie
+Objective:  z = 82100 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 x[6,9,B]     BS        .           50.00000        .              .               -Inf   82100.00000
+                                            .               +Inf       34.00000      50.00000   82100.00000 x[4,6,B]
+
+    42 x[6,9,C]     BS     302.00000      65.00000        .           246.00000      65.00000   82100.00000 capacitaArchi[4,7]
+                                            .               +Inf      438.00000      65.00000   82100.00000 x[4,6,C]
+
+    43 x[7,9,A]     BS     202.00000      80.00000        .           146.00000      80.00000   82100.00000 capacitaArchi[4,7]
+                                            .               +Inf      248.00000      80.00000   82100.00000 x[3,7,A]
+
+    44 x[7,9,B]     BS        .           50.00000        .              .               -Inf   82100.00000
+                                            .               +Inf       34.00000      50.00000   82100.00000 x[4,7,B]
+
+    45 x[7,9,C]     BS      98.00000      65.00000        .            52.00000      65.00000   82100.00000 x[3,7,A]
+                                            .               +Inf      154.00000      65.00000   82100.00000 capacitaArchi[4,7]
+
+    46 x[8,9,A]     BS     164.00000      80.00000        .           118.00000      80.00000   82100.00000 x[3,6,A]
+                                            .               +Inf      174.00000      80.00000   82100.00000 capacitaArchi[6,9]
+
+    47 x[8,9,B]     BS      34.00000      50.00000        .              .           50.00000   82100.00000 x[4,6,B]
+                                            .               +Inf      134.00000      65.00000   82610.00000 capacitaNodi[2,C]
+
+    48 x[8,9,C]     BS     160.00000      65.00000        .            24.00000      65.00000   82100.00000 x[4,6,C]
+                                            .               +Inf      206.00000      65.00000   82100.00000 x[3,6,A]
+
+End of report

@@ -19,7 +19,7 @@ var x {G} binary;
 var tempof {F};         # Tempo impiegato dai furgoni per le operazioni di caricamento
 var tempog {G};         # Tempo impiegato dalle guardie per le operazioni di caricamento
 var time;               # Tempo complessivo impiegato dalle guardie e dai furgoni impiegati
-var MaxTime := 3500;    # valore "abbastanza grande"
+param MaxTime := 3500;    # valore "abbastanza grande"
 
 #VINCOLI
 
@@ -32,6 +32,8 @@ subject to vincolo_TimeG {g in G}:
    tempog[g] >= time - MaxTime;
 
 #OBIETTIVO
+minimize costoTotale:
+   sum {f in F, g in G} (x[g] * costoG[g] + y[f] * costoF[f] * 2.5);
 
 
 #################

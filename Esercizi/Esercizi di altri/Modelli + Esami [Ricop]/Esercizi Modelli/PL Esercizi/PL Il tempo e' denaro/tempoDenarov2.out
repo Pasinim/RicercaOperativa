@@ -3,25 +3,25 @@ Rows:       7
 Columns:    5
 Non-zeros:  19
 Status:     OPTIMAL
-Objective:  z = 0 (MAXimum)
+Objective:  z = 1300 (MAXimum)
 
    No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------
-     1 Consumi[1]   B              0                          91 
-     2 Consumi[2]   B              0                          40 
-     3 Consumi[3]   B              0                          59 
+     1 Consumi[1]   B             12                          91 
+     2 Consumi[2]   B              7                          40 
+     3 Consumi[3]   B             15                          59 
      4 Manodopera   NU             0                          -0          1300 
      5 Def1         NS             0            -0             =             1 
-     6 z            B              0                             
-     7 Parametric   NU             0                          -0          1300 
+     6 z            B           1300                             
+     7 Parametric   NU             1                           1          1300 
 
    No. Column name  St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------
      1 x[1]         NL             0             0                        -100 
-     2 x[2]         B              0             0               
+     2 x[2]         B              1             0               
      3 x[3]         NL             0             0                        -100 
-     4 f1           B              0                             
-     5 f2           B              0                             
+     4 f1           B           1300                             
+     5 f2           B              1                             
 
 Karush-Kuhn-Tucker optimality conditions:
 
@@ -33,8 +33,8 @@ KKT.PB: max.abs.err = 0.00e+000 on row 0
         max.rel.err = 0.00e+000 on row 0
         High quality
 
-KKT.DE: max.abs.err = 0.00e+000 on column 0
-        max.rel.err = 0.00e+000 on column 0
+KKT.DE: max.abs.err = 2.27e-013 on column 2
+        max.rel.err = 8.74e-017 on column 2
         High quality
 
 KKT.DB: max.abs.err = 0.00e+000 on row 0

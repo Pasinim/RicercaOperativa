@@ -1,0 +1,98 @@
+Problem:    Tulipani
+Rows:       25
+Columns:    20
+Non-zeros:  74
+Status:     OPTIMAL
+Objective:  profitto = 565251.846 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 terrenoDisponibile
+                    B        86.1181                         100 
+     2 produzionePerTerreno[1]
+                    NS             0            -0             =       32.0506 
+     3 produzionePerTerreno[2]
+                    NS             0            -0             =         < eps
+     4 produzionePerTerreno[3]
+                    NS             0            -0             =         < eps
+     5 produzionePerTerreno[4]
+                    NS             0            -0             =       9.18776 
+     6 produzionePerTerreno[5]
+                    NS             0            -0             =       20.7922 
+     7 sommaEspNaz[1]
+                    NS             0            -0             =            60 
+     8 sommaEspNaz[2]
+                    NS             0            -0             =            80 
+     9 sommaEspNaz[3]
+                    NS             0            -0             =           120 
+    10 sommaEspNaz[4]
+                    NS             0            -0             =            75 
+    11 sommaEspNaz[5]
+                    NS             0            -0             =            80 
+    12 upperBound[1]
+                    NU             0                          -0            30 
+    13 upperBound[2]
+                    NU             0                          -0            30 
+    14 upperBound[3]
+                    NU             0                          -0            35 
+    15 upperBound[4]
+                    NU             0                          -0            25 
+    16 upperBound[5]
+                    NU             0                          -0             5 
+    17 lowerBound[1]
+                    B             75            -0               
+    18 lowerBound[2]
+                    B        171.835            -0               
+    19 lowerBound[3]
+                    B        2221.84            -0               
+    20 lowerBound[4]
+                    B            125            -0               
+    21 lowerBound[5]
+                    B            125            -0               
+    22 dispAcqua    NU         30000                       30000       16.0316 
+    23 dispConcimeA NU          3000                        3000         33.27 
+    24 dispConcimeB B        4854.01                        5000 
+    25 profitto     B         565252                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B            250             0               
+     2 x[2]         B        381.857             0               
+     3 x[3]         B        3174.05             0               
+     4 x[4]         B            250             0               
+     5 x[5]         B            250             0               
+     6 y[1]         NL             5             5                    -1602.53 
+     7 y[2]         B        7.63713             5               
+     8 y[3]         B         63.481             5               
+     9 y[4]         NL             5             5                    -459.388 
+    10 y[5]         NL             5             5                    -1039.61 
+    11 esp[1]       B            100             0               
+    12 esp[2]       B        229.114             0               
+    13 esp[3]       B        2380.54             0               
+    14 esp[4]       B            250             0               
+    15 esp[5]       B            125             0               
+    16 naz[1]       B            150             0               
+    17 naz[2]       B        152.743             0               
+    18 naz[3]       B        793.513             0               
+    19 naz[4]       B              0             0               
+    20 naz[5]       B            125             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 8.53e-014 on row 15
+        max.rel.err = 1.70e-016 on row 15
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.84e-014 on column 3
+        max.rel.err = 9.68e-017 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

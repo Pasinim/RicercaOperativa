@@ -1,0 +1,45 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Cloud
+Objective:  z = 0.64 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 linearizzazione[1]
+                    BS -2.43516e+006  2.43516e+006          -Inf           -Inf      -1.00000  2.43516e+006 linearizzazione[4]
+                                            .             .12800        -.28696        .             .64000 Parametric
+
+     2 linearizzazione[2]
+                    BS -1.99808e+006  1.99808e+006          -Inf           -Inf      -1.00000  1.99808e+006 linearizzazione[4]
+                                            .             .19200        -.12058        .             .64000 Parametric
+
+     3 linearizzazione[3]
+                    BS -861671.36000  861671.67200          -Inf           -Inf      -1.00000  861672.00000 linearizzazione[4]
+                                            .             .31200         .44680        .             .64000 Parametric
+
+     4 linearizzazione[4]
+                    NU        .64000        .               -Inf           -Inf      -1.00000          -Inf
+                                           1.00000        .64000   861672.31200          +Inf  861672.31200 linearizzazione[3]
+
+     5 z            BS        .64000       -.64000          -Inf           -Inf      -1.00000        .      linearizzazione[4]
+                                            .               +Inf         .64000          +Inf          +Inf
+
+     6 Parametric   NU    1561.00000        .               -Inf         .00059        .             .64000 linearizzazione[3]
+                                            .         1561.00000           +Inf          +Inf        .64000
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Cloud
+Objective:  z = 0.64 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 costo        BS        .64000       1.00000          -Inf           -Inf        .             .      linearizzazione[4]
+                                            .               +Inf         .64000          +Inf          +Inf
+
+     2 q            BS    1561.00000        .               -Inf         .00059        .             .64000 Parametric
+                                            .               +Inf     1561.00000          +Inf          +Inf
+
+End of report

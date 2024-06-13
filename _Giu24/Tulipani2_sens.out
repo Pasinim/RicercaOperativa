@@ -1,0 +1,224 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Tulipani2
+Objective:  profitto = 3645.673077 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 def_An[1]    NS        .             .             .            -3.00000          -Inf    3465.67308 An[1]
+                                          60.00000        .                +Inf          +Inf          +Inf
+
+     2 def_An[2]    NS        .             .             .            -2.00000          -Inf    3485.67308 An[2]
+                                          80.00000        .                +Inf          +Inf          +Inf
+
+     3 def_An[3]    NS        .             .             .           -16.63462          -Inf    1649.51923 An[3]
+                                         120.00000        .                +Inf          +Inf          +Inf
+
+     4 def_An[4]    NS        .             .             .            -2.50000          -Inf    3395.67308 esportazioneMinima[4]
+                                         100.00000        .              .               +Inf    3645.67308 esportazioneMassima[4]
+
+     5 def_An[5]    NS        .             .             .            -2.50000          -Inf    3445.67308 An[5]
+                                          80.00000        .                +Inf          +Inf          +Inf
+
+     6 areaTot      BS       1.73077      98.26923          -Inf         .50000   -3312.50000   -2087.50000 dispConcimeB
+                                            .          100.00000        1.76066    1255.55556    5818.75000 Ac[2]
+
+     7 esportazioneMinima[1]
+                    BS       1.50000      -1.50000        .             -.50000     -30.00000    3600.67308 esportazioneMassima[1]
+                                            .               +Inf        2.34043     128.26923    3838.07692 Ac[1]
+
+     8 esportazioneMinima[2]
+                    BS       2.25000      -2.25000        .             -.75000     -30.00000    3578.17308 esportazioneMassima[2]
+                                            .               +Inf        3.22131      38.63248    3732.59615 Ac[2]
+
+     9 esportazioneMinima[3]
+                    BS      46.57692     -46.57692        .            -3.32692     -35.00000    2015.48077 esportazioneMassima[3]
+                                            .               +Inf       46.57692          +Inf          +Inf
+
+    10 esportazioneMinima[4]
+                    BS       2.50000      -2.50000        .            -2.50000     -25.00000    3583.17308 An[4]
+                                            .               +Inf        3.09132     281.92308    4350.48077 Ac[4]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Tulipani2
+Objective:  profitto = 3645.673077 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 esportazioneMinima[5]
+                    BS       2.50000      -2.50000        .              .           -5.00000    3633.17308 esportazioneMassima[5]
+                                            .               +Inf        3.38565     186.53846    4112.01923 Ac[5]
+
+    12 esportazioneMassima[1]
+                    NU        .             .               -Inf       -1.50000     -30.00000    3600.67308 esportazioneMinima[1]
+                                          30.00000        .             3.00000          +Inf    3735.67308 An[1]
+
+    13 esportazioneMassima[2]
+                    NU        .             .               -Inf       -2.25000     -30.00000    3578.17308 esportazioneMinima[2]
+                                          30.00000        .             2.00000          +Inf    3705.67308 An[2]
+
+    14 esportazioneMassima[3]
+                    NU        .             .               -Inf      -46.57692     -35.00000    2015.48077 esportazioneMinima[3]
+                                          35.00000        .            16.63462          +Inf    4227.88462 An[3]
+
+    15 esportazioneMassima[4]
+                    BS        .             .               -Inf       -2.50000     -25.00000    3645.67308 An[4]
+                                            .             .              .               +Inf    3645.67308
+
+    16 esportazioneMassima[5]
+                    NU        .             .               -Inf       -2.50000      -5.00000    3633.17308 esportazioneMinima[5]
+                                           5.00000        .             2.50000          +Inf    3658.17308 An[5]
+
+    17 def_r[1]     NS        .             .             .          -360.00000          -Inf    3285.67308 r[1]
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+    18 def_r[2]     NS        .             .             .          -490.00000          -Inf    3155.67308 r[2]
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+    19 def_r[3]     NS        .             .             .         -9731.25000          -Inf   -6085.57692 r[3]
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+    20 def_r[4]     NS        .             .             .          -500.00000          -Inf    3145.67308 r[4]
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Tulipani2
+Objective:  profitto = 3645.673077 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 def_r[5]     NS        .             .             .          -412.50000          -Inf    3233.17308 r[5]
+                                           1.00000        .                +Inf          +Inf          +Inf
+
+    22 def_c[1]     NS        .             .             .          -425.00000          -Inf    4070.67308 c[1]
+                                          -1.00000        .                +Inf          +Inf          -Inf
+
+    23 def_c[2]     NS        .             .             .          -475.00000          -Inf    4120.67308 c[2]
+                                          -1.00000        .                +Inf          +Inf          -Inf
+
+    24 def_c[3]     NS        .             .             .         -5323.07692          -Inf    8968.75000 c[3]
+                                          -1.00000        .                +Inf          +Inf          -Inf
+
+    25 def_c[4]     NS        .             .             .          -950.00000          -Inf    4595.67308 c[4]
+                                          -1.00000        .                +Inf          +Inf          -Inf
+
+    26 def_c[5]     NS        .             .             .          -675.00000          -Inf    4320.67308 c[5]
+                                          -1.00000        .                +Inf          +Inf          -Inf
+
+    27 disp_acqua   BS     618.07692   29381.92308          -Inf       95.00000      -7.79412   -1171.69118 dispConcimeB
+                                            .        30000.00000      618.90710      45.20000   31582.75000 Ac[2]
+
+    28 dispConcimeA BS    2848.07692     151.92308          -Inf     1925.00000      -4.41667   -8933.33333 dispConcimeB
+                                            .         3000.00000    16925.00000        .24699    4349.13251 Ac[2]
+
+    29 dispConcimeB NU    5000.00000        .               -Inf     1000.00000      -1.01923    -431.25000 Ac[3]
+                                           1.01923    5000.00000     5658.33333          +Inf    4316.66667 dispConcimeA
+
+    30 profitto     BS    3645.67308   -3645.67308          -Inf     3578.17308      -1.00000        .      esportazioneMassima[2]
+                                            .               +Inf     3645.67308          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    Tulipani2
+Objective:  profitto = 3645.673077 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Ac[1]        NL       5.00000        .            5.00000         .               -Inf    3838.07692 esportazioneMinima[1]
+                                         -38.48077          +Inf        7.80142      38.48077    3537.87234 dispConcimeA
+
+     2 Ac[2]        NL       5.00000        .            5.00000         .               -Inf    3732.59615 Ae[2]
+                                         -17.38462          +Inf        7.15847      17.38462    3608.14891 dispConcimeA
+
+     3 Ac[3]        BS      66.53846        .            5.00000       65.87432     -56.50000    -113.75000 Ac[2]
+                                            .               +Inf       66.53846          +Inf          +Inf
+
+     4 Ac[4]        NL       5.00000        .            5.00000         .               -Inf    4350.48077 c[4]
+                                        -140.96154          +Inf        6.18263     140.96154    3478.96707 dispConcimeA
+
+     5 Ac[5]        NL       5.00000        .            5.00000         .               -Inf    4112.01923 c[5]
+                                         -93.26923          +Inf        6.77130      93.26923    3480.46525 dispConcimeA
+
+     6 Ae[1]        BS       2.00000        .             .              .50000     -30.00000    3585.67308 esportazioneMassima[1]
+                                            .               +Inf        3.12057      96.20192    3838.07692 Ac[1]
+
+     7 Ae[2]        BS       3.00000        .             .              .75000     -30.00000    3555.67308 esportazioneMassima[2]
+                                            .               +Inf        4.29508      28.97436    3732.59615 Ac[2]
+
+     8 Ae[3]        BS      49.90385        .             .             3.32692     -35.00000    1899.03846 esportazioneMassima[3]
+                                            .               +Inf       49.90385          +Inf          +Inf
+
+     9 Ae[4]        BS       5.00000        .             .             2.50000     -25.00000    3520.67308 An[4]
+                                            .               +Inf        6.18263     140.96154    4350.48077 Ac[4]
+
+    10 Ae[5]        BS       2.50000        .             .              .           -5.00000    3633.17308 esportazioneMassima[5]
+                                            .               +Inf        3.38565     186.53846    4112.01923 Ac[5]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    Tulipani2
+Objective:  profitto = 3645.673077 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 An[1]        BS       3.00000        .             .             3.00000          -Inf          -Inf
+                                            .               +Inf        4.50000      30.00000    3735.67308 esportazioneMassima[1]
+
+    12 An[2]        BS       2.00000        .             .             2.00000          -Inf          -Inf
+                                            .               +Inf        4.25000      30.00000    3705.67308 esportazioneMassima[2]
+
+    13 An[3]        BS      16.63462        .             .            16.46858    -226.00000    -113.75000 Ac[2]
+                                            .               +Inf       63.21154      35.00000    4227.88462 esportazioneMassima[3]
+
+    14 An[4]        NL        .             .             .              .               -Inf    3645.67308 esportazioneMassima[4]
+                                         -25.00000          +Inf        2.50000      25.00000    3583.17308 esportazioneMinima[4]
+
+    15 An[5]        BS       2.50000        .             .             2.50000          -Inf          -Inf
+                                            .               +Inf        5.00000       5.00000    3658.17308 esportazioneMassima[5]
+
+    16 c[1]         BS     425.00000      -1.00000        .           425.00000          -Inf          -Inf
+                                            .               +Inf      663.12057       -.54729    3838.07692 Ac[1]
+
+    17 c[2]         BS     475.00000      -1.00000        .           475.00000          -Inf          -Inf
+                                            .               +Inf      680.05464       -.81700    3732.59615 Ac[2]
+
+    18 c[3]         BS    5323.07692      -1.00000        .          5269.94536      -1.70625    -113.75000 Ac[2]
+                                            .               +Inf     5323.07692          +Inf          +Inf
+
+    19 c[4]         BS     950.00000      -1.00000        .           950.00000          -Inf          -Inf
+                                            .               +Inf     1174.70060       -.25810    4350.48077 Ac[4]
+
+    20 c[5]         BS     675.00000      -1.00000        .           675.00000          -Inf          -Inf
+                                            .               +Inf      914.12556       -.30912    4112.01923 Ac[5]
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    Tulipani2
+Objective:  profitto = 3645.673077 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 r[1]         BS     360.00000       1.00000        .           315.00000        .         3285.67308 esportazioneMassima[1]
+                                            .               +Inf      561.70213       1.53446    3838.07692 Ac[1]
+
+    22 r[2]         BS     490.00000       1.00000        .           422.50000        .         3155.67308 esportazioneMassima[2]
+                                            .               +Inf      701.53005       1.17739    3732.59615 Ac[2]
+
+    23 r[3]         BS    9731.25000       1.00000        .          9634.11885        .61368    -113.75000 Ac[2]
+                                            .               +Inf     9731.25000          +Inf          +Inf
+
+    24 r[4]         BS     500.00000       1.00000        .           437.50000        .         3145.67308 An[4]
+                                            .               +Inf      618.26347       2.40962    4350.48077 Ac[4]
+
+    25 r[5]         BS     412.50000       1.00000        .           400.00000        .         3233.17308 esportazioneMassima[5]
+                                            .               +Inf      558.63229       2.13054    4112.01923 Ac[5]
+
+End of report

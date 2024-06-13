@@ -36,7 +36,7 @@ subject to Parametric: f2 <= epsilon;			# trasformare il secondo obiettivo in un
 ######################
 data;
 
-param epsilon := 0;
+param epsilon := 	1;
 
 param nM:=3;
 param nC:=3;

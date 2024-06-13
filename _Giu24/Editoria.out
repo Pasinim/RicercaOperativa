@@ -1,0 +1,137 @@
+Problem:    Editoria
+Rows:       38
+Columns:    50 (48 integer, 48 binary)
+Non-zeros:  262
+Status:     INTEGER OPTIMAL
+Objective:  z = 12 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 assegnamento[A]
+                                   1             1               
+     2 assegnamento[B]
+                                   1             1               
+     3 assegnamento[C]
+                                   1             1               
+     4 assegnamento[D]
+                                   1             1               
+     5 assegnamento[E]
+                                   1             1               
+     6 assegnamento[F]
+                                   1             1               
+     7 assegnamento[G]
+                                   1             1               
+     8 assegnamento[H]
+                                   1             1               
+     9 assegnamento[I]
+                                   1             1               
+    10 assegnamento[J]
+                                   1             1               
+    11 assegnamento[K]
+                                   1             1               
+    12 assegnamento[L]
+                                   1             1               
+    13 def_minPag[1]
+                                 -12                          -0 
+    14 def_minPag[2]
+                                 -12                          -0 
+    15 def_minPag[3]
+                                 -11                          -0 
+    16 def_minPag[4]
+                                   0                          -0 
+    17 def_maxPag[1]
+                                   0            -0               
+    18 def_maxPag[2]
+                                   0            -0               
+    19 def_maxPag[3]
+                                   1            -0               
+    20 def_maxPag[4]
+                                  12            -0               
+    21 urgenza[A]                  1                           2 
+    22 urgenza[B]                  3                           4 
+    23 urgenza[C]                  2                           2 
+    24 urgenza[D]                  2                           4 
+    25 urgenza[E]                  1                           1 
+    26 urgenza[F]                  1                           4 
+    27 urgenza[G]                  4                           4 
+    28 urgenza[H]                  1                           3 
+    29 urgenza[I]                  3                           3 
+    30 urgenza[J]                  3                           4 
+    31 urgenza[K]                  4                           4 
+    32 urgenza[L]                  2                           4 
+    33 lunghezzaFasciscolo[1]
+                                  40                          44 
+    34 lunghezzaFasciscolo[2]
+                                  40                          44 
+    35 lunghezzaFasciscolo[3]
+                                  39                          44 
+    36 lunghezzaFasciscolo[4]
+                                  28                          44 
+    37 rimandare2articoli
+                                   2                           2 
+    38 z                          12                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[A,1]       *              1             0             1 
+     2 x[A,2]       *              0             0             1 
+     3 x[A,3]       *              0             0             1 
+     4 x[A,4]       *              0             0             1 
+     5 x[B,1]       *              0             0             1 
+     6 x[B,2]       *              0             0             1 
+     7 x[B,3]       *              1             0             1 
+     8 x[B,4]       *              0             0             1 
+     9 x[C,1]       *              0             0             1 
+    10 x[C,2]       *              1             0             1 
+    11 x[C,3]       *              0             0             1 
+    12 x[C,4]       *              0             0             1 
+    13 x[D,1]       *              0             0             1 
+    14 x[D,2]       *              1             0             1 
+    15 x[D,3]       *              0             0             1 
+    16 x[D,4]       *              0             0             1 
+    17 x[E,1]       *              1             0             1 
+    18 x[E,2]       *              0             0             1 
+    19 x[E,3]       *              0             0             1 
+    20 x[E,4]       *              0             0             1 
+    21 x[F,1]       *              1             0             1 
+    22 x[F,2]       *              0             0             1 
+    23 x[F,3]       *              0             0             1 
+    24 x[F,4]       *              0             0             1 
+    25 x[G,1]       *              0             0             1 
+    26 x[G,2]       *              0             0             1 
+    27 x[G,3]       *              0             0             1 
+    28 x[G,4]       *              1             0             1 
+    29 x[H,1]       *              1             0             1 
+    30 x[H,2]       *              0             0             1 
+    31 x[H,3]       *              0             0             1 
+    32 x[H,4]       *              0             0             1 
+    33 x[I,1]       *              0             0             1 
+    34 x[I,2]       *              0             0             1 
+    35 x[I,3]       *              1             0             1 
+    36 x[I,4]       *              0             0             1 
+    37 x[J,1]       *              0             0             1 
+    38 x[J,2]       *              0             0             1 
+    39 x[J,3]       *              1             0             1 
+    40 x[J,4]       *              0             0             1 
+    41 x[K,1]       *              0             0             1 
+    42 x[K,2]       *              0             0             1 
+    43 x[K,3]       *              0             0             1 
+    44 x[K,4]       *              1             0             1 
+    45 x[L,1]       *              0             0             1 
+    46 x[L,2]       *              1             0             1 
+    47 x[L,3]       *              0             0             1 
+    48 x[L,4]       *              0             0             1 
+    49 minPag                     28                             
+    50 maxPag                     40                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

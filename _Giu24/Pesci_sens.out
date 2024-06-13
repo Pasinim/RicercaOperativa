@@ -1,0 +1,44 @@
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Pesci
+Objective:  profitto = 42.1875 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 volumeMax    BS   42187.50000    7812.50000          -Inf         .            -.00100        .      tempoMax
+                                            .        50000.00000    56250.00000        .00012      47.25000 x[3]
+
+     2 tempoMax     NU      45.00000        .               -Inf         .            -.93750        .      x[2]
+                                            .93750      45.00000       53.33333          +Inf      50.00000 volumeMax
+
+     3 Upper[1]     BS        .            1.00000          -Inf         .               -Inf      42.18750
+                                            .            1.00000         .10227      12.50000      42.18750 x[1]
+
+     4 Upper[2]     BS        .09375        .90625          -Inf         .          -13.63636      40.90909 x[1]
+                                            .            1.00000         .09375          +Inf          +Inf
+
+     5 Upper[3]     BS        .            1.00000          -Inf         .               -Inf      42.18750
+                                            .            1.00000         .04167      22.50000      42.18750 x[3]
+
+     6 profitto     BS      42.18750     -42.18750          -Inf         .           -1.00000        .      tempoMax
+                                            .               +Inf       42.18750          +Inf          +Inf
+
+GLPK 4.45 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Pesci
+Objective:  profitto = 42.1875 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         NL        .           10.00000        .           -25.00000          -Inf      50.00000 volumeMax
+                                           -.31250          +Inf        4.09091      10.31250      40.90909 x[2]
+
+     2 x[2]         BS       5.62500       7.50000        .           -49.37500       7.27273      40.90909 x[1]
+                                            .               +Inf        5.62500          +Inf          +Inf
+
+     3 x[3]         NL        .            9.00000        .           -43.50000          -Inf      58.50000 Upper[2]
+                                           -.37500          +Inf        2.50000       9.37500      41.25000 volumeMax
+
+End of report

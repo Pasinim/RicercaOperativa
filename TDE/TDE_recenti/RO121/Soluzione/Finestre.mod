@@ -19,8 +19,8 @@ s.t. Tempi {p in P: p>0}:
   t[p] >= t[p-1] + traveltime[p];
 
 # Bounds finestre temporali
-s.t. Lower {p in P}:
-  sum {f in F[p]} s[p,f] * x[p,f] <= t[p];
+s.t. Lower {p in P, f in F[p]}:
+  s[p,f] * x[p,f] <= t[p];
 s.t. Upper {p in P}:
   sum {f in F[p]} e[p,f] * x[p,f] >= t[p];
 

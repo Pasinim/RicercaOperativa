@@ -1,91 +1,99 @@
 Problem:    editoriav1
-Rows:       28
-Columns:    36 (36 integer, 36 binary)
-Non-zeros:  144
+Rows:       34
+Columns:    38 (36 integer, 36 binary)
+Non-zeros:  188
 Status:     INTEGER OPTIMAL
-Objective:  z1 = 11 (MAXimum)
+Objective:  z2 = 0 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 Assegnamento[1]
-                                   1                           1 
+                                   0                           1 
      2 Assegnamento[2]
-                                   1                           1 
+                                   0                           1 
      3 Assegnamento[3]
                                    0                           1 
      4 Assegnamento[4]
-                                   1                           1 
+                                   0                           1 
      5 Assegnamento[5]
-                                   1                           1 
+                                   0                           1 
      6 Assegnamento[6]
-                                   1                           1 
+                                   0                           1 
      7 Assegnamento[7]
-                                   1                           1 
+                                   0                           1 
      8 Assegnamento[8]
-                                   1                           1 
+                                   0                           1 
      9 Assegnamento[9]
-                                   1                           1 
+                                   0                           1 
     10 Assegnamento[10]
-                                   1                           1 
+                                   0                           1 
     11 Assegnamento[11]
-                                   1                           1 
+                                   0                           1 
     12 Assegnamento[12]
-                                   1                           1 
-    13 Capacity[1]                44                          44 
-    14 Capacity[2]                42                          44 
-    15 Capacity[3]                44                          44 
-    16 Urgenza[1]                  2                           2 
-    17 Urgenza[2]                  3                           4 
+                                   0                           1 
+    13 Capacity[1]                 0                          44 
+    14 Capacity[2]                 0                          44 
+    15 Capacity[3]                 0                          44 
+    16 Urgenza[1]                  0                           2 
+    17 Urgenza[2]                  0                           4 
     18 Urgenza[3]                  0                           2 
-    19 Urgenza[4]                  2                           4 
-    20 Urgenza[5]                  1                           1 
-    21 Urgenza[6]                  3                           4 
-    22 Urgenza[7]                  1                           4 
-    23 Urgenza[8]                  3                           3 
-    24 Urgenza[9]                  3                           3 
-    25 Urgenza[10]                 1                           4 
-    26 Urgenza[11]                 2                           4 
-    27 Urgenza[12]                 2                           4 
-    28 z1                         11                             
+    19 Urgenza[4]                  0                           4 
+    20 Urgenza[5]                  0                           1 
+    21 Urgenza[6]                  0                           4 
+    22 Urgenza[7]                  0                           4 
+    23 Urgenza[8]                  0                           3 
+    24 Urgenza[9]                  0                           3 
+    25 Urgenza[10]                 0                           4 
+    26 Urgenza[11]                 0                           4 
+    27 Urgenza[12]                 0                           4 
+    28 z2                          0                             
+    29 MaxMin[1]                   0                          -0 
+    30 MaxMin[2]                   0                          -0 
+    31 MaxMin[3]                   0                          -0 
+    32 MinMax[1]                   0            -0               
+    33 MinMax[2]                   0            -0               
+    34 MinMax[3]                   0            -0               
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 x[1,1]       *              0             0             1 
-     2 x[1,2]       *              1             0             1 
+     2 x[1,2]       *              0             0             1 
      3 x[1,3]       *              0             0             1 
      4 x[2,1]       *              0             0             1 
      5 x[2,2]       *              0             0             1 
-     6 x[2,3]       *              1             0             1 
+     6 x[2,3]       *              0             0             1 
      7 x[3,1]       *              0             0             1 
      8 x[3,2]       *              0             0             1 
      9 x[3,3]       *              0             0             1 
     10 x[4,1]       *              0             0             1 
-    11 x[4,2]       *              1             0             1 
+    11 x[4,2]       *              0             0             1 
     12 x[4,3]       *              0             0             1 
-    13 x[5,1]       *              1             0             1 
+    13 x[5,1]       *              0             0             1 
     14 x[5,2]       *              0             0             1 
     15 x[5,3]       *              0             0             1 
     16 x[6,1]       *              0             0             1 
     17 x[6,2]       *              0             0             1 
-    18 x[6,3]       *              1             0             1 
-    19 x[7,1]       *              1             0             1 
+    18 x[6,3]       *              0             0             1 
+    19 x[7,1]       *              0             0             1 
     20 x[7,2]       *              0             0             1 
     21 x[7,3]       *              0             0             1 
     22 x[8,1]       *              0             0             1 
     23 x[8,2]       *              0             0             1 
-    24 x[8,3]       *              1             0             1 
+    24 x[8,3]       *              0             0             1 
     25 x[9,1]       *              0             0             1 
     26 x[9,2]       *              0             0             1 
-    27 x[9,3]       *              1             0             1 
-    28 x[10,1]      *              1             0             1 
+    27 x[9,3]       *              0             0             1 
+    28 x[10,1]      *              0             0             1 
     29 x[10,2]      *              0             0             1 
     30 x[10,3]      *              0             0             1 
     31 x[11,1]      *              0             0             1 
-    32 x[11,2]      *              1             0             1 
+    32 x[11,2]      *              0             0             1 
     33 x[11,3]      *              0             0             1 
     34 x[12,1]      *              0             0             1 
-    35 x[12,2]      *              1             0             1 
+    35 x[12,2]      *              0             0             1 
     36 x[12,3]      *              0             0             1 
+    37 U                           0                             
+    38 L                           0                             
 
 Integer feasibility conditions:
 

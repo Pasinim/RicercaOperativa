@@ -1,0 +1,366 @@
+Problem:    Magazzini
+Rows:       101
+Columns:    71 (70 integer, 70 binary)
+Non-zeros:  406
+Status:     INTEGER OPTIMAL
+Objective:  z = 630 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 assegnamento[Tolosa]
+                                   1             1               
+     2 assegnamento[Nizza]
+                                   1             1               
+     3 assegnamento[Marsiglia]
+                                   1             1               
+     4 assegnamento[Lione]
+                                   1             1               
+     5 assegnamento[Limoges]
+                                   1             1               
+     6 assegnamento[Digione]
+                                   1             1               
+     7 assegnamento[Orleans]
+                                   1             1               
+     8 assegnamento[Parigi]
+                                   1             1               
+     9 assegnamento[Lille]
+                                   1             1               
+    10 assegnamento[Nantes]
+                                   1             1               
+    11 numeroMagazzini[Tolosa]
+                                   1                           2 
+    12 numeroMagazzini[Nizza]
+                                   1                           2 
+    13 numeroMagazzini[Marsiglia]
+                                   1                           2 
+    14 numeroMagazzini[Lione]
+                                   1                           2 
+    15 numeroMagazzini[Limoges]
+                                   1                           2 
+    16 numeroMagazzini[Digione]
+                                   1                           2 
+    17 numeroMagazzini[Orleans]
+                                   1                           2 
+    18 numeroMagazzini[Parigi]
+                                   1                           2 
+    19 numeroMagazzini[Lille]
+                                   1                           2 
+    20 numeroMagazzini[Nantes]
+                                   1                           2 
+    21 def_maxDistanza[Tolosa,Tolosa]
+                                 293            -0               
+    22 def_maxDistanza[Tolosa,Nizza]
+                                 293            -0               
+    23 def_maxDistanza[Tolosa,Marsiglia]
+                                 293            -0               
+    24 def_maxDistanza[Tolosa,Lione]
+                                 293            -0               
+    25 def_maxDistanza[Tolosa,Limoges]
+                                 293            -0               
+    26 def_maxDistanza[Tolosa,Digione]
+                                 293            -0               
+    27 def_maxDistanza[Tolosa,Orleans]
+                                 293            -0               
+    28 def_maxDistanza[Tolosa,Parigi]
+                                 293            -0               
+    29 def_maxDistanza[Tolosa,Lille]
+                                 293            -0               
+    30 def_maxDistanza[Tolosa,Nantes]
+                                 293            -0               
+    31 def_maxDistanza[Nizza,Tolosa]
+                                 293            -0               
+    32 def_maxDistanza[Nizza,Nizza]
+                                 293            -0               
+    33 def_maxDistanza[Nizza,Marsiglia]
+                                 293            -0               
+    34 def_maxDistanza[Nizza,Lione]
+                                 293            -0               
+    35 def_maxDistanza[Nizza,Limoges]
+                                 293            -0               
+    36 def_maxDistanza[Nizza,Digione]
+                                 293            -0               
+    37 def_maxDistanza[Nizza,Orleans]
+                                 293            -0               
+    38 def_maxDistanza[Nizza,Parigi]
+                                 293            -0               
+    39 def_maxDistanza[Nizza,Lille]
+                                 293            -0               
+    40 def_maxDistanza[Nizza,Nantes]
+                                 293            -0               
+    41 def_maxDistanza[Marsiglia,Tolosa]
+                                 293            -0               
+    42 def_maxDistanza[Marsiglia,Nizza]
+                                 293            -0               
+    43 def_maxDistanza[Marsiglia,Marsiglia]
+                                 293            -0               
+    44 def_maxDistanza[Marsiglia,Lione]
+                                 293            -0               
+    45 def_maxDistanza[Marsiglia,Limoges]
+                                 293            -0               
+    46 def_maxDistanza[Marsiglia,Digione]
+                                 293            -0               
+    47 def_maxDistanza[Marsiglia,Orleans]
+                                 293            -0               
+    48 def_maxDistanza[Marsiglia,Parigi]
+                                 293            -0               
+    49 def_maxDistanza[Marsiglia,Lille]
+                                 293            -0               
+    50 def_maxDistanza[Marsiglia,Nantes]
+                                 293            -0               
+    51 def_maxDistanza[Lione,Tolosa]
+                                 293            -0               
+    52 def_maxDistanza[Lione,Nizza]
+                                 293            -0               
+    53 def_maxDistanza[Lione,Marsiglia]
+                                 293            -0               
+    54 def_maxDistanza[Lione,Lione]
+                                 293            -0               
+    55 def_maxDistanza[Lione,Limoges]
+                                 293            -0               
+    56 def_maxDistanza[Lione,Digione]
+                                 293            -0               
+    57 def_maxDistanza[Lione,Orleans]
+                                 293            -0               
+    58 def_maxDistanza[Lione,Parigi]
+                                 293            -0               
+    59 def_maxDistanza[Lione,Lille]
+                                 293            -0               
+    60 def_maxDistanza[Lione,Nantes]
+                                 293            -0               
+    61 def_maxDistanza[Limoges,Tolosa]
+                                 293            -0               
+    62 def_maxDistanza[Limoges,Nizza]
+                                 293            -0               
+    63 def_maxDistanza[Limoges,Marsiglia]
+                                 293            -0               
+    64 def_maxDistanza[Limoges,Lione]
+                                 293            -0               
+    65 def_maxDistanza[Limoges,Limoges]
+                                 293            -0               
+    66 def_maxDistanza[Limoges,Digione]
+                                 293            -0               
+    67 def_maxDistanza[Limoges,Orleans]
+                                 293            -0               
+    68 def_maxDistanza[Limoges,Parigi]
+                                 293            -0               
+    69 def_maxDistanza[Limoges,Lille]
+                                 293            -0               
+    70 def_maxDistanza[Limoges,Nantes]
+                                   0            -0               
+    71 def_maxDistanza[Digione,Tolosa]
+                                 293            -0               
+    72 def_maxDistanza[Digione,Nizza]
+                                 293            -0               
+    73 def_maxDistanza[Digione,Marsiglia]
+                                 293            -0               
+    74 def_maxDistanza[Digione,Lione]
+                                 293            -0               
+    75 def_maxDistanza[Digione,Limoges]
+                                 293            -0               
+    76 def_maxDistanza[Digione,Digione]
+                                 293            -0               
+    77 def_maxDistanza[Digione,Orleans]
+                                 293            -0               
+    78 def_maxDistanza[Digione,Parigi]
+                                 293            -0               
+    79 def_maxDistanza[Digione,Lille]
+                                 293            -0               
+    80 def_maxDistanza[Digione,Nantes]
+                                 293            -0               
+    81 def_maxDistanza[Parigi,Tolosa]
+                                 293            -0               
+    82 def_maxDistanza[Parigi,Nizza]
+                                 293            -0               
+    83 def_maxDistanza[Parigi,Marsiglia]
+                                 293            -0               
+    84 def_maxDistanza[Parigi,Lione]
+                                 293            -0               
+    85 def_maxDistanza[Parigi,Limoges]
+                                 293            -0               
+    86 def_maxDistanza[Parigi,Digione]
+                                 293            -0               
+    87 def_maxDistanza[Parigi,Orleans]
+                                 176            -0               
+    88 def_maxDistanza[Parigi,Parigi]
+                                 293            -0               
+    89 def_maxDistanza[Parigi,Lille]
+                                  73            -0               
+    90 def_maxDistanza[Parigi,Nantes]
+                                 293            -0               
+    91 costoATtivazione[Tolosa]
+                                  40                         100 
+    92 costoATtivazione[Nizza]
+                                  50                         100 
+    93 costoATtivazione[Marsiglia]
+                                  40                         100 
+    94 costoATtivazione[Lione]
+                                  40                         100 
+    95 costoATtivazione[Limoges]
+                                  40                         100 
+    96 costoATtivazione[Digione]
+                                  40                         100 
+    97 costoATtivazione[Orleans]
+                                  60                         100 
+    98 costoATtivazione[Parigi]
+                                  60                         100 
+    99 costoATtivazione[Lille]
+                                  60                         100 
+   100 costoATtivazione[Nantes]
+                                  40                         100 
+   101 z                         630                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[Tolosa,Tolosa]
+                    *              1             0             1 
+     2 x[Nizza,Tolosa]
+                    *              0             0             1 
+     3 x[Marsiglia,Tolosa]
+                    *              0             0             1 
+     4 x[Lione,Tolosa]
+                    *              0             0             1 
+     5 x[Limoges,Tolosa]
+                    *              0             0             1 
+     6 x[Digione,Tolosa]
+                    *              0             0             1 
+     7 x[Parigi,Tolosa]
+                    *              0             0             1 
+     8 x[Tolosa,Nizza]
+                    *              0             0             1 
+     9 x[Nizza,Nizza]
+                    *              1             0             1 
+    10 x[Marsiglia,Nizza]
+                    *              0             0             1 
+    11 x[Lione,Nizza]
+                    *              0             0             1 
+    12 x[Limoges,Nizza]
+                    *              0             0             1 
+    13 x[Digione,Nizza]
+                    *              0             0             1 
+    14 x[Parigi,Nizza]
+                    *              0             0             1 
+    15 x[Tolosa,Marsiglia]
+                    *              0             0             1 
+    16 x[Nizza,Marsiglia]
+                    *              0             0             1 
+    17 x[Marsiglia,Marsiglia]
+                    *              1             0             1 
+    18 x[Lione,Marsiglia]
+                    *              0             0             1 
+    19 x[Limoges,Marsiglia]
+                    *              0             0             1 
+    20 x[Digione,Marsiglia]
+                    *              0             0             1 
+    21 x[Parigi,Marsiglia]
+                    *              0             0             1 
+    22 x[Tolosa,Lione]
+                    *              0             0             1 
+    23 x[Nizza,Lione]
+                    *              0             0             1 
+    24 x[Marsiglia,Lione]
+                    *              0             0             1 
+    25 x[Lione,Lione]
+                    *              1             0             1 
+    26 x[Limoges,Lione]
+                    *              0             0             1 
+    27 x[Digione,Lione]
+                    *              0             0             1 
+    28 x[Parigi,Lione]
+                    *              0             0             1 
+    29 x[Tolosa,Limoges]
+                    *              0             0             1 
+    30 x[Nizza,Limoges]
+                    *              0             0             1 
+    31 x[Marsiglia,Limoges]
+                    *              0             0             1 
+    32 x[Lione,Limoges]
+                    *              0             0             1 
+    33 x[Limoges,Limoges]
+                    *              1             0             1 
+    34 x[Digione,Limoges]
+                    *              0             0             1 
+    35 x[Parigi,Limoges]
+                    *              0             0             1 
+    36 x[Tolosa,Digione]
+                    *              0             0             1 
+    37 x[Nizza,Digione]
+                    *              0             0             1 
+    38 x[Marsiglia,Digione]
+                    *              0             0             1 
+    39 x[Lione,Digione]
+                    *              0             0             1 
+    40 x[Limoges,Digione]
+                    *              0             0             1 
+    41 x[Digione,Digione]
+                    *              1             0             1 
+    42 x[Parigi,Digione]
+                    *              0             0             1 
+    43 x[Tolosa,Orleans]
+                    *              0             0             1 
+    44 x[Nizza,Orleans]
+                    *              0             0             1 
+    45 x[Marsiglia,Orleans]
+                    *              0             0             1 
+    46 x[Lione,Orleans]
+                    *              0             0             1 
+    47 x[Limoges,Orleans]
+                    *              0             0             1 
+    48 x[Digione,Orleans]
+                    *              0             0             1 
+    49 x[Parigi,Orleans]
+                    *              1             0             1 
+    50 x[Tolosa,Parigi]
+                    *              0             0             1 
+    51 x[Nizza,Parigi]
+                    *              0             0             1 
+    52 x[Marsiglia,Parigi]
+                    *              0             0             1 
+    53 x[Lione,Parigi]
+                    *              0             0             1 
+    54 x[Limoges,Parigi]
+                    *              0             0             1 
+    55 x[Digione,Parigi]
+                    *              0             0             1 
+    56 x[Parigi,Parigi]
+                    *              1             0             1 
+    57 x[Tolosa,Lille]
+                    *              0             0             1 
+    58 x[Nizza,Lille]
+                    *              0             0             1 
+    59 x[Marsiglia,Lille]
+                    *              0             0             1 
+    60 x[Lione,Lille]
+                    *              0             0             1 
+    61 x[Limoges,Lille]
+                    *              0             0             1 
+    62 x[Digione,Lille]
+                    *              0             0             1 
+    63 x[Parigi,Lille]
+                    *              1             0             1 
+    64 x[Tolosa,Nantes]
+                    *              0             0             1 
+    65 x[Nizza,Nantes]
+                    *              0             0             1 
+    66 x[Marsiglia,Nantes]
+                    *              0             0             1 
+    67 x[Lione,Nantes]
+                    *              0             0             1 
+    68 x[Limoges,Nantes]
+                    *              1             0             1 
+    69 x[Digione,Nantes]
+                    *              0             0             1 
+    70 x[Parigi,Nantes]
+                    *              0             0             1 
+    71 maxDistanza               293             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

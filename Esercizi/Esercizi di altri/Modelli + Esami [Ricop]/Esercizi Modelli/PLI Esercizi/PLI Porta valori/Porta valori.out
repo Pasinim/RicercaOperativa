@@ -1,0 +1,50 @@
+Problem:    Porta
+Rows:       7
+Columns:    13 (6 integer, 6 binary)
+Non-zeros:  18
+Status:     INTEGER OPTIMAL
+Objective:  costoTotale = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincolo_TimeF[1]
+                               -3500         -3500               
+     2 vincolo_TimeF[2]
+                               -3500         -3500               
+     3 vincolo_TimeF[3]
+                               -3500         -3500               
+     4 vincolo_TimeG[1]
+                               -3500         -3500               
+     5 vincolo_TimeG[2]
+                               -3500         -3500               
+     6 vincolo_TimeG[3]
+                               -3500         -3500               
+     7 costoTotale                 0                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 y[1]         *              0             0             1 
+     2 y[2]         *              0             0             1 
+     3 y[3]         *              0             0             1 
+     4 x[1]         *              0             0             1 
+     5 x[2]         *              0             0             1 
+     6 x[3]         *              0             0             1 
+     7 tempof[1]               -3500                             
+     8 tempof[2]               -3500                             
+     9 tempof[3]               -3500                             
+    10 tempog[1]               -3500                             
+    11 tempog[2]               -3500                             
+    12 tempog[3]               -3500                             
+    13 time                        0                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

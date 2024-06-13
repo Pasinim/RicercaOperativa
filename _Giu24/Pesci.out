@@ -1,0 +1,41 @@
+Problem:    Pesci
+Rows:       6
+Columns:    3
+Non-zeros:  12
+Status:     OPTIMAL
+Objective:  profitto = 42.1875 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 volumeMax    B        42187.5                       50000 
+     2 tempoMax     NU            45                          45        0.9375 
+     3 Upper[1]     B              0                           1 
+     4 Upper[2]     B        0.09375                           1 
+     5 Upper[3]     B              0                           1 
+     6 profitto     B        42.1875                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                     -0.3125 
+     2 x[2]         B          5.625             0               
+     3 x[3]         NL             0             0                      -0.375 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-016 on column 2
+        max.rel.err = 5.55e-017 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
