@@ -1,0 +1,57 @@
+Problem:    Marketing
+Rows:       12
+Columns:    10 (10 integer, 0 binary)
+Non-zeros:  57
+Status:     INTEGER OPTIMAL
+Objective:  profitto = 213300 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 quantitaVendibili[P1,1]
+                                 131                         200 
+     2 quantitaVendibili[P1,2]
+                                   0                         300 
+     3 quantitaVendibili[P2,1]
+                                 102                         150 
+     4 quantitaVendibili[P2,2]
+                                   0                         450 
+     5 quantitaVendibili[P3,1]
+                                   1                          50 
+     6 quantitaVendibili[P3,2]
+                                   0                         100 
+     7 quantitaVendibili[P3,3]
+                                   0                         150 
+     8 disponibilita[M1]
+                                3594                       37000 
+     9 disponibilita[M2]
+                                3200                        3200 
+    10 disponibilita[C1]
+                                4207                       40000 
+    11 disponibilita[C2]
+                                5123                       47000 
+    12 profitto               213300                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[P1,1]      *            131             0               
+     2 x[P1,2]      *              0             0               
+     3 x[P2,1]      *            102             0               
+     4 x[P2,2]      *              0             0               
+     5 x[P3,1]      *              1             0               
+     6 x[P3,2]      *              0             0               
+     7 x[P3,3]      *              0             0               
+     8 x[P1,3]      *              0             0               
+     9 x[P2,3]      *              0             0               
+    10 x[P3,4]      *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
